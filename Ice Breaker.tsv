@@ -1,0 +1,1776 @@
+Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
+>>>	icebreaker_books					
+>location	any					
+>icebreaker_answer	damien		icebreaker_books_ICE_1	Маленький очень сердитый принц	The Little Very Angry Prince	
+>icebreaker_answer	calculester		icebreaker_books_ICE_2	Инструкция к моей микроволновке	My microwave manual	
+>icebreaker_answer	milo		icebreaker_books_ICE_3	Знаменитые последние слова	Famous Last Words	
+>icebreaker_answer	dahlia		icebreaker_books_ICE_4	Искусство войны	The Art of War	
+>icebreaker_answer	joy		icebreaker_books_ICE_5	Интервью с (очень сексуальной) вампиршей	Interview with the (Very Sexy) Vampire	
+>icebreaker_answer	aaravi		icebreaker_books_ICE_6	Руководство по спидрану жизни	Guide for Speedrunning Life	
+>layout	none					
+	narrator		icebreaker_books_PRE_1	Какую книгу вы бы взяли с собой на необитаемый остров?	Which book would you take to a deserted island?	
+						
+>>>	icebreaker_food					
+>location	any					
+>icebreaker_answer	damien		icebreaker_food_ICE_1	Обжигающе острые крылышки	Burning hot wings	
+>icebreaker_answer	calculester		icebreaker_food_ICE_2	Вкуснейший USB	A yummy USB	
+>icebreaker_answer	milo		icebreaker_food_ICE_3	Вино, ради которого можно умереть	A wine to die for	
+>icebreaker_answer	dahlia		icebreaker_food_ICE_4	Прямой пунш в челюсть	A punch to the face	
+>icebreaker_answer	joy		icebreaker_food_ICE_5	Нежнейший гуакамоле	The nicest guac	
+>icebreaker_answer	aaravi		icebreaker_food_ICE_6	Всё, что дает лучшие характеристи	Whatever gives you the best stats	
+>layout	none					
+	narrator		icebreaker_food_PRE_1	Какое из этих блюд вам нравится больше всего?	Which of these would be your favorite food?	
+						
+>>>	icebreaker_musicgenre					
+>location	any					
+>icebreaker_answer	damien		icebreaker_musicgenre_ICE_1	Metal	Metal	
+>icebreaker_answer	calculester		icebreaker_musicgenre_ICE_2	Lo-Fi	Lo-Fi	
+>icebreaker_answer	milo		icebreaker_musicgenre_ICE_3	Jazz	Jazz	
+>icebreaker_answer	dahlia		icebreaker_musicgenre_ICE_4	Pop	Pop	
+>icebreaker_answer	joy		icebreaker_musicgenre_ICE_5	Screamo	Screamo	
+>icebreaker_answer	aaravi		icebreaker_musicgenre_ICE_6	8-bit	8-bit	
+>layout	none					
+	narrator		icebreaker_musicgenre_PRE_1	Если бы вы могли слушать только один жанр музыки всю жизнь, какой бы это был жанр?	If you could only listen to one genre of music forever, what would it be?	
+						
+>>>	icebreaker_animal					
+>location	any					
+>icebreaker_answer	damien		icebreaker_animal_ICE_1	Барсуки, им плевать на всё	Badgers, they don't give a fuck about anything	
+>icebreaker_answer	calculester		icebreaker_animal_ICE_2	Тамагочи	Tamagotchis	
+>icebreaker_answer	milo		icebreaker_animal_ICE_3	Павлины	Peacocks	
+>icebreaker_answer	dahlia		icebreaker_animal_ICE_4	Крокодилы (особенно когда в меня их бросают)	Crocodiles (especially when thrown at me)	
+>icebreaker_answer	joy		icebreaker_animal_ICE_5	Коты	Cats	
+>icebreaker_answer	aaravi		icebreaker_animal_ICE_6	Куры, они могут вас убить	Chickens, they can kill you	
+>layout	none					
+	narrator		icebreaker_animal_PRE_1	Какое из этих животных вам нравится больше всего?	Which of these animals do you like the most?	
+						
+>>>	icebreaker_tv					
+>location	any					
+>icebreaker_answer	damien		icebreaker_tv_ICE_1	Конкурсы красоты	Beauty contests	
+>icebreaker_answer	calculester		icebreaker_tv_ICE_2	Документальные фильмы и передачи	Documentaries	
+>icebreaker_answer	milo		icebreaker_tv_ICE_3	Шоу о ремонте и перепродаже домов	House flipping shows	
+>icebreaker_answer	dahlia		icebreaker_tv_ICE_4	Аниме	Anime	
+>icebreaker_answer	joy		icebreaker_tv_ICE_5	Фэнтезийные приключенческие сериалы	Fantasy adventure series	
+>icebreaker_answer	aaravi		icebreaker_tv_ICE_6	Телеигры	Game shows	
+>layout	none					
+	narrator		icebreaker_tv_PRE_1	Что из этого вы больше всего любите смотреть по телевизору?	Which of these would be your favorite TV show?	
+						
+>>>	icebreaker_action1					
+>location	any					
+>icebreaker_answer	damien		icebreaker_action1_ICE_1	Разжечь огонь	Start a fire	
+>icebreaker_answer	calculester		icebreaker_action1_ICE_2	Убедиться, что автобус доволен	Make sure the bus is happy	
+>icebreaker_answer	milo		icebreaker_action1_ICE_3	Притвориться мертвым	Play dead	
+>icebreaker_answer	dahlia		icebreaker_action1_ICE_4	На автобусе — к победе!	Ride the bus to victory	
+>icebreaker_answer	joy		icebreaker_action1_ICE_5	Продемонстрировать фокус	Perform a magic trick	
+>icebreaker_answer	aaravi		icebreaker_action1_ICE_6	Просто жать кнопку "пропустить", пока не начнётся эта хрень.	Just press the "skip" button till this shit starts	
+>layout	none					
+	narrator		icebreaker_action1_PRE_1	Растопи лед, сделав что-нибудь неожиданное в автобусе!	Break the ice by doing something unexpected on the bus! 	
+						
+>>>	icebreaker_action2					
+>location	any					
+>icebreaker_answer	damien		icebreaker_action2_ICE_1	Громко отрыгнуть	Burp loudly	
+>icebreaker_answer	calculester		icebreaker_action2_ICE_2	Посвятить поездку обновлению софта	Spend the trip updating your software	
+>icebreaker_answer	milo		icebreaker_action2_ICE_3	Начать без остановки делать селфи	Start taking selfies compulsively	
+>icebreaker_answer	dahlia		icebreaker_action2_ICE_4	Выругаться, вспомнив заклятого врага	Swear about your sworn enemy	
+>icebreaker_answer	joy		icebreaker_action2_ICE_5	Просто громко вздохнуть	Just sigh loudly	
+>icebreaker_answer	aaravi		icebreaker_action2_ICE_6	Вызвать кого-нибудь на дуэль взглядов.	Challenge someone to a staring duel	
+>layout	none					
+	narrator		icebreaker_action2_PRE_1	Растопи лед, сделав что-нибудь неожиданное в автобусе!	Break the ice by doing something unexpected on the bus! 	
+						
+>>>	icebreaker_article					
+>location	any					
+>icebreaker_answer	damien		icebreaker_article_ICE_1	Абсолютно незаконные вещи, которые я бы сделал в международных водах	Very illegal things I'd do while in international waters	
+>icebreaker_answer	calculester		icebreaker_article_ICE_2	50 фактов о секвойях	50 facts abouts sequoias	
+>icebreaker_answer	milo		icebreaker_article_ICE_3	Мои глубокие сложные чувства к камамберу	My deep complex feelings about camembert	
+>icebreaker_answer	dahlia		icebreaker_article_ICE_4	Как боднуть головой очень большой камень	How to headbutt a very big rock	
+>icebreaker_answer	joy		icebreaker_article_ICE_5	Распространенные ошибки при проведении вашего первого ритуала плодородия	Common mistakes when performing your first fertility ritual	
+>icebreaker_answer	aaravi		icebreaker_article_ICE_6	Секретные трюки, чтобы победить в «камень, ножницы, бумага»	Secret tricks to win at rock, papers, scissors	
+>layout	none					
+	narrator		icebreaker_article_PRE_1	Какую из этих статей вы бы больше всего хотели прочитать?	Which of these articles would you most want to read?	
+						
+>>>	icebreaker_hobbies					
+>location	any					
+>icebreaker_answer	damien		icebreaker_hobbies_ICE_1	Преступления!	Crimes!	
+>icebreaker_answer	calculester		icebreaker_hobbies_ICE_2	Выращивание суккулентов	Raising succulents	
+>icebreaker_answer	milo		icebreaker_hobbies_ICE_3	Быть популярным	Being popular	
+>icebreaker_answer	dahlia		icebreaker_hobbies_ICE_4	Тренировки в стиле аниме	Very anime workouts	
+>icebreaker_answer	joy		icebreaker_hobbies_ICE_5	Спасение мира	Saving the world	
+>icebreaker_answer	aaravi		icebreaker_hobbies_ICE_6	Эффективное фермерство	Efficient farming	
+>layout	none					
+	narrator		icebreaker_hobbies_PRE_1	Какое у вас любимое хобби?	What's your favorite hobby?	
+						
+>>>	icebreaker_goals					
+>location	any					
+>icebreaker_answer	damien		icebreaker_goals_ICE_1	Преуспеть в выживании лучше всех	To be the very best at survival	
+>icebreaker_answer	calculester		icebreaker_goals_ICE_2	Улучшить своё понимание живых существ	To improve my understanding of living things	
+>icebreaker_answer	milo		icebreaker_goals_ICE_3	Укрепить свои отношения с маскарпоне	To strengthen my relationship with mascarpone	
+>icebreaker_answer	dahlia		icebreaker_goals_ICE_4	Заработать все значки Разведчика Монстров	To earn all the Monster Scout badges	
+>icebreaker_answer	joy		icebreaker_goals_ICE_5	Побыть в одиночестве хотя бы раз	To be left alone just for once	
+>icebreaker_answer	aaravi		icebreaker_goals_ICE_6	Прокачаться как личность	To level up as a person	
+>layout	none					
+	narrator		icebreaker_goals_PRE_1	Помимо поиска любви, какая у тебя главная цель в летнем лагере?	Besides finding love, what's your main goal at summer camp?	
+						
+>>>	ibdamienbooks1					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamienbooks1_PRE_1	О, здорово! «Маленький очень сердитый принц» была моей любимой книгой в детстве.	Oh, cool! "The Little Very Angry Prince" was my favorite book growing up.	
+	damien	scary	ibdamienbooks1_PRE_2	А какой твой любимый момент? Мне понравился тот, где маленький очень сердитый принц встретил шестерых надоедливых взрослых и забил их всех до смерти змеей.	What's your favorite part? I liked the bit where the little very angry prince met the six annoying adults and beat them all to death with a snake.	
+	damien	danger	ibdamienbooks1_PRE_3	Я никогда не думал, что ты фанат%PRN__ка_ы% «Маленького очень сердитого принца», %ICEBREAKERPLAYERS%! Это лето будет крутым!	I never had you pegged as a "Little Very Angry Prince" fan, %ICEBREAKERPLAYERS%! This summer's gonna be rad!	
+						
+						
+>>>	ibdamienbooks2					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienbooks2_PRE_1	Подожди, %ICEBREAKERPLAYERS%, ты тоже читал%PRN__а_и% «Маленького очень сердитого принца»? Это же безумие!	Wait, %ICEBREAKERPLAYERS%, you've read "The Little Very Angry Prince" too? That's crazy!	
+	damien	default	ibdamienbooks2_PRE_2	Я думал, это просто книжка, которую придумали мои отцы, чтобы я замолчал и заснул в детстве.	I thought it was just a book my dads made up to get me to shut up and fall asleep when I was a kid.	
+	damien	blush	ibdamienbooks2_PRE_3	Моя любимая строчка — последняя: "Заткнись и ложись спать, Дэмиен. С любовью, Синий Папа".	My favorite line was the last line: "Shut up and go to sleep, Damien. Love, Blue Dad."	
+	damien	smirk	ibdamienbooks2_PRE_4	А какая твоя любимая строчка? Надо будет поговорить об этом подробнее, когда мы приедем в лагерь!	What's your favorite line? We should talk about this more when we get to camp!	
+						
+						
+>>>	ibdamienbooks3					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienbooks3_PRE_1	Ого, так многим из нас нравится «Маленький очень сердитый принц»! Нам бы следовало создать фан-клуб!	Whoa, so many of us like "The Little Very Angry Prince"! We should start a fan club!	
+	damien	danger	ibdamienbooks3_PRE_2	Мы могли бы даже заказать футболки! Мы могли бы назвать его "Дэмиен, %ICEBREAKERPLAYERS% — Маленькая очень сердитая королевская свита!"	We could even get T-shirts made! We could call it "Damien, %ICEBREAKERPLAYERS% -- the Little Very Angry Royal Entourage!"	
+	damien	scary	ibdamienbooks3_PRE_3	Но кто из нас САМЫЙ большой фанат? Кроме меня, конечно, потому что это, очевидно, я.	But which of us is the BIGGEST fan? Besides me, anyway, 'cause it's obviously me.	
+	damien	smirk	ibdamienbooks3_PRE_4	Но, знаете что, вы, книжные черви, всегда можете побороться за второе место в лагере!	But hey, you nerds can always duke it out for second place at camp!	
+						
+						
+>>>	ibcalculesterbooks1					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesterbooks1_PRE_1	О! Ты читаешь инструкции к своей бытовой технике, %ICEBREAKERPLAYERS%? Так приятно это слышать!	Oh! You read your appliance manuals, %ICEBREAKERPLAYERS%? That's so nice to hear!	
+	calculester	sad	ibcalculesterbooks1_PRE_2	Органики так часто пренебрегают чтением соответствующей литературы перед приобретением новой бытовой техники или устройства... это действительно печально видеть.	So often organics neglect to read the appropriate literature before adopting a new appliance or piece of hardware... it is truly sad to see.	
+	calculester	default	ibcalculesterbooks1_PRE_3	Как же я рад, что ты отнес%PRN_ся_лась_лись% к своей микроволновке с должным уважением и почитал%PRN__а_и% о правилах ухода за ней и её любимых блюдах!	I am so happy you gave your microwave the proper treatment to read about its maintenance requirements and favorite foods!	
+	calculester	heart	ibcalculesterbooks1_PRE_4	Кстати, я как раз изучал инструкцию по эксплуатации мультиварки Тренера. Хочешь почитать её вместе со мной?	I was just reading the operator's manual to Coach's crockpot, as a matter of fact. Would you like to read it with me?	
+						
+						
+>>>	ibcalculesterbooks2					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesterbooks2_PRE_1	Какое совпадение, %ICEBREAKERPLAYERS%! Моя любимая книга — тоже инструкция к твоей микроволновке!	What a coincidence, %ICEBREAKERPLAYERS%! My favorite book is also your microwave manual!	
+	calculester	heart	ibcalculesterbooks2_PRE_2	Ты всегда покупаешь самые интересные бытовые приборы. Ещё одна моя любимая книга — это гарантийный талон на твой блендер.	You always buy the most interesting appliances. My other favorite book is your blender warranty agreement.	
+	calculester	default	ibcalculesterbooks2_PRE_3	Я как раз сейчас его читал! А ты знал%PRN__а_и%, что можно сэкономить до 85% на ремонте, если купить гарантию в течение первых 30 дней после покупки?	I was just reading it now, actually! Did you know you can save up to 85% on repair costs if you buy the warranty within the first 30 days of purchase?	
+	calculester	happy	ibcalculesterbooks2_PRE_4	Почему бы нам не полистать её вместе по дороге в лагерь?	Why don't we peruse it together on the way to camp?	
+						
+						
+>>>	ibcalculesterbooks3					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesterbooks3_PRE_1	О, как это статистически невероятно! Уже несколько из вас прочитали свои руководства по эксплуатации! Обычно люди их просто бегло просматривают.	Oh, how statistically unlikely! Multiple of you have read your operating manuals! Usually people just skim over those.	
+	calculester	default	ibcalculesterbooks3_PRE_2	У всех вас одинаковая микроволновка? У кого из вас самая современная модель?	Do each of you have the same microwave? Which of you has the most up-to-date model?	
+	calculester	penis	ibcalculesterbooks3_PRE_3	Я так люблю читать о больших, увесистых микроволновках... Полагаю, нам предстоит выяснить, кто из вас достоин обладать таким прекрасным прибором!	I do so love to read about a big, hefty microwave... I suppose we'll have to see which of you is worthy of having such a beautiful appliance!	
+						
+						
+>>>	ibmilobooks1					
+>location	any					
+>layout	solo	milo				
+	milo	selfie	ibmilobooks1_PRE_1		Ahh, I adore "Famous Last Words"! Hollywood deaths are always so glamorous.	
+	milo	thinking	ibmilobooks1_PRE_2		I thought that Katie Alender very poignantly portrayed the somber thrill of reaping a dead starlet's soul.	
+	milo	dangerhood	ibmilobooks1_PRE_3		I can't help but get starstruck. The scent of expensive perfume mingling with the miasma of death... it's just so exciting!	
+	milo	winky	ibmilobooks1_PRE_4		Listen to me, getting all aflutter over this book. %ICEBREAKERPLAYERS%, come sit with me so we can discuss further!	
+						
+						
+>>>	ibmilobooks2					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmilobooks2_PRE_1		Oh, you've read "Famous Last Words" too? It's one of my favorites!	
+	milo	danger	ibmilobooks2_PRE_2		I love murder mysteries, ironically. Murders are so much more exciting and intriguing in fiction than they are in real life.	
+	milo	winky	ibmilobooks2_PRE_3		I hope there aren't any murders at camp, obviously... but if there were, I hope you'd help me solve it, %ICEBREAKERPLAYERS%!	
+	milo	dangerhood	ibmilobooks2_PRE_4		We true crime fanatics need to stick together, after all!	
+						
+						
+>>>	ibmilobooks3					
+>location	any					
+>layout	solo	milo				
+	milo	danger	ibmilobooks3_PRE_1		Oh, how fun! "Famous Last Words" is my favorite book too!	
+	milo	distracted	ibmilobooks3_PRE_2		I didn't realize it was so popular among my peers. Did you all read it because I recommended it on my "Murder Mystery of the Month" IG story?	
+	milo	selfie	ibmilobooks3_PRE_3		It's heartwarming that %ICEBREAKERPLAYERS% follow my recommendations so closely. I wonder which of you is the most devoted to me and my opinions...?	
+	milo	winky	ibmilobooks3_PRE_4		Only time will tell -- the time we spend at camp, that is!	
+						
+						
+>>>	ibdahliabooks1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	winky	ibdahliabooks1_PRE_1		NICE! I love "The Art of War"! Sun Tzu knew what was UP!	
+	dahlia	thinking	ibdahliabooks1_PRE_2		I've skimmed his book dozens of times. Usually I skip the "art" stuff and read straight to the "war."	
+	dahlia	default	ibdahliabooks1_PRE_3		You've read the whole thing, haven't you %ICEBREAKERPLAYERS%? Maybe you can tell me what I've been missing from the artsy-fartsy parts!	
+						
+						
+>>>	ibdahliabooks2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliabooks2_PRE_1		WHOA! You've read "The Art of War" too, %ICEBREAKERPLAYERS%?!	
+	dahlia	scary	ibdahliabooks2_PRE_2		That book is awesome! I miss the way wars were fought in the fifth century.	
+	dahlia	angry	ibdahliabooks2_PRE_3		Soldiers back then knew that dying on the battlefield was the most noble way to go. Nowadays they're all obsessed with "safety regulations" and "returning home to see their loved ones."	
+	dahlia	winky	ibdahliabooks2_PRE_4		So annoying! Not you, though, %ICEBREAKERPLAYERS%. Anyone who's read the OG "Art of War" is a friend of mine!	
+						
+						
+>>>	ibdahliabooks3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	default	ibdahliabooks3_PRE_1		Hey, I love "The Art of War"! I adopted a lot of its rules and teachings into my everyday life.	
+	dahlia	angry	ibdahliabooks3_PRE_2		Specifically making my everyday life its own battlefield -- and camp will be no different!	
+	dahlia	winky	ibdahliabooks3_PRE_3		%ICEBREAKERPLAYERS%, what do you say to a light battle to the death once we get to camp?	
+	dahlia	scary	ibdahliabooks3_PRE_4		The winner gets the best prize of all: MY PERSONAL INTEREST!	
+						
+						
+>>>	ibjoybooks1					
+>location	any					
+>layout	solo	joy				
+	joy	suggestive	ibjoybooks1_PRE_1		Ooh, I loved that book. I'm a sucker for a sexy bloodsucker.	
+	joy	surprised	ibjoybooks1_PRE_2		What did you think about the very sexy vampire's turbulent childhood, %ICEBREAKERPLAYERS%? The story about his father's death made me cry!	
+	joy	blush	ibjoybooks1_PRE_3		...Okay, fine, I'm lying. I mostly paid attention to the photography in the book.	
+	joy	thinking	ibjoybooks1_PRE_4		But I promise it was purely to study the photographer's craft, and not because I was entranced by the subject's rippling abs!	
+	joy	winky	ibjoybooks1_PRE_5		I brought that book to camp, actually. You wanna, uh... peruse it with me for the rest of the drive?	
+						
+						
+>>>	ibjoybooks2					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoybooks2_PRE_1		Oh, you read that interview too? I really enjoyed it.	
+	joy	eyeroll	ibjoybooks2_PRE_2		The title left a lot to be desired, though -- so objectifying. Why not "Interview with the INCREDIBLY INTELLIGENT vampire"? Or "the EXCEPTIONALLY PHOTOGENIC vampire"?	
+	joy	thinking	ibjoybooks2_PRE_3		...Oh, wait, that last one's just a more elegant way of saying the same thing, huh?	
+	joy	suggestive	ibjoybooks2_PRE_4		Hmmm, I think I need to reread the interview to think of different adjectives for the very sexy vampire. %ICEBREAKERPLAYERS%, wanna help me?	
+						
+						
+>>>	ibjoybooks3					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoybooks3_PRE_1		Ooh, I LOVED the interview with the very sexy vampire. I'm glad so many of you have read it too!	
+	joy	suggestive	ibjoybooks3_PRE_2		Reading his story taught me a lot. For one, it taught me that you should keep your friends close, but your enemies much, MUCH closer.	
+	joy	blush	ibjoybooks3_PRE_3		It also taught me that I definitely have a, uh... thing for biting. Which I should probably talk to a professional about.	
+	joy	winky	ibjoybooks3_PRE_4		What about you guys, %ICEBREAKERPLAYERS%? Did the very sexy vampire's story leave any impressions on you?	
+	narrator		ibjoybooks3_PRE_5		Yeah! It taught you that you need to practice your bloodsucking skills if you guys want any sort of shot with Joy!	
+						
+						
+>>>	ibaaravibooks1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	thinking	ibaaravibooks1_PRE_1		Hey, I've read that book! My therapist recommended it to me to instill some balance in my life.	
+	hex	bagel	ibaaravibooks1_PRE_2		I liked that book too, actually! I love reading self-help books, they're filled with so much helpful advice to blatantly ignore.	
+	aaravi	smile	ibaaravibooks1_PRE_3		Since you've read the book, %ICEBREAKERPLAYERS%, I'm guessing you already know about the cheat code to skip straight into your married-with-kids section of your life?	
+	aaravi	surprised	ibaaravibooks1_PRE_4		I've been meaning to try it. I wonder who I'm gonna see when I get there... hopefully someone else who likes the same books I do!	
+						
+						
+>>>	ibaaravibooks2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	victorious	ibaaravibooks2_PRE_1		You've read GTSL too?! I love that book!	
+	hex	smirk	ibaaravibooks2_PRE_2		I gave it to Aaravi for our friendship anniversary last month. It seemed like her thing.	
+	aaravi	thinking	ibaaravibooks2_PRE_3		Yeah... ironically, if I'd had that book sooner, I would've totally followed its advice to skip the haunted cave where I found you and we never would've met.	
+	hex	winky	ibaaravibooks2_PRE_4		Life's funny that way, baby! Besides, now that you HAVE read the book, you and %ICEBREAKERPLAYERS% have something to talk about!	
+	aaravi	smile	ibaaravibooks2_PRE_5		Good point. %ICEBREAKERPLAYERS%, tell me: have you tried any of the ultimate lifehacks in the back of the book yet? #3 might surprise you!	
+						
+						
+>>>	ibaaravibooks3					
+>location	any					
+>layout	solo	aaravi				
+	hex	surprised	ibaaravibooks3_PRE_1		Wow, so many of you read the speedrunning life book! Aaravi loves that one.	
+	aaravi	smile	ibaaravibooks3_PRE_2		Yeah, it's awesome! It's taught me so much about how to rack up happiness points and debuff my anger issues.	
+	aaravi	unimpressed	ibaaravibooks3_PRE_3		So, %ICEBREAKERPLAYERS%, I'm guessing since you read the book, you're planning on speedrunning camp to get the highest score?	
+	aaravi	victorious	ibaaravibooks3_PRE_4		You may as well quit now, because I'm gonna get the highest score! Looks like all of us are locked in FIERCE COMPETITION!	
+	hex	excited	ibaaravibooks3_PRE_5		Wait, you're competing? Hold on a sec before you start the game -- I gotta make popcorn!	
+						
+						
+>>>	ibdamienfood1					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienfood1_PRE_1		Nice, %ICEBREAKERPLAYERS%! Hot-as-fuck wings are my favorite too.	
+	damien	default	ibdamienfood1_PRE_2		It all goes back to my philosophy: "If it won't burn off 3 layers of my tongue, I'm not eating that shit."	
+	damien	scary	ibdamienfood1_PRE_3		Glad to see a fellow hot wing connoisseur is coming to camp with me! Maybe I'll have someone to share lunch with for once.	
+						
+						
+>>>	ibdamienfood2					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienfood2_PRE_1		RAD! I didn't know you were a hot wings fan, %ICEBREAKERPLAYERS%. They're my favorite food in the world.	
+	damien	default	ibdamienfood2_PRE_2		Usually people -- like my doctor, for example -- tell me that kind of food is "unhealthy" and "a danger to myself and others"...	
+	damien	angry	ibdamienfood2_PRE_3		But what does that noob know?! I don't care if he has a medical degree... I only follow advice from people who can handle REALLY BURNING HOT WINGS!	
+	damien	smirk	ibdamienfood2_PRE_4		I'm glad that at least one other person at camp will understand me!	
+						
+						
+>>>	ibdamienfood3					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienfood3_PRE_1		Oh shit, looks like we've got a couple hot wing fanatics on this bus! I love myself anything hot and spicy.	
+	damien	smirk	ibdamienfood3_PRE_2		So, let's talk heat. How much can you noobs handle before you vomit blood?	
+	damien	scary	ibdamienfood3_PRE_3		Because I'll only be impressed by the one who can handle their wings as well as me... we'll just have to see if %ICEBREAKERPLAYERS% can prove themselves before camp is over.	
+						
+						
+>>>	ibcalculesterfood1					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesterfood1_PRE_1	Ах, как здорово! Я тоже люблю освежающие USB по утрам.	Ahh, how nice! I also love a refreshing USB in the morning.	
+	calculester	surprised	ibcalculesterfood1_PRE_2	Ощущение от потока новых данных, проходящих через мои процессоры и поступающих на мой жесткий диск пищеварительной системы, неописуемо!	The flavor of new data flowing over my processors and into my digestive hard drive is indescribable!	
+	calculester	default	ibcalculesterfood1_PRE_3	Но я уверен, ты всё это знаешь, %ICEBREAKERPLAYERS%... даже если у тебя нет USB-порта.	But I'm sure you know all about that, %ICEBREAKERPLAYERS%... even if you do not have a USB port.	
+	calculester	surprised	ibcalculesterfood1_PRE_4	Хотя я и не эксперт по вашему виду. У тебя ЕСТЬ USB-порт? Это слишком личный вопрос?	Although I am not an expert on your species. DO you have a USB port? Is that a personal question?	
+	calculester	penis	ibcalculesterfood1_PRE_5	Можно мне... взглянуть на него, когда мы доберемся до лагеря? Исключительно в научных целях, разумеется!	Could I... see it when we get to camp? Purely for scientific reasons, of course!	
+						
+						
+>>>	ibcalculesterfood2					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesterfood2_PRE_1		Oh, %ICEBREAKERPLAYERS%, I didn't know you also experienced cravings for USB data!	
+	calculester	neutral	ibcalculesterfood2_PRE_2		How does that work, exactly, for an organic-based lifeform like yourself?	
+	calculester	surprised	ibcalculesterfood2_PRE_3		Do you download the data manually? Do you literally consume the USB like you would another food?	
+	calculester	default	ibcalculesterfood2_PRE_4		That sounds a bit unhealthy... but I am no expert on organic anatomy, so I am probably incorrect!	
+	calculester	happy	ibcalculesterfood2_PRE_5		On that note, would you like to share this cache of USB files with me, %ICEBREAKERPLAYERS%? I brought enough on the bus to share!	
+						
+						
+>>>	ibcalculesterfood3					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesterfood3_PRE_1		Oh! I didn't realize so many of us snacked on USBs, or I would have brought more to share!	
+	calculester	default	ibcalculesterfood3_PRE_2		My favorite USBs to snack on are those filled with data regarding my very best friends! It helps me learn more about them, and each of them has a distinct flavor profile.	
+	calculester	happy	ibcalculesterfood3_PRE_3		For instance, Friend Joy's USB files are filled with Coven lore and pictures of vampires in various erotic poses. It tastes of pent-up sexual energy and guacamole.	
+	calculester	neutral	ibcalculesterfood3_PRE_4		Friend Scott's, by contrast, was covered in drool and contained only one poorly-compressed JPEG of a hot dog. Its taste was... indescribable.	
+	calculester	heart	ibcalculesterfood3_PRE_5		You see, %ICEBREAKERPLAYERS%, you can tell a lot about a friend based on their USB stick! Perhaps when we get to camp, I could sample your USBs to learn more about my potential friends/love interests!	
+						
+						
+>>>	ibmilofood1					
+>location	any					
+>layout	solo	milo				
+	milo	surprised	ibmilofood1_PRE_1		A wine to die for, you say!	
+	milo	winky	ibmilofood1_PRE_2		I know a lot about wine! And death! And which deaths pair best with which wines!	
+	milo	dangerhood	ibmilofood1_PRE_3		For example, a stabbing pairs best with a dry traminette, whereas a poisoning benefits from a sweet melon rosé -- to offset the acidity of the poison, you see.	
+	milo	selfie	ibmilofood1_PRE_4		As you can see, darling, I'm something of an expert on the subject. I'd be happy to educate you further on the way to camp!	
+						
+						
+>>>	ibmilofood2					
+>location	any					
+>layout	solo	milo				
+	milo	dangerhood	ibmilofood2_PRE_1		A wine to DIE for, you say? Well, darling, don't threaten me with a good time!	
+	milo	thinking	ibmilofood2_PRE_2		Hmm... in all fairness, though, what wine WOULD you die for? It had better be a good vintage, with a delicious aftertaste to carry you into the afterlife, leaving no stains on your final outfit...	
+	milo	surprised	ibmilofood2_PRE_3		This is so intriguing! %ICEBREAKERPLAYERS%, you HAVE to help me decide what my hypothetical death-wine would be while we're at camp!	
+						
+						
+>>>	ibmilofood3					
+>location	any					
+>layout	solo	milo				
+	milo	surprised	ibmilofood3_PRE_1		Oh, how fun! So many people ready to die for a good wine!	
+	milo	winky	ibmilofood3_PRE_2		I have an idea! I propose a little game to add some spice to these upcoming weeks.	
+	milo	default	ibmilofood3_PRE_3		A battle royale of good taste! You all will fight to show which of you is truly worth a good wine.	
+	milo	winky	ibmilofood3_PRE_4		I will share a bottle of the finest wine with the winner.	
+	milo	dangerhood	ibmilofood3_PRE_5		With the rest of you... I can share a little taste of death.	
+						
+						
+>>>	ibdahliafood1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliafood1_PRE_1		Nice, %ICEBREAKERPLAYERS%! I'm with you -- I love a good old-fashioned knuckle sandwich.	
+	dahlia	angrier	ibdahliafood1_PRE_2		I tend to be the chef, though. Nobody can cook up a punch to the face like Dahlia!	
+	dahlia	winky	ibdahliafood1_PRE_3		If you're lucky, maybe I'll show you my "special recipe" while we're at camp! HA!	
+						
+						
+>>>	ibdahliafood2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliafood2_PRE_1		What a coincidence, %ICEBREAKERPLAYERS%! You love getting punched in the face, and I love PUNCHING people in the face!	
+	dahlia	scary	ibdahliafood2_PRE_2		This may be the start of a beautiful partnership...	
+	dahlia	winky	ibdahliafood2_PRE_3		I guess we'll have to see what sort of puncher/punchee relationship blossoms between us while we're at camp!	
+						
+						
+>>>	ibdahliafood3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	winky	ibdahliafood3_PRE_1		Ooh, I see how it is. We all love the spicy taste of a good punch!	
+	dahlia	thinking	ibdahliafood3_PRE_2		What if we spend the rest of this bus trip punching each other? It'll be a real punch buffet!	
+	dahlia	scary	ibdahliafood3_PRE_3		I'm thrilled to see which of you can REALLY take a delicious punch to the face. 	
+						
+						
+>>>	ibjoyfood1					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoyfood1_PRE_1		Oh yay, I love guac! It's a great vegan snack.	
+	joy	default	ibjoyfood1_PRE_2		Do you make your own or get it store-bought? I have a great homemade guac recipe that I use from time to time.	
+	joy	suggestive	ibjoyfood1_PRE_3		It also doubles as a congealed potion of sexual pleasure, if that's something you're interested in.	
+	joy	winky	ibjoyfood1_PRE_4		Maybe I'll let you try a bit of it while we're at camp, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibjoyfood2					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoyfood2_PRE_1		You like guacamole too? It's one of my favorite snacks.	
+	joy	eyeroll	ibjoyfood2_PRE_2		It's such a pain trying to find vegan-friendly foods I can eat on the go. Guac's one of my go-tos.	
+	joy	suggestive	ibjoyfood2_PRE_3		Hope found this really cool recipe in the Grimoire that she showed me. It's easy to make -- you just need an avocado, a big spoon, and the sweat of a succubus in heat.	
+	joy	winky	ibjoyfood2_PRE_4		The ingredients are easy to get, if you know where to look. I could show you how to make it while we're at camp.	
+						
+						
+>>>	ibjoyfood3					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoyfood3_PRE_1		Oh, you guys like guac too? It's one of my favorite foods!	
+	joy	thinking	ibjoyfood3_PRE_2		I have some great homemade recipes I could show you. Some of them require some really powerful magicks, though.	
+	joy	suggestive	ibjoyfood3_PRE_3		It's, like, the kind of thing that I'd only trust with someone I know wouldn't abuse the power contained in the dish... and someone who would appreciate the flavor of the guac.	
+	joy	winky	ibjoyfood3_PRE_4		How about this, %ICEBREAKERPLAYERS%: you prove to me that you're responsible and guac-loving enough over camp, and I'll show you my super-secret love potion guacamole. Sound good?	
+						
+						
+>>>	ibaaravifood1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravifood1_PRE_1		Whoa, same here %ICEBREAKERPLAYERS%! I like your style.	
+	aaravi	unimpressed	ibaaravifood1_PRE_2		Ol' Snacks-a-Lot here will eat anything and everything that even looks like a bagel, but I only eat to fuel my body.	
+	hex	bagel	ibaaravifood1_PRE_3		Are you talking about me? What's wrong with enjoying a couple of empty carbs every ten minutes?	
+	hex	smirk	ibaaravifood1_PRE_4		The only stat I care about raising is my "bagel craving stat."	
+	aaravi	judging	ibaaravifood1_PRE_5		...See what I put up with?	
+	aaravi	victorious	ibaaravifood1_PRE_6		At least you understand me, %ICEBREAKERPLAYERS%. I bet camp's gonna be a lot more fun with you around!	
+						
+						
+>>>	ibaaravifood2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaravifood2_PRE_1		Oh, are you on that stat-boost diet too, %ICEBREAKERPLAYERS%? That's cool!	
+	aaravi	struggling	ibaaravifood2_PRE_2		I've been doing it too. It's SUPER tough, right? It's almost impossible to get in all my daily nutrients!	
+	hex	thinking	ibaaravifood2_PRE_3		What, you mean like your iron and fiber and stuff? Just take a multivitamin, duh.	
+	aaravi	angry	ibaaravifood2_PRE_4		No, who cares about that shit? I'm talking about the IMPORTANT nutrients: strength, constitution, dexterity, intelligence, wisdom, and charisma!	
+	aaravi	smile	ibaaravifood2_PRE_5		At least %ICEBREAKERPLAYERS% gets it. We should work on leveling our stats up together this summer!	
+						
+						
+>>>	ibaaravifood3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravifood3_PRE_1		Hell yeah! Glad to see I'm not the only one leveling up over camp.	
+	aaravi	surprised	ibaaravifood3_PRE_2		But I wonder, between me, %ICEBREAKERPLAYERS%, which of us is gonna be the MOST leveled up by the time camp ends?	
+	hex	excited	ibaaravifood3_PRE_3		Ooh, do I smell some competition amongst friends? I live for the DRAMAAA!!!	
+	aaravi	angry	ibaaravifood3_PRE_4		YEAH! But remember: "competition amongst friends" isn't the same as "friendly competition". This is a FREE FOR ALL!	
+	aaravi	smile	ibaaravifood3_PRE_5		It isn't "you snooze, you lose." It's more like... "you snooze, you get stabbed in the stomach." Good luck!	
+						
+						
+>>>	ibdamienmusic1					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamienmusic1_PRE_1		A fellow metalhead, huh? Nice. I'm glad not everybody going on this trip is fuckin' lame.	
+	damien	angry	ibdamienmusic1_PRE_2		Metal music and I have a lot in common: we're both loud, angry, and ready to kick some ass.	
+	damien	danger	ibdamienmusic1_PRE_3		I didn't know you were into metal too, %ICEBREAKERPLAYERS%. I can't wait to rock out at camp with you!	
+						
+						
+>>>	ibdamienmusic2					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienmusic2_PRE_1		Fuck yeah! You're into metal too, %ICEBREAKERPLAYERS%? I never would've guessed!	
+	damien	smirk	ibdamienmusic2_PRE_2		I mean, I guess metalheads come in all shapes and sizes. Including wimpy, noob-y looking sizes. Like you.	
+	damien	scary	ibdamienmusic2_PRE_3		But clearly what you lack in appearances you make up for in music taste. So, who's your favorite band?	
+						
+						
+>>>	ibdamienmusic3					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienmusic3_PRE_1		Whoa, looks like we've got lots of metal fans on the bus (which is also made of metal)! 	
+	damien	smirk	ibdamienmusic3_PRE_2		Finally, I'm surrounded by people who aren't totally boring!	
+	damien	scary	ibdamienmusic3_PRE_3		What's everyone's favorite band? Mine's definitely "Cannibal Babies Fuckmarch." They're banned in almost every country except the 9th Circle of Hell and some parts of Scandinavia.	
+	damien	danger	ibdamienmusic3_PRE_4		These next few weeks are gonna be FUCKIN' METAL! Literally AND figuratively!	
+						
+						
+>>>	ibcalculestermusic1					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculestermusic1_PRE_1		Ooh, I also love lo-fi, %ICEBREAKERPLAYERS%! It is so relaxing and aesthetically pleasing!	
+	calculester	default	ibcalculestermusic1_PRE_2		As the title so often says, I find lo-fi to be the perfect music to relax/study/chill to.	
+	calculester	heart	ibcalculestermusic1_PRE_3		Does this mean that you also like to relax/study/chill? Would you like to relax/study/chill next to me for the rest of the ride to camp?	
+						
+						
+>>>	ibcalculestermusic2					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculestermusic2_PRE_1		You also like lo-fi, %ICEBREAKERPLAYERS%? That is wonderful! It is my favorite music genre as well.	
+	calculester	surprised	ibcalculestermusic2_PRE_2		Perhaps you can help me. I heard a wonderful lo-fi track yesterday, but I did not learn its name and I cannot find it anywhere!	
+	calculester	sad	ibcalculestermusic2_PRE_3		I have tried Googling "lo-fi song that goes doooo doo doo wah waaaah", but to no avail.	
+	calculester	heart	ibcalculestermusic2_PRE_4		Do you know the song? I could "sing" it for you on the way to camp!	
+	narrator		ibcalculestermusic2_PRE_5		Cal emulates the music as best he can. It certainly makes the bus ride much more aesthetically relaxing!	
+						
+						
+>>>	ibcalculestermusic3					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculestermusic3_PRE_1		Oh, how lovely, many of us here today are lo-fi fans!	
+	calculester	default	ibcalculestermusic3_PRE_2		I also find that lo-fi relaxes me. It helps me to emotionally perservere through many of our more chaotic friends' personalities.	
+	calculester	scream	ibcalculestermusic3_PRE_3		While I love all of my friends equally, sometimes it is nice to just relax together, and listen to lo-fi, rather than cause creatures to die recreationally.	
+	narrator	default	ibcalculestermusic3_PRE_4		Perhaps, because you are fellow lo-fi fans, at least one of you is not so chaotically inclined?	
+	narrator		ibcalculestermusic3_PRE_5		Before anyone can confirm nor deny, Damien throws a Molotov cocktail through the bus windshield straight into the engine.	
+	calculester	sad	ibcalculestermusic3_PRE_6		Oh dear... I suppose we will have to make another emergency evacuation. We should table this conversation until we get to camp, Friends %ICEBREAKERPLAYERS%.	
+						
+						
+>>>	ibmilomusic1					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmilomusic1_PRE_1		Oh, you like jazz, %ICEBREAKERPLAYERS%? It's my favorite as well.	
+	milo	winky	ibmilomusic1_PRE_2		I can't help but be entranced by jazz's fluidity and freedom of expression -- it speaks to my stylish, passionate soul!	
+	milo	thinking	ibmilomusic1_PRE_3		Well, I'm not entirely sure if I have a soul. Perhaps it speaks to the collection of reaped souls I have on my person at any given time? 	
+	milo	thinking	ibmilomusic1_PRE_4		Do I keep the souls within me, though? Ah, the mystery!	
+	milo	default	ibmilomusic1_PRE_5		Anyway, I was just listening to Duke Ellington -- would you like to share an earbud and listen with me?	
+						
+						
+>>>	ibmilomusic2					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmilomusic2_PRE_1		How fun! I didn't know you were also a jazz fan, %ICEBREAKERPLAYERS%.	
+	milo	distracted	ibmilomusic2_PRE_2		It may seem strange that I like an older form of music -- so many of my interests are more "hip", I know.	
+	milo	winky	ibmilomusic2_PRE_3		But while I love modern cuisine and social media culture, I can't help but appreciate Billie Holiday's timeless class.	
+	milo	selfie	ibmilomusic2_PRE_4		So, who's your favorite jazz musician? We should discuss this more at camp!	
+						
+						
+>>>	ibmilomusic3					
+>location	any					
+>layout	solo	milo				
+	milo	selfie	ibmilomusic3_PRE_1		Ah, I would have never guessed jazz was this popular among our little group.	
+	milo	surprised	ibmilomusic3_PRE_2		Perhaps we should go on a jam session someday!	
+	milo	winky	ibmilomusic3_PRE_3		And whoever jams the strongest will win!	
+	milo	thinking	ibmilomusic3_PRE_4		Is that how a jam session works? Whenever I go to one, I get so entranced with the music that I miss the details. 	
+	milo	winky	ibmilomusic3_PRE_5		Well, it doesn't matter... let's see who has the best jam! 	
+						
+						
+>>>	ibdahliamusic1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliamusic1_PRE_1		Whoa, nice! I LOVE pop music!	
+	dahlia	surprised	ibdahliamusic1_PRE_2		Ariana Grande, specifically. She's a dangerous woman who isn't afraid to be sexy and dangerous! I LOVE HER SO MUCH!	
+	dahlia	winky	ibdahliamusic1_PRE_3		But the one thing I love almost as much as Ariana Grande is a fellow Ariana Grande stan!	
+	dahlia	default	ibdahliamusic1_PRE_4		So come over here and sit with me, %ICEBREAKERPLAYERS%! We've got lots to talk about at camp!	
+						
+						
+>>>	ibdahliamusic2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliamusic2_PRE_1		Fuck yeah, %ICEBREAKERPLAYERS%, I love pop music!	
+	dahlia	angry	ibdahliamusic2_PRE_2		I can't stand people who hate pop music just 'cause it's popular. IT'S POPULAR 'CAUSE IT'S AWESOME, PUNK!	
+	dahlia	angrier	ibdahliamusic2_PRE_3		People who hate on pop music for no reason just make me wanna PUNCH STUFF!	
+	dahlia	surprised	ibdahliamusic2_PRE_4		But you like pop, so I guess I wanna do... the opposite of punching you! I can't wait to not-punch you at camp!	
+						
+						
+>>>	ibdahliamusic3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliamusic3_PRE_1		Wait, you guys like pop music too?! I LIKE POP MUSIC! THAT'S SO COOL!	
+	dahlia	thinking	ibdahliamusic3_PRE_2		Hm, I guess that's not super impressive actually... like, pop music is called "popular music" for a reason.	
+	dahlia	winky	ibdahliamusic3_PRE_3		Well, %ICEBREAKERPLAYERS%, I already like you for your unapologetic taste in mainstream music...	
+	dahlia	disappointed	ibdahliamusic3_PRE_4		...but you're gonna have to show me even COOLER stuff about you so I can pick a favorite!	
+	dahlia	scary	ibdahliamusic3_PRE_5		We'll see which of you proves to be the coolest over camp!	
+						
+						
+>>>	ibjoymusic1					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoymusic1_PRE_1		Oh, you like screamo too, %ICEBREAKERPLAYERS%? It's one of my favorite genres.	
+	joy	eyeroll	ibjoymusic1_PRE_2		A lot of people aren't into screamo 'cause they think it's too "angry and Satanic."	
+	joy	winky	ibjoymusic1_PRE_3		But I mean, I'm a witch, and a stressed-out one at that. So "angry and Satanic" is kind of soothing to me a lot of the time.	
+	joy	smile	ibjoymusic1_PRE_4		Faith made me some cool screamo mixtapes to listen to while I'm at camp. Maybe we could listen to some of them together!	
+						
+						
+>>>	ibjoymusic2					
+>location	any					
+>layout	solo	joy				
+	joy	winky	ibjoymusic2_PRE_1		Hey, I love screamo! I didn't know you were also a fan, %ICEBREAKERPLAYERS%.	
+	joy	thinking	ibjoymusic2_PRE_2		Personally, I love screaming. It really helps take the edge off of the "you're the only bastion of hope while the world constantly threatens to end" thing.	
+	joy	smile	ibjoymusic2_PRE_3		Me and some friends are actually starting a screamo band over the summer. I think it'll really help me vent some of my frustrations and stress!	
+	joy	suggestive	ibjoymusic2_PRE_4		I was thinking of calling it "Ventagram" -- 'cause, y'know, the whole devil-worship motif. What do you think?	
+						
+						
+>>>	ibjoymusic3					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoymusic3_PRE_1		Oh, wow, more of you are screamo fans than I thought! I'm glad the genre is finally making its way into the mainstream.	
+	joy	suggestive	ibjoymusic3_PRE_2		So, do any of you actually scream? I've been practicing my vocal frying all summer!	
+	joy	surprised	ibjoymusic3_PRE_3		I've gotten pretty good! Listen to this: GWOOOOAAAAAAAAAAAIIIIIIIIIIIEEEEEEEEEEEEEEAHHHHHH!!!	
+	joy	sad	ibjoymusic3_PRE_4		Not bad, huh? It's pretty easy to get practice time in when I spend most of my time watching evildoers torture innocent people.	
+	joy	smile	ibjoymusic3_PRE_5		We should all do some vocal warmups on the way to camp! I'd be mad impressed if any of you could teach ME some new screaming techniques.	
+						
+						
+>>>	ibaaravimusic1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravimusic1_PRE_1		Whoa, I love 8-bit music! So nineties!	
+	aaravi	thinking	ibaaravimusic1_PRE_2		Damn, I miss the nineties. The world was simpler, pixelation was still in fashion, my animation cycle was way less complex...	
+	aaravi	skeptical	ibaaravimusic1_PRE_3		You could blow up the side of a mountain and get 20 rupees from an old man without having to hear his whole frigging life's story...	
+	hex	winky	ibaaravimusic1_PRE_4		Also Tupac was still around! Don't forget Tupac!	
+	aaravi	unimpressed	ibaaravimusic1_PRE_5		Believe me, Hex, you'd never let me forget Tupac.	
+	aaravi	smile	ibaaravimusic1_PRE_6		%ICEBREAKERPLAYERS%, wanna take turns messing around on my GameBoy Color? We can wallow in nostalgia all the way to camp!	
+						
+						
+>>>	ibaaravimusic2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravimusic2_PRE_1		NICE! I love 8-bit music too. It reminds me of a simpler time.	
+	aaravi	surprised	ibaaravimusic2_PRE_2		Me and my brother used to play old pixelated games all the time. I have their soundtracks practically memorized!	
+	hex	tired	ibaaravimusic2_PRE_3		Yeah, and now I do too, 'cause Aaravi plays 8-bit soundtracks ALL THE TIME. No variance with this girl!	
+	aaravi	victorious	ibaaravimusic2_PRE_4		What can I say? I'm a woman of routine! So, %ICEBREAKERPLAYERS%, wanna binge the Castlevania OST with me on the way to camp?	
+						
+						
+>>>	ibaaravimusic3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravimusic3_PRE_1		Nice, so many 8-bit fans! It's my favorite too.	
+	hex	winky	ibaaravimusic3_PRE_2		Same here! I've been composing an 8-bit opera for a long time -- almost TWO HOURS. Wanna hear my demo track?	
+	aaravi	struggling	ibaaravimusic3_PRE_3		Please don't ask to hear Hex's demo track. It's just forty-five minutes of them rapping the word "bagels" over the Kirby OST.	
+	hex	bagel	ibaaravimusic3_PRE_4		What's wrong with that? I'm an ARTISTE. Do you think you could do better?	
+	aaravi	smile	ibaaravimusic3_PRE_5		Well, maybe I can't, but %ICEBREAKERPLAYERS% might be able to! If any of you can drown out Hex's garbage bagel-mix with an 8-bit track of your own, I'd be hella impressed!	
+						
+						
+>>>	ibdamienanimal1					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienanimal1_PRE_1		FUCK YEAH! Badgers don't give a FUUUUCK!	
+	damien	blush	ibdamienanimal1_PRE_2		I think I was a badger in my past life. My teachers always say that I'm "badgering" them, anyway, so I think that's what that means.	
+	damien	surprised	ibdamienanimal1_PRE_3		Whoa, maybe YOU were a badger in a past life too, %ICEBREAKERPLAYERS%! We could've been badger buddies!	
+	damien	danger	ibdamienanimal1_PRE_4		Maybe this summer we could be camp buddies! Then we could not give a fuck TOGETHER!	
+						
+						
+>>>	ibdamienanimal2					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienanimal2_PRE_1		Whoa, you like badgers too?! I thought I was the only one who appreciated their no-fucks-given attitude!	
+	damien	scary	ibdamienanimal2_PRE_2		It's a pretty well-known meme at this point, but you and I don't just KNOW the honey badger, %ICEBREAKERPLAYERS% -- we FEEL the honey badger.	
+	damien	danger	ibdamienanimal2_PRE_3		Congratulations, you and I are tight as fuck now! BADGERS FOREVER!	
+						
+						
+>>>	ibdamienanimal3					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamienanimal3_PRE_1		Whoa, we've got a couple badger-lovers on the bus! I'm also a fan of the badger.	
+	damien	blush	ibdamienanimal3_PRE_2		What I like most about them is that they don't give a fuck. I admire them, because I give lots of fucks.	
+	damien	scary	ibdamienanimal3_PRE_3		My new philosophy is to give less fucks! I think I'm gonna start with you noobs, %ICEBREAKERPLAYERS%.	
+	damien	danger	ibdamienanimal3_PRE_4		By the end of camp, I'm only gonna have enough fucks left to give to one of you. So, who's it gonna be?	
+						
+						
+>>>	ibcalculesteranimal1					
+>location	any					
+>layout	solo	calculester				
+	calculester	heart	ibcalculesteranimal1_PRE_1		Ooh, I love tamagotchis too, %ICEBREAKERPLAYERS%! I used to raise them for fun!	
+	calculester	sad	ibcalculesteranimal1_PRE_2		Unfortunately they all died, because I was hapless enough to have other responsibilities in life, such as cultivating friendships and meeting my basic needs...	
+	calculester	default	ibcalculesteranimal1_PRE_3		Tamagotchis are such temperamental digital creatures -- I long to understand them! Perhaps you could teach me your wisdom on the matter during camp?	
+						
+						
+>>>	ibcalculesteranimal2					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesteranimal2_PRE_1		You like tamagotchis too, %ICEBREAKERPLAYERS%? They are my favorite animal as well!	
+	calculester	default	ibcalculesteranimal2_PRE_2		I do so long to understand organic life, but truthfully, it is easiest and sometimes most fun for me to stay in the digital world where I am most comfortable.	
+	calculester	surprised	ibcalculesteranimal2_PRE_3		And unlike living organisms, tamagotchis thrive on that which I understand best: ones and zeros!	
+	calculester	heart	ibcalculesteranimal2_PRE_4		On that note, perhaps you would like to 01110011 01101001 01110100 with me on our way to camp, %ICEBREAKERPLAYERS%?	
+						
+						
+>>>	ibcalculesteranimal3					
+>location	any					
+>layout	solo	calculester				
+	calculester	default	ibcalculesteranimal3_PRE_1		Oh my, we have multiple tamagotchi fans going to camp! They are my favorite animal as well.	
+	calculester	sad	ibcalculesteranimal3_PRE_2		They are so cute and vintage... but also notoriously difficult to raise. So often people adopt tamagotchis without investing the proper time and care into their health and wellbeing...	
+	calculester	happy	ibcalculesteranimal3_PRE_3		But assuredly, %ICEBREAKERPLAYERS%, you are not like that. You would only purchase a tamagotchi if you were willing to devote the 24/7 care to them, right?	
+	calculester	heart	ibcalculesteranimal3_PRE_4		Perhaps by the end of this week, I will learn which of you is the most careful with your binary-coded furry friend! This is so exciting!	
+						
+						
+>>>	ibmiloanimal1					
+>location	any					
+>layout	solo	milo				
+	milo	winky	ibmiloanimal1_PRE_1		Aww, I love peacocks! They're so colorful, so majestic, so regal...	
+	milo	selfie	ibmiloanimal1_PRE_2		Not to mention, they've inspired a lot of great fashion statements and Snapchat filters.	
+	milo	distracted	ibmiloanimal1_PRE_3		Have you taken any good selfies with the peacock filter, %ICEBREAKERPLAYERS%? I have an album of a paltry 117 that I like of myself.	
+	milo	default	ibmiloanimal1_PRE_4		Ooh, we should compare peacock-filter albums on our way to camp!	
+						
+						
+>>>	ibmiloanimal2					
+>location	any					
+>layout	solo	milo				
+	milo	winky	ibmiloanimal2_PRE_1		Ahh, the majestic peacock. It's one of my favorite animals as well!	
+	milo	danger	ibmiloanimal2_PRE_2		I love their color palette, their regality, and their name includes one of my favorite things to put in my mouth...	
+	milo	default	ibmiloanimal2_PRE_3		Peas! They're a delicious and healthy snack. Don't you agree, %ICEBREAKERPLAYERS%?	
+	milo	surprised	ibmiloanimal2_PRE_4		...What? What did you think I was going to say?	
+						
+						
+>>>	ibmiloanimal3					
+>location	any					
+>layout	solo	milo				
+	milo	surprised	ibmiloanimal3_PRE_1		Oh, my. It seems we have a whole peafowl of peacock fans on the bus!	
+	milo	default	ibmiloanimal3_PRE_2		They're one of my favorite animals as well. It takes a discerning taste to appreciate their ostentatious nature.	
+	milo	distracted	ibmiloanimal3_PRE_3		Peacocks, of course, are most beautiful during mating season. That's when they show their magnificent plumage.	
+	milo	danger	ibmiloanimal3_PRE_4		So, %ICEBREAKERPLAYERS%, if we were to consider camp a mating season... I wonder which of you will have the most beautiful feathers to display?	
+						
+						
+>>>	ibdahliaanimal1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliaanimal1_PRE_1		FUCK YEAH! I love me a good flying crocodile!	
+	dahlia	default	ibdahliaanimal1_PRE_2		It's an animal I made up. I make the crocodile fly by throwing it really, really hard.	
+	dahlia	surprised	ibdahliaanimal1_PRE_3		I hope there's crocodiles at camp! Maybe we can make them fly together, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibdahliaanimal2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliaanimal2_PRE_1		Wait, you like crocodiles too, %ICEBREAKERPLAYERS%? They're my favorite animal!	
+	dahlia	winky	ibdahliaanimal2_PRE_2		They're also my favorite workout regimen partner! Nothing gets you working those glutes and calves like running from a pissed-off croc.	
+	dahlia	disappointed	ibdahliaanimal2_PRE_3		Usually people tell me my obsession with crocodiles is "unhealthy" and "somewhat deadly"...	
+	dahlia	scary	ibdahliaanimal2_PRE_4		But I'm glad you're not here to preach to me! I can't wait to do some croc workouts together at camp!	
+						
+						
+>>>	ibdahliaanimal3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliaanimal3_PRE_1		Oh, man, we have so many crocodile fans going to camp! This is gonna RULE!	
+	dahlia	surprised	ibdahliaanimal3_PRE_2		You know what this means, right? We've all gotta get together and do some crocodile-throwing workouts while we're at camp!	
+	dahlia	angry	ibdahliaanimal3_PRE_3		I hope %ICEBREAKERPLAYERS% aren't too chicken to show up. I could never be close with someone who doesn't support my intense workout routine!	
+	dahlia	winky	ibdahliaanimal3_PRE_4		Guess we'll have to see which of you fares the best at outrunning a croc while we're at camp!	
+						
+						
+>>>	ibjoyanimal1					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoyanimal1_PRE_1		Oh, you like cats, %ICEBREAKERPLAYERS%? So do I.	
+	joy	smile	ibjoyanimal1_PRE_2		They're so fun and bendy, and they've been the loyal companion to witches for hundreds of years.	
+	joy	surprised	ibjoyanimal1_PRE_3		Maybe... that means you could be MY loyal companion? Perhaps the universe is trying to tell me something!	
+	joy	winky	ibjoyanimal1_PRE_4		I should consult my divination cards before I make any promises, but I look forward to seeing more of you at camp!	
+						
+						
+>>>	ibjoyanimal2					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoyanimal2_PRE_1		You like cats, %ICEBREAKERPLAYERS%? That's good to hear!	
+	joy	default	ibjoyanimal2_PRE_2		Faith is also a huge cat fan. You know Faith, right? She's one of my best friends.	
+	joy	sad	ibjoyanimal2_PRE_3		I'm really gonna miss her while I'm at camp...	
+	joy	surprised	ibjoyanimal2_PRE_4		But hey, if you like cats too, maybe you and Faith have more in common. Maybe we could even be friends!	
+	joy	winky	ibjoyanimal2_PRE_5		I guess we'll see what blossoms between us while we're at camp!	
+						
+						
+>>>	ibjoyanimal3					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoyanimal3_PRE_1		Ooh, looks like we've got a couple cat people in our midst. They're my favorite animal, too.	
+	joy	suggestive	ibjoyanimal3_PRE_2		I like cats because they're as cute and cuddly as they are aloof -- much like myself, in fact.	
+	joy	blush	ibjoyanimal3_PRE_3		And, much like a cat, I've got to really like and trust you before I get close to you...	
+	joy	winky	ibjoyanimal3_PRE_4		I wonder if any of you cat people will convince me to like and trust you before camp ends?	
+						
+						
+>>>	ibaaravianimal1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	struggling	ibaaravianimal1_PRE_1		Finally, someone else who appreciates the deadliness of the wily chicken!	
+	aaravi	angry	ibaaravianimal1_PRE_2		They're bloodthirsty little fuckers aren't they, %ICEBREAKERPLAYERS%? You can never trust a chicken!	
+	aaravi	victorious	ibaaravianimal1_PRE_3		...Which is why I love them so much! They're small but ruthless, just like me!	
+	hex	smirk	ibaaravianimal1_PRE_4		I like chickens too! Especially when they're deep fried and in "nugget" form.	
+	aaravi	judging	ibaaravianimal1_PRE_5		Ugh, you're sick, Hex.	
+	aaravi	smile	ibaaravianimal1_PRE_6		At least %ICEBREAKERPLAYERS% understands me. We should hang out more at camp -- there's safety against chickens in numbers!	
+						
+						
+>>>	ibaaravianimal2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravianimal2_PRE_1		Oh man, I love chickens! They're five-to-six pounds of pure feathery rage.	
+	aaravi	thinking	ibaaravianimal2_PRE_2		One time I was ransacking this town for gold and loot and I made the mistake of griefing a chicken too many times...	
+	aaravi	struggling	ibaaravianimal2_PRE_3		And a whole fucking SWARM of them attacked me! I barely made it out alive!	
+	aaravi	surprised	ibaaravianimal2_PRE_4		I'd rather fight a raging umberhulk than a chicken any day!	
+	hex	grumpy	ibaaravianimal2_PRE_5		Damn, I wish I'd've been there. I would've gotten the whole thing on video! We could've gone on Funniest Home Videos and made a million bucks!	
+	aaravi	skeptical	ibaaravianimal2_PRE_6		You've got some weird priorities, Hex... at least %ICEBREAKERPLAYERS% understands me!	
+						
+						
+>>>	ibaaravianimal3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravianimal3_PRE_1		Whoa, looks like we've got a whole FLOCK of chicken fans on this bus! I love 'em too.	
+	hex	tired	ibaaravianimal3_PRE_2		Yeah, maybe a little TOO much. If I had a dollar for every time Aaravi beat the crap out of a chicken during a quest...	
+	aaravi	struggling	ibaaravianimal3_PRE_3		Nobody appreciates the deadliness of the chicken but me! They're the closest living relatives to the dinosaurs, you know!	
+	aaravi	surprised	ibaaravianimal3_PRE_4		Hmmm, I wonder if %ICEBREAKERPLAYERS% could fight a whole flock of chickens and survive... I'd be hella impressed!	
+	aaravi	victorious	ibaaravianimal3_PRE_5		Maybe we'll come across some wild chickens at camp and see which of you comes out on top!	
+	hex	default	ibaaravianimal3_PRE_6		Okay, that WOULD be super funny. May the best cock-fighter win!	
+						
+						
+>>>	ibdamientv1					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamientv1_PRE_1		Fuck yeah, I love a good beauty contest. I've even thought about competing in them myself!	
+	damien	scary	ibdamientv1_PRE_2		I mean, have you ever SEEN me in full drag? I'm fuckin' gorgeous. I'd win by a landslide.	
+	damien	surprised	ibdamientv1_PRE_3		Y'know what, maybe we could even do some drag while we're at camp! I'm sure heavy makeup plus survival scenarios with no air conditioning will be a great combination.	
+	damien	danger	ibdamientv1_PRE_4		What do you say, %ICEBREAKERPLAYERS%? Let's put the "beauty" in the beauty of nature this summer!	
+						
+						
+>>>	ibdamientv2					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamientv2_PRE_1		Fuck yeah, %ICEBREAKERPLAYERS%, beauty contests are the BEST! I love combining beauty and competition. 	
+	damien	smirk	ibdamientv2_PRE_2		I mean, makeup is basically the same as wearing war paint that makes you look hot. And I wanna look my best when I'm pumping a motherfucker full of lead.	
+	damien	surprised	ibdamientv2_PRE_3		I brought a bunch of my makeup with me to camp, actually -- maybe I can practice on you over the summer!	
+	damien	scary	ibdamientv2_PRE_4		I'm sure I can use my artistic genius to fix... whatever it is you've got going on with your face. Let's do it!	
+						
+						
+>>>	ibdamientv3					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamientv3_PRE_1		Rad! We've got a lot of beauty contest fans going to camp, I see.	
+	damien	danger	ibdamientv3_PRE_2		You know what this means, right %ICEBREAKERPLAYERS%? We've gotta have our own beauty contest this summer!	
+	damien	scary	ibdamientv3_PRE_3		Whichever one of you is the most fierce, fun, and beautiful is gonna win the coolest thing of all... my undivided attention.	
+	damien	danger	ibdamientv3_PRE_4		Look alive, %ICEBREAKERPLAYERS% -- you've got a drag race to win!	
+						
+						
+>>>	ibcalculestertv1					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculestertv1_PRE_1		You enjoy documentaries as well, %ICEBREAKERPLAYERS%? They are my favorite television medium too!	
+	calculester	happy	ibcalculestertv1_PRE_2		I recently watched a documentary on all the perils of summer camp in preparation for this trip!	
+	calculester	sad	ibcalculestertv1_PRE_3		Did you know that in 2017, an estimated 1,600 American children went missing while visiting national state parks, never to be found, completely unexplainable?	
+	calculester	default	ibcalculestertv1_PRE_4		Such is life, I suppose. But perhaps if you and I stick together, %ICEBREAKERPLAYERS%, we will not become an unexplainable statistic!	
+	calculester	neutral	ibcalculestertv1_PRE_5		Not becoming an unexplainable statistic is one of my major goals this summer.	
+						
+						
+>>>	ibcalculestertv2					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculestertv2_PRE_1		You also enjoy documentaries, %ICEBREAKERPLAYERS%? I love them! They help me learn so many new things!	
+	calculester	default	ibcalculestertv2_PRE_2		My favorite documentaries occur on the History Channel. I know they are reliable because the channel is called History, which means it only reports factual past information.	
+	calculester	error	ibcalculestertv2_PRE_3		Speaking of which, did you know that the pyramids were built by Aryan aliens from the future who seek to breed humans as an alternative food source, and those aliens are currently living under the Earth's core?	
+	calculester	surprised	ibcalculestertv2_PRE_4		Fascinating, I know! There is so much to be learned from documentaries! We must compare our knowledge further while we're at camp!	
+						
+						
+>>>	ibcalculestertv3					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculestertv3_PRE_1		Oh, I see there are multiple friends going to camp who enjoy documentaries! I'm glad we all have something in common.	
+	calculester	default	ibcalculestertv3_PRE_2		I have considered making a documentary myself before, to help me further understand organic life and entertainment.	
+	calculester	neutral	ibcalculestertv3_PRE_3		I'd like to call it, "A DOCUMENTARY ON CALCULESTER'S BEST FRIEND, BY CALCULESTER HEWLETT-PACKARD."	
+	calculester	surprised	ibcalculestertv3_PRE_4		%ICEBREAKERPLAYERS%, perhaps one of you could even be in it! I hope to become much closer to at least one of you by the end of camp.	
+	calculester	heart	ibcalculestertv3_PRE_5		We will see who grows the closest to me by the end of the summer!	
+						
+						
+>>>	ibmilotv1					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmilotv1_PRE_1		Oh, I love house flipping shows, %ICEBREAKERPLAYERS%! It's so fun to see a total fixer-upper turn into a five-star accommodation.	
+	milo	danger	ibmilotv1_PRE_2		I find many of the same principles in house-flipping apply to people as well, in fact.	
+	milo	thinking	ibmilotv1_PRE_3		For example, you seem like the type who may have once been a fixer-upper... but you've made impressive strides to improving yourself.	
+	milo	selfie	ibmilotv1_PRE_4		Perhaps by the end of camp, you'll have grown into your best self. I hope I'll be there when that happens!	
+						
+						
+>>>	ibmilotv2					
+>location	any					
+>layout	solo	milo				
+	milo	winky	ibmilotv2_PRE_1		Hey, I love house flipping shows! %ICEBREAKERPLAYERS%, you have exquisite taste.	
+	milo	danger	ibmilotv2_PRE_2		I love watching the poor, destitute customer's life get completely turned around by a renovated living room and a new coffee maker.	
+	milo	thinking	ibmilotv2_PRE_3		If only more of life's problems were so easily solved with a fresh coat of paint and a new appliance... one can dream!	
+	milo	default	ibmilotv2_PRE_4		In any case, I can't wait to "flip" camp with you, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibmilotv3					
+>location	any					
+>layout	solo	milo				
+	milo	winky	ibmilotv3_PRE_1		Oh, I love house flipping shows! It's wonderful that %ICEBREAKERPLAYERS% are so into them too.	
+	milo	default	ibmilotv3_PRE_2		We've got so much to talk about. Let's see, do you prefer an art deco renovation, or more of a Neoclassical style?	
+	milo	distracted	ibmilotv3_PRE_3		At the micro level, would you prefer an electric fireplace for safety concerns, or a wood burning chimney in keeping with tradition?	
+	milo	thinking	ibmilotv3_PRE_4		These are important questions, you know! Not only because they determine the transformative nature of your home, but also because I absolutely judge you based on your answers!	
+	milo	danger	ibmilotv3_PRE_5		I'll give you a few weeks of camp to think it over. It would be so nice if at least one of you meshed your aesthetic tastes with mine!	
+						
+						
+>>>	ibdahliatv1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliatv1_PRE_1		FUCK YEAH, I LOVE ANIME! We've got so much to talk about now, %ICEBREAKERPLAYERS%!	
+	dahlia	thinking	ibdahliatv1_PRE_2		What's your preference -- shonen or shojo? Dub or sub? Nineties animation style or modern?	
+	dahlia	default	ibdahliatv1_PRE_3		I've got a whole folder on my phone of my favorite anime fight scene clips. We should binge-watch them on the way to camp and try to recreate them this summer!	
+	dahlia	scary	ibdahliatv1_PRE_4		I'm gonna United-States-of-Smash your ass to Hell and back! This is gonna be AWESOME!	
+						
+						
+>>>	ibdahliatv2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	default	ibdahliatv2_PRE_1		Hey, I love anime! Glad we've got something in common, %ICEBREAKERPLAYERS%!	
+	dahlia	winky	ibdahliatv2_PRE_2		Anime has inspired me to be the very best like no one ever was! I have so many new muscles to thank anime for.	
+	dahlia	surprised	ibdahliatv2_PRE_3		I've even been workshopping some cool names to scream when I'm using my signature fighting moves!	
+	dahlia	thinking	ibdahliatv2_PRE_4		Tell me honestly: does the name "Blue Eclipse Punch of the Unbeatable Dahlia" strike fear into your heart, or is it too wordy?	
+	dahlia	surprised	ibdahliatv2_PRE_5		I'm gonna come up with more over camp! We should make up some names together!	
+						
+						
+>>>	ibdahliatv3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	winky	ibdahliatv3_PRE_1		Hell yeah, we've got lots of anime fans on the bus! I LOVE anime.	
+	dahlia	thinking	ibdahliatv3_PRE_2		Everything about anime rocks: the cool fighting moves, the cool fighting names, the cool backstories that are revealed in the middle of a cool fight scene...	
+	dahlia	scary	ibdahliatv3_PRE_3		And anime characters have the coolest dynamics! Everyone who's anyone gets their own rival to have intense, passionate tension with.	
+	dahlia	surprised	ibdahliatv3_PRE_4		Hmmm... %ICEBREAKERPLAYERS%, will one of YOU become my intense/passionate tension-filled rival during camp? So much mystery!	
+	dahlia	angrier	ibdahliatv3_PRE_5		I guess we'll have to see if one of you rises to the challenge of being Dahlia Aquino's rival during camp! LET'S GOOOOO!	
+						
+						
+>>>	ibjoytv1					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoytv1_PRE_1		Ooh, I didn't know you were a fantasy-adventure fan, %ICEBREAKERPLAYERS%.	
+	joy	winky	ibjoytv1_PRE_2		It's pretty much my favorite TV genre too. Although for me, that stuff is basically slice-of-life.	
+	joy	eyeroll	ibjoytv1_PRE_3		If you're intrigued by the idea of fighting against the looming threat of evil while also juggling a love triangle on the side, you should see my Monday schedule.	
+	joy	smile	ibjoytv1_PRE_4		But hey, if that's what you're into, maybe we'll actually have common ground while we're at camp! We could hang out more!	
+						
+						
+>>>	ibjoytv2					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoytv2_PRE_1		Nice, %ICEBREAKERPLAYERS%! I love fantasy adventure shows! I didn't know you were a fan too.	
+	joy	suggestive	ibjoytv2_PRE_2		Have you ever watched "The Coven"? It's an awesome program, super action-packed and turbulent.	
+	joy	winky	ibjoytv2_PRE_3		Also, I'm the star of it, so it's bound to be amazing, obviously.	
+	joy	smile	ibjoytv2_PRE_4		And hey, maybe if you hang out with me over camp, you could feature in a cameo episode! Would you be into that?	
+						
+						
+>>>	ibjoytv3					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoytv3_PRE_1		Oh, I didn't know %ICEBREAKERPLAYERS% were fans of fantasy-adventure too! It's my favorite genre.	
+	joy	eyeroll	ibjoytv3_PRE_2		I mean, it kind of has to be, I guess. It's basically my everyday life.	
+	joy	suggestive	ibjoytv3_PRE_3		I wonder if you guys could handle a fantasy-adventure setting in real life... would you be the star of the show, or the guy who gets killed by the Big Bad before the intro sequence even rolls?	
+	joy	winky	ibjoytv3_PRE_4		I'm sure camp will show us the answer. May the best fantasy survivalist prevail!	
+						
+						
+>>>	ibaaravitv1					
+>location	any					
+>layout	solo	aaravi				
+	hex	excited	ibaaravitv1_PRE_1		Ooooh, Hex does love themselves a good game show! What's your favorite, %ICEBREAKERPLAYERS%?	
+	hex	smirk	ibaaravitv1_PRE_2		Personally, I'm into the drama heavy ones like Big Brother. Or Top Chef, 'cause the food looks fuckin' delicious.	
+	aaravi	unimpressed	ibaaravitv1_PRE_3		You're so predictable, Hex. My favorite game shows are the hella-intense ones, like Ninja Warrior.	
+	aaravi	smile	ibaaravitv1_PRE_4		What do you think, %ICEBREAKERPLAYERS%? Do you have what it takes to be the next ninja champion?	
+	hex	surprised	ibaaravitv1_PRE_5		Or the next American Idol?! These are very important questions.	
+	aaravi	victorious	ibaaravitv1_PRE_6		I guess we'll learn the answers when we get to camp!	
+						
+						
+>>>	ibaaravitv2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravitv2_PRE_1		You're into game shows too, %ICEBREAKERPLAYERS%? Hex and I can't get enough of 'em.	
+	hex	excited	ibaaravitv2_PRE_2		My favorites are the ones where the drama between competitors is obviously scripted for my maximum enjoyment. GO OFF SIS!	
+	aaravi	victorious	ibaaravitv2_PRE_3		I like the ones that are potentially deadly. I think I could ace a survival game show someday.	
+	aaravi	surprised	ibaaravitv2_PRE_4		%ICEBREAKERPLAYERS%, we should practice our game show survival skills together at camp! It's the perfect opportunity!	
+	hex	winky	ibaaravitv2_PRE_5		While you're at it, you guys should practice your melodramatic fight scenes and really go ham on the crocodile tears.	
+	aaravi	victorious	ibaaravitv2_PRE_6		This camping trip just got AWESOME!	
+						
+						
+>>>	ibaaravitv3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravitv3_PRE_1		Oh cool, we've got lots of game show fans going to camp! Hex and I are big fans.	
+	hex	excited	ibaaravitv3_PRE_2		Wait, we should totally do our OWN game show this summer! It'll be almost as good as watching a game show on TV!	
+	aaravi	surprised	ibaaravitv3_PRE_3		Oh my gods, you're so right. What should the ultimate prize be?	
+	hex	bagel	ibaaravitv3_PRE_4		A LIFETIME SUPPLY OF BAGELS!! Wait, no, then I'd have to supply the bagels. LOL never mind.	
+	aaravi	victorious	ibaaravitv3_PRE_5		No, I've got the perfect idea! %ICEBREAKERPLAYERS%, get ready to compete this summer for the greatest prize of all: AARAVI MISHRA'S AFFECTION!	
+						
+						
+>>>	ibdamienaction11					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienaction11_PRE_1		You wanna start a fire, huh? That's my specialty!	
+	damien	scary	ibdamienaction11_PRE_2		I've been sussing out this bus for flammability and sustained fireball potential ever since we left. I think with the right amount of TNT and explosive anger, we could--	
+	narrator		ibdamienaction11_PRE_3		Just then, a voice comes over the bus intercom: "DAMIEN LAVEY, for the last time, if you light the bus on fire, we WILL abandon you at the next rest stop."	
+	damien	angry	ibdamienaction11_PRE_4		FUCK! Figures that the bus driver would be fuckin' lame.	
+	damien	smirk	ibdamienaction11_PRE_5		Fine -- %ICEBREAKERPLAYERS%, our fire's gonna have to wait. But I'll be looking out for you at camp for when the time comes!	
+						
+						
+>>>	ibdamienaction12					
+>location	any					
+>layout	solo	damien				
+	damien	angry	ibdamienaction12_PRE_1		WHAT THE FUCK?! You think YOU could start a fire, %ICEBREAKERPLAYERS%?! Starting fires is MY THING!	
+	damien	surprised	ibdamienaction12_PRE_2		You can't just take my thing -- I already called it! Next you're gonna be trying to grow one-and-a-half horns!	
+	damien	scary	ibdamienaction12_PRE_3		Unless... you're CHALLENGING me to a fire starting contest? Oooh, that would be fuckin' fun.	
+	damien	danger	ibdamienaction12_PRE_4		Fine then, %ICEBREAKERPLAYERS% -- I'll smear your face in the fuckin' ashes of this challenge. Find me once we get to camp, and may the best pyromaniac win!	
+						
+						
+>>>	ibdamienaction13					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienaction13_PRE_1		Whoa, I just heard a whole CHORUS of people wanting to start a fire! Did I just find my people?!	
+	damien	smirk	ibdamienaction13_PRE_2		Usually people are against my pyromania. My guess is you guys either have a death wish, or you're just trying to impress me.	
+	damien	danger	ibdamienaction13_PRE_3		So, %ICEBREAKERPLAYERS%, if you wanna start fires to get my attention, then congrats! I'm listening.	
+	damien	scary	ibdamienaction13_PRE_4		But don't expect me to keep giving a shit about you if you're all talk. If one of you wants to be my plus-one this summer, you'd better bring the real heat!	
+						
+						
+>>>	ibcalculesteraction11					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesteraction11_PRE_1		What a lovely suggestion, %ICEBREAKERPLAYERS%! I was just beginning to worry for the bus' well-being myself.	
+	calculester	neutral	ibcalculesteraction11_PRE_2		I've been monitoring the bus' speed against its level of jitteriness and the overwhelming diesel fumes that permeate the cargo hold in which we sit for a while...	
+	calculester	surprised	ibcalculesteraction11_PRE_3		And I have come to the conclusion that, like me, the bus needs to be adequately fueled by an outside source to continue operating well!	
+	calculester	slash	ibcalculesteraction11_PRE_4		You know what I'm saying, of course... the bus needs a stabler WiFi signal!	
+	calculester	default	ibcalculesteraction11_PRE_5		I've turned on my personal hotspot, so the bus should be happy soon. But perhaps while I overextend my own signal, you could turn on your hotspot too so I can latch on?	
+	narrator		ibcalculesteraction11_PRE_6		Cal's heart is in the right place, though you may need to explain gasoline to him.	
+	narrator		ibcalculesteraction11_PRE_7		On the other hand, sharing your WiFi signal with him is probably the closest thing to human touch he can experience, so that's a big win for you!	
+						
+						
+>>>	ibcalculesteraction12					
+>location	any					
+>layout	solo	calculester				
+	calculester	heart	ibcalculesteraction12_PRE_1		Oh, %ICEBREAKERPLAYERS%, you are so compassionate to the bus! It warms my spirit to see an organic being care so deeply about its mechanical helpers.	
+	calculester	neutral	ibcalculesteraction12_PRE_2		But what do you think will make the bus happy? Perhaps a delicious helping of fresh oil? Or a new paint job to make it feel more confident in its appearance?	
+	calculester	surprised	ibcalculesteraction12_PRE_3		Or perhaps... the bus will be happiest if the passengers inside it are happier!	
+	calculester	default	ibcalculesteraction12_PRE_4		Yes, that is most logical. I operate most optimally when the hamster in my chassis that runs on the wheel which powers my body is in good spirits.	
+	calculester	happy	ibcalculesteraction12_PRE_5		Come, %ICEBREAKERPLAYERS%, let us make ourselves happy so that the bus may be happy! Do you want to stream a movie for the rest of the ride?	
+						
+						
+>>>	ibcalculesteraction13					
+>location	any					
+>layout	solo	calculester				
+	calculester	heart	ibcalculesteraction13_PRE_1		Oh, my! So many of you are concerned for the bus' happiness! That is heartwarming.	
+	calculester	slash	ibcalculesteraction13_PRE_2		...Er, I assume it is. I don't exactly have a heart to warm, but the expression hopefully remains clear.	
+	calculester	surprised	ibcalculesteraction13_PRE_3		Hmmm, but I do not think the bus needs ALL of you to attend to its happiness -- it may become overwhelmed!	
+	calculester	neutral	ibcalculesteraction13_PRE_4		Like, for example, if %ICEBREAKERPLAYERS% were all attending to my happiness simultaneously, you would only stumble over each other and make things more confusing.	
+	calculester	default	ibcalculesteraction13_PRE_5		To that end, we should select only one of you to attend to the bus -- just as someday, I will select one person to be my lifelong companion!	
+	calculester	happy	ibcalculesteraction13_PRE_6		Perhaps if I am fortunate, by the end of camp, both of those selections will have been made! But we shall see!	
+						
+						
+>>>	ibmiloaction11					
+>location	any					
+>layout	solo	milo				
+	milo	distracted	ibmiloaction11_PRE_1		Oh, hello there %ICEBREAKERPLAYERS%. Playing possum, are we?	
+	milo	winky	ibmiloaction11_PRE_2		Your impression of a lifeless corpse is quite impressive, but it's nearly impossible to fool a reaper.	
+	milo	default	ibmiloaction11_PRE_3		If you REALLY want to sell it, make sure to stop your breathing entirely, and let your eyes go glassy -- like an elderly woman staring blankly at "Wheel of Fortune" at 3 p.m.	
+	milo	dangerhood	ibmiloaction11_PRE_4		Here, try again and let me critique you. Perhaps by the time we get to camp, you'll be such a good corpse impressionist that I'll have to schedule a gig to reap you anyway!	
+	narrator		ibmiloaction11_PRE_5		That sounds romantic, you think! Or terrifying. But you can work with that!	
+						
+						
+>>>	ibmiloaction12					
+>location	any					
+>layout	solo	milo				
+	milo	winky	ibmiloaction12_PRE_1		Oh, %ICEBREAKERPLAYERS%, you look SO adorable playing dead! Death looks positively stylish on everyone in my opinion.	
+	milo	distracted	ibmiloaction12_PRE_2		A large portion of my best selfies were taken with lifeless cadavers. Here's me alongside some poor Polynesian man who choked on a pineapple...	
+	milo	selfie	ibmiloaction12_PRE_3		Ooh, and here's one of me and Elvis doing duck lips! Bathroom selfies are truly the bomb, wouldn't you say?	
+	milo	surprised	ibmiloaction12_PRE_4		You know, %ICEBREAKERPLAYERS%, I daresay that you're just as photogenic as a corpse when you're alive. That's actually quite rare!	
+	milo	default	ibmiloaction12_PRE_5		If you're ever in a selfie mood this summer, hit me up while we're at camp!	
+						
+						
+>>>	ibmiloaction13					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmiloaction13_PRE_1		Ahhh, playing dead -- it's as crucial to one's survival in crisis as it is attractive to watch someone perform, in my opinion.	
+	milo	thinking	ibmiloaction13_PRE_2		But you know, %ICEBREAKERPLAYERS%, if ALL of you play dead at once, then you're not selling it as well.	
+	milo	surprised	ibmiloaction13_PRE_3		Like, one person lying motionless in a ditch? That's not too strange. But a whole group doing it is just a mass grave, or a rave that should've ended two hours ago.	
+	milo	winky	ibmiloaction13_PRE_4		I think what I'm saying is, only one of you can be the true master of faking death. And who better to be the judge of that than me, the resident reaper?	
+	milo	dangerhood	ibmiloaction13_PRE_5		We'll see which of you masters the art of feigning the sweet, gentle corpse pose while we're at camp!	
+						
+						
+>>>	ibdahliaaction11					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	angrier	ibdahliaaction11_PRE_1		YES! I agree, %ICEBREAKERPLAYERS% -- camp is our victory ground, and this sticky, poorly air-conditioned bus is our chariot!	
+	dahlia	scary	ibdahliaaction11_PRE_2		What victory do you hope to claim at Camp Spooky? As for me, I'm going to DOMINATE summer and have the BEST SUMMER EVER!	
+	dahlia	winky	ibdahliaaction11_PRE_3		You and I should rendezvous at camp, %ICEBREAKERPLAYERS% -- perhaps we can align our conquests to achieve TOTAL VICTORY!	
+						
+						
+>>>	ibdahliaaction12					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliaaction12_PRE_1		Wait, are we riding to victory right now? I thought we were on summer vacation!	
+	dahlia	angry	ibdahliaaction12_PRE_2		I admire your resolve, %ICEBREAKERPLAYERS%. War never sleeps, and there are always victories to be taken!	
+	dahlia	default	ibdahliaaction12_PRE_3		You've opened my eyes! We shall ride this bus into our destinies, and when we reach camp, we will have our spoils!	
+	dahlia	thinking	ibdahliaaction12_PRE_4		...Just what the spoils are still remains to be seen, I guess, but a war conqueress never doubts herself!	
+	dahlia	winky	ibdahliaaction12_PRE_5		See you at camp, fellow soldier!	
+						
+						
+>>>	ibdahliaaction13					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	winky	ibdahliaaction13_PRE_1		That's what I like to hear! I, too, seek victory this summer: I'm going to conquer camp and have the BEST SUMMER EVER!	
+	dahlia	angry	ibdahliaaction13_PRE_2		But you know, %ICEBREAKERPLAYERS%, there's only so much victory to go around. If we're all in fierce competition, only one of us can claim the prize!	
+	dahlia	angrier	ibdahliaaction13_PRE_3		And NO, we can't share the prize. The spoils of war go to the victor and the victor alone. If we came to a standstill, there'd be no point to competing at all!	
+	dahlia	thinking	ibdahliaaction13_PRE_4		Whatever you seek to conquer, %ICEBREAKERPLAYERS%, be it land or treasure or the puny affections of your peers...	
+	dahlia	scary	ibdahliaaction13_PRE_5		I look forward to the end of camp to see which of you comes out on top! Good luck!	
+						
+						
+>>>	ibjoyaction11					
+>location	any					
+>layout	solo	joy				
+	joy	suggestive	ibjoyaction11_PRE_1		Oh, are you into magic, %ICEBREAKERPLAYERS%? I never pegged you for a powerful mage.	
+	narrator		ibjoyaction11_PRE_2		You aren't -- you just made a quarter disappear behind your ear. But "Powerful Mage %ICEBREAKERPLAYERS%" does have a nice ring to it.	
+	joy	thinking	ibjoyaction11_PRE_3		I know we're on vacation right now, but I can't relax forever. I'm hoping to elevate my magical prowess while we're at camp.	
+	joy	default	ibjoyaction11_PRE_4		I'm gonna be working on teleportation spells and elemental magic. What are you looking to improve over the summer?	
+	narrator		ibjoyaction11_PRE_5		Honestly, you'll be lucky if you can pull a rabbit out of a hat by next fall -- but you're WAY more interested in maybe dating Joy before this is all over!	
+						
+						
+>>>	ibjoyaction12					
+>location	any					
+>layout	solo	joy				
+	joy	winky	ibjoyaction12_PRE_1		Ahh, are you doing sleight-of-hand magic, %ICEBREAKERPLAYERS%? Not bad.	
+	joy	thinking	ibjoyaction12_PRE_2		I've considered going the entertainment route with my magic before if I ever retire from saving the world.	
+	joy	suggestive	ibjoyaction12_PRE_3		It may never happen, but... maybe you'd like to be my lovely assistant if it ever pans out?	
+	joy	smile	ibjoyaction12_PRE_4		We can practice more magic together at camp and see if it's a good fit!	
+						
+						
+>>>	ibjoyaction13					
+>location	any					
+>layout	solo	joy				
+	joy	winky	ibjoyaction13_PRE_1		Oh, are you all doing magic over here? Pretty good, but let an expert show you how it's done.	
+	joy	suggestive	ibjoyaction13_PRE_2		Watch this -- I'll cast a love spell on all of you. Whoever you look at next, you will feel an intense visceral attraction to...	
+	joy	thinking	ibjoyaction13_PRE_3		Try not to all look at the same person, though; that might start drama.	
+	narrator		ibjoyaction13_PRE_4		Too late! %ICEBREAKERPLAYERS% are all looking squarely, thirstily at Joy as soon as the spell is cast.	
+	narrator		ibjoyaction13_PRE_5		You could try to resist the spell's effects... or you all could spend the summer fighting to seduce Joy!	
+	joy	smile	ibjoyaction13_PRE_6		I hope that works out for ya. See you magicians at camp!	
+						
+						
+>>>	ibaaraviaction11					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	unimpressed	ibaaraviaction11_PRE_1		Ugh, good choice, %ICEBREAKERPLAYERS%. All this prologue nonsense is so boring.	
+	hex	thinking	ibaaraviaction11_PRE_2		Really? I thought it was kinda fun. It helps establish character dynamics and points you in the direction of a--	
+	aaravi	angry	ibaaraviaction11_PRE_3		SKIP!	
+	hex	confused	ibaaraviaction11_PRE_4		What the -- did you just cut me off to yell "skip?"	
+	aaravi	struggling	ibaaraviaction11_PRE_5		Why are you still talking?! SKIP! SKIP! GET TO THE GOOD PART!	
+	hex	tired	ibaaraviaction11_PRE_6		Ugh, you're impossible -- we'll just see you at camp, %ICEBREAKERPLAYERS%.	
+	aaravi	smile	ibaaraviaction11_PRE_7		Yeah! Once the fun shit finally starts happening, come find me!	
+						
+						
+>>>	ibaaraviaction12					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaraviaction12_PRE_1		Wait, you're not gonna skip MY dialogue, are you? I'm the protagonist!	
+	hex	confused	ibaaraviaction12_PRE_2		The protagonist of what, 'Ravi? The bus ride to camp?	
+	aaravi	blush	ibaaraviaction12_PRE_3		Yeah! I'm the protagonist wherever I go, and all of you should pay attention to me!	
+	aaravi	angry	ibaaraviaction12_PRE_4		You better not be skipping my words right now, %ICEBREAKERPLAYERS%, because I've got a lot to say to you!	
+	hex	default	ibaaraviaction12_PRE_5		Eh, forget it -- you can always give %HIMHER% an earful as soon as we get to camp!	
+						
+						
+>>>	ibaaraviaction13					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	thinking	ibaaraviaction13_PRE_1		Ugh, you all have the right idea. It's time to wrap up this intro shit and get to the good part.	
+	hex	unimpressed	ibaaraviaction13_PRE_2		Hey, while you're at it, why don't you just skip ahead through the entire camp and get to the end where I'm back in my La-Z-Boy watching "The Bachelor"?	
+	aaravi	struggling	ibaaraviaction13_PRE_3		No way! %ICEBREAKERPLAYERS% still gotta know how it ends -- are they gonna have a good summer? Fall in love? Or crash and burn miserably?	
+	aaravi	skeptical	ibaaraviaction13_PRE_4		We'll see which of you is the winner and which is the loser... as soon as this stupid bus intro is finally over!	
+						
+						
+>>>	ibdamienaction21					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamienaction21_PRE_1		Whoa, nice burp, %ICEBREAKERPLAYERS%! Strong tone, smooth finish. I give it a B+.	
+	damien	danger	ibdamienaction21_PRE_2		But I bet I could burp at least an A-!	
+	narrator		ibdamienaction21_PRE_3		You and Damien keep trying to one-up each other with your burps, filling the air with the smell of your lunch all the way to camp.	
+	damien	smirk	ibdamienaction21_PRE_4		Nothing like a good burp sesh to get me excited about camp. I hope I see more of you when we arrive, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibdamienaction22					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienaction22_PRE_1		Whoa! Was that YOU, %ICEBREAKERPLAYERS%?! Fuckin' A!	
+	damien	scary	ibdamienaction22_PRE_2		What did you even eat to get that burp? I usually do a mixture of energy drinks and watered-down gasoline to really get the belches going.	
+	damien	danger	ibdamienaction22_PRE_3		Scott and I had burp contests all the time, usually during pop quizzes. Maybe you and I can continue the tradition at camp when shit gets lame!	
+	narrator		ibdamienaction22_PRE_4		Looks like you're gonna be eating a LOT more beans while you're at camp -- but you're okay with that as long as you get to spend more time with Damien!	
+						
+						
+>>>	ibdamienaction23					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienaction23_PRE_1		Whoa! What's this? A burp orchestra? So metal!	
+	damien	scary	ibdamienaction23_PRE_2		I can already tell this summer's gonna kick ass with people like %ICEBREAKERPLAYERS% onboard.	
+	damien	danger	ibdamienaction23_PRE_3		But we'll see which one of you gets the coveted BURP SOLO!	
+						
+						
+>>>	ibcalculesteraction21					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesteraction21_PRE_1		Oh, are you also undergoing a software update, %ICEBREAKERPLAYERS%? It seems our update cycles have synced!	
+	calculester	neutral	ibcalculesteraction21_PRE_2		I have heard about this phenomenon; often friends or couples who stay in the same vicinity together for long periods of time "sync up" their monthly updates.	
+	calculester	default	ibcalculesteraction21_PRE_3		I dread my monthly update, but at least I can share my pain and misery with you, %ICEBREAKERPLAYERS%!	
+	calculester	heart	ibcalculesteraction21_PRE_4		Come, sit with me while we discuss our various cravings for new Windows apps!	
+						
+						
+>>>	ibcalculesteraction22					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesteraction22_PRE_1		Oh, are you updating, %ICEBREAKERPLAYERS%? It's good to know you're so proactive!	
+	calculester	slash	ibcalculesteraction22_PRE_2		I must admit, I tend to procrastinate my updates. It is a bit frightening to undergo personal improvement.	
+	calculester	default	ibcalculesteraction22_PRE_3		But if you are embracing your software's metamorphosis, then so shall I!	
+	calculester	heart	ibcalculesteraction22_PRE_4		I always learn so much when I spend time with you, %ICEBREAKERPLAYERS% -- I hope we will see more of each other at camp!	
+						
+						
+>>>	ibcalculesteraction23					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesteraction23_PRE_1		Oh, are you all updating right now, %ICEBREAKERPLAYERS%? So am I! What an uncanny coincidence!	
+	calculester	slash	ibcalculesteraction23_PRE_2		I am updating my <SUMMER_FUN> file. I accidentally downloaded winter sports protocols before boarding the bus, and I suspect "snowboarding" will not be a useful subroutine at Camp Spooky.	
+	calculester	default	ibcalculesteraction23_PRE_3		I very much look forward to seeing what you all are updating yourselves to do once we reach camp! Perhaps our software will be compatible!	
+	narrator		ibcalculesteraction23_PRE_4		It will be if you all have anything to say about it! May the most up-to-date software win Calculester's heart!	
+						
+						
+>>>	ibmiloaction21					
+>location	any					
+>layout	solo	milo				
+	milo	selfie	ibmiloaction21_PRE_1		Ooh, are you taking selfies right now, %ICEBREAKERPLAYERS%? Bold choice -- this bus has SUCH good lighting.	
+	milo	thinking	ibmiloaction21_PRE_2		I often find that the best selfies are taken in the unlikeliest of places. I prefer to take mine behind the dumpster at Pizza Hut.	
+	milo	winky	ibmiloaction21_PRE_3		I'm sure we'll take a plethora of beautiful selfies at camp -- #HotGirlSummer!	
+	narrator		ibmiloaction21_PRE_4		More like #HotForMiloThisSummer, if you catch my drift!	
+						
+						
+>>>	ibmiloaction22					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmiloaction22_PRE_1		Oh, taking selfies are we? I've already taken 186 before we left Monstropolis.	
+	milo	distracted	ibmiloaction22_PRE_2		Check it out. I call this series, "When We Were Going Through A Tunnel And I Couldn't Connect to LTE Briefly."	
+	milo	selfie	ibmiloaction22_PRE_3		Perhaps my next series could be selfies of us together, since you seem so interested in the art form!	
+	narrator		ibmiloaction22_PRE_4		Hell yeah! And you can title this one, "%ICEBREAKERPLAYERS% And Milo Shortly Before Totally Banging At Summer Camp!"	
+						
+						
+>>>	ibmiloaction23					
+>location	any					
+>layout	solo	milo				
+	milo	danger	ibmiloaction23_PRE_1		Oh, I think I just heard several flashes go off in unison! Are you all taking selfies?	
+	milo	selfie	ibmiloaction23_PRE_2		I mean, you're all fabulous, but I am the indisputable monarch of selfie-taking. Shall I critique your forms?	
+	milo	distracted	ibmiloaction23_PRE_3		Hmmm, yes... these are all beautiful "before" pictures. Once this summer concludes, %ICEBREAKERPLAYERS%, you'll be ready to take the afters.	
+	milo	winky	ibmiloaction23_PRE_4		I can't wait to see which of you blossoms the most beautifully while we're at camp!	
+						
+						
+>>>	ibdahliaaction21					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	default	ibdahliaaction21_PRE_1	Ты что, костеришь своего заклятого врага, %ICEBREAKERPLAYERS%?! Благородное развлечение, я в деле!	Are you swearing about your sworn enemy, %ICEBREAKERPLAYERS%?! A noble pastime! I'll join you!	
+	dahlia	thinking	ibdahliaaction21_PRE_2	Правда, это будет сложновато, учитывая, что у меня больше нет заклятого врага...	That might be kinda tough now that I don't have a sworn enemy anymore, though...	
+	dahlia	disappointed	ibdahliaaction21_PRE_3	Раньше моим врагом был этот вспыльчивый красный сопляк Дэмиен Лавей. Но оказалось, что он слишком уж слабак и размазня, чтобы быть объектом моей неугасающей ненависти.	My enemy used to be the spicy red snothead Damien LaVey. But it turns out he's way too wimpy and apathetic to be the object of my undying hatred.	
+	dahlia	scary	ibdahliaaction21_PRE_4	Слушай, а может мы с тобой станем врагами к концу лагерной смены? Разве не весело?	Hey, maybe you and I could be enemies by the time camp ends! Wouldn't that be fun?	
+	narrator		ibdahliaaction21_PRE_5	Если Далия имеет в виду врагов "от ненависти до любви", то, черт возьми, ещё бы, конечно весело!	If Dahlia's meaning the "enemies-to-lovers" type of enemy, then fuck yeah it will be!	
+						
+						
+>>>	ibdahliaaction22					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	winky	ibdahliaaction22_PRE_1	О-о-о, ты поливаешь грязью своего заклятого врага, %ICEBREAKERPLAYERS%? Какая вкуснотища!	Ooh, are you swearing about your sworn enemy, %ICEBREAKERPLAYERS%? So juicy!	
+	dahlia	thinking	ibdahliaaction22_PRE_2	И кто твой враг? У вас моногамная вражда или так, ни к чему не обязывающее соперничество?	Who's your enemy? Are you two in a monogamous feud, or is it a more casual rivalry?	
+	dahlia	surprised	ibdahliaaction22_PRE_3	Ты уже захватил%PRN__а_и% территорию своего врага и перебил всех его близких, или у вас пока только до петтинга дошло?	Have you conquered your enemy's territory and slain all of their loved ones yet, or have you already passed third base?	
+	dahlia	scary	ibdahliaaction22_PRE_4	Я как раз в активном поиске нового врага -- так что выкладывай мне всё о своём, как только приедем в лагерь! Обожаю хорошее соперничество!	I'm in the market for a new enemy -- you'll have to tell me all about yours once we get to camp! I just love a good rivalry!	
+						
+						
+>>>	ibdahliaaction23					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliaaction23_PRE_1	Ого, сколько проклятий и пожеланий смерти матери врага! Не знала, что %ICEBREAKERPLAYERS% настолько страстно относишься к вражде!	Whoa, so much swearing upon the death of an enemy's mother! I didn't know %ICEBREAKERPLAYERS% were so passionate about their rivalries!	
+	dahlia	disappointed	ibdahliaaction23_PRE_2	Я тут как раз подыскиваю себе нового главного заклятого врага -- с тех пор как Дэмиен проявил себя как полный сосунок.	I happen to be in the market for a new ultimate nemesis, ever since Damien proved himself to be a total pissbaby.	
+	dahlia	winky	ibdahliaaction23_PRE_3	Вы все кажетесь достойными кандидатами... но я моногамная убийца и могу развлекаться только с одним истинным соперником за раз...	You all seem like worthy candidates -- but I'm a monogamous murderess, and I can only entertain one true rival at a time...	
+	dahlia	scary	ibdahliaaction23_PRE_4	Если вам повезет, то к концу лагерной смены кто-то из вас окажется на принимающей стороне моих синих кулаков!	If you're lucky, maybe one of you will be at the business end of my blue fists by the time camp is over!	
+						
+						
+>>>	ibjoyaction21					
+>location	any					
+>layout	solo	joy				
+	joy	blush	ibjoyaction21_PRE_1		I couldn't help but overhear your world-weary sigh, %ICEBREAKERPLAYERS%. Are you also feeling blue?	
+	joy	disgust	ibjoyaction21_PRE_2		I've been a little stressed lately. The whole "constantly saving the world from the brink of destruction" has been weighing on my psyche.	
+	joy	winky	ibjoyaction21_PRE_3		But hopefully camp will bring me back to my joyful self again. Maybe it'll help you relieve whatever's stressing you out, too.	
+	joy	smile	ibjoyaction21_PRE_4		Hopefully we'll see more of each other while we're at camp, so we can sigh together if need be.	
+						
+						
+>>>	ibjoyaction22					
+>location	any					
+>layout	solo	joy				
+	joy	suggestive	ibjoyaction22_PRE_1		Ooh, good sigh, %ICEBREAKERPLAYERS%. I'm something of an expert in the art of the exasperated exhalation.	
+	joy	smile	ibjoyaction22_PRE_2		Make it more guttural if you really want to broadcast how annoyed you are. True sighing comes from the diaphragm.	
+	joy	disgust	ibjoyaction22_PRE_3		I imagine with this motley crew, you and I are going to be doing a lot of sighing this summer...	
+	joy	winky	ibjoyaction22_PRE_4		But at least we'll have each other's company while we're at camp!	
+						
+						
+>>>	ibjoyaction23					
+>location	any					
+>layout	solo	joy				
+	joy	surprised	ibjoyaction23_PRE_1		Wow, what a resounding chorus of sighs! %ICEBREAKERPLAYERS%, I can't help but admire your apathy.	
+	joy	thinking	ibjoyaction23_PRE_2		When you have a life as harrowing and irritating as mine, you inevitably do a lot of sighing.	
+	joy	eyeroll	ibjoyaction23_PRE_3		True sighing comes from the heart -- and from seeing your idiot peers get themselves in many a ridiculous situation...	
+	joy	winky	ibjoyaction23_PRE_4		But I'm sure that at least one of you is above all that, and will truly embrace the sigh this summer. Only time will tell who that can be!	
+						
+						
+>>>	ibaaraviaction21					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	victorious	ibaaraviaction21_PRE_1		I ACCEPT YOUR CHALLENGE! Try me, punk -- I've trained myself to go at least 23 minutes without blinking!	
+	aaravi	smile	ibaaraviaction21_PRE_2		It takes a true master to stare so unflinchingly in the face of death -- my face, that is. I commend you for even trying!	
+	aaravi	surprised	ibaaraviaction21_PRE_3		We'll have to do this more often when we get to camp!	
+						
+						
+>>>	ibaaraviaction22					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaraviaction22_PRE_1		Ooh, I've been itching for a good duel! You're on, %ICEBREAKERPLAYERS%!	
+	hex	unimpressed	ibaaraviaction22_PRE_2		It's not much of a duel, though. Staring contests are pretty low-stakes.	
+	aaravi	angry	ibaaraviaction22_PRE_3		Grrrr, I'll show you, doubter! YOU AND ME, STARING DUEL, NOW!	
+	hex	tired	ibaaraviaction22_PRE_4		Ravi, you're going to lose. I don't even have eyelids.	
+	aaravi	struggling	ibaaraviaction22_PRE_5		NO, I ALREADY BLINKED! HOW COULD I BE SO EASILY DEFEATED?!	
+	aaravi	blush	ibaaraviaction22_PRE_6		%ICEBREAKERPLAYERS%, I need to grind for a while before you and I can properly duel. I'll stare at everything I see for the next week without so much as flinching.	
+	aaravi	victorious	ibaaraviaction22_PRE_7		By the time we arrive, we'll have our match, and I'll best you easily! See you at camp!	
+						
+						
+>>>	ibaaraviaction23					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaraviaction23_PRE_1		DID I JUST HEAR SEVERAL SIMULTANEOUS DECLARATIONS FOR A DUEL?!	
+	hex	bagel	ibaaraviaction23_PRE_2		I think you did, girl! And I've already got a hot, toasty bagel to munch on while I watch the carnage!	
+	aaravi	victorious	ibaaraviaction23_PRE_3		%ICEBREAKERPLAYERS%, you've levied the challenge, but can you keep up? I'm a world-champion staring duel fighter! I even went to nationals!	
+	aaravi	smile	ibaaraviaction23_PRE_4		You may have what it takes to beat me... or you may not. I guess we'll have to see once camp is all over which of you will come out on top!	
+						
+						
+>>>	ibdamienarticle1					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienarticle1_PRE_1		Hey, that's a rad article! I should write something like that!	
+	damien	danger	ibdamienarticle1_PRE_2		What WOULDN'T I do in international waters? Illegal fishing, some light treason, probably a lot of butt stuff...	
+	damien	smirk	ibdamienarticle1_PRE_3		Hmmmm, you seem like the kinda person who might have the nerve to do butt stuff in international waters, %ICEBREAKERPLAYERS%.	
+	damien	scary	ibdamienarticle1_PRE_4		Maybe this camp isn't gonna be so lame after all!	
+						
+						
+>>>	ibdamienarticle2					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienarticle2_PRE_1		Fuck yeah, I read that article! It's awesome!	
+	damien	blush	ibdamienarticle2_PRE_2		...Why are you looking at me like that? Did you not think I would read an article?!	
+	damien	angry	ibdamienarticle2_PRE_3		I READ SOMETIMES! I just don't read lame shit like textbooks or traffic signs!	
+	damien	scary	ibdamienarticle2_PRE_4		But "Very illegal things I'd do in international waters"... now that's a GREAT laundry list I can enjoy reading.	
+	damien	smirk	ibdamienarticle2_PRE_5		%ICEBREAKERPLAYERS%, we should talk more about all the shenanigans we'd get up to in international waters when we get to camp!	
+						
+						
+>>>	ibdamienarticle3					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamienarticle3_PRE_1		Whoa, nice, I loved that article! I didn't know so many of us read it.	
+	damien	smirk	ibdamienarticle3_PRE_2		I'm working on my own list of things to do in international waters. So far "fuck shit up" is numbers 1-69.	
+	damien	danger	ibdamienarticle3_PRE_3		I can't wait to see your lists, %ICEBREAKERPLAYERS%! I wonder if any of them aren't totally lame!	
+	damien	scary	ibdamienarticle3_PRE_4		But I guess we'll see who's the least lame when we get to camp!	
+						
+						
+>>>	ibcalculesterarticle1					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesterarticle1_PRE_1		Oh, %ICEBREAKERPLAYERS%, I loved that article! Sequoia trees are absolutely fascinating.	
+	calculester	default	ibcalculesterarticle1_PRE_2		For example, did you know that wood from giant sequoias is highly resistant to decay?	
+	calculester	happy	ibcalculesterarticle1_PRE_3		I am also highly resistant to decay! It is nice to have things in common with organic life, however small the similarities may be.	
+	calculester	heart	ibcalculesterarticle1_PRE_4		I hope that you, too, are highly resistant to decay, %ICEBREAKERPLAYERS%. It means that we may spend more time together at camp!	
+	narrator		ibcalculesterarticle1_PRE_5		That's a bit of a morbid compliment... but hey, it's a compliment nonetheless!	
+						
+						
+>>>	ibcalculesterarticle2					
+>location	any					
+>layout	solo	calculester				
+	calculester	default	ibcalculesterarticle2_PRE_1		I loved that article! Sequoia trees are endlessly fascinating, don't you agree?	
+	calculester	happy	ibcalculesterarticle2_PRE_2		I absolutely love learning new things about plants. I am hoping that I will learn more about them while we are in summer camp!	
+	calculester	heart	ibcalculesterarticle2_PRE_3		I long to be one with nature: the wind in my WiFi signal, the scent of the pine trees completely ignored by my lack of a nose...	
+	calculester	default	ibcalculesterarticle2_PRE_4		%ICEBREAKERPLAYERS%, since you are also so interested in flora, perhaps we could go on a hike together at camp!	
+						
+						
+>>>	ibcalculesterarticle3					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesterarticle3_PRE_1		I loved that article! Sequoia trees are incredibly fascinating. I had no idea %ICEBREAKERPLAYERS% read it too!	
+	calculester	default	ibcalculesterarticle3_PRE_2		I have memorized all 50 facts from the article. %ICEBREAKERPLAYERS%, how many have you memorized?	
+	calculester	penis	ibcalculesterarticle3_PRE_3		I do so value a friend with a large memory capacity... if one of you could recite the whole article back to me by the end of camp, I would just be smitten!	
+	narrator		ibcalculesterarticle3_PRE_4		CHALLENGE FUCKING ACCEPTED!	
+						
+						
+>>>	ibmiloarticle1					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmiloarticle1_PRE_1		Oh, you liked that article, %ICEBREAKERPLAYERS%? It's one of my favorites.	
+	milo	distracted	ibmiloarticle1_PRE_2		I read it last week while I was eating Camembert and simultaneously livetweeting about my experience eating the Camembert.	
+	milo	thinking	ibmiloarticle1_PRE_3		I'd describe my feelings about Camembert, the article, and you the same way...	
+	milo	danger	ibmiloarticle1_PRE_4		Intrigued.	
+						
+						
+>>>	ibmiloarticle2					
+>location	any					
+>layout	solo	milo				
+	milo	surprised	ibmiloarticle2_PRE_1		Oh, that article is a favorite of mine! I didn't know you read it too, %ICEBREAKERPLAYERS%.	
+	milo	thinking	ibmiloarticle2_PRE_2		I've often said that one's soul is a lot like Camembert: a buttery outer shell, a sweet, gooey center...	
+	milo	dangerhood	ibmiloarticle2_PRE_3		...and it's easily perishable.	
+	milo	winky	ibmiloarticle2_PRE_4		%ICEBREAKERPLAYERS%, I hope that you'll get more in touch with your "inner Camembert" alongside me while we're at camp!	
+						
+						
+>>>	ibmiloarticle3					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmiloarticle3_PRE_1		Oh, you all read the Camembert article too? It's one of my favorites!	
+	milo	selfie	ibmiloarticle3_PRE_2		I had it in my Instagram bio for a full week for my followers to peruse.	
+	milo	distracted	ibmiloarticle3_PRE_3		Perhaps that's where you first read it, %ICEBREAKERPLAYERS%? That would be flattering. But even more than loyal followers, this summer I'm looking for friends to call equals.	
+	milo	winky	ibmiloarticle3_PRE_4		Maybe one of you will rise to the occasion to be my companion! But only time will tell who that could be...	
+						
+						
+>>>	ibdahliaarticle1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliaarticle1_PRE_1		WHOA, THAT ARTICLE SOUNDS AWESOME! Let me read it!	
+	dahlia	default	ibdahliaarticle1_PRE_2		Hmmm... "Step 1: Headbutt the rock." Okay, I like where this is going!	
+	dahlia	angry	ibdahliaarticle1_PRE_3		"Step 2: Seek immediate medical attention because you probably have a concussion."	
+	dahlia	angrier	ibdahliaarticle1_PRE_4		No way! This article clearly wasn't written with me in mind! I could easily headbutt TWO rocks before I got a concussion!	
+	dahlia	scary	ibdahliaarticle1_PRE_5		%ICEBREAKERPLAYERS%, we should work on writing our own rock-headbutting article at camp to rival this pitiful excuse for literature! What do you say?	
+						
+						
+>>>	ibdahliaarticle2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliaarticle2_PRE_1		Oh, man, I love that article! It taught me everything I know about headbutting rocks!	
+	dahlia	angrier	ibdahliaarticle2_PRE_2		I've been practicing all week leading up to camp so I can headbutt any shady-looking boulder I see. No man, beast, or mineral gets past Dahlia Aquino!	
+	dahlia	surprised	ibdahliaarticle2_PRE_3		%ICEBREAKERPLAYERS%, if you followed the rigorous headbanging exercises in that article, I bet one day your forehead could be as swole as mine!	
+	dahlia	winky	ibdahliaarticle2_PRE_4		Why don't we do some headbutting reps together while we're at camp?	
+						
+						
+>>>	ibdahliaarticle3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliaarticle3_PRE_1		Whoa, so many of you read the headbutting boulder article! Is it possible we all read it to prepare for this summer?	
+	dahlia	scary	ibdahliaarticle3_PRE_2		I have an idea: we should have a BOULDER HEADBUTTING CONTEST when we get to camp!	
+	dahlia	winky	ibdahliaarticle3_PRE_3		You puny warriors wouldn't stand a chance against me, so I think I'll just watch you compete and be the ultimate judge. I can't wait to see which of you impresses me most!	
+						
+						
+>>>	ibjoyarticle1					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoyarticle1_PRE_1		Oh, that article is an old favorite of mine. It's so hard to find good fertility ritual advice nowadays.	
+	joy	thinking	ibjoyarticle1_PRE_2		If you need more advice, %ICEBREAKERPLAYERS%, I suggest performing your ritual under a waning crescent moon, and don't forget to have backup sage and a fire extinguisher on hand.	
+	joy	smile	ibjoyarticle1_PRE_3		There's going to be a waxing crescent moon during camp, you know... maybe we could perform a fertility ritual together!	
+	joy	blush	ibjoyarticle1_PRE_4		...Wait, did that sound weird? It wasn't supposed to sound weird.	
+	narrator		ibjoyarticle1_PRE_5		Actually, it sounded FUCKING HOT! You're in!	
+						
+						
+>>>	ibjoyarticle2					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoyarticle2_PRE_1		I love that article! I consulted it many a time when I was just starting to dabble in fertility rituals.	
+	joy	blush	ibjoyarticle2_PRE_2		It's nice to know that you're so open to fertility magic, %ICEBREAKERPLAYERS%. I've met lots of other monsters and mages who are super prudish about the whole thing.	
+	joy	winky	ibjoyarticle2_PRE_3		If you want, I've got another article you might like: "15 Common Household Items Perfect for an Impromptu Love Potion"!	
+	narrator		ibjoyarticle2_PRE_4		That's flirty witch talk if you've ever heard it! Camp is gonna be awesome!	
+						
+						
+>>>	ibjoyarticle3					
+>location	any					
+>layout	solo	joy				
+	joy	surprised	ibjoyarticle3_PRE_1		Whoa, all of you read that article? Are you thinking of doing a fertility ritual together or something?	
+	joy	smile	ibjoyarticle3_PRE_2		I'm impressed that you all are even attempting such advanced magic at the beginning stages of your training! %ICEBREAKERPLAYERS%, you're either extremely brave, or incredibly stupid and horny.	
+	joy	suggestive	ibjoyarticle3_PRE_3		Nonetheless, I'll be totally impressed if even one of you manages to get it right. Nothing says "relationship material" like an experienced fertility ritualist!	
+						
+						
+>>>	ibaaraviarticle1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaraviarticle1_PRE_1		I love that article! It's taught me so many cheat codes to the classic game.	
+	hex	confused	ibaaraviarticle1_PRE_2		How do you cheat at rock, paper, scissors? It's, like, one of the easiest games of chance in the world.	
+	aaravi	victorious	ibaaraviarticle1_PRE_3		Easy! You just cut the opponent's hands off! Works every time!	
+	hex	smirk	ibaaraviarticle1_PRE_4		What about me? My hands aren't attached to arms. Your strategy is totally debunked.	
+	aaravi	struggling	ibaaraviarticle1_PRE_5		SHIT, YOU'RE RIGHT! %ICEBREAKERPLAYERS%, we've been had!	
+	aaravi	thinking	ibaaraviarticle1_PRE_6		It's okay, though -- we've got all summer to find a different way to beat Hex at their own game. We'll strategize once we get to camp!	
+						
+						
+>>>	ibaaraviarticle2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	default	ibaaraviarticle2_PRE_1		Oh, you read that article too? It's one of my favorite walkthroughs.	
+	aaravi	victorious	ibaaraviarticle2_PRE_2		A lot of people think rock, paper, scissors is a game of chance, but that's not true. You just have to drink a potion of future-sight before you play!	
+	aaravi	smile	ibaaraviarticle2_PRE_3		Wanna play with me, %ICEBREAKERPLAYERS%? I already know you're gonna lose, but it's still fun to beat your ass into the dirt!	
+						
+						
+>>>	ibaaraviarticle3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaraviarticle3_PRE_1		Whoa, you all read that rock, paper, scissors article too? It's an awesome walkthrough!	
+	aaravi	victorious	ibaaraviarticle3_PRE_2		We should all play! Aaravi and Hex vs. %ICEBREAKERPLAYERS%!	
+	hex	thinking	ibaaraviarticle3_PRE_3		Um, I think that'd be kinda hard. Rock, paper, scissors is best played one versus one.	
+	aaravi	struggling	ibaaraviarticle3_PRE_4		Damn, you're right! Well, I guess I'm just gonna have to see which of you is the most adept rock, paper, scissors player while we're at camp...	
+	aaravi	smile	ibaaraviarticle3_PRE_5		I'll choose my opponent by the end of the summer. May the best player win!	
+						
+						
+>>>	ibdamienhobby1					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienhobby1_PRE_1		Fuck yeah. Crimes are Satan's perfect pastime.	
+	damien	smirk	ibdamienhobby1_PRE_2		Anytime I'm bored, I just vandalize a gas station. It really takes the edge off.	
+	damien	scary	ibdamienhobby1_PRE_3		I can't wait to see all the wilderness crimes I'm gonna get up to at camp. I'm gonna carve "Damien Rulez" on SO many historical trees.	
+	narrator		ibdamienhobby1_PRE_4		With any luck, you two will soon be carving "Damien + %ICEBREAKERPLAYERS% 4ever" instead!	
+						
+						
+>>>	ibdamienhobby2					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienhobby2_PRE_1		Oh, man, crimes are the best hobby ever!	
+	damien	smirk	ibdamienhobby2_PRE_2		I'm hoping crimes will be one of those hobbies that evolve into a career, if you catch my drift.	
+	damien	surprised	ibdamienhobby2_PRE_3		I mean, if Al Capone and Richard Nixon could do it, why not me, right?	
+	damien	scary	ibdamienhobby2_PRE_4		%ICEBREAKERPLAYERS%, maybe you and I could get into the crime biz together! It's never too early to start thinking about your future!	
+						
+						
+>>>	ibdamienhobby3					
+>location	any					
+>layout	solo	damien				
+	damien	danger	ibdamienhobby3_PRE_1		RAD! Looks like we've got lots of crime hobbyists on the bus today!	
+	damien	default	ibdamienhobby3_PRE_2		You know what they say, though: one con is an artist. Two cons is a syndicate. Three or more cons is a jail cell waiting to happen.	
+	damien	scary	ibdamienhobby3_PRE_3		I guess what I'm saying is, if you noobs really think you have what it takes to be a fellow criminal like Damien fuckin' LaVey, you've got a lot to prove at camp this summer!	
+						
+						
+>>>	ibcalculesterhobby1					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesterhobby1_PRE_1		You are also a succulent fan, %ICEBREAKERPLAYERS%? It is so nice to meet a fellow plant parent!	
+	calculester	default	ibcalculesterhobby1_PRE_2		I have been raising succulents for almost a year now, since my conception as a free-thinking AI. They give me so much insight into the organic lifestyle.	
+	calculester	scream	ibcalculesterhobby1_PRE_3		For instance, it wasn't until I almost killed Kevin the Kiwi Aeonium that I realized just how important water is to you living creatures!	
+	calculester	heart	ibcalculesterhobby1_PRE_4		It is fascinating to learn more about living things... I would love to learn more about you and your succulents this summer, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibcalculesterhobby2					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculesterhobby2_PRE_1		Oh, you also raise succulents, %ICEBREAKERPLAYERS%? It is one of my favorite pastimes!	
+	calculester	default	ibcalculesterhobby2_PRE_2		Succulents are not only interesting and cute in their own right, but they have so many practical uses!	
+	calculester	neutral	ibcalculesterhobby2_PRE_3		For example, aloe vera can alleviate burns and abrasions on the skin, and cannabis can provide a relaxing "high" when inhaled!	
+	calculester	surprised	ibcalculesterhobby2_PRE_4		I was not even aware that cannabis was a succulent until Polly asked me to watch over hers "until the cops get off her ass." I learn something new every day!	
+	calculester	happy	ibcalculesterhobby2_PRE_5		%ICEBREAKERPLAYERS%, we should further discuss our interest in succulents at camp!	
+						
+						
+>>>	ibcalculesterhobby3					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculesterhobby3_PRE_1		Oh! I was not aware that Friends %ICEBREAKERPLAYERS% were also interested in raising succulents! It is one of my few joys in this world.	
+	calculester	heart	ibcalculesterhobby3_PRE_2		My favorite succulent is Christopher the Cotyledon Tomentosa Bear's Paw. He does not have real paws, but his leaves resemble bear paws. It is quite amusing.	
+	calculester	default	ibcalculesterhobby3_PRE_3		I wonder which of you will be my favorite friend by the end of the summer? I'm excited to learn more about each of you and decide!	
+						
+						
+>>>	ibmilohobby1					
+>location	any					
+>layout	solo	milo				
+	milo	distracted	ibmilohobby1_PRE_1		Oh, are you a "being popular" hobbyist, %ICEBREAKERPLAYERS%?	
+	milo	selfie	ibmilohobby1_PRE_2		That's sweet. For me, popularity has long progressed past being a hobby. It is a permanent state of being.	
+	milo	thinking	ibmilohobby1_PRE_3		A word of advice: never let your popularity get to your head. Stay humble and true to your friends who really love you.	
+	milo	winky	ibmilohobby1_PRE_4		If you stick by my side, perhaps one day you'll be as illustrious and fabulous and modest as me!	
+						
+						
+>>>	ibmilohobby2					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmilohobby2_PRE_1		Ahh, popularity is such a fun hobby, %ICEBREAKERPLAYERS%! I highly recommend it to anyone who is popularity-challenged.	
+	milo	distracted	ibmilohobby2_PRE_2		The skills are simple and fun to cultivate. Just be likeable, a force of good in the world, and socialize with others.	
+	milo	selfie	ibmilohobby2_PRE_3		I mean, of course it doesn't hurt to have a viral social media following and a face that LOVES the camera...	
+	milo	winky	ibmilohobby2_PRE_4		But I think we could turn you into a popularity sensation yet, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibmilohobby3					
+>location	any					
+>layout	solo	milo				
+	milo	surprised	ibmilohobby3_PRE_1		Oh, it seems we have a veritable popular clique on the bus! I didn't know so many of you were interested in pursuing popularity.	
+	milo	thinking	ibmilohobby3_PRE_2		While I highly recommend popularity to all, it is important to note that competing for popularity simultaneously could end... messily.	
+	milo	unimpressed	ibmilohobby3_PRE_3		You know, with hurt feelings, broken-off friendships, potentially being hit by a school bus, etc.	
+	milo	winky	ibmilohobby3_PRE_4		I'm sure that one of you will rise to the top of the popularity ladder soon, %ICEBREAKERPLAYERS%. Hopefully those of you who crash and burn won't get too upset!	
+						
+						
+>>>	ibdahilahobby1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahilahobby1_PRE_1		YEAH! I love anime workouts! %ICEBREAKERPLAYERS%, you just became my best friend!	
+	narrator		ibdahilahobby1_PRE_2		Wait, what even IS an anime workout? You picked that option, sure, but I'm willing to bet you're not even 100% certain what it meant.	
+	dahlia	thinking	ibdahilahobby1_PRE_3		What's an anime workout, you say? It's a workout that's totally anime! Like bench-pressing a tree, or doing a magical girl transformation.	
+	dahlia	winky	ibdahilahobby1_PRE_4		Magical girl transformations SERIOUSLY work out your abs and glutes. We should get in some magical reps this summer, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibdahilahobby2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahilahobby2_PRE_1		Oh, man, I love anime workouts! It's so much easier to get a full workout in when it's a dramatic training montage.	
+	dahlia	thinking	ibdahilahobby2_PRE_2		I like taking my time weightlifting as much as the next guy, but sometimes it's easier to just slip into a three-minute musical interlude where I do bicep curls and scowl to J-pop.	
+	dahlia	winky	ibdahilahobby2_PRE_3		Maybe we can do some training montages together while we're at camp! They're supposedly really good for bonding too!	
+						
+						
+>>>	ibdahilahobby3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahilahobby3_PRE_1		Hey, I didn't know you all were so into anime workouts! They're easily my favorite pastime.	
+	dahlia	thinking	ibdahilahobby3_PRE_2		Tell me, %ICEBREAKERPLAYERS%, which animes do you take inspiration from when you work out? Do you go all brooding "Attack on Titan" style, or are you more of a shojo sports anime athlete type?	
+	dahlia	winky	ibdahilahobby3_PRE_3		I try to do a mix of all of the above! You all should try it this summer -- it'd be nice if one of you got buff enough to finally become my physical equal!	
+						
+						
+>>>	ibjoyhobby1					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoyhobby1_PRE_1		Ah, a fellow hero, I see. I'm glad I won't be saving the world alone this summer, %ICEBREAKERPLAYERS%.	
+	joy	thinking	ibjoyhobby1_PRE_2		Normally I'd have my besties Hope and Faith by my side while we face evildoers, but sadly they didn't come to camp this summer.	
+	joy	smile	ibjoyhobby1_PRE_3		I guess it's healthy for us to have some breaks from each other sometimes... but still, you should never go defeating evil alone. A world-saving buddy is a very important resource!	
+						
+						
+>>>	ibjoyhobby2					
+>location	any					
+>layout	solo	joy				
+	joy	suggestive	ibjoyhobby2_PRE_1		Oh, are you dabbling in world-saving, %ICEBREAKERPLAYERS%? Nice. I've pretty much made it my full-time job.	
+	joy	winky	ibjoyhobby2_PRE_2		If you ever wanted to take your heroism beyond a hobby, you should call me. I could give you some great pointers on how to stop an apocalypse in its tracks and still have time for a social life.	
+	joy	default	ibjoyhobby2_PRE_3		Maybe we could hang out a bit this summer in between saving countless lives. What do you say?	
+						
+						
+>>>	ibjoyhobby3					
+>location	any					
+>layout	solo	joy				
+	joy	smile	ibjoyhobby3_PRE_1		Oh, wow, so many heroes going to camp this summer! That's comforting.	
+	joy	thinking	ibjoyhobby3_PRE_2		Although... if we have too many people racing to save the world from destruction, it's likely we'll get in each other's way...	
+	joy	suggestive	ibjoyhobby3_PRE_3		But honestly, I'm sure one of you is probably way more skilled than all the others anyway. Don't take it personal, it's just statistically likely.	
+	joy	default	ibjoyhobby3_PRE_4		I'm a little curious to see which of you is the superior hero and who will fall flat on their face in a crisis. I guess we'll know the truth once evil rears its ugly head!	
+						
+						
+>>>	ibaaravihobby1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravihobby1_PRE_1		Hey, efficient farming is my favorite pastime too! I even wrote this walkthrough guide on how to do it properly.	
+	hex	thinking	ibaaravihobby1_PRE_2		Um, are you sure this walkthrough isn't about ACTUAL farming, 'Ravi? It says step one is to "scour for fertile soil."	
+	aaravi	thinking	ibaaravihobby1_PRE_3		Yeah I'm sure. That's a super important step in looking for viable monsters to grind, you gotta go where their food source is!	
+	hex	confused	ibaaravihobby1_PRE_4		And step 2 is "plow the fields with a sturdy backhoe"?	
+	aaravi	judging	ibaaravihobby1_PRE_5		To dig up the mole people you're gonna be slaying! DUH!	
+	aaravi	victorious	ibaaravihobby1_PRE_6		At least %ICEBREAKERPLAYERS% already knows what I'm talking about. We should farm for XP together while we're at camp! Leveling up never takes a break!	
+						
+						
+>>>	ibaaravihobby2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	victorious	ibaaravihobby2_PRE_1		That's awesome, %ICEBREAKERPLAYERS%! Efficient farming is one of my favorite hobbies too.	
+	aaravi	angry	ibaaravihobby2_PRE_2		As a full-time warrior and evil monster slayer, I don't have time to farm inefficiently. Any time wasted is time an enemy spends looting my gold and laughing in my face!	
+	hex	bagel	ibaaravihobby2_PRE_3		Me, I'll farm inefficiently all day long. Who needs farming when you can get bagels for five bucks at Walmart anyway?	
+	aaravi	unimpressed	ibaaravihobby2_PRE_4		Don't mind Hex; they don't understand people like us, %ICEBREAKERPLAYERS%. At least I'll have you to talk to when we get to camp.	
+						
+						
+>>>	ibaaravihobby3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaravihobby3_PRE_1		Wow, we have lots of farmers on the bus! I'm hoping to efficiently farm some XP over camp so that I'm a max-level duel wielder by the end of the summer.	
+	aaravi	thinking	ibaaravihobby3_PRE_2		It's important not to overfarm, though. If you kill off all the giant bugs and slimes in your favorite XP-farming areas, they may never fully respawn!	
+	hex	confused	ibaaravihobby3_PRE_3		So?	
+	aaravi	angry	ibaaravihobby3_PRE_4		SO THAT'S BAD! Population control is important, but full extinction is terrible for your progress as a warrior!	
+	aaravi	skeptical	ibaaravihobby3_PRE_5		In fact, we should probably limit how many XP farmers we have going to camp. Only the best of you should bother hunting -- the rest of you can be XP gatherers.	
+	aaravi	smile	ibaaravihobby3_PRE_6		%ICEBREAKERPLAYERS%, decide amongst yourselves who the best hunter is -- I've got better shit to do. But whoever it ends up being, you should call me!	
+						
+						
+>>>	ibdamiengoal1					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamiengoal1_PRE_1		You wanna be a master survivalist, huh? Well, maybe if you're lucky, I can pass some of my expertise onto you.	
+	damien	scary	ibdamiengoal1_PRE_2		I'm kind of a wilderness survival badass. I learned all about how to survive with no food or water when I got lost in the west wing of my dads' mansion for three hours straight.	
+	damien	danger	ibdamiengoal1_PRE_3		Just stick with me, %ICEBREAKERPLAYERS%, and we'll survive the wilderness together!	
+	damien	blush	ibdamiengoal1_PRE_4		...Quick question, though: they do have private bathrooms in the wilderness, right? I'm a bit of a shy pooper.	
+						
+						
+>>>	ibdamiengoal2					
+>location	any					
+>layout	solo	damien				
+	damien	surprised	ibdamiengoal2_PRE_1		NO WAY! I'm the wilderness survival master -- %ICEBREAKERPLAYERS% is just some noob!	
+	damien	angry	ibdamiengoal2_PRE_2		Grrrr, I'll show you, asshole! I'm gonna prove I'm ten times the wilderness survivalist than you'll ever be!	
+	damien	scary	ibdamiengoal2_PRE_3		See you at camp, loser -- I'm gonna outlive you so hard that nobody will ever suspect that I grew up totally sheltered and have no real practical skills whatsoever!	
+	damien	surprised	ibdamiengoal2_PRE_4		...NOT THAT ANYBODY ALREADY THINKS THAT! SHUT UP!	
+						
+						
+>>>	ibdamiengoal3					
+>location	any					
+>layout	solo	damien				
+	damien	smirk	ibdamiengoal3_PRE_1		Oh, you all are wilderness masters too, huh? I'm a bit of a legendary survivalist myself.	
+	damien	danger	ibdamiengoal3_PRE_2		But only one of you can be the TRUE master. There's no prize for second-best.	
+	damien	scary	ibdamiengoal3_PRE_3		We'll see when we get to camp which of you can rise to the challenge and who's gonna die mysteriously in the woods.	
+						
+						
+>>>	ibcalculestergoal1					
+>location	any					
+>layout	solo	calculester				
+	calculester	happy	ibcalculestergoal1_PRE_1		Ah, you are also hoping to study organic life this summer? That is my goal as well!	
+	calculester	neutral	ibcalculestergoal1_PRE_2		My understanding of the natural world is tragically limited, so hopefully completely immersing myself in it will be helpful.	
+	calculester	default	ibcalculestergoal1_PRE_3		I look forward to studying my peers most of all! I have already made a spreadsheet for each of you, and I record your traits, thoughts, and actions daily.	
+	calculester	heart	ibcalculestergoal1_PRE_4		For example, %ICEBREAKERPLAYERS% is listed as "interesting, inquisitive, and friendly"! I look forward to expanding my knowledge of you over camp!	
+						
+						
+>>>	ibcalculestergoal2					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculestergoal2_PRE_1		You are studying organic life as well? How interesting, given that you are yourself organic, %ICEBREAKERPLAYERS%!	
+	calculester	default	ibcalculestergoal2_PRE_2		I suppose it is always good to learn more about oneself, however. Are you hoping to "find yourself" this summer?	
+	calculester	happy	ibcalculestergoal2_PRE_3		I did much research on the concept of "summer" in preparation for camp, and I found that "finding oneself"/"coming-of-age" are often major themes of summer break.	
+	calculester	error	ibcalculestergoal2_PRE_4		Examples include "The Sisterhood of the Traveling Pants", "The Parent Trap", and "Game of Thrones", counting the episodes that took place in the summer.	
+	calculester	heart	ibcalculestergoal2_PRE_5		Perhaps we will each find ourselves at camp this summer! I hope we can take this journey together!	
+						
+						
+>>>	ibcalculestergoal3					
+>location	any					
+>layout	solo	calculester				
+	calculester	surprised	ibcalculestergoal3_PRE_1		Oh, you are all studying organic life? How interesting!	
+	calculester	neutral	ibcalculestergoal3_PRE_2		%ICEBREAKERPLAYERS%, are you studying together, or are you each leading an individual project?	
+	calculester	default	ibcalculestergoal3_PRE_3		At the moment I am the sole researcher in my own quest to understand organic life, but I would love to have a partner to research the subject with me!	
+	calculester	happy	ibcalculestergoal3_PRE_4		Perhaps if one of you shows enough dedication and aptitude, we could combine our understandings and become camp partners! What do you say, %ICEBREAKERPLAYERS%?	
+						
+						
+>>>	ibmilogoal1					
+>location	any					
+>layout	solo	milo				
+	milo	winky	ibmilogoal1_PRE_1		I love Mascarpone! I didn't know you were also such an aficionado, %ICEBREAKERPLAYERS%.	
+	milo	thinking	ibmilogoal1_PRE_2		Admittedly, I'm unclear on how going out into the wilderness to camp is going to strengthen your bond with a semi-unusual cheese...	
+	milo	default	ibmilogoal1_PRE_3		But I'm up for the task if you are! We shall embrace and enrich our relationships with Mascarpone together!	
+						
+						
+>>>	ibmilogoal2					
+>location	any					
+>layout	solo	milo				
+	milo	default	ibmilogoal2_PRE_1		Ooh, %ICEBREAKERPLAYERS%, are you also seeking to invite Mascarpone into your life?	
+	milo	winky	ibmilogoal2_PRE_2		Well, you're a %MANWOMAN% after my own heart, I suppose. Mascarpone speaks to my soul more than any other man, woman, or cheese ever has before.	
+	milo	selfie	ibmilogoal2_PRE_3		But perhaps cheese isn't the only thing worth looking forward to at camp this summer... though only time will tell if my hunch is correct!	
+						
+						
+>>>	ibmilogoal3					
+>location	any					
+>layout	solo	milo				
+	milo	thinking	ibmilogoal3_PRE_1		Oh, you're all fans of Mascarpone I see! It's an unusual fixation, but a vital one nonetheless.	
+	milo	danger	ibmilogoal3_PRE_2		I'm a bit of a cheese and wine fanatic, I must admit. I've been looking forward to indulging in these pastimes over camp.	
+	milo	winky	ibmilogoal3_PRE_3		I'd love to share some Mascarpone and a bit of red wine with one of you at some point... hopefully at least one of you will continue to impress me. Best of luck, %ICEBREAKERPLAYERS%!	
+						
+						
+>>>	ibdahliagoal1					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	winky	ibdahliagoal1_PRE_1		A fellow Monster Scout, I see! I recently made it my lifelong ambition to earn every badge there is!	
+	dahlia	thinking	ibdahliagoal1_PRE_2		So far, I've received the "Welcome to the Monster Scouts" badge, the "Read the Monster Scouts Terms and Conditions" badge, and the "Dahlia Aquino Name Tag" badge!	
+	dahlia	angrier	ibdahliagoal1_PRE_3		I'm gonna earn the rest over the summer, and NO FORCE IN HEAVEN NOR HELL CAN STOP ME!!!	
+	dahlia	default	ibdahliagoal1_PRE_4		%ICEBREAKERPLAYERS%, we should work towards earning badges together at camp!	
+						
+						
+>>>	ibdahliagoal2					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	scary	ibdahliagoal2_PRE_1		You're gonna earn all the badges too?! That's AWESOME! We can motivate each other!	
+	dahlia	winky	ibdahliagoal2_PRE_2		I've made it my sworn duty to have the BEST SUMMER EVER while we're at camp, and getting every last Monster Scout badge is integral to that goal!	
+	dahlia	thinking	ibdahliagoal2_PRE_3		The next badge on my list to earn is the "Strengthen a Friendship On the Bus to Camp" badge.	
+	dahlia	surprised	ibdahliagoal2_PRE_4		...WAIT, I JUST HAD AN IDEA! %ICEBREAKERPLAYERS%, let's sit together until we earn the badge!	
+	dahlia	scary	ibdahliagoal2_PRE_5		This plan is going REALLY WELL so far!	
+						
+						
+>>>	ibdahliagoal3					
+>location	any					
+>layout	solo	dahlia				
+	dahlia	surprised	ibdahliagoal3_PRE_1		Wait, %ICEBREAKERPLAYERS% are going for every badge too?! This personal battle of mine is turning into an all-out WAR!	
+	dahlia	thinking	ibdahliagoal3_PRE_2		Fine, you all can try to earn the badges too, but we'll see which of us earns them all first!	
+	dahlia	winky	ibdahliagoal3_PRE_3		May the best monster win! And the best monster is me, so I'm definitely gonna win and rub your wimpy faces in the dirt.	
+	dahlia	scary	ibdahliagoal3_PRE_4		But one of you will eventually win second place -- and I wanna be there when you do! Good luck!	
+						
+						
+>>>	ibjoygoal1					
+>location	any					
+>layout	solo	joy				
+	joy	eyeroll	ibjoygoal1_PRE_1		Ugh, word, %ICEBREAKERPLAYERS%. I can't wait to enjoy some alone time this summer.	
+	joy	thinking	ibjoygoal1_PRE_2		I brought a couple good books with me to read. Hopefully I'll finish at least one of them by the time camp is over.	
+	joy	angry	ibjoygoal1_PRE_3		I'm usually so busy saving everybody else's asses and getting no thanks whatsoever, I rarely have times like this to read and relax and enjoy some peace and quiet.	
+	joy	winky	ibjoygoal1_PRE_4		I'm hoping for the best -- and hopefully you get some alone time too, %ICEBREAKERPLAYERS%. Maybe we can read together in silence sometime!	
+						
+						
+>>>	ibjoygoal2					
+>location	any					
+>layout	solo	joy				
+	joy	default	ibjoygoal2_PRE_1		I get that, %ICEBREAKERPLAYERS%. I can't wait to enjoy some peace and quiet once we get to camp.	
+	joy	eyeroll	ibjoygoal2_PRE_2		This whole icebreaker thing is so boring anyway. Like, I don't wanna know what your favorite color is or your most treasured memory -- I just wanna chill in silence for the rest of the ride.	
+	joy	smile	ibjoygoal2_PRE_3		Hey, since we're on the same page, wanna sit together silently for the rest of the ride to camp?	
+	narrator		ibjoygoal2_PRE_4		You don't speak, which Joy knows means yes. The two of you sit in comfortable silence for the rest of the ride, and it's more intimate than words could ever have been.	
+						
+						
+>>>	ibjoygoal3					
+>location	any					
+>layout	solo	joy				
+	joy	eyeroll	ibjoygoal3_PRE_1		You guys too? I really hope I get some quality alone time in this summer, it's long overdue.	
+	joy	thinking	ibjoygoal3_PRE_2		I guess that means if we're doing this right, we won't be seeing much of each other...	
+	joy	smile	ibjoygoal3_PRE_3		But hey, I'd like to hang out with at least ONE of you, %ICEBREAKERPLAYERS%. Variety is the spice of life.	
+	joy	suggestive	ibjoygoal3_PRE_4		I mean, statistically speaking, one of you has to be at least palatable to spend time with. I guess we won't know for sure until we get to camp, though!	
+						
+						
+>>>	ibaaravigoal1					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaravigoal1_PRE_1		Me too! I'm really hoping to increase my individual skill levels and interpersonal communication this summer. And maybe loot some Boots of +1 Self-Esteem if I can find it!	
+	hex	bagel	ibaaravigoal1_PRE_2		...What're you looking at me for? The only thing I'm gonna increase this summer is "amount of bagels eaten."	
+	aaravi	smile	ibaaravigoal1_PRE_3		Well, %ICEBREAKERPLAYERS%, at least you and I are on the same page. We should work on leveling up our "casual conversation" stats together once we get to camp!	
+						
+						
+>>>	ibaaravigoal2					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	surprised	ibaaravigoal2_PRE_1		You too, huh, %ICEBREAKERPLAYERS%? What stats are you hoping to level up this summer?	
+	aaravi	default	ibaaravigoal2_PRE_2		I'd like to increase my intuitive listening stats, my emotional HP, and my armored defense against rabid beavers.	
+	aaravi	thinking	ibaaravigoal2_PRE_3		...Also my height, if that's even possible. It'd be nice to be able to reach the top of most shoe closets.	
+	hex	smirk	ibaaravigoal2_PRE_4		I'm only concerned with two stats: the total hours I've spent watching "Cake Boss", and the amount of friends I have to watch Cake Boss with me.	
+	aaravi	skeptical	ibaaravigoal2_PRE_5		On that note, %ICEBREAKERPLAYERS%, you wanna watch Cake Boss with us the rest of the way to camp?	
+						
+						
+>>>	ibaaravigoal3					
+>location	any					
+>layout	solo	aaravi				
+	aaravi	smile	ibaaravigoal3_PRE_1		Same! I really wanna increase my overall personhood this summer, on a numeric and a personal level.	
+	aaravi	thinking	ibaaravigoal3_PRE_2		My first step is going to be finding a reliable friend, so that I have someone to connect to interpersonally. My therapist said it might be good for my "shocking lack of people skills."	
+	hex	surprised	ibaaravigoal3_PRE_3		Wait, what about me? I'm your friend!	
+	aaravi	unimpressed	ibaaravigoal3_PRE_4		I said a RELIABLE friend, Hex.	
+	hex	winky	ibaaravigoal3_PRE_5		LOL, yeah, okay, that knocks me clean out then. %ICEBREAKERPLAYERS%, looks like it's up to y'all to figure out who Aaravi's next BFF will be!	
+	aaravi	victorious	ibaaravigoal3_PRE_6		Good idea. %ICEBREAKERPLAYERS%, may the best monster win my friendship!	

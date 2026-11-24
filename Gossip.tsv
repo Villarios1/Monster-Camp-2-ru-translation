@@ -1,0 +1,783 @@
+Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
+						
+>>>	stoppedbytsa					
+>location	any					
+>gossip_player_question			stoppedbytsa_gossip_player_question	Выберите игрока, чтобы поразить его своими навыками сплетен!	Choose a player to strike with your gossip skills!	
+>gossip_stat_question			stoppedbytsa_gossip_stat_question	Выберите один вариант!	Choose one!	
+>gossip_stat	creativity		stoppedbytsa_gossip_stat_1	Вязательная оргия	Knitting Orgy	
+>gossip_stat	fun		stoppedbytsa_gossip_stat_2	Группа преследователей Дэнни Де Вито	Danny DeVito Stalker Group	
+>gossip_stat	smarts		stoppedbytsa_gossip_stat_3	Анонимные собаки в шляпах	Dogs In Hats Anonymous	
+>gossip_stat	boldness		stoppedbytsa_gossip_stat_4	Бойцовский клуб орангутанов	Orangutan Fight Club	
+>gossip_quality_question			stoppedbytsa_gossip_quality_question	Выберите один вариант!	Choose one!	
+>gossip_quality_verynegative			stoppedbytsa_gossip_quality_verynegative	коллекция носков со спермой	cum sock collection	
+>gossip_quality_negative			stoppedbytsa_gossip_quality_negative	неловкие семейные фотографии	awkward family photos	
+>gossip_quality_positive			stoppedbytsa_gossip_quality_positive	малоизвестные факты о Шреке	obscure Shrek trivia knowledge	
+>gossip_quality_verypositive			stoppedbytsa_gossip_quality_verypositive	рекордные навыки лунной походки	recordbreaking moonwalking skills	
+>gossip_custom_question			stoppedbytsa_gossip_custom_question	Впишите игрушку, которая точно из 90-х.	Type in a toy that's totally 90s.	
+>gossip_custom_answer			stoppedbytsa_gossip_custom_answer_1	Тамагочи	Furby	
+>gossip_custom_answer			stoppedbytsa_gossip_custom_answer_2	Йо-йо	Bop-It	
+>gossip_custom_answer			stoppedbytsa_gossip_custom_answer_3	Пружинка-радуга	Etch-a-Sketch	
+>gossip_custom_answer			stoppedbytsa_gossip_custom_answer_4	Бегемотики из Киндер-сюрприза	Beanie Baby	
+>layout	none					
+	narrator		stoppedbytsa_PRE_1	Все ваши товарищи по лагерю жаждут услышать ваши горячие сплетни, и вскоре вы слышите, как слухи распространяются повсюду...	Your fellow campers are all hungry for that hot goss, and soon you hear your rumor spreading all over the place...	
+>layout	solo	glich				
+	glich	default	stoppedbytsa_PRE_2	Эй, ты слышал о %GOSSIP_PLAYER%? Нет? Тогда послушайте вот что, потому что, возможно, вы знаете %GOSSIP_PLAYER_HIMHER% не так хорошо, как думали…	Hey, have you heard about %GOSSIP_PLAYER%? No? Well listen to this, because you may not know %GOSSIP_PLAYER_HIMHER% as well as you thought…	
+	glich	thinking	stoppedbytsa_PRE_3	По всей видимости, в прошлом году %GOSSIP_PLAYER% садил%PRN_ся_ась_ись% на самолет по служебным делам, связанным с "%GOSSIP_STAT_WORD%"...	Apparently last year, %GOSSIP_PLAYER% was boarding a flight on official "%GOSSIP_STAT_WORD%" business...	
+	glich	surprised	stoppedbytsa_PRE_4	...когда %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% был%PRN__а_и% остановлен%PRN__а_и% службой безопасности!	...when %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% stopped by TSA!	
+	glich	gossip	stoppedbytsa_PRE_5	Сотрудник службы безопасности открыл чемодан %GOSSIP_PLAYER% и понял, что %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% пытал%PRN_ся_ась_ись% пронести на борт самолета пакетик с "ароматными конфетами", спрятанный в %GOSSIP_CUSTOM%!	The TSA agent opened %GOSSIP_PLAYER%'s suitcase and realized that %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% trying to smuggle a baggie of "nose candy" hidden in a %GOSSIP_CUSTOM% onto the flight!	
+	glich	disgust	stoppedbytsa_PRE_6	Как ни странно, %GOSSIP_PLAYER% пытал%PRN_ся_ась_ись% убедить сотрудника отпустить %GOSSIP_PLAYER_HIMHER%, демонстрируя %GOSSIP_PLAYER_HISHER% %GOSSIP_QUALITY_WORD%....	Oddly enough, %GOSSIP_PLAYER% tried to convince the TSA agent to let %GOSSIP_PLAYER_HIMHER% go by showing off %GOSSIP_PLAYER_HISHER% %GOSSIP_QUALITY_WORD%....	
+	glich	thinking	stoppedbytsa_PRE_7	%GOSSIPQUALITY_UNFORTUNATELY_FORTUNATELY%, этого %GOSSIPQUALITY_WASN'T_WAS% было недостаточно, чтобы убедить сотрудника разрешить %GOSSIP_PLAYER_HIMHER% подняться на борт рейса с %GOSSIP_PLAYER_HISHER% "очень-очень" %GOSSIP_CUSTOM%.	%GOSSIPQUALITY_UNFORTUNATELY_FORTUNATELY%, it %GOSSIPQUALITY_WASN'T_WAS% enough to convince the TSA agent to allow %GOSSIP_PLAYER_HIMHER% to board the flight with %GOSSIP_PLAYER_HISHER% "sweet sweet" %GOSSIP_CUSTOM%.	
+	glich	gossip	stoppedbytsa_PRE_8	Впечатляет, правда? Стоит помнить об этом, когда в следующий раз пересечетесь с %GOSSIP_PLAYER% на улице.	It's pretty mindblowing, huh? I'd keep this info in mind next time you see %GOSSIP_PLAYER% out and about!	
+	narrator		stoppedbytsa_PRE_9	Ваши навыки сплетни приводят к тому, что %GOSSIP_PLAYER% превращается в %GOSSIPQUALITY_LOSE_GAIN% %GOSSIP_FINALSTATCHANGES%. Отлично!	Your gossiping skillz totally cause %GOSSIP_PLAYER% to %GOSSIPQUALITY_LOSE_GAIN% %GOSSIP_FINALSTATCHANGES%. Nice!	
+						
+>>>	familycruise					
+>location	any					
+>gossip_player_question			familycruise_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			familycruise_gossip_stat_question		Choose one!	
+>gossip_stat	creativity		familycruise_gossip_stat_1		washed-up Elvis impersonators	
+>gossip_stat	charm		familycruise_gossip_stat_2		hot single MILFs in your area	
+>gossip_stat	smarts		familycruise_gossip_stat_3		4 out of 5 dentists who recommend Listerine	
+>gossip_stat	fun		familycruise_gossip_stat_4		people who unironically wear Crocs	
+>gossip_quality_question			familycruise_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			familycruise_gossip_quality_verynegative		still-functioning severed testicle	
+>gossip_quality_negative			familycruise_gossip_quality_negative		bag of hot salad	
+>gossip_quality_positive			familycruise_gossip_quality_positive		gamer girl feet pics	
+>gossip_quality_verypositive			familycruise_gossip_quality_verypositive		solid gold condom	
+>gossip_custom_question			familycruise_gossip_custom_question		Type in your favorite meme.	
+>gossip_custom_answer			familycruise_gossip_custom_answer_1		Doge	
+>gossip_custom_answer			familycruise_gossip_custom_answer_2		Nyan Cat	
+>gossip_custom_answer			familycruise_gossip_custom_answer_3		Harambe	
+>gossip_custom_answer			familycruise_gossip_custom_answer_4		Philosoraptor	
+>layout	none					
+	narrator		familycruise_PRE_1		Since nobody has anything better to talk about, you quickly hear your gossip circulating camp...	
+>layout	solo	gplant				
+	gplant	gossip	familycruise_PRE_2		Oh my God, guess what I just heard about %GOSSIP_PLAYER%!	
+	gplant	surprised	familycruise_PRE_3		Two years ago, %GOSSIP_PLAYER% went on a cruise with %GOSSIP_PLAYER_HISHER% family, but on the way back home they were shipwrecked!	
+	gplant	blush	familycruise_PRE_4		When everyone got off the boat, they realized that they'd accidentally found the fabled Island of %GOSSIP_STAT_WORD%!	
+	gplant	default	familycruise_PRE_5		The %GOSSIP_STAT_WORD% were distrustful of these intruders, so the cruise inhabitants chose %GOSSIP_PLAYER% to be their ambassador.	
+	gplant	thinking	familycruise_PRE_6		The leader of the %GOSSIP_STAT_WORD% only had one question: "What religion do your people worship?"	
+	gplant	gossip	familycruise_PRE_7		%GOSSIP_PLAYER%, of course, told them all about "%GOSSIP_CUSTOM%".	
+	gplant	thinking	familycruise_PRE_8		The %GOSSIP_STAT_WORD% loved the "%GOSSIP_CUSTOM%" so much, they offered to help the castaways, but only if they were given a good present in exchange...	
+	gplant	disgust	familycruise_PRE_9		So %GOSSIP_PLAYER% gave them %GOSSIP_PLAYER_HISHER% prized %GOSSIP_QUALITY_WORD%.	
+	gplant	surprised	familycruise_PRE_10		The %GOSSIP_STAT_WORD% were very %GOSSIPQUALITY_DISGUSTED_PLEASED% with the gift, and so they %GOSSIPQUALITY_NEVER_HAPPILY% helped the castaways leave the island!	
+	gplant	thinking	familycruise_PRE_11		You may want to remember that the next time you hang out with %GOSSIP_PLAYER%, as it speaks volumes of %GOSSIP_PLAYER_HISHER% character...	
+	narrator		familycruise_PRE_12		Everyone will remember that. %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%!	
+						
+						
+>>>	secretloveaffair					
+>location	any					
+>gossip_player_question			secretloveaffair_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			secretloveaffair_gossip_stat_question		Choose one!	
+>gossip_stat	charm		secretloveaffair_gossip_stat_1		yogurt-themed sexcapade	
+>gossip_stat	creativity		secretloveaffair_gossip_stat_2		no-pants poetry reading	
+>gossip_stat	boldness		secretloveaffair_gossip_stat_3		coyote mud wrestling championship	
+>gossip_stat	fun		secretloveaffair_gossip_stat_4		Naruto LARP	
+>gossip_quality_question			secretloveaffair_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			secretloveaffair_gossip_quality_verynegative		more-evil twin of Jeff Bezos	
+>gossip_quality_negative			secretloveaffair_gossip_quality_negative		flat Earther apologist	
+>gossip_quality_positive			secretloveaffair_gossip_quality_positive		flaming sword swallower	
+>gossip_quality_verypositive			secretloveaffair_gossip_quality_verypositive		reincarnation of Freddie Mercury	
+>gossip_custom_question			secretloveaffair_gossip_custom_question		Type in a long, cylindrical object.	
+>gossip_custom_answer			secretloveaffair_gossip_custom_answer_1		baseball bat	
+>gossip_custom_answer			secretloveaffair_gossip_custom_answer_2		polearm	
+>gossip_custom_answer			secretloveaffair_gossip_custom_answer_3		cucumber	
+>gossip_custom_answer			secretloveaffair_gossip_custom_answer_4		fire extinguisher	
+>layout	none					
+	narrator		secretloveaffair_PRE_1		Before you know it, everybody's repeating your juicy, blatantly untrue rumor...	
+>layout	solo	geyes				
+	geyes	default	secretloveaffair_PRE_2		Hey, have you heard about %GOSSIP_PLAYER% yet? Well listen up, because this is a very interesting tale...	
+	geyes	surprised	secretloveaffair_PRE_3		A few months ago, when %GOSSIP_PLAYER% went to %GOSSIP_PLAYER_HISHER% yearly %GOSSIP_STAT_WORD%, %GOSSIP_PLAYER_HESHE% met an attractive stranger and began a secret relationship with them!	
+	geyes	blush	secretloveaffair_PRE_4		It was quite the steamy affair! %GOSSIP_PLAYER%'s new partner was fun, witty, smart...	
+	geyes	gossip	secretloveaffair_PRE_5		...and they really knew their way around a %GOSSIP_CUSTOM% in bed, if you know what I mean.	
+	geyes	disgust	secretloveaffair_PRE_6		Unfortunately, their relationship had to end when %GOSSIP_PLAYER%'s partner found out about %GOSSIP_PLAYER%'s double life as a %GOSSIP_QUALITY_WORD%...	
+	geyes	default	secretloveaffair_PRE_7		It was obvious that their relationship couldn't continue, and %GOSSIP_PLAYER%'s secret sweetie bade %GOSSIP_PLAYER_HIMHER% a %GOSSIPQUALITY_DISGUSTED_TEARFUL% goodbye.	
+	geyes	gossip	secretloveaffair_PRE_8		It's kinda funny knowing what gets %GOSSIP_PLAYER%'s rocks off... I won't be able to get it out of my mind next time I talk to %GOSSIP_PLAYER_HIMHER%!	
+	narrator		secretloveaffair_PRE_9		You used your gossiping powers for %GOSSIPQUALITY_EVIL_GOOD% today, and as a result, %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%. Do with that what you will!	
+						
+>>>	surprisecelebencounter					
+>location	any					
+>gossip_player_question			surprisecelebencounter_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			surprisecelebencounter_gossip_stat_question		Choose one!	
+>gossip_stat	smarts		surprisecelebencounter_gossip_stat_1		night vision goggles	
+>gossip_stat	fun		surprisecelebencounter_gossip_stat_2		magical girl cosplay	
+>gossip_stat	boldness		surprisecelebencounter_gossip_stat_3		flaming AK-47	
+>gossip_stat	charm		surprisecelebencounter_gossip_stat_4		edible underwear	
+>gossip_quality_question			surprisecelebencounter_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			surprisecelebencounter_gossip_quality_verynegative		hentai addiction	
+>gossip_quality_negative			surprisecelebencounter_gossip_quality_negative		chronic ear wax buildup	
+>gossip_quality_positive			surprisecelebencounter_gossip_quality_positive		immaculate chakra alignment	
+>gossip_quality_verypositive			surprisecelebencounter_gossip_quality_verypositive		"Biggest Dick Energy" award	
+>gossip_custom_question			surprisecelebencounter_gossip_custom_question		Type in a famous person who's hella dead.	
+>gossip_custom_answer			surprisecelebencounter_gossip_custom_answer_1		Sophocles	
+>gossip_custom_answer			surprisecelebencounter_gossip_custom_answer_2		Michael Jackson	
+>gossip_custom_answer			surprisecelebencounter_gossip_custom_answer_3		Marilyn Monroe	
+>gossip_custom_answer			surprisecelebencounter_gossip_custom_answer_4		Elvis Presley	
+>layout	none					
+	narrator		surprisecelebencounter_PRE_1		The cell reception out here is total ass, so everyone's bored enough to spread your rumor around fairly quickly...	
+>layout	solo	gchupacabra				
+	gchupacabra	surprised	surprisecelebencounter_PRE_2		Hey, have you heard the news about %GOSSIP_PLAYER%? No? Well then, get ready to have your shit rocked...	
+	gchupacabra	blush	surprisecelebencounter_PRE_3		Last week when %GOSSIP_PLAYER% was in line at Starbucks, %GOSSIP_PLAYER_HESHE% just so happened to see famous celebrity %GOSSIP_CUSTOM% waiting for their drink nearby!	
+	gchupacabra	gossip	surprisecelebencounter_PRE_4		Being the giant fan that %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE%, %GOSSIP_PLAYER% immediately went over to say hello.	
+	gchupacabra	default	surprisecelebencounter_PRE_5		Apparently %GOSSIP_CUSTOM% was very impressed with %GOSSIP_PLAYER%'s outfit, especially %GOSSIP_PLAYER_HISHER% %GOSSIP_STAT_WORD%!	
+	gchupacabra	disgust	surprisecelebencounter_PRE_6		Then %GOSSIP_PLAYER% asked %GOSSIP_CUSTOM% about the rumors surrounding their %GOSSIP_QUALITY_WORD%.	
+	gchupacabra	thinking	surprisecelebencounter_PRE_7		%GOSSIP_CUSTOM% was very %GOSSIPQUALITY_OFFENDED_FLATTERED% by that, and they immediately %GOSSIPQUALITY_BLOCKED_FOLLOWED% %GOSSIP_PLAYER% on Twitter!	
+	gchupacabra	gossip	surprisecelebencounter_PRE_8		%GOSSIP_PLAYER%'s life has never been the same since. Isn't that wild? I would remember that the next time you talk to %GOSSIP_PLAYER_HIMHER%.	
+	narrator		surprisecelebencounter_PRE_9		%GOSSIP_PLAYER% may not have actually met %GOSSIP_CUSTOM%, but everyone who meets %GOSSIP_PLAYER% after hearing this is gonna know that %GOSSIP_PLAYER_HESHE% %GOSSIPQUALITY_LOST_GAINED% %GOSSIP_FINALSTATCHANGES%!	
+						
+>>>	gang					
+>location	any					
+>gossip_player_question			gang_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			gang_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		gang_gossip_stat_1		Moist	
+>gossip_stat	creativity		gang_gossip_stat_2		Sublime	
+>gossip_stat	smarts		gang_gossip_stat_3		Molecular	
+>gossip_stat	fun		gang_gossip_stat_4		Thicc	
+>gossip_quality_question			gang_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			gang_gossip_quality_verynegative		an origami knife	
+>gossip_quality_negative			gang_gossip_quality_negative		the common cold	
+>gossip_quality_positive			gang_gossip_quality_positive		a hamster who's a trained assassin	
+>gossip_quality_verypositive			gang_gossip_quality_verypositive		the power of God and anime	
+>gossip_custom_question			gang_gossip_custom_question		Type in something bigger than a seagull.	
+>gossip_custom_answer			gang_gossip_custom_answer_1		a giant seagull	
+>gossip_custom_answer			gang_gossip_custom_answer_2		Australia	
+>gossip_custom_answer			gang_gossip_custom_answer_3		a 1967 sports car	
+>gossip_custom_answer			gang_gossip_custom_answer_4		my trading card collection	
+>layout	none					
+	narrator		gang_PRE_1		Like tossing a bread crumb to a flock of ravenous pigeons, your friends immediately devour and circulate your rumor...	
+>layout	solo	glich				
+	glich	surprised	gang_PRE_2		Holy shit! Did you hear that %GOSSIP_PLAYER% was in a gang?!	
+	glich	gossip	gang_PRE_3		Yeah, I'm serious! The gang was allegedly super %GOSSIPQUALITY_WIMPY_FEARSOME%, and they called themselves the %GOSSIP_STAT_WORD% Crocodiles.	
+	glich	disgust	gang_PRE_4		I heard that %GOSSIP_PLAYER% met the leader, %GOSSIP_STAT_WORD% Mike the Werecrocodile, at a seedy dive bar on the outskirts of town.	
+	glich	thinking	gang_PRE_5		%GOSSIP_PLAYER% saw %GOSSIP_STAT_WORD% Mike's gang tattoo of a seagull eating a %GOSSIP_CUSTOM% and started asking Mike all about the gang.	
+	glich	gossip	gang_PRE_6		%GOSSIP_STAT_WORD% Mike wasn't just going to let %GOSSIP_PLAYER% join on the spot, however. There were apparently some pretty rigorous challenges to overcome first.	
+	glich	blush	gang_PRE_7		%GOSSIP_PLAYER% had to %GOSSIPQUALITY_BEFRIEND_PRANK% a cop, %GOSSIPQUALITY_DONATE_STEAL% two gallons of blood, and even %GOSSIPQUALITY_RUN_DRY[sp]HUMP% a red light!	
+	glich	surprised	gang_PRE_8		But none of that stuff compared to the final challenge... %GOSSIP_PLAYER% had to fight %GOSSIP_STAT_WORD% Mike himself using only %GOSSIP_QUALITY_WORD%!	
+	glich	default	gang_PRE_9		%GOSSIP_PLAYER% won the battle, and %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% in the gang for a long time -- almost two whole %GOSSIPQUALITY_WEEKS_YEARS%!	
+	glich	disgust	gang_PRE_10		%GOSSIP_PLAYER_HESHE% eventually left, though, because %GOSSIP_PLAYER_HESHE% realized that %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% too %GOSSIPQUALITY_LAME_BADASS% for that crowd.	
+	glich	thinking	gang_PRE_11		But if you ever see %GOSSIP_PLAYER%'s seagull tattoo... now you know what it's for! Weird, huh?	
+	narrator		gang_PRE_12		%GOSSIP_PLAYER%'s new gang reputation %GOSSIPQUALITY_COSTS_EARNS% %GOSSIP_PLAYER_HIMHER% %GOSSIP_FINALSTATCHANGES%. %GOSSIPQUALITY_OOF_COOL%!	
+						
+>>>	guineapig					
+>location	any					
+>gossip_player_question			guineapig_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			guineapig_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		guineapig_gossip_stat_1		xtreme snail racing	
+>gossip_stat	fun		guineapig_gossip_stat_2		helium-fueled karaoke	
+>gossip_stat	smarts		guineapig_gossip_stat_3		astral projection	
+>gossip_stat	creativity		guineapig_gossip_stat_4		experimental ska	
+>gossip_quality_question			guineapig_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			guineapig_gossip_quality_verynegative		terminal stupidity	
+>gossip_quality_negative			guineapig_gossip_quality_negative		distrust of modern medicine	
+>gossip_quality_positive			guineapig_gossip_quality_positive		contagious laughter	
+>gossip_quality_verypositive			guineapig_gossip_quality_verypositive		incorrigable sexiness	
+>gossip_custom_question			guineapig_gossip_custom_question		Type in a fun summertime activity!	
+>gossip_custom_answer			guineapig_gossip_custom_answer_1		beach volleyball	
+>gossip_custom_answer			guineapig_gossip_custom_answer_2		field hockey	
+>gossip_custom_answer			guineapig_gossip_custom_answer_3		tanning	
+>gossip_custom_answer			guineapig_gossip_custom_answer_4		snorkeling	
+>layout	none					
+	narrator		guineapig_PRE_1		Your hot, thicc, juicy gossip makes its way around the campfire in record time!	
+>layout	solo	gplant				
+	gplant	default	guineapig_PRE_2		Hey, I just heard something REALLY strange about %GOSSIP_PLAYER%. Listen to this:	
+	gplant	disgust	guineapig_PRE_3		%GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% apparently a participant in a super weird pharmaceutical experiment!	
+	gplant	gossip	guineapig_PRE_4		They were testing a new drug that could possibly cure %GOSSIP_QUALITY_WORD%, and of course %GOSSIP_PLAYER% was the perfect guinea pig.	
+	gplant	thinking	guineapig_PRE_5		It was a month-long trial, and %GOSSIP_PLAYER% had to deal with lots of bizarre side effects...	
+	gplant	surprised	guineapig_PRE_6		Like runny nose, excessive %GOSSIPQUALITY_FARTING_SMIRKING%, permanently %GOSSIPQUALITY_ACNE[sp]RIDDEN_PERFECT% skin, and a sudden obsession with %GOSSIP_STAT_WORD%!	
+	gplant	default	guineapig_PRE_7		Ultimately, the drug was a %GOSSIPQUALITY_FAILURE_SUCCESS%, %GOSSIPQUALITY_AND_BUT% it's still not FDA approved -- but hey, that's never stopped anyone before!	
+	gplant	blush	guineapig_PRE_8		But the funniest part is -- and you didn't hear this from me -- the drug gave %GOSSIP_PLAYER% a permanent %GOSSIP_CUSTOM% fetish.	
+	gplant	disgust	guineapig_PRE_9		Seriously, if you even so much as MENTION %GOSSIP_CUSTOM% in front of %GOSSIP_PLAYER_HIMHER%, I heard %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_NUTS_NUT% immediately.	
+	gplant	gossip	guineapig_PRE_10		So I guess do with that info what you will next time you see %GOSSIP_PLAYER_HIMHER%!	
+	narrator		guineapig_PRE_11		Your super salacious rumor %GOSSIPQUALITY_COSTS_EARNS% %GOSSIP_PLAYER% %GOSSIP_FINALSTATCHANGES%!	
+						
+>>>	weirdpet					
+>location	any					
+>gossip_player_question			weirdpet_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			weirdpet_gossip_stat_question		Choose one!	
+>gossip_stat	fun		weirdpet_gossip_stat_1		Bingo	
+>gossip_stat	boldness		weirdpet_gossip_stat_2		russian roulette	
+>gossip_stat	charm		weirdpet_gossip_stat_3		spin the bottle	
+>gossip_stat	creativity		weirdpet_gossip_stat_4		ouija board	
+>gossip_quality_question			weirdpet_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			weirdpet_gossip_quality_verynegative		giant mosquito	
+>gossip_quality_negative			weirdpet_gossip_quality_negative		featherless chicken	
+>gossip_quality_positive			weirdpet_gossip_quality_positive		teacup unicorn	
+>gossip_quality_verypositive			weirdpet_gossip_quality_verypositive		clone of Dwayne "The Rock" Johnson	
+>gossip_custom_question			weirdpet_gossip_custom_question		Type in a good name for a circus clown.	
+>gossip_custom_answer			weirdpet_gossip_custom_answer_1		Bing Bong	
+>gossip_custom_answer			weirdpet_gossip_custom_answer_2		Giggles	
+>gossip_custom_answer			weirdpet_gossip_custom_answer_3		Squeaky	
+>gossip_custom_answer			weirdpet_gossip_custom_answer_4		Funky Eddy	
+>layout	none					
+	narrator		weirdpet_PRE_1		Your rumor finishes circling the campfire faster than a rabbit achieving orgasm. And here it is...	
+>layout	solo	gdeer				
+	gdeer	gossip	weirdpet_PRE_2		Hey, did you hear the news about %GOSSIP_PLAYER% yet? If not, allow me to enlighten you:	
+	gdeer	surprised	weirdpet_PRE_3		I heard that %GOSSIP_PLAYER_HESHE% used to keep a pet %GOSSIP_QUALITY_WORD% in %GOSSIP_PLAYER_HISHER% bedroom!	
+	gdeer	thinking	weirdpet_PRE_4		%GOSSIP_PLAYER% allegedly won %GOSSIP_PLAYER_HISHER% pet during a high-stakes game of %GOSSIP_STAT_WORD%.	
+	gdeer	default	weirdpet_PRE_5		%GOSSIP_PLAYER% named %GOSSIP_PLAYER_HISHER% new pet %GOSSIP_CUSTOM%, and they went on lots of wacky adventures together!	
+	gdeer	disgust	weirdpet_PRE_6		Unfortunately, %GOSSIP_PLAYER%'s parents didn't approve of %GOSSIP_PLAYER_HIMHER% having a pet, and when they found out about %GOSSIP_CUSTOM% the %GOSSIP_QUALITY_WORD%, they forced %GOSSIP_PLAYER_HIMHER% to get rid of it.	
+	gdeer	surprised	weirdpet_PRE_7		So %GOSSIP_PLAYER% had to sneak %GOSSIP_CUSTOM% onto the camp bus and release it into the woods!	
+	gdeer	thinking	weirdpet_PRE_8		People are saying that %GOSSIP_CUSTOM% the %GOSSIP_QUALITY_WORD% is still out there, wandering aimlessly around the woods, searching for its owner...	
+	gdeer	gossip	weirdpet_PRE_9		So remember that the next time you're out hiking with %GOSSIP_PLAYER% -- you may end up getting tackled by %GOSSIPQUALITY_A_AN% %GOSSIPQUALITY_VICIOUS_ADORABLE% little critter!	
+	narrator		weirdpet_PRE_10		Thanks to your %GOSSIPQUALITY_DAMNING_AMAZING% rumor, %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%!	
+						
+>>>	unusualinjury					
+>location	any					
+>gossip_player_question			unusualinjury_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			unusualinjury_gossip_stat_question		Choose one!	
+>gossip_stat	creativity		unusualinjury_gossip_stat_1		headbanging to ABBA	
+>gossip_stat	boldness		unusualinjury_gossip_stat_2		backflipping off the Eiffel tower	
+>gossip_stat	fun		unusualinjury_gossip_stat_3		chugging an entire blue slushie	
+>gossip_stat	charm		unusualinjury_gossip_stat_4		doing intense pelvic yoga	
+>gossip_quality_question			unusualinjury_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			unusualinjury_gossip_quality_verynegative		laxative quality assurance tester	
+>gossip_quality_negative			unusualinjury_gossip_quality_negative		city bus chair	
+>gossip_quality_positive			unusualinjury_gossip_quality_positive		emoji data analyst	
+>gossip_quality_verypositive			unusualinjury_gossip_quality_verypositive		president of the Atlantic ocean	
+>gossip_custom_question			unusualinjury_gossip_custom_question		Type in an emotion.	
+>gossip_custom_answer			unusualinjury_gossip_custom_answer_1		glee	
+>gossip_custom_answer			unusualinjury_gossip_custom_answer_2		sexual frustration	
+>gossip_custom_answer			unusualinjury_gossip_custom_answer_3		ennui	
+>gossip_custom_answer			unusualinjury_gossip_custom_answer_4		anticipation	
+>layout	none					
+	narrator		unusualinjury_PRE_1		If there's one thing horny young adult monsters like, it's gossip! (Well, they like sex more, but gossip is cool too.)	
+>layout	solo	geyes				
+	geyes	gossip	unusualinjury_PRE_2		Hey. Did you hear about %GOSSIP_PLAYER% yet? Well buckle up, 'cause this gets weird...	
+	geyes	thinking	unusualinjury_PRE_3		According to, well, basically everybody, %GOSSIP_PLAYER% injured %GOSSIP_PLAYER_HISHER% %GOSSIP_CUSTOM% gland really severely last year!	
+	geyes	surprised	unusualinjury_PRE_4		It happened while %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% %GOSSIP_STAT_WORD%. The injuries were so bad, they had to helicopter %GOSSIP_PLAYER_HIMHER% to the hospital immediately!	
+	geyes	blush	unusualinjury_PRE_5		%GOSSIPQUALITY_UNFORTUNATELY_FORTUNATELY%, the surgeons were %GOSSIPQUALITY_UNABLE_ABLE% to save %GOSSIP_PLAYER%'s %GOSSIP_CUSTOM% gland, and %GOSSIP_PLAYER_HESHE% %GOSSIPQUALITY_DIDN'T_DID% retain full function.	
+	geyes	disgust	unusualinjury_PRE_6		But that kind of surgery ain't cheap, and %GOSSIP_PLAYER%'s insurance didn't cover everything...	
+	geyes	surprised	unusualinjury_PRE_7		So %GOSSIP_PLAYER_HESHE% had to get a job as a part-time %GOSSIP_QUALITY_WORD% to pay the rest of the hospital bills!	
+	geyes	default	unusualinjury_PRE_8		Pretty crazy that %GOSSIP_PLAYER%'s walking around with a totally artificial %GOSSIP_CUSTOM% gland! Bet it really makes you see %GOSSIP_PLAYER_HIMHER% in a whole new light, huh?	
+	narrator		unusualinjury_PRE_9		Yes! In fact, it makes everyone see %GOSSIP_PLAYER% in a new light! %GOSSIP_PLAYER%'s new reputation %GOSSIPQUALITY_COSTS_EARNS% %GOSSIP_PLAYER_HIMHER% %GOSSIP_FINALSTATCHANGES%.	
+						
+						
+>>>	beautypageant					
+>location	any					
+>gossip_player_question			beautypageant_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			beautypageant_gossip_stat_question		Choose one!	
+>gossip_stat	charm		beautypageant_gossip_stat_1		orchestrating a coup against a corrupt kingo	
+>gossip_stat	fun		beautypageant_gossip_stat_2		playing "Beethoven's 5th Symphony" on kazoo	
+>gossip_stat	boldness		beautypageant_gossip_stat_3		skateboarding down a sleeping dragon's back	
+>gossip_stat	smarts		beautypageant_gossip_stat_4		solving Goldbach’s Conjecture with an abacus	
+>gossip_quality_question			beautypageant_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			beautypageant_gossip_quality_verynegative		mosquito tuxedo	
+>gossip_quality_negative			beautypageant_gossip_quality_negative		greasy McDonald's bag	
+>gossip_quality_positive			beautypageant_gossip_quality_positive		cowboy astronaut suit	
+>gossip_quality_verypositive			beautypageant_gossip_quality_verypositive		strapless, backless, frontless dress	
+>gossip_custom_question			beautypageant_gossip_custom_question		Type in something that a twelve year old might want for their birthday. Make it plural.	
+>gossip_custom_answer			beautypageant_gossip_custom_answer_1		V-bucks	
+>gossip_custom_answer			beautypageant_gossip_custom_answer_2		trampolines	
+>gossip_custom_answer			beautypageant_gossip_custom_answer_3		lip glosses	
+>gossip_custom_answer			beautypageant_gossip_custom_answer_4		go-karts	
+>layout	none					
+	narrator		beautypageant_PRE_1		Your friends circulate the gossip quickly, and within minutes, someone approaches you...	
+>layout	solo	gchupacabra				
+	gchupacabra	default	beautypageant_PRE_2		Hey! Have you heard about the time %GOSSIP_PLAYER% competed in a beauty pageant last year?	
+	gchupacabra	blush	beautypageant_PRE_3		The competition was insane! %GOSSIP_PLAYER% wore %GOSSIP_PLAYER_HISHER% sexiest outfit: a %GOSSIP_QUALITY_WORD%. The judges were totally %GOSSIPQUALITY_DISGUSTED_IMPRESSED%!	
+	gchupacabra	surprised	beautypageant_PRE_4		%GOSSIP_PLAYER% advanced to the talent show next, where %GOSSIP_PLAYER_HESHE% showed off %GOSSIP_PLAYER_HISHER% skills by %GOSSIP_STAT_WORD%... BACKWARDS. The crowd went nuts!	
+	gchupacabra	thinking	beautypageant_PRE_5		Then, in the final round, the judges asked every contestant the same question: "If you became president, what would you give all citizens to end income inequality?"	
+	gchupacabra	disgust	beautypageant_PRE_6		Some contestants promised money; others said they'd give away houses or vacations. But for some reason, %GOSSIP_PLAYER% answered, "A lifetime supply of %GOSSIP_CUSTOM%."	
+	gchupacabra	gossip	beautypageant_PRE_7		The judges %GOSSIPQUALITY_HATED_LOVED% that answer, and %GOSSIP_PLAYER% took %GOSSIPQUALITY_FIRST_LAST% place in the pageant!	
+	gchupacabra	default	beautypageant_PRE_8		I'd bear that in mind if I were you! Because as we all know, a beauty pageant is the truest judge of a person's character.	
+	narrator		beautypageant_PRE_9		%GOSSIP_PLAYER%'s reputation will never be the same... that rumor %GOSSIPQUALITY_COSTS_EARNS% %GOSSIP_PLAYER_HIMHER% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	witnessprotectionprogram					
+>location	any					
+>gossip_player_question			witnessprotectionprogram_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			witnessprotectionprogram_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		witnessprotectionprogram_gossip_stat_1		pissing in a crocodile's mouth	
+>gossip_stat	fun		witnessprotectionprogram_gossip_stat_2		counterfeiting Monopoly money	
+>gossip_stat	charm		witnessprotectionprogram_gossip_stat_3		selling fake penis reduction pills	
+>gossip_stat	creativity		witnessprotectionprogram_gossip_stat_4		impersonating Archduke Franz Ferdinand	
+>gossip_quality_question			witnessprotectionprogram_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			witnessprotectionprogram_gossip_quality_verynegative		week-old skunk corpses	
+>gossip_quality_negative			witnessprotectionprogram_gossip_quality_negative		horses that crave human flesh	
+>gossip_quality_positive			witnessprotectionprogram_gossip_quality_positive		ravens who fuck	
+>gossip_quality_verypositive			witnessprotectionprogram_gossip_quality_verypositive		dolphins that bleed chocolate	
+>gossip_custom_question			witnessprotectionprogram_gossip_custom_question		Type in the silliest name you can imagine.	
+>gossip_custom_answer			witnessprotectionprogram_gossip_custom_answer_1		Hildegarde Higgenbottom	
+>gossip_custom_answer			witnessprotectionprogram_gossip_custom_answer_2		Princess Consuela Bananahammock	
+>gossip_custom_answer			witnessprotectionprogram_gossip_custom_answer_3		Freddy Farkle	
+>gossip_custom_answer			witnessprotectionprogram_gossip_custom_answer_4		Goobert	
+>layout	none					
+	narrator		witnessprotectionprogram_PRE_1		Today's rumor is an exercise in "How Much Bullshit Will People Believe?" Looks like the results are in!	
+>layout	solo	gdeer				
+	gdeer	gossip	witnessprotectionprogram_PRE_2		Hey, I probably shouldn't be telling you this, but I just heard the JUICIEST rumor about %GOSSIP_PLAYER% and I have to spill!	
+	gdeer	thinking	witnessprotectionprogram_PRE_3		Have you ever wondered why %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% so weird? And what kind of name is %GOSSIP_PLAYER%, anyway? It sounds fake, right? Like something off a character selection screen...	
+	gdeer	surprised	witnessprotectionprogram_PRE_4		Well, I heard that the reason behind that is because %GOSSIP_PLAYER%'s real name is actually %GOSSIP_CUSTOM%, but %GOSSIP_PLAYER_HESHE% had to change it when %GOSSIP_PLAYER_HESHE% joined the witness protection program!	
+	gdeer	disgust	witnessprotectionprogram_PRE_5		Apparently, a few years back, %GOSSIP_PLAYER% -- I mean %GOSSIP_CUSTOM% -- witnessed a man %GOSSIP_STAT_WORD% in Walmart, and %GOSSIP_PLAYER_HESHE% testified against him in court!	
+	gdeer	thinking	witnessprotectionprogram_PRE_6		The criminal was found guilty, and he was NOT happy, so %GOSSIP_CUSTOM% had to leave behind %GOSSIP_PLAYER_HISHER% old life and assume a new identity for %GOSSIP_PLAYER_HISHER% own safety!	
+	gdeer	blush	witnessprotectionprogram_PRE_7		As it turns out, %GOSSIP_CUSTOM% has had several identities over the years: an Uber driver; Kermit the Frog's personal assistant; the champion of the competitive %GOSSIP_STAT_WORD% scene, ironically...	
+	gdeer	surprised	witnessprotectionprogram_PRE_8		The craziest identity I've heard about is that %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% a Russian geneticist, conducting experiments to cross-breed dogs with %GOSSIP_QUALITY_WORD%! Isn't that %GOSSIPQUALITY_SICK_AWESOME%?	
+	gdeer	gossip	witnessprotectionprogram_PRE_9		For the time being, %GOSSIP_CUSTOM% is posing as %GOSSIP_PLAYER%, just a regular a summer camper, but now you and I know the truth! Don't tell anyone I told you, okay?	
+	gdeer	thinking	witnessprotectionprogram_PRE_10		The whole thing makes you think twice about going to Walmart... and it REALLY makes you think twice about what sort of person %GOSSIP_PLAYER% really is!	
+	narrator		witnessprotectionprogram_PRE_11		You know exactly what kind of person %GOSSIP_PLAYER% is! %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% a person with %GOSSIP_FINALSTATCHANGES%.	
+						
+						
+>>>	strangereligion					
+>location	any					
+>gossip_player_question			strangereligion_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			strangereligion_gossip_stat_question		Choose one!	
+>gossip_stat	fun		strangereligion_gossip_stat_1		alligator in clown makeup	
+>gossip_stat	charm		strangereligion_gossip_stat_2		overly aggressive flyer distributor	
+>gossip_stat	smarts		strangereligion_gossip_stat_3		intellectual who watches Rick and Morty	
+>gossip_stat	creativity		strangereligion_gossip_stat_4		essential oil pyramid scheme	
+>gossip_quality_question			strangereligion_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			strangereligion_gossip_quality_verynegative		The Sentient Fart Cloud	
+>gossip_quality_negative			strangereligion_gossip_quality_negative		Off-Brand Soda	
+>gossip_quality_positive			strangereligion_gossip_quality_positive		Big Chungus	
+>gossip_quality_verypositive			strangereligion_gossip_quality_verypositive		Bob Ross	
+>gossip_custom_question			strangereligion_gossip_custom_question		Type in an adjective you'd use to describe a hamburger.	
+>gossip_custom_answer			strangereligion_gossip_custom_answer_1		greasy	
+>gossip_custom_answer			strangereligion_gossip_custom_answer_2		delicious	
+>gossip_custom_answer			strangereligion_gossip_custom_answer_3		American	
+>gossip_custom_answer			strangereligion_gossip_custom_answer_4		high-calorie	
+>layout	none					
+	narrator		strangereligion_PRE_1		Was that even a rumor? It just sounded like... word vomit. Luckily, your dumb friends will turn that senseless jabber into gossip in no time!	
+>layout	solo	geyes				
+	geyes	surprised	strangereligion_PRE_2		Hey, listen up. I just heard something wild about %GOSSIP_PLAYER%.	
+	geyes	thinking	strangereligion_PRE_3		While %GOSSIP_PLAYER% may seem normal -- or whatever passes for normal around here -- %GOSSIP_PLAYER_HESHE% apparently %VERB_WORSHIPS_WORSHIP% a very strange religion!	
+	geyes	gossip	strangereligion_PRE_4		%GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% actually a priest in the Church of %GOSSIP_QUALITY_WORD%. Members believe that %GOSSIP_QUALITY_WORD% is a major deity, and its worshippers will be granted eternal %GOSSIPQUALITY_VIRGINITY_ECSTASY%!	
+	geyes	surprised	strangereligion_PRE_5		According to the Church of %GOSSIP_QUALITY_WORD%'s scripture, %GOSSIP_QUALITY_WORD% earned deity status in 300 B.C. by saving the townspeople of what is now Los Angeles from an %GOSSIP_STAT_WORD%!	
+	geyes	disgust	strangereligion_PRE_6		I heard that %GOSSIP_PLAYER%'s "priest name" in the Church is "%GOSSIP_PLAYER_HISHER% %GOSSIP_CUSTOM%ness, %GOSSIP_PLAYER%," and their rituals are a little... bizarre.	
+	geyes	blush	strangereligion_PRE_7		They speak with their %GOSSIPQUALITY_RECTUMS_THIRD[sp]EYES% when they give sermons, all of their hymns are played on a %GOSSIPQUALITY_BOP[sp]IT_OTAMATONE%, new members have to wax their %GOSSIPQUALITY_PUBES_NOSTRILS% to join...	
+	geyes	default	strangereligion_PRE_8		I'm not here to shame anybody for their religious beliefs, but I figured you oughta know the truth about %GOSSIP_PLAYER_HISHER% %GOSSIP_CUSTOM%ness, %GOSSIP_PLAYER%. A person's core values are very telling of their character!	
+	narrator		strangereligion_PRE_9		Your rumor has now become part of the collective unconsciousness, and as a result, %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%.	
+						
+						
+>>>	coolaccessory					
+>location	any					
+>gossip_player_question			coolaccessory_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			coolaccessory_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		coolaccessory_gossip_stat_1		parkour	
+>gossip_stat	fun		coolaccessory_gossip_stat_2		surprise limbo	
+>gossip_stat	smarts		coolaccessory_gossip_stat_3		Nickelodeon trivia	
+>gossip_stat	charm		coolaccessory_gossip_stat_4		dick-swinging	
+>gossip_quality_question			coolaccessory_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			coolaccessory_gossip_quality_verynegative		used tampon	
+>gossip_quality_negative			coolaccessory_gossip_quality_negative		lucky skunk tail	
+>gossip_quality_positive			coolaccessory_gossip_quality_positive		everlasting Ring Pop	
+>gossip_quality_verypositive			coolaccessory_gossip_quality_verypositive		sentient Polly Pocket doll	
+>gossip_custom_question			coolaccessory_gossip_custom_question		Type in the name of someone you admire.	
+>gossip_custom_answer			coolaccessory_gossip_custom_answer_1		Steve Jobs	
+>gossip_custom_answer			coolaccessory_gossip_custom_answer_2		your mom	
+>gossip_custom_answer			coolaccessory_gossip_custom_answer_3		Santa Claus	
+>gossip_custom_answer			coolaccessory_gossip_custom_answer_4		The Stay Puft Marshmallow Man	
+>layout	none					
+	narrator		coolaccessory_PRE_1		Your friends are all craving some wild, juicy gossip, and you're here to deliver! Your rumor is spread around camp in record time!	
+>layout	solo	glich				
+	glich	gossip	coolaccessory_PRE_2		Hey! Has anyone told you the latest deets on %GOSSIP_PLAYER% yet?	
+	glich	thinking	coolaccessory_PRE_3		So, you may have noticed how %GOSSIP_PLAYER% is usually walking around with a %GOSSIP_QUALITY_WORD% on a chain tucked into %GOSSIP_PLAYER_HISHER% shirt.	
+	glich	default	coolaccessory_PRE_4		I've always thought it was just a %GOSSIPQUALITY_GROSS_DAZZLING% fashion statement, but apparently there's more to it!	
+	glich	blush	coolaccessory_PRE_5		According to what I've heard, the %GOSSIP_QUALITY_WORD% was actually %GOSSIPQUALITY_STOLEN[sp]FROM_GIFTED[sp]BY% %GOSSIP_PLAYER%'s good friend and mentor, %GOSSIP_CUSTOM%, on their deathbed.	
+	glich	surprised	coolaccessory_PRE_6		The %GOSSIP_QUALITY_WORD% is actually imbued with %GOSSIP_CUSTOM%'s spirit, and it has lots of practical uses!	
+	glich	thinking	coolaccessory_PRE_7		For example, it smells %GOSSIPQUALITY_DISGUSTING_DELICIOUS%, it %GOSSIPQUALITY_SUBTRACTS_ADDS% 1 AC to %GOSSIP_PLAYER%'s natural armor, and it gives %GOSSIP_PLAYER_HIMHER% +4 to %GOSSIP_PLAYER_HISHER% %GOSSIP_STAT_WORD% skills!	
+	glich	gossip	coolaccessory_PRE_8		The %GOSSIP_QUALITY_WORD% is %GOSSIP_PLAYER%'s most prized possession, and I've heard that it stays ON during sex.	
+	glich	disgust	coolaccessory_PRE_9		What do you think about that? I don't think I'm ever going to be able to look at %GOSSIP_PLAYER% the same way ever again...	
+	narrator		coolaccessory_PRE_10		%GOSSIP_PLAYER%'s reputation will never be the same again! %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% about to %GOSSIPQUALITY_LOSE_GAIN% %GOSSIP_FINALSTATCHANGES%.	
+						
+						
+>>>	secretsocietymembership					
+>location	any					
+>gossip_player_question			secretsocietymembership_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			secretsocietymembership_gossip_stat_question		Choose one!	
+>gossip_stat	creativity		secretsocietymembership_gossip_stat_1		Forgetful Psychics	
+>gossip_stat	fun		secretsocietymembership_gossip_stat_2		Irradiated Party Balloons	
+>gossip_stat	smarts		secretsocietymembership_gossip_stat_3		Mathletes Without Borders	
+>gossip_stat	charm		secretsocietymembership_gossip_stat_4		Calvin and the Sluttier Chipmunks	
+>gossip_quality_question			secretsocietymembership_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			secretsocietymembership_gossip_quality_verynegative		living footstool	
+>gossip_quality_negative			secretsocietymembership_gossip_quality_negative		bake sale coordinator	
+>gossip_quality_positive			secretsocietymembership_gossip_quality_positive		pillow princess	
+>gossip_quality_verypositive			secretsocietymembership_gossip_quality_verypositive		robotic recreation of Elon Musk	
+>gossip_custom_question			secretsocietymembership_gossip_custom_question		Type in the second-horniest vegetable.	
+>gossip_custom_answer			secretsocietymembership_gossip_custom_answer_1		tomato	
+>gossip_custom_answer			secretsocietymembership_gossip_custom_answer_2		zucchini	
+>gossip_custom_answer			secretsocietymembership_gossip_custom_answer_3		garlic	
+>gossip_custom_answer			secretsocietymembership_gossip_custom_answer_4		bell pepper	
+>layout	none					
+	narrator		secretsocietymembership_PRE_1		Your friends are all thirsty for your scorching hot goss, and it makes its way rapidly around the campfire...	
+>layout	solo	geyes				
+	geyes	gossip	secretsocietymembership_PRE_2		Hey, I have something to tell you, but if you tell anybody else I'll have to kill you. No pressure!	
+	geyes	surprised	secretsocietymembership_PRE_3		According to what I've heard, %GOSSIP_PLAYER% is actually a part of a secret society that we know nothing about -- until now, that is!	
+	geyes	thinking	secretsocietymembership_PRE_4		%GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% a member of The Order of %GOSSIP_STAT_WORD%. It's basically a shadow government that controls parts of society I've never even heard of!	
+	geyes	default	secretsocietymembership_PRE_5		The Order of %GOSSIP_STAT_WORD% is very good at keeping a low profile, but you may notice that %GOSSIP_PLAYER% occasionally wears a ring in the shape of a %GOSSIP_CUSTOM%. That's their secret symbol.	
+	geyes	gossip	secretsocietymembership_PRE_6		They have a super difficult initiation process, %GOSSIPQUALITY_AND_BUT% %GOSSIP_PLAYER% %GOSSIPQUALITY_BARELY_EASILY% survived all its trials.	
+	geyes	disgust	secretsocietymembership_PRE_7		In order to get in, you have to survive at least TWO Raptures, eat an entire beefy five layer burrito without shitting your pants, and have three formal letters of recommendation!	
+	geyes	blush	secretsocietymembership_PRE_8		%GOSSIP_PLAYER% has been a member of the Order for almost eight years, and %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% %GOSSIPQUALITY_ONLY_ALREADY% a Level 15 %GOSSIP_QUALITY_WORD%!	
+	geyes	surprised	secretsocietymembership_PRE_9		I wonder if %GOSSIP_PLAYER% came to camp to try and recruit new initiates for the Order... I know I'd be %GOSSIPQUALITY_HORRIFIED_HONORED% if I was invited to join! What about you?	
+	narrator		secretsocietymembership_PRE_10		And just like that, %GOSSIP_PLAYER%'s image is permanently %GOSSIPQUALITY_SCARRED_ELEVATED% by %GOSSIP_FINALSTATCHANGES%. 	
+						
+>>>	timetraveler					
+>location	any					
+>gossip_player_question			timetraveler_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			timetraveler_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		timetraveler_gossip_stat_1		the meteor that killed the dinosaurs	
+>gossip_stat	smarts		timetraveler_gossip_stat_2		a man claiming to be Nikola Tesla	
+>gossip_stat	fun		timetraveler_gossip_stat_3		winston Churchill's dog	
+>gossip_stat	creativity		timetraveler_gossip_stat_4		a cockroach on so much LSD	
+>gossip_quality_question			timetraveler_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			timetraveler_gossip_quality_verynegative		1930s Germany	
+>gossip_quality_negative			timetraveler_gossip_quality_negative		the Great Lizard Uprising of 2245	
+>gossip_quality_positive			timetraveler_gossip_quality_positive		Jack Black's presidency	
+>gossip_quality_verypositive			timetraveler_gossip_quality_verypositive		the dimension where "Avatar: The Last Airbender" is real	
+>gossip_custom_question			timetraveler_gossip_custom_question		Type in your favorite band/musician.	
+>gossip_custom_answer			timetraveler_gossip_custom_answer_1		Billie Eilish	
+>gossip_custom_answer			timetraveler_gossip_custom_answer_2		Frank Sinatra	
+>gossip_custom_answer			timetraveler_gossip_custom_answer_3		BLACKPINK	
+>gossip_custom_answer			timetraveler_gossip_custom_answer_4		Metallica	
+>layout	none					
+	narrator		timetraveler_PRE_1		You've spread a particularly saucy rumor today. You can't wait to see how your friends mangle all the details.	
+>layout	solo	gdeer				
+	gdeer	surprised	timetraveler_PRE_2		Holy crap, someone just told me the CRAZIEST thing about %GOSSIP_PLAYER%. You've gotta hear this!	
+	gdeer	gossip	timetraveler_PRE_3		According to what I've heard, %GOSSIP_PLAYER% is actually a time traveler sent from the future!	
+	gdeer	default	timetraveler_PRE_4		%GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WORKS_WORK% for an agency tasked with destroying threats to the time-stream across all eras and dimensions.	
+	gdeer	blush	timetraveler_PRE_5		%GOSSIP_PLAYER%'s been on missions in all sorts of cool time periods! %GOSSIP_PLAYER_HISHER% favorite era is %GOSSIP_QUALITY_WORD%, which is %GOSSIPQUALITY_WEIRD_UNDERSTANDABLE%...	
+	gdeer	gossip	timetraveler_PRE_6		%GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_HAS_HAVE% also collected a ton of cool souvenirs from every time period %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_HAS_HAVE% visited.	
+	gdeer	surprised	timetraveler_PRE_7		...Including %GOSSIPQUALITY_NAPOLEON[sp]BONAPARTE_DAVID[sp]BOWIE%'s favorite teddy bear, a medieval %GOSSIPQUALITY_FORESKIN_STARBUCKS[sp]FRAPPUCCINO% from 18 B.C., and even an autograph from %GOSSIP_CUSTOM%!	
+	gdeer	thinking	timetraveler_PRE_8		I wonder why %GOSSIP_PLAYER% came to our time period! I heard it's to stop %GOSSIP_STAT_WORD% from enslaving the population of Earth, but that's probably just speculation.	
+	gdeer	default	timetraveler_PRE_9		Whatever the reason is, you've gotta admit: learning about all the time periods %GOSSIP_PLAYER%'s visited certainly casts %GOSSIP_PLAYER_HIMHER% in a new light!	
+	narrator		timetraveler_PRE_10		It certainly does! It casts %GOSSIP_PLAYER% in a light where %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_HAS_HAVE% %GOSSIPQUALITY_LOST_GAINED% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	tweet					
+>location	any					
+>gossip_player_question			tweet_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			tweet_gossip_stat_question		Choose one!	
+>gossip_stat	smarts		tweet_gossip_stat_1		basic common sense	
+>gossip_stat	creativity		tweet_gossip_stat_2		cocaine-fueled interpretive dance	
+>gossip_stat	fun		tweet_gossip_stat_3		Big Bird	
+>gossip_stat	boldness		tweet_gossip_stat_4		transylvanian vampire mosquitos	
+>gossip_quality_question			tweet_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			tweet_gossip_quality_verynegative		a flat-Earther	
+>gossip_quality_negative			tweet_gossip_quality_negative		a giant, wriggling maggot	
+>gossip_quality_positive			tweet_gossip_quality_positive		an enchanted frog	
+>gossip_quality_verypositive			tweet_gossip_quality_verypositive		Lord Poseidon	
+>gossip_custom_question			tweet_gossip_custom_question		Fill in the blank: "#So_____!"	
+>gossip_custom_answer			tweet_gossip_custom_answer_1		random	
+>gossip_custom_answer			tweet_gossip_custom_answer_2		slimy	
+>gossip_custom_answer			tweet_gossip_custom_answer_3		cliche	
+>gossip_custom_answer			tweet_gossip_custom_answer_4		bootylicious	
+>layout	none					
+	narrator		tweet_PRE_1		You make the conscious decision to spread lies around camp. Great move, asshole. Anyway, you overhear your rumor being spread:	
+>layout	solo	glich				
+	glich	gossip	tweet_PRE_2		Hey! Did you ever hear about the time %GOSSIP_PLAYER% wrote a tweet that went totally viral?	
+	glich	default	tweet_PRE_3		Apparently back in 2016, %GOSSIP_PLAYER% drank one too many wine coolers and tweeted out: "Sorry, but the concept of %GOSSIP_STAT_WORD% is totally problematic. #So%GOSSIP_CUSTOM%!"	
+	glich	surprised	tweet_PRE_4		The tweet blew up overnight, and nobody could shut up about %GOSSIP_PLAYER%'s hot take. I heard #So%GOSSIP_CUSTOM% even started trending!	
+	glich	disgust	tweet_PRE_5		Of course, such a spicy opinion is going to receive some backlash. Apparently the %GOSSIPQUALITY_PEOPLE[sp]YOU[sp]DON'T[sp]WANNA[sp]PISS[sp]OFF_WEABOO% community was pretty unhappy with what %GOSSIP_PLAYER% had to say...	
+	glich	thinking	tweet_PRE_6		...But then, a viral account run by %GOSSIP_QUALITY_WORD% tweeted: "Yo, @%GOSSIP_PLAYER% is totally in the right. Wanna talk about it more on my podcast? #So%GOSSIP_CUSTOM%"	
+	glich	gossip	tweet_PRE_7		So %GOSSIP_PLAYER% agreed to be on %GOSSIP_QUALITY_WORD%'s podcast, and apparently %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_HAS_HAVE% been %GOSSIPQUALITY_DENYING_PROMOTING% ever since!	
+	glich	blush	tweet_PRE_8		What do you think about that? Maybe we shouldn't %GOSSIPQUALITY_CANCEL_GLORIFY% somebody based on a tweet they wrote so many years ago... but it's still something to think about!	
+	narrator		tweet_PRE_9		Well, viral fame is fleeting, but gossip is forever. %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	namemeaning					
+>location	any					
+>gossip_player_question			namemeaning_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			namemeaning_gossip_stat_question		Choose one!	
+>gossip_stat	creativity		namemeaning_gossip_stat_1		band camp	
+>gossip_stat	charm		namemeaning_gossip_stat_2		my girlfriend's house	
+>gossip_stat	boldness		namemeaning_gossip_stat_3		Alcatraz	
+>gossip_stat	fun		namemeaning_gossip_stat_4		Disneyland	
+>gossip_quality_question			namemeaning_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			namemeaning_gossip_quality_verynegative		evil twin	
+>gossip_quality_negative			namemeaning_gossip_quality_negative		high school bully	
+>gossip_quality_positive			namemeaning_gossip_quality_positive		anime waifu	
+>gossip_quality_verypositive			namemeaning_gossip_quality_verypositive		beloved karate sensei, tragically slain	
+>gossip_custom_question			namemeaning_gossip_custom_question		Type in an inanimate object that %ANYPLAYERNAME% would definitely fuck.	
+>gossip_custom_answer			namemeaning_gossip_custom_answer_1		a balloon filled with pea soup	
+>gossip_custom_answer			namemeaning_gossip_custom_answer_2		the LEGO Death Star	
+>gossip_custom_answer			namemeaning_gossip_custom_answer_3		a hockey stick	
+>gossip_custom_answer			namemeaning_gossip_custom_answer_4		a delicious baked ziti	
+>layout	none					
+	narrator		namemeaning_PRE_1		You whisper your rumor seductively into a willing ear, and within moments, it's circled the campfire and is now being whispered tantalizingly into yours...	
+>layout	solo	gplant				
+	gplant	thinking	namemeaning_PRE_2		Hey, so you know %GOSSIP_PLAYER%, right? I mean, how could anyone forget a weird name like %GOSSIP_PLAYER%...	
+	gplant	gossip	namemeaning_PRE_3		But have you ever wondered what the name %GOSSIP_PLAYER% means? Because there's a rumor going around that explains it, and it's pretty %GOSSIPQUALITY_FUCKED[sp]UP_INTERESTING%!	
+	gplant	surprised	namemeaning_PRE_4		You see, in a forgotten language spoken only by the ancient inhabitants of %GOSSIP_STAT_WORD%, %GOSSIP_PLAYER% actually means "One Who Was A %GOSSIP_CUSTOM% In A Past Life"!	
+	gplant	disgust	namemeaning_PRE_5		Apparently %GOSSIP_PLAYER%'s parents didn't actually know that though. They just named %GOSSIP_PLAYER_HIMHER% after %GOSSIP_PLAYER_HISHER% father's %GOSSIP_QUALITY_WORD%.	
+	gplant	blush	namemeaning_PRE_6		But hey, if you believe in the ancient wisdom of the people of %GOSSIP_STAT_WORD%... maybe %GOSSIP_PLAYER% actually WAS a %GOSSIP_CUSTOM% in a past life.	
+	gplant	default	namemeaning_PRE_7		Wouldn't that be %GOSSIPQUALITY_GROSS_COOL%? Either way, knowing the true meaning of %GOSSIP_PLAYER%'s name gives me an entirely new perspective of %GOSSIP_PLAYER_HIMHER%!	
+	narrator		namemeaning_PRE_8		It sure does! And in this perspective, %GOSSIP_PLAYER% has %GOSSIPQUALITY_LOST_GAINED% %GOSSIP_FINALSTATCHANGES%.	
+						
+						
+>>>	unusualhobby					
+>location	any					
+>gossip_player_question			unusualhobby_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			unusualhobby_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		unusualhobby_gossip_stat_1		semi-automatic machine gun	
+>gossip_stat	smarts		unusualhobby_gossip_stat_2		SAT cheat sheet	
+>gossip_stat	charm		unusualhobby_gossip_stat_3		breast implant	
+>gossip_stat	creativity		unusualhobby_gossip_stat_4		Nintendo DS Lite	
+>gossip_quality_question			unusualhobby_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			unusualhobby_gossip_quality_verynegative		xenophobic manatees	
+>gossip_quality_negative			unusualhobby_gossip_quality_negative		NEETs	
+>gossip_quality_positive			unusualhobby_gossip_quality_positive		underpaid waitresses	
+>gossip_quality_verypositive			unusualhobby_gossip_quality_verypositive		orphaned unicorn foals	
+>gossip_custom_question			unusualhobby_gossip_custom_question		Type in an abstract concept.	
+>gossip_custom_answer			unusualhobby_gossip_custom_answer_1		the collective unconscious	
+>gossip_custom_answer			unusualhobby_gossip_custom_answer_2		nationalism	
+>gossip_custom_answer			unusualhobby_gossip_custom_answer_3		Plato's allegory of the cave	
+>gossip_custom_answer			unusualhobby_gossip_custom_answer_4		good vibes	
+>layout	none					
+	narrator		unusualhobby_PRE_1		Your gossip is like a little seed, and you proudly watch it grow into a mighty oak as your friends pass it around the campfire... is this what having children is like?	
+>layout	solo	geyes				
+	geyes	default	unusualhobby_PRE_2		Hey %CURRENTPLAYERNAME%. So, you got any fun hobbies? Baking? Gaming? Making sentient golems out of clay to do your bidding?	
+	geyes	blush	unusualhobby_PRE_3		...Sorry, just trying to make conversation. And also segue into this totally wild gossip I just heard about %GOSSIP_PLAYER%!	
+	geyes	gossip	unusualhobby_PRE_4		See, %GOSSIP_PLAYER%'s got a particularly weird hobby... %GOSSIP_PLAYER_HESHE% apparently %GOSSIP_PLAYER_VERB_LIKES_LIKE% to knit homemade %GOSSIP_STAT_WORD%s and sell them on Etsy!	
+	geyes	thinking	unusualhobby_PRE_5		%GOSSIP_PLAYER_HISHER% store is called "%GOSSIP_PLAYER%'s Circle of %GOSSIP_CUSTOM%". Interesting name, no? Maybe I'll even order something before camp is over...	
+	geyes	surprised	unusualhobby_PRE_6		But what's even weirder about "%GOSSIP_PLAYER%'s Circle of %GOSSIP_CUSTOM%" is that  %GOSSIP_PLAYER% gives %GOSSIP_QUALITY_WORD% a 75% discount on all purchases!	
+	geyes	disgust	unusualhobby_PRE_7		The explanation on the Etsy store page is that %GOSSIP_PLAYER% "wanted to give back to the community that shaped %GOSSIP_PLAYER_HIMHER% into the %MANWOMAN% %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% today"... whatever that means.	
+	geyes	thinking	unusualhobby_PRE_8		Personally, I think %GOSSIP_PLAYER%'s hobby only makes %GOSSIP_PLAYER_HIMHER% %GOSSIPQUALITY_CREEPIER_SEXIER%... but hey, to each their own! What do you think?	
+	narrator		unusualhobby_PRE_9		This will certainly be a rumor to remember! And everyone will definitely remember that %GOSSIP_PLAYER% %GOSSIPQUALITY_LOST_GAINED% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	trial					
+>location	any					
+>gossip_player_question			trial_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			trial_gossip_stat_question		Choose!	
+>gossip_stat	creativity		trial_gossip_stat_1		music video	
+>gossip_stat	fun		trial_gossip_stat_2		pie fight	
+>gossip_stat	boldness		trial_gossip_stat_3		air strike	
+>gossip_stat	smarts		trial_gossip_stat_4		philosophy lecture	
+>gossip_quality_question			trial_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			trial_gossip_quality_verynegative		nipple fungus	
+>gossip_quality_negative			trial_gossip_quality_negative		sweat-and-cabbage aroma	
+>gossip_quality_positive			trial_gossip_quality_positive		booty	
+>gossip_quality_verypositive			trial_gossip_quality_verypositive		rock hard abs	
+>gossip_custom_question			trial_gossip_custom_question		Type in someone you'd love to have dinner with.	
+>gossip_custom_answer			trial_gossip_custom_answer_1		the Zodiac Killer	
+>gossip_custom_answer			trial_gossip_custom_answer_2		Nicki Minaj	
+>gossip_custom_answer			trial_gossip_custom_answer_3		Mother Theresa	
+>gossip_custom_answer			trial_gossip_custom_answer_4		Vegeta	
+>layout	none					
+	narrator		trial_PRE_1		Not long after that, Moss has completely spread your rumor around camp...	
+>layout	solo	gchupacabra				
+	gchupacabra	default	trial_PRE_2		Hey, so you know %GOSSIP_PLAYER%, right? Listen to this, because you may not know %GOSSIP_PLAYER_HIMHER% as well as you thought…	
+	gchupacabra	gossip	trial_PRE_3		According to what I heard, last year %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% arrested for partaking in an illegal %GOSSIP_STAT_WORD%.	
+	gchupacabra	surprised	trial_PRE_4		The trial was long and tedious, right up until %GOSSIP_PLAYER% (who was defending %GOSSIP_PLAYER_HIMHER%%GOSSIP_PLAYER_VERB_SELF_SELVES%) called %GOSSIP_PLAYER_HISHER% surprise witness, who was none other than... %GOSSIP_CUSTOM%!	
+	gchupacabra	blush	trial_PRE_5		I heard it was a trial to remember!	
+	gchupacabra	disgust	trial_PRE_6		But that's not even the strangest thing: in the end, the judge determined %GOSSIP_PLAYER% was %GOSSIPQUALITY_GUILTY_INNOCENT% solely based on %GOSSIP_PLAYER_HISHER% %GOSSIP_QUALITY_WORD%!	
+	gchupacabra	thinking	trial_PRE_7		Better to keep that in mind next time you talk to %GOSSIP_PLAYER%!	
+	narrator		trial_PRE_8		Thanks to your gossiping skills, %GOSSIP_PLAYER%'s reputation is forever changed, and %GOSSIP_PLAYER_HESHE% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	addiction					
+>location	any					
+>gossip_player_question			addiction_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			addiction_gossip_stat_question		Choose!	
+>gossip_stat	charm		addiction_gossip_stat_1		eggplants	
+>gossip_stat	fun		addiction_gossip_stat_2		drugs	
+>gossip_stat	boldness		addiction_gossip_stat_3		knives	
+>gossip_stat	smarts		addiction_gossip_stat_4		Thundercats figurines	
+>gossip_quality_question			addiction_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			addiction_gossip_quality_verynegative		displaying controversial short-sighted opinions on climate change	
+>gossip_quality_negative			addiction_gossip_quality_negative		thumb-sucking	
+>gossip_quality_positive			addiction_gossip_quality_positive		doing taxes	
+>gossip_quality_verypositive			addiction_gossip_quality_verypositive		singing opera at pitch perfect	
+>gossip_custom_question			addiction_gossip_custom_question		Type in something you can buy in bulk.	
+>gossip_custom_answer			addiction_gossip_custom_answer_1		packing peanuts	
+>gossip_custom_answer			addiction_gossip_custom_answer_2		horse sperm	
+>gossip_custom_answer			addiction_gossip_custom_answer_3		live crickets	
+>gossip_custom_answer			addiction_gossip_custom_answer_4		puffy stickers	
+>layout	none					
+	narrator		addiction_PRE_1		Soon, Moss Mann has spread your gossip to the entire campground.	
+>layout	solo	gplant				
+	gplant	default	addiction_PRE_2		Hey, listen! I just heard the weirdest gossip about %GOSSIP_PLAYER%!	
+	gplant	gossip	addiction_PRE_3		So as you may know by now, %GOSSIP_PLAYER% is super into artisanal %GOSSIP_STAT_WORD%, right? Which is weird enough by itself, but here's where it gets weirder:	
+	gplant	thinking	addiction_PRE_4		When %GOSSIP_PLAYER% was four, %GOSSIP_PLAYER_HISHER% parents noticed that %GOSSIP_PLAYER_HESHE% tended to enjoy %GOSSIP_QUALITY_WORD% way more than most children.	
+	gplant	surprised	addiction_PRE_5		In the most unexpected parenting twist, they decided to %GOSSIPQUALITY_DISCOURAGE_ENCOURAGE% this behavior by %GOSSIPQUALITY_PUNISHING_REWARDING% %GOSSIP_PLAYER% by forcing %GOSSIP_PLAYER_HIMHER% to lick several %GOSSIP_STAT_WORD% for an hour a day!	
+	gplant	disgust	addiction_PRE_6		Now %GOSSIP_PLAYER% is so obsessed with %GOSSIP_STAT_WORD% that %GOSSIP_PLAYER_HESHE% once sold %GOSSIP_PLAYER_HISHER% uncle's entire collection of vintage %GOSSIP_CUSTOM% in exchange for a very rare one!	
+	gplant	thinking	addiction_PRE_7		It really makes you think, huh?	
+	narrator		addiction_PRE_8		It does make you think. It makes you think that %GOSSIP_PLAYER% is gonna %GOSSIPQUALITY_LOSE_GAIN% %GOSSIP_FINALSTATCHANGES% -- and %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_DOES_DO%!	
+						
+>>>	karaokenight					
+>location	any					
+>gossip_player_question			karaokenight_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			karaokenight_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		karaokenight_gossip_stat_1		WITH THEIR EYES CLOSED	
+>gossip_stat	fun		karaokenight_gossip_stat_2		by making lots of fart noises	
+>gossip_stat	creativity		karaokenight_gossip_stat_3		in the original Ancient Greek style	
+>gossip_stat	charm		karaokenight_gossip_stat_4		as a sensual salsa bachata cover	
+>gossip_quality_question			karaokenight_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			karaokenight_gossip_quality_verynegative		all your dreams shattering.	
+>gossip_quality_negative			karaokenight_gossip_quality_negative		a giraffe, probably?	
+>gossip_quality_positive			karaokenight_gossip_quality_positive		a (very sexy) lute.	
+>gossip_quality_verypositive			karaokenight_gossip_quality_verypositive		an angel climaxing.	
+>gossip_custom_question			karaokenight_gossip_custom_question		Type in the song that you want played at your funeral.	
+>gossip_custom_answer			karaokenight_gossip_custom_answer_1		the national anthem	
+>gossip_custom_answer			karaokenight_gossip_custom_answer_2		"Rap God"	
+>gossip_custom_answer			karaokenight_gossip_custom_answer_3		"Welcome to the Black Parade"	
+>gossip_custom_answer			karaokenight_gossip_custom_answer_4		"Never Gonna Give You Up"	
+>layout	none					
+	narrator		karaokenight_PRE_1		Luckily your campmates are all a bunch of gossipy dweebs, so it's not long before you hear someone repeating your rumor...	
+>layout	solo	gdeer				
+	gdeer	gossip	karaokenight_PRE_2		Hey, have you heard the gossip about %GOSSIP_PLAYER%? Listen up, 'cause this is juicy...	
+	gdeer	surprised	karaokenight_PRE_3		One night, %GOSSIP_PLAYER% was at a karaoke bar with %GOSSIP_PLAYER_HISHER% friends when %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAS_WERE% challenged to a riff-off!	
+	gdeer	blush	karaokenight_PRE_4		The challenger was good -- TOO good. Their rendition of "Baby Shark" had the audience nearly in tears.	
+	gdeer	gossip	karaokenight_PRE_5		So to really stand out, %GOSSIP_PLAYER_HESHE% decided to do the unexpected.	
+	gdeer	surprised	karaokenight_PRE_6		%GOSSIP_PLAYER_HESHE% sang %GOSSIP_CUSTOM%... but %GOSSIP_STAT_WORD%!	
+	gdeer	gossip	karaokenight_PRE_7		Not only did %GOSSIP_PLAYER% destroy the competition, but a renowned music critic coincidentally happened to be in the crowd!	
+	gdeer	gossip	karaokenight_PRE_8		The performance was so %GOSSIPQUALITY_HORRIBLE_SPECTACULAR% that the critic had to write a review (yes, of a karaoke number). 	
+	gdeer	blush	karaokenight_PRE_9		They described %GOSSIP_PLAYER%'s voice to be like the sound of %GOSSIP_QUALITY_WORD%	
+	gdeer	default	karaokenight_PRE_10		You should remember that next time you see %GOSSIP_PLAYER%. You know what they say: you only see a person's true colors during karaoke night.	
+	narrator		karaokenight_PRE_11		And now that that misinformation is out in the universe, %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	lastfebruary					
+>location	any					
+>gossip_player_question			lastfebruary_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			lastfebruary_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		lastfebruary_gossip_stat_1		a badass imaginary friend turned imaginary frenemy	
+>gossip_stat	creativity		lastfebruary_gossip_stat_2		the basic ideas for a rock opera of epic proportions	
+>gossip_stat	fun		lastfebruary_gossip_stat_3		new, unexpected ways of pleasuring oneself	
+>gossip_stat	charm		lastfebruary_gossip_stat_4		an unexpectedly improved hairstyle	
+>gossip_quality_question			lastfebruary_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			lastfebruary_gossip_quality_verynegative		forgetting how to use stairs	
+>gossip_quality_negative			lastfebruary_gossip_quality_negative		building a basement and forgetting to build the door	
+>gossip_quality_positive			lastfebruary_gossip_quality_positive		following the mysterious precepts of a very wise monk	
+>gossip_quality_verypositive			lastfebruary_gossip_quality_verypositive		avoiding one's many, many suitors	
+>gossip_custom_question			lastfebruary_gossip_custom_question		Type in something you'd learn to do if you had A LOT OF FREE TIME (starting with a verb ending in -ing)	
+>gossip_custom_answer			lastfebruary_gossip_custom_answer_1		speaking a new language	
+>gossip_custom_answer			lastfebruary_gossip_custom_answer_2		playing the bagpipes	
+>gossip_custom_answer			lastfebruary_gossip_custom_answer_3		proving string theory	
+>gossip_custom_answer			lastfebruary_gossip_custom_answer_4		fingerpainting	
+>layout	none					
+	narrator		lastfebruary_PRE_1		You spread your rumor like butter spreads on toast, and its warm, delicious goodness is eventually spread back to you:	
+>layout	solo	gchupacabra				
+	gchupacabra	surprised	lastfebruary_PRE_2		Hey! Do you remember when %GOSSIP_PLAYER% disappeared for, like, the ENTIRE month of February and no one knew why?	
+	gchupacabra	gossip	lastfebruary_PRE_3		I've been told the whole story! Come closer and I'll tell you all about it...	
+	gchupacabra	thinking	lastfebruary_PRE_4		OK, this may sound weird, but %GOSSIP_PLAYER% spent all of February %GOSSIPQUALITY_TRAPPED_HIDING% in %GOSSIP_PLAYER_HISHER% basement. And you might ask: how did that happen?	
+	gchupacabra	gossip	lastfebruary_PRE_5		Well, apparently there was one big reason for %GOSSIP_PLAYER%: %GOSSIP_QUALITY_WORD%.	
+	gchupacabra	surprised	lastfebruary_PRE_6		During that whole month, and until %GOSSIP_PLAYER_HESHE% finally got out, %GOSSIP_PLAYER% avoided going insane by %GOSSIP_CUSTOM%.	
+	gchupacabra	surprised	lastfebruary_PRE_7		And what's more: %GOSSIP_PLAYER_HESHE% didn't came out with %GOSSIP_PLAYER_HISHER% hands empty. %GOSSIP_PLAYER_HESHE% got %GOSSIP_STAT_WORD% from that whole experience!	
+	gchupacabra	surprised	lastfebruary_PRE_8		Wait until I tell everyone!	
+	narrator		lastfebruary_PRE_9		This will changes everyone's opinion of %GOSSIP_PLAYER%, and of spending your free time in your basement too. 	
+	narrator		lastfebruary_PRE_10		From this day forward, %GOSSIP_PLAYER% is %GOSSIP_FINALSTATCHANGES% %GOSSIPQUALITY_LIGHTER_STRONGER%.	
+						
+>>>	tvshow					
+>location	any					
+>gossip_player_question			tvshow_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			tvshow_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		tvshow_gossip_stat_1		really fucked up cosmic horror	
+>gossip_stat	fun		tvshow_gossip_stat_2		wacky game show mechanics	
+>gossip_stat	smarts		tvshow_gossip_stat_3		a crude critique of "Critique of Pure Reason", by E. Kant	
+>gossip_stat	creativity		tvshow_gossip_stat_4		continuous yet tasteful use of the "There is only one bed" trope	
+>gossip_quality_question			tvshow_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			tvshow_gossip_quality_verynegative		producing excessive amounts of CO2, somehow	
+>gossip_quality_negative			tvshow_gossip_quality_negative		showing TOO MUCH TEETH	
+>gossip_quality_positive			tvshow_gossip_quality_positive		making use of emojis too ahead of its time	
+>gossip_quality_verypositive			tvshow_gossip_quality_verypositive		being 2 cool 4 skool	
+>gossip_custom_question			tvshow_gossip_custom_question		Type in something (a noun) that you don't like.	
+>gossip_custom_answer			tvshow_gossip_custom_answer_1		starch	
+>gossip_custom_answer			tvshow_gossip_custom_answer_2		hangover	
+>gossip_custom_answer			tvshow_gossip_custom_answer_3		rough toilet paper	
+>gossip_custom_answer			tvshow_gossip_custom_answer_4		house arrest	
+>layout	none					
+	narrator		tvshow_PRE_1		Your malicious and/or friendly attempt to change someone's reputation is spread to everyone at camp. I hope you're satisfied with yourself!	
+>layout	solo	glich				
+	glich	surprised	tvshow_PRE_2		Hey, guess what I just heard? %GOSSIP_PLAYER% used to be the star of a TV show!	
+	glich	thinking	tvshow_PRE_3		I know, right? I had trouble believing it too, but listen to this...	
+	glich	blush	tvshow_PRE_4		The show was a classic period piece that mixds the romantic misadventures of the West Sussex's upper class with %GOSSIP_STAT_WORD%.	
+	glich	gossip	tvshow_PRE_5		Finding the episodes is super hard now. Apparently, the show got cancelled after only one season.	
+	glich	surprised	tvshow_PRE_6		According to the obscure forums devoted to the show, the reason for the cancellation was "%GOSSIP_QUALITY_WORD%".	
+	glich	gossip	tvshow_PRE_7		And trust me: once you watch the episodes... it kinda makes sense. And it's mostly thanks to %GOSSIP_PLAYER%'s character. 	
+	glich	thinking	tvshow_PRE_8		It puts %GOSSIP_PLAYER_HIMHER% under a whole new light.	
+	glich	gossip	tvshow_PRE_9		Don't fret! I'm forwarding you (and everyone else) the links to the old episodes I just found. The world isn't ready for "Love in times of %GOSSIP_CUSTOM%".	
+	narrator		tvshow_PRE_10		Thanks to your rumor, %GOSSIP_PLAYER%'s reputation will change forever, specifically by %GOSSIPQUALITY_LOSING_GAINING% %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	scar					
+>location	any					
+>gossip_player_question			scar_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			scar_gossip_stat_question		Choose one!	
+>gossip_stat	fun		scar_gossip_stat_1		a lot of confetti	
+>gossip_stat	boldness		scar_gossip_stat_2		a bigger knife	
+>gossip_stat	smarts		scar_gossip_stat_3		very witty remarks	
+>gossip_stat	creativity		scar_gossip_stat_4		a thick, old tome of erotic Italian poetry	
+>gossip_quality_question			scar_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			scar_gossip_quality_verynegative		a very outdated meme	
+>gossip_quality_negative			scar_gossip_quality_negative		someone else's mom's face	
+>gossip_quality_positive			scar_gossip_quality_positive		a rebellious middle finger	
+>gossip_quality_verypositive			scar_gossip_quality_verypositive		a skateboarding dog (a clear metaphor of love and death)	
+>gossip_custom_question			scar_gossip_custom_question		Type in a celebrity who peaked in the 90s.	
+>gossip_custom_answer			scar_gossip_custom_answer_1		Leo DiCaprio	
+>gossip_custom_answer			scar_gossip_custom_answer_2		Will Smith	
+>gossip_custom_answer			scar_gossip_custom_answer_3		The Pope	
+>gossip_custom_answer			scar_gossip_custom_answer_4		Chester Cheetah	
+>layout	none					
+	narrator		scar_PRE_1		Your gossip weaves its way through the rumor mill and comes spitting out the other end like so:	
+>layout	solo	gchupacabra				
+	gchupacabra	default	scar_PRE_2		Hey! Has anyone told you the news about %GOSSIP_PLAYER% yet?	
+	gchupacabra	gossip	scar_PRE_3		Well, have you ever wondered why %GOSSIP_PLAYER_HESHE% never %GOSSIP_PLAYER_VERB_TAKES_TAKE% %GOSSIP_PLAYER_HISHER% shirt off?	
+	gchupacabra	surprised	scar_PRE_4		I heard it's because %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_HAS_HAVE% a secret scar on %GOSSIP_PLAYER_HISHER% upper back!	
+	gchupacabra	thinking	scar_PRE_5		Apparently it is BIG, and if you look at it carefully, you can tell that it kinda looks like %GOSSIP_QUALITY_WORD% .	
+	gchupacabra	thinking	scar_PRE_6		Crazy, right? But it's even crazier how %GOSSIP_PLAYER_HESHE% got the scar...	
+	gchupacabra	gossip	scar_PRE_7		%HESHE% %VERB_WAS_WERE% at a café. When  %GOSSIP_PLAYER_HISHER% order was ready, there was an unexpected turn of events...	
+	gchupacabra	surprised	scar_PRE_8		The barista wrote %GOSSIP_PLAYER%'s name so wrong that it actually read %GOSSIP_CUSTOM%. And guess what?! %GOSSIP_CUSTOM% was ALSO at that café! 	
+	gchupacabra	gossip	scar_PRE_9		So, both %GOSSIP_PLAYER% and %GOSSIP_CUSTOM% claimed that beverage, and the only way out of that situation was, of course, through an old-fashioned duel to the death.	
+	gchupacabra	surprised	scar_PRE_10		Not-so-well-known fact: %GOSSIP_CUSTOM% wields the switching blade like an angel, and they inflicted that %GOSSIPQUALITY_FATAL_COOL[sp]ASS% scar. 	
+	gchupacabra	thinking	scar_PRE_11		But you know how they say "never bring a knife to a gun fight"? Well, %GOSSIP_PLAYER% may say "always bring a %GOSSIP_STAT_WORD% to a knife fight", because  %GOSSIP_PLAYER_HESHE% fought back with that! 	
+	gchupacabra	disgust	scar_PRE_12		And %GOSSIP_CUSTOM% totally %GOSSIPQUALITY_KICKED[sp]THEIR[sp]ASS_GOT[sp]THEIR[sp]ASS[sp]HANDED[sp]TO[sp]THEM%!	
+	gchupacabra	blush	scar_PRE_13		I wonder if %GOSSIP_PLAYER% will ever show anyone else %GOSSIP_PLAYER_HISHER% scar... do you think seeing it would change your opinion of %GOSSIP_PLAYER_HIMHER%?	
+	narrator		scar_PRE_14		Well, regardless of how the scar would hypothetically make you feel, %GOSSIP_PLAYER%'s reputation is very non-hypothetically altered by this rumor -- by %GOSSIP_FINALSTATCHANGES%.	
+						
+>>>	morningroutine					
+>location	any					
+>gossip_player_question			morningroutine_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			morningroutine_gossip_stat_question		Choose one!	
+>gossip_stat	boldness		morningroutine_gossip_stat_1		poor Life Choices	
+>gossip_stat	smarts		morningroutine_gossip_stat_2		the souls of the great Presocratic philosophers	
+>gossip_stat	charm		morningroutine_gossip_stat_3		the most exquisite parfume	
+>gossip_stat	creativity		morningroutine_gossip_stat_4		homemade baloney	
+>gossip_quality_question			morningroutine_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			morningroutine_gossip_quality_verynegative		breath that's beyond bad	
+>gossip_quality_negative			morningroutine_gossip_quality_negative		an uncomfortable degree of thirst	
+>gossip_quality_positive			morningroutine_gossip_quality_positive		EXTRA toned glutes	
+>gossip_quality_verypositive			morningroutine_gossip_quality_verypositive		a serious case of the anime eyes	
+>gossip_custom_question			morningroutine_gossip_custom_question		Type in the most uncommon condiment or seasoning you like.	
+>gossip_custom_answer			morningroutine_gossip_custom_answer_1		horseradish	
+>gossip_custom_answer			morningroutine_gossip_custom_answer_2		Marmite	
+>gossip_custom_answer			morningroutine_gossip_custom_answer_3		salty orphan tears	
+>gossip_custom_answer			morningroutine_gossip_custom_answer_4		malt vinegar	
+>layout	none					
+	narrator		morningroutine_PRE_1		You spread your rumor like the predictable, gossipy weeb you are. Your equally predictable, gossipy friends spread the rumor even further...	
+>layout	solo	gdeer				
+	gdeer	gossip	morningroutine_PRE_2		OMG, you're never going to believe what I just heard about %GOSSIP_PLAYER%!	
+	gdeer	thinking	morningroutine_PRE_3		Have you ever noticed how %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_WAKES_WAKE% up super early and %GOSSIP_PLAYER_VERB_DISAPPEARS_DISAPPEAR% for hours before sunrise?	
+	gdeer	surprised	morningroutine_PRE_4		I just was told the reason: apparently %GOSSIP_PLAYER% has a super eccentric morning routine! 	
+	gdeer	surprised	morningroutine_PRE_5		%GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_FOLLOWS_FOLLOW% the weirdest lifestyle blog and %GOSSIP_PLAYER_VERB_STARTS_START% the day strong by eating an entire bowl full of %GOSSIP_STAT_WORD%. 	
+	gdeer	gossip	morningroutine_PRE_6		The side-effect of eating that %GOSSIPQUALITY_NASTY_KICKASS% bowl is %GOSSIP_QUALITY_WORD%. 	
+	gdeer	thinking	morningroutine_PRE_7		But you probably already noticed that as it is quite apparent by interacting with %GOSSIP_PLAYER% during the day.	
+	gdeer	surprised	morningroutine_PRE_8		But you never thought it was due to that unorthodox breakfast, did you? 	
+	gdeer	disgust	morningroutine_PRE_9		And that's not all. To kick off the day, %GOSSIP_PLAYER% styles %GOSSIP_PLAYER_HISHER% hair by using %GOSSIP_CUSTOM% as a holding gel!	
+	gdeer	blush	morningroutine_PRE_10		That's what gives %GOSSIP_PLAYER%'s hair that unique texture that's such a house staple for %GOSSIP_PLAYER_HIMHER%	
+	gdeer	gossip	morningroutine_PRE_11		Learning someone's morning routine really shows you who they truly are, huh?	
+	narrator	default	morningroutine_PRE_12		Yup! And what %GOSSIP_PLAYER% will do tomorrow after waking up is probably %GOSSIPQUALITY_LOSING_GAINING% %GOSSIP_FINALSTATCHANGES%! thanks to your gossip skills!	
+						
+>>>	nickname					
+>location	any					
+>gossip_player_question			nickname_gossip_player_question		Choose a player to strike with your gossip skills!	
+>gossip_stat_question			nickname_gossip_stat_question		Choose one!	
+>gossip_stat	fun		nickname_gossip_stat_1		a whole lot of glitter	
+>gossip_stat	charm		nickname_gossip_stat_2		a romantic Victorian-era wig	
+>gossip_stat	smarts		nickname_gossip_stat_3		a mask of the great philosopher Parmenides	
+>gossip_stat	boldness		nickname_gossip_stat_4		a heavy chain vest	
+>gossip_quality_question			nickname_gossip_quality_question		Choose one!	
+>gossip_quality_verynegative			nickname_gossip_quality_verynegative		singing opera off-key	
+>gossip_quality_negative			nickname_gossip_quality_negative		poorly mimicking the mating pattern of a walrus	
+>gossip_quality_positive			nickname_gossip_quality_positive		making wine through the traditional art of grape-treading	
+>gossip_quality_verypositive			nickname_gossip_quality_verypositive		fixing a thermostat with expertise and bravado	
+>gossip_custom_question			nickname_gossip_custom_question		Type in a condiment.	
+>gossip_custom_answer			nickname_gossip_custom_answer_1		ketchup	
+>gossip_custom_answer			nickname_gossip_custom_answer_2		peanut butter	
+>gossip_custom_answer			nickname_gossip_custom_answer_3		paprika	
+>gossip_custom_answer			nickname_gossip_custom_answer_4		blue cheese	
+>layout	none					
+	narrator		nickname_PRE_1		Your gossip circles the campfire like a bad game of telephone, and the latest version is spat back at you:	
+>layout	solo	gplant				
+	gplant	surprised	nickname_PRE_2		Hey! So you know %GOSSIP_PLAYER%, right? Or %GOSSIPQUALITY_DUMB_SEXY% %GOSSIP_CUSTOM%, as %GOSSIP_PLAYER_HESHE% %GOSSIP_PLAYER_VERB_IS_ARE% also commonly known...	
+	gplant	gossip	nickname_PRE_3		But have you ever wondered how %GOSSIP_PLAYER_HESHE% got that nickname? I was recently told myself...	
+	gplant	gossip	nickname_PRE_4		A few years ago, %GOSSIP_PLAYER% was dating this hot manticore. They were both super into each other, and %GOSSIP_PLAYER% spent all day sexting them. The usual stuff.	
+	gplant	thinking	nickname_PRE_5		But alas, tragedy was bound to happen, since the manticore's very alternative parents decided to name them "Everyone", and the day came when %GOSSIP_PLAYER%, drunk as fuck, mistakenly sent  %GOSSIP_PLAYER_HISHER% last sext to "everyone". 	
+	gplant	gossip	nickname_PRE_6		It was a picture of %GOSSIP_PLAYER_HIMHER% %GOSSIP_QUALITY_WORD% while wearing only %GOSSIP_STAT_WORD% and %HISHER% underwear.	
+	gplant	blush	nickname_PRE_7		The message accompanying the pic? "Can't wait to spice up your hot plate of lasagna with my %GOSSIP_CUSTOM%."	
+	gplant	default	nickname_PRE_8		And with that error, %GOSSIP_PLAYER_HISHER% fate was sealed: %GOSSIP_PLAYER% would be no more! Only %GOSSIPQUALITY_DUMB_SEXY% %GOSSIP_CUSTOM%. 	
+	gplant	default	nickname_PRE_9		For once, people respected other people's privacy: no one forwarded that message, and the accident is today long-forgotten. But the nickname remains.	
+	gplant	thinking	nickname_PRE_10		Today, this piece of ancient gossip history resurfaces! And with it, may our opinion of  %GOSSIP_PLAYER% shift forever! 	
+	gplant	gossip	nickname_PRE_11		Anyway... I've gotta go tell someone. And by someone, I mean everyone. And by everyone, I do NOT meant Everyone, %GOSSIP_PLAYER%'s old flame. Hehe.	
+	narrator		nickname_PRE_12		As a result of your rumor, %GOSSIPQUALITY_DUMB_SEXY% %GOSSIP_CUSTOM% -- I mean, %GOSSIP_PLAYER% %GOSSIPQUALITY_LOSES_GAINS% %GOSSIP_FINALSTATCHANGES%.	

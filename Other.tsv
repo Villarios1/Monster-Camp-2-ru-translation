@@ -1,0 +1,2220 @@
+Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
+>>>	Epilogue_Intro					
+>location	any					
+						
+	narrator		Epilogue_Intro_PRE_1	Не успели мы оглянуться, как пролетели те недели…	Before we knew it, those weeks were gone...	
+	narrator		Epilogue_Intro_PRE_2	Это длилось будто одно мгновение, и в то же время — целую жизнь.	It felt like a hot minute, and it felt like an entire lifetime. 	
+	narrator		Epilogue_Intro_PRE_3	В ту ночь, провожая уходящее лето, мы все гадали, что ждет нас дальше... казалось, будто подходит к концу что-то грандиозное.	That night, as we saw summer coming to an end, we all wondered what would come next for us... it felt like the end of something big.	
+	narrator		Epilogue_Intro_PRE_4	Тогда мы и не подозревали:  жизнь приготовила для нас еще немало чудес и злоключений.	Little did we know: life still had many wonders and misadventures in store for us. 	
+	narrator		Epilogue_Intro_PRE_5	Теперь я старше и отчетливо вижу, как те годы стали основой мифологии нашей жизни.	Now I'm older, and I can see it -- how those years became the foundation of the mythology of our lives.	
+	narrator		Epilogue_Intro_PRE_6	Разбитые сердца превратились в трагедии, воспеваемые веками; бурные ночи стали эпопеями, что будут храниться в памяти вечно.	Broken hearts turned tragedies sung for centuries; wild nights became epics treasured forever.	
+	narrator		Epilogue_Intro_PRE_7	Каждый поцелуй и каждый взрыв смеха теперь — созвездие, которое мы всегда отыщем, вглядываясь в звездное небо, сколько бы лет ни прошло.	Every kiss and every laugh is now a constellation we'll always find while gazing into the starry night, no matter how many years go by.  	
+>>>	default					
+>location	any					
+>layout	none					
+	narrator		default_PRE_1	Ах... реальность полна возможностей. Каждый наш выбор создает альтернативные вселенные. В этом квантовом супе, который мы называем мультивселенной, существует бесконечное множество событий и исходов... и все же вы каким-то образом их исчерпали. Добро пожаловать в небытие. Заняться здесь, честно говоря, особо нечем.	Ah... reality is full of possibilities. Every choice we make creates alternate universes. There are endless events and outcomes in this quantum soup we call the multiverse... and yet you've somehow exhausted them. Welcome to the the nothingness. Not much to do, really.	
+						
+>>>	drinkstutorial_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkstutorial_skills_PRE_1	А, добро пожаловать, добро пожаловать!	Ah, welcome, welcome!	
+	bartender	roll	drinkstutorial_skills_PRE_2	Ты тут впервые? Не переживай! Сейчас объясню, как тут всё устроено.	You're new here? Don't fret! Let me explain how this works.	
+	bartender	default	drinkstutorial_skills_PRE_3	Правила дикие, но простые: у меня под рукой есть выбор напитков... вот только чужие руки тут так и снуют.	This is wild, yet simple: I have a selection of drinks at hand... yet hands come and go.	
+	bartender	default	drinkstutorial_skills_PRE_4	Времени на раздумья мало, и если ты не выберешь напиток быстро, его может забрать кто-то другой. Тут либо толкаешь ты, либо толкают тебя!	There's little time to think, and if you don't choose a drink quickly, someone else may take it. It's push or get pushed!	
+	bartender	confused	drinkstutorial_skills_PRE_5	А насчёт самих напитков... слушай, выбирай что хочешь, но я не несу ответственности за то, что ты тянешь в рот.	And these drinks... look, choose whatever you want, but I'm not responsible for whatever you put in your mouth.	
+	bartender	default	drinkstutorial_skills_PRE_6	Я ВОЛШЕБНИК-УЧЕНИК. Пробовать мои варева — это что-то среднее между добротой и безрассудством.	I'M A WIZARD IN TRAINING. For you to test my concoctions is somewhere between kind and reckless.	
+	bartender	roll	drinkstutorial_skills_PRE_7	Так что... приготовься и удачи!	So... get ready and good luck!	
+						
+>>>	drinkstutorial_roulette					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkstutorial_roulette_PRE_1	А, добро пожаловать, добро пожаловать!	Ah, welcome, welcome!	
+	bartender	default	drinkstutorial_roulette_PRE_2	Впервые здесь? Не переживай! Сейчас объясню, как тут всё устроено.	You new here? Don't fret! Let me explain how this works.	
+	bartender	default	drinkstutorial_roulette_PRE_3	Я приготовлю для тебя напиток. НАПИТОК ДНЯ!	I will prepare you a drink. THE DRINK OF THE DAY!	
+	bartender	lick	drinkstutorial_roulette_PRE_4	Можешь выпить его...	You may choose to drink that one...	
+	bartender	hello	drinkstutorial_roulette_PRE_5	Но если он тебе не по вкусу, тебе повезло: есть загадочная коробка со вторым вариантом.	But if you're not interested, you're lucky: there's a mystery box with a second option.	
+	bartender	roll	drinkstutorial_roulette_PRE_6	Он может оказаться лучше, может оказаться хуже, но одно известно точно: он будет загадочным.	It could be better, it could be worse, but one thing is for sure: it will be mysterious.	
+	bartender	confused	drinkstutorial_roulette_PRE_7	А насчёт самих напитков... слушай, выбирай что хочешь, но я не несу ответственности за то, что ты тянешь в рот.	And these drinks... look, choose whatever you want, but I'm not responsible for whatever you put in your mouth.	
+	bartender	default	drinkstutorial_roulette_PRE_8	Я ВОЛШЕБНИК-УЧЕНИК. Пробовать мои варева — это что-то среднее между добротой и безрассудством.	I'M A WIZARD IN TRAINING. For you to test my concoctions is somewhere between kind and reckless.	
+	bartender	hello	drinkstutorial_roulette_PRE_9	Так что... приготовься и удачи!	So... get ready and good luck!	
+						
+>>>	drinkstutorial_choice					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkstutorial_choice_PRE_1	А, добро пожаловать, добро пожаловать!	Ah, welcome, welcome!	
+	bartender	default	drinkstutorial_choice_PRE_2	Впервые здесь? Не переживай! Сейчас объясню, как тут всё устроено.	You new here? Don't fret! Let me explain how this works.	
+	bartender	default	drinkstutorial_choice_PRE_3	Все эти напитки бесплатные! Просто хватай любой, какой захочешь. Вот так просто!	All of these drinks are free! Just grab whichever one you want. It's that easy!	
+	bartender	lick	drinkstutorial_choice_PRE_4	Если хочешь открыть больше бесплатных напитков, поговори с парнем, который заведует Мета-магазином.	If you want to unlock more free drinks, talk to the guy who runs the Meta-Shop.	
+	bartender	confused	drinkstutorial_choice_PRE_5	Как работает Мета-магазин, спросишь ты? Ну... это не моего ума дело. Я всего лишь кот в волшебной шляпе.	How does the Meta-Shop work, you ask? Well... that's above my pay grade. I'm just a cat in a wizard hat.	
+	bartender	hello	drinkstutorial_choice_PRE_6	Наслаждайся напитками!	Enjoy the drinks!	
+						
+>>>	drinksintro1_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro1_skills_PRE_1	Выходные настали, а ты знаешь, что это значит: пора навестить старого доброго Хуана!	The weekend is here, and you knows what that means: visiting good ol' Juan!	
+	bartender	hello	drinksintro1_skills_PRE_2	А, добро пожаловать, добро пожаловать!	Ah, welcome, welcome!	
+	bartender	default	drinksintro1_skills_PRE_3	Хочешь немного потолкаться, чтобы ухватить лучшие из доступных напитков?	Ready to wrestle a bit to get ahold on the best drinks available?	
+	bartender	default	drinksintro1_skills_PRE_4	Только не теряй осторожность: один толчок — и ты можешь случайно хлебнуть яду.	Don't get too confident: one push, and you may end up drinking poison.	
+	bartender	default	drinksintro1_skills_PRE_5	НЕ СПРАШИВАЙ, ЗАЧЕМ Я ПОДАЮ ЯД! Я ВОЛШЕБНИК-УЧЕНИК!	DON'T ASK ME WHY I SERVE POISON! I'M A WIZARD IN TRAINING!	
+	bartender	default	drinksintro1_skills_PRE_6	В общем... приготовься!	Anyway... get ready!	
+						
+>>>	drinksintro2_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro2_skills_PRE_1	Наступили выходные, а значит, пора навестить Хуана, маленького волшебного латиноамериканского кота!	Weekend arrives, and so it's time to visit Juan, the Small Magical Latino Cat!	
+	bartender	lick	drinksintro2_skills_PRE_2	Смотрите, кто пришёл!	Look who's here!	
+	bartender	confused	drinksintro2_skills_PRE_3	Честно говоря, я не знаю, кто в здравом уме рискнул бы зайти в мой бар.	Really, I don't know who in their right mind would take such a risk to visit my bar.	
+	bartender	default	drinksintro2_skills_PRE_4	Видимо, жажды в тебе больше, чем здравого смысла!	I guess you have more thirst than common sense!	
+	bartender	hello	drinksintro2_skills_PRE_5	В общем... готовься к вечеринке!	Anyway... get ready to party!	
+						
+>>>	drinksintro3_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro3_skills_PRE_1	Выходные настали, а значит, пора навестить Хуана, маленького волшебного латиноамериканского кота!	Weekend is here, and so you go visit Juan, the Small Magical Latino Cat.	
+	bartender	hello	drinksintro3_skills_PRE_2	Ну-ну-ну...	Well, well, well...	
+	bartender	lick	drinksintro3_skills_PRE_3	Надеюсь, твоя реакция наготове, ведь у меня уже наготове целый набор странных, сомнительных напитков.	I hope you have your reflexes ready, because what I have ready is a selection of weird, questionable drinks.	
+	bartender	default	drinksintro3_skills_PRE_4	Наточи коготки... потому что мы начинаем!	Sharpen your fingers... because here we go!	
+						
+>>>	drinksintro4_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro4_skills_PRE_1	Вопреки здравому смыслу, вы решаете навестить Хуана в эти выходные.	Against your better judgement, you decide to visit Juan that weekend.	
+	bartender	hello	drinksintro4_skills_PRE_2	Как раз вовремя!	Just in time!	
+	bartender	default	drinksintro4_skills_PRE_3	Я только что приготовил кучу напитков.	I just prepared a bunch of drinks.	
+	bartender	confused	drinksintro4_skills_PRE_4	Понятия не имею, какой от них эффект: могут сделать тебя бессмертным, а могут превратить твою кровь в майонез.	I have no idea what they do; they could make you immortal or turn your blood into mayonnaise.	
+	bartender	lick	drinksintro4_skills_PRE_5	Ну ты понимаешь: ВОЛШЕБНИК-УЧЕНИК! ПЕЙ НА СВОЙ СТРАХ И РИСК!	You know, WIZARD IN TRAINING! DRINK AT YOUR OWN RISK!	
+	bartender	default	drinksintro4_skills_PRE_6	Но если ты уже решился — приготовься!	But if you've made up your mind, get ready!	
+						
+>>>	drinksintro5_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro5_skills_PRE_1	В те выходные тебе захотелось напиться в хлам, поэтому ты отправляешься в гости не к кому иному, как к Хуану.	That weekend you feel like getting wasted, so you go visit none other than Juan.	
+	bartender	lick	drinksintro5_skills_PRE_2	¡Hola!	¡Hola!	
+	bartender	confused	drinksintro5_skills_PRE_3	Знаешь, когда я только начал готовить волшебные напитки... я и подумать не мог, что люди реально будут приходить, чтобы... ПИТЬ ИХ?	You know, when I started making magical drinks... I never thought people would actually come to... DRINK THEM?	
+	bartender	default	drinksintro5_skills_PRE_4	Но эй, кто я такой, чтобы судить?	But hey, who am I to judge?	
+	bartender	hello	drinksintro5_skills_PRE_5	Ну что ж, приступим!	So, let's get to it!	
+						
+>>>	drinksintro6_skills					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro6_skills_PRE_1	В те выходные ты заглядываешь к своему старому доброму приятелю Хуану. Уж он-то знает толк в том, как напиться вдрызг!	That weekend you visit your good ol' pal Juan. He knows a thing or two about getting wasted!	
+	bartender	hello	drinksintro6_skills_PRE_2	Bueno, bueno...	Bueno, bueno...	
+	bartender	default	drinksintro6_skills_PRE_3	Смотрите, кто пришёл.	Look who's here.	
+	bartender	roll	drinksintro6_skills_PRE_4	Я как раз тут экспериментировал с этими напитками.	I was just experimenting with these drinks here.	
+	bartender	confused	drinksintro6_skills_PRE_5	Уже собирался их вылить, но чую, что у тебя хватит безбашенности их попробовать, а?	I was about to throw them away, but I have a feeling you're reckless enough to give them a try, right?	
+	bartender	default	drinksintro6_skills_PRE_6	Приготовься!	Get ready!	
+						
+>>>	drinksintro1_roulette					
+>location	any					
+>layout	solo	bartender				
+	narrator		drinksintro1_roulette_PRE_1	Наступили выходные, а значит, пора навестить Хуана, маленького волшебного латиноамериканского кота!	Weekend arrives, and so it's time to visit Juan, the Small Magical Latino Cat.	
+	bartender	lick	drinksintro1_roulette_PRE_2	Смотрите, кто пришёл! Добро пожаловать в мой бар!	Look who's here! Welcome to my bar!	
+	bartender	confused	drinksintro1_roulette_PRE_3	Честно говоря, понятия не имею, кто в здравом уме пошёл бы на такой риск.	Really, I don't know who in their right mind would take such a risk.	
+	bartender	default	drinksintro1_roulette_PRE_4	Видимо, жажда у тебя сильнее здравого смысла!	I guess you have more thirst than common sense!	
+	bartender	hello	drinksintro1_roulette_PRE_5	В общем... зацени этот напиток!	Anyway... check this drink out!	
+						
+>>>	drinksintro2_roulette					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro2_roulette_PRE_1	В те выходные тебе захотелось напиться до беспамятства, поэтому ты отправляешься в гости не к кому иному, как к Хуану.	That weekend you feel like getting wasted, so you go visit none other than Juan.	
+	bartender	lick	drinksintro2_roulette_PRE_2	¡Hola!	¡Hola!	
+	bartender	confused	drinksintro2_roulette_PRE_3	Знаешь, когда я только начал готовить волшебные напитки... я и подумать не мог, что люди реально будут приходить, чтобы... ПИТЬ ИХ?	You know, when I started making magical drinks... I never thought people would actually come to... DRINK THEM?	
+	bartender	lick	drinksintro2_roulette_PRE_4	Но эй, кто я такой, чтобы судить?	But hey, who am I to judge?	
+	bartender	default	drinksintro2_roulette_PRE_5	В общем, взгляни-ка на этот! 	Anyway, take a look at this one!	
+						
+>>>	drinksintro3_roulette					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro3_roulette_PRE_1	В те выходные ты заглядываешь к своему доброму приятелю Хуану. Уж он-то знает толк в том, как напиться вдрызг!	That weekend you visit your good pal Juan. He knows a thing or two about getting wasted!	
+	bartender	hello	drinksintro3_roulette_PRE_2	Bueno, bueno...	Bueno, bueno...	
+	bartender	default	drinksintro3_roulette_PRE_3	Смотрите, кто пришёл.	Look who's here.	
+	bartender	roll	drinksintro3_roulette_PRE_4	Я как раз тут экспериментировал с этими напитками.	I was just experimenting with these drinks here.	
+	bartender	confused	drinksintro3_roulette_PRE_5	Уже собирался их вылить, но чую, что у тебя хватит безбашенности их попробовать, а?	I was about to throw them away, but I have a feeling you're reckless enough to give them a try, right?	
+	bartender	default	drinksintro3_roulette_PRE_6	А как насчет этого?	What about this one?	
+						
+>>>	drinksintro4_roulette					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro4_roulette_PRE_1	Ты всю неделю ждал этого момента: заглянуть к Хуану и как следует выпить!	You were waiting all week to this moment: visiting Juan and getting a good drink!	
+	bartender	hello	drinksintro4_roulette_PRE_2	Ну надо же, кого это кот притащил!	Well, look what the cat dragged in!	
+	bartender	lick	drinksintro4_roulette_PRE_3	У меня тут есть кое-что для тебя. Тебе решать, что пить.	I have some drinks here for you. It's up to you which one to drink.	
+	bartender	default	drinksintro4_roulette_PRE_4	Посмотрим, что у нас за дверью номер один...	Let's see what's behind door number one...	
+						
+>>>	drinksintro1_choice					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro1_choice_PRE_1	Наступили выходные, а денег у тебя — НОЛЬ, так что самое время заглянуть к Хуану за бесплатной выпивкой!	The weekend is here, and you have NO money, which means it's time to hit up Juan for some free booze!	
+	bartender	default	drinksintro1_choice_PRE_2	Привет! С возвращением! Хочешь ещё один напиток на халяву?	Hi there! Welcome back! Do you want another free drink?	
+	bartender	roll	drinksintro1_choice_PRE_3	Ага, я так и думал. Твоё счастье, что я щедрый котик. Бери что хочешь!	Yeah, I thought so. Lucky for you, I'm a generous little kitty. Take what you want!	
+						
+>>>	drinksintro2_choice					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro2_choice_PRE_1	Нет вечеринки круче, чем в лагере «Жуть», ведь вечеринка в лагере «Жуть» не подчиняется законам физики и непрерывности повествования, а потому НЕ КОНЧАЕТСЯ.	Ain't no party like a Camp Spooky party cuz a Camp Spooky party isn't bound by the laws of physics or continuity and therefore DON'T STOP.	
+	narrator		drinksintro2_choice_PRE_2	А еще тут бесплатная выпивка!	Also, the drinks are free!	
+	bartender	default	drinksintro2_choice_PRE_3	С возвращением, друзья! Пришли за очередной порцией бесплатной выпивки? Налетайте!	Welcome back, friends! Here for another free drink? Have at it!	
+						
+>>>	drinksintro3_choice					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	narrator		drinksintro3_choice_PRE_1	Выходные наконец-то настали, а это значит, что пора навестить твоего любимого кошачьего друга, Хуана!	The weekend is finally here, which means it's time to visit your favorite feline friend, Juan!	
+	bartender	default	drinksintro3_choice_PRE_2	Hola, hola, с возвращением! Снова за бесплатной выпивкой?	Hola, hola, welcome back! Here for another free drink?	
+	bartender	lick	drinksintro3_choice_PRE_3	Отрывайся на полную, только не забывай пить эти сомнительные варева с умом!	Go nuts, just remember to drink these dubious conconctions responsibly!	
+						
+>>>	drinksintro4_choice					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinksintro4_choice_PRE_1	Эй, тусовщики!	Hey there, party people.	
+	bartender	lick	drinksintro4_choice_PRE_2	Спорю, вы сюда за бесплатной выпивкой. Ваше счастье, сегодня я щедрый!	I bet you're here for a free drink. Good thing I'm feeling generous tonight!	
+	bartender	default	drinksintro4_choice_PRE_3	Только учтите: я не несу ответственности за то, что с вами потом случится. Налетай!	Just remember, I'm not held responsible for whatever happens to you. Take your pick!	
+						
+>>>	drinksroulettepresentation1					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinksroulettepresentation1_PRE_1	Ну что скажешь? Возьмёшь напиток дня?	What do you say? Will you take the drink of the day?	
+	bartender	hello	drinksroulettepresentation1_PRE_2	Или предпочтёшь... ТАИНСТВЕННУЮ КОРОБКУ???	Or would you prefer... THE MYSTERY BOX???	
+						
+>>>	drinksroulettepresentation2					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinksroulettepresentation2_PRE_1	Понятия не имею, правильный ли это рецепт... хочешь попробовать?	No idea if I got the recipe right... wanna try it?	
+	bartender	hello	drinksroulettepresentation2_PRE_2	Иначе у тебя всегда есть... ТАИНСТВЕННАЯ КОРОБКА!	Otherwise, you always have... THE MYSTERY BOX!	
+						
+>>>	drinksroulettepresentation3					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinksroulettepresentation3_PRE_1	Выглядит аппетитно, правда? Не знаю, стал бы я это пить, но главный вопрос... рискнёшь ли ты?	Quite appealing, right? Dunno if I'd drink that, but the real question is... will you?	
+	bartender	hello	drinksroulettepresentation3_PRE_2	Ещё у меня есть вот эта ТАИНСТВЕННАЯ КОРОБКА — ведь после всего этого уже не угадаешь, на что тебя потянет.	I also have this MYSTERY BOX, because at this point who knows what you'd drink.	
+						
+>>>	drinksroulettechoosebox					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinksroulettechoosebox_PRE_1	ТАИНСТВЕННАЯ КОРОБКА? Какая смелость!	THE MYSTERY BOX? So bold of you!	
+	bartender	roll	drinksroulettechoosebox_PRE_2	Надеюсь, тебе понравится. Товар возврату не подлежит!	Hope you're happy with it. No refunds!	
+						
+>>>	drinksroulettechoosedrink					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinksroulettechoosedrink_PRE_1	Да, не, конечно; я просто проверял твой здравый смысл.	Yeah, no, totally; I was testing your common sense.	
+	bartender	roll	drinksroulettechoosedrink_PRE_2	И проверка пройдена! Твой приз... выбранный тобой напиток.	And you passed! Your prize is... the drink you chose.	
+						
+>>>	drinksoutro1					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinksoutro1_PRE_1	До сих пор не верится, что это реально можно было выпить. Что ж, удачи!	Still hard to believe you drank that. Good luck, I guess!	
+						
+>>>	drinksoutro2					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinksoutro2_PRE_1	Надеюсь, твой желудок это выдержит! Счастливого пути!	Hope you can stomach that! Happy trails!	
+						
+>>>	drinksoutro3					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinksoutro3_PRE_1	На этом моменте я сваливаю, пока тебя не стошнило прямо на меня. ¡Chau!	This is the part where I leave before you puke all over me. ¡Chau!	
+						
+>>>	drinkeffect_dp_love					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside that flask.	
+	bartender	default	drinkeffect_dp_love_PRE_2	На это ушли годы... а ты взял%PRN__а_и% и просто выпил%PRN__а_и% её. Надеюсь, ты хотя бы загадаешь что-то важное. Например, покончить с голодом во всём мире.	It took me years... and you just drank it. I hope you ask for an important wish at least, like ending world hunger.	
+	narrator		drinkeffect_dp_love_PRE_3	Охренеть, да! Ты загадываешь проводить больше времени со своей летней любовью.	Fuck yeah! You wish to spend more time with your summer crush.	
+						
+>>>	drinkeffect_dp_love_damien					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_damien_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside the flask.	
+	bartender	default	drinkeffect_dp_love_damien_PRE_2	У меня ушли на это годы... а ты просто взял%PRN__а_и% и выпил%PRN__а_и% его. Лучше загадывай желание скорее, пока джинн не вышел из тебя со рвотой или мочой.	It took me years... and you just drank it. You'd better make your wish before you puke or pee the genie out of your body.	
+	narrator		drinkeffect_dp_love_damien_PRE_3	В последнее время ты замечаешь, что Дэмиен немного тоскует по дому. Поэтому ты загадываешь, чтобы лагерь "Жуть" стал для него чуточку больше похож на родной дом.	You've seen Damien acting a bit homesick lately. So you wish for Camp Spooky to feel a bit more like his home.	
+						
+>>>	drinkeffect_dp_love_calculester					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_calculester_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside the flask.	
+	bartender	default	drinkeffect_dp_love_calculester_PRE_2	У меня ушли на это годы... а ты просто взял%PRN__а_и% и выпил%PRN__а_и% его. Лучше загадывай желание скорее, пока джинн не вышел из тебя со рвотой или мочой.	It took me years... and you just drank it. You'd better make your wish before you puke or pee the genie out of your body.	
+	narrator		drinkeffect_dp_love_calculester_PRE_3	Ты знаешь, как сильно Калькулестер хочет постичь суть жизни. Ты загадываешь, чтобы он смог поэкспериментировать с жизнью на ещё более глубоком уровне.	You know how much Calculester wants to understand life. You wish for him to be able to experiment with life on an even deeper level.	
+						
+>>>	drinkeffect_dp_love_milo					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_milo_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside the flask.	
+	bartender	default	drinkeffect_dp_love_milo_PRE_2	У меня ушли на это годы... а ты просто взял%PRN__а_и% и выпил%PRN__а_и% его. Лучше загадывай желание скорее, пока джинн не вышел из тебя со рвотой или мочой.	It took me years... and you just drank it. You'd better make your wish before you puke or pee the genie out of your body.	
+	narrator		drinkeffect_dp_love_milo_PRE_3	Майло такие... загадочные. Ты загадываешь провести с ними побольше времени, чтобы лучше их понять.	Milo is so... mysterious. You wish to spend more time with them in order to understand them better.	
+						
+>>>	drinkeffect_dp_love_dahlia					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_dahlia_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside the flask.	
+	bartender	default	drinkeffect_dp_love_dahlia_PRE_2	У меня ушли на это годы... а ты просто взял%PRN__а_и% и выпил%PRN__а_и% его. Лучше загадывай желание скорее, пока джинн не вышел из тебя со рвотой или мочой.	It took me years... and you just drank it. You'd better make your wish before you puke or pee the genie out of your body.	
+	narrator		drinkeffect_dp_love_dahlia_PRE_3	Далия вечно твердит о том, как устроить ЛУЧШЕЕ ЛЕТО В ЖИЗНИ. Ты загадываешь разделить с ней эпичное приключение, которое сделает это лето незабываемым.	Dahlia is always talking about having THE BEST SUMMER EVER. You wish to share an epic adventure with her that makes this summer memorable.	
+						
+>>>	drinkeffect_dp_love_joy					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_joy_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside the flask.	
+	bartender	default	drinkeffect_dp_love_joy_PRE_2	У меня ушли на это годы... а ты просто взял%PRN__а_и% и выпил%PRN__а_и% его. Лучше загадывай желание скорее, пока джинн не вышел из тебя со рвотой или мочой.	It took me years... and you just drank it. You'd better make your wish before you puke or pee the genie out of your body.	
+	narrator		drinkeffect_dp_love_joy_PRE_3	Джой вечно помешана на спасении мира и своём Ковене, и, похоже, она ужасно скучает по своим девчонкам. Ты загадываешь, чтобы Ковен воссоединился.	Joy is always obsessed with saving the world and the Coven, and she seems to really miss her girls. You wish for the Coven to reunite.	
+						
+>>>	drinkeffect_dp_love_aaravi					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_love_aaravi_PRE_1	Мне удалось поймать джинна в эту флягу.	I managed to catch a genie inside the flask.	
+	bartender	default	drinkeffect_dp_love_aaravi_PRE_2	У меня ушли на это годы... а ты просто взял%PRN__а_и% и выпил%PRN__а_и% его. Лучше загадывай желание скорее, пока джинн не вышел из тебя со рвотой или мочой.	It took me years... and you just drank it. You'd better make your wish before you puke or pee the genie out of your body.	
+	narrator		drinkeffect_dp_love_aaravi_PRE_3	Тебе удалось разглядеть, что за фасадом цундэрэ Аарави МЕДЛЕННО, но верно становится лучше. Ты загадываешь, чтобы её личностный рост вышел на новый уровень.	You've seen that behind the tsundere facade, Aaravi is growing SLOWLY into a better person. You wish for her to bring this personal growth to the next level.	
+						
+>>>	drinkeffect_dp_appliance					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_appliance_PRE_1		This answers the eternal question: who blends the blender?	
+	bartender	confused	drinkeffect_dp_appliance_PRE_2		It may also turn some people into appliances because... magic.	
+	bartender	roll	drinkeffect_dp_appliance_PRE_3		Maybe you should've read the manual before drinking it! Too late now, tho!	
+						
+>>>	drinkeffect_dp_batniss					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_dp_batniss_PRE_1		This is... not the kind of cocktail you want to drink.	
+	bartender	default	drinkeffect_dp_batniss_PRE_2		Better keep it in case you need to start a revolution. You never know!	
+						
+>>>	drinkeffect_dp_dmitri					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_dmitri_PRE_1		Ah, the Sacred Blood. Don't ask where I got it.	
+	bartender	roll	drinkeffect_dp_dmitri_PRE_2		One thing is clear: this will attract all vampires EVERYWHERE.	
+	bartender	default	drinkeffect_dp_dmitri_PRE_3		So, cover your neck and get ready for a fun, vampiric adventure.	
+						
+>>>	drinkeffect_dp_hex					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_hex_PRE_1		Ah, you wanna put some curse in your mouth, huh?	
+	bartender	default	drinkeffect_dp_hex_PRE_2		Well... give it some time, and maybe your wishes will come true.	
+						
+>>>	drinkeffect_dp_jerry					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_dp_jerry_PRE_1		The bottle of Doom Perignon?!	
+	bartender	confused	drinkeffect_dp_jerry_PRE_2		DON'T YOU DARE OPEN IT! WHOEVER DRINKS FROM IT WILL BE DOOMED!	
+	narrator		drinkeffect_dp_jerry_PRE_3		You don't. You keep it though... what could go wrong?	
+						
+>>>	drinkeffect_dp_morty					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_dp_morty_PRE_1		Ah, THE BEST!	
+	bartender	lick	drinkeffect_dp_morty_PRE_2		It's actually a bit of a misnomer. It is not the best drink. It's just some minotaur milk with a spell on it.	
+	bartender	default	drinkeffect_dp_morty_PRE_3		It will draw you closer to minotaurs. And it'll give you gas if you're lactose intolerant.	
+						
+>>>	drinkeffect_dp_pizza					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	roll	drinkeffect_dp_pizza_PRE_1		Why can't pizza be a drink?	
+	bartender	default	drinkeffect_dp_pizza_PRE_2		Well, it can!	
+	bartender	hello	drinkeffect_dp_pizza_PRE_3		But beware: once you drink this pizza, you'll want nothing but pizza FOREVER... or at least the next couple days.	
+						
+>>>	drinkeffect_dp_robotgrimdp					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_dp_robotgrimdp_PRE_1		Are you sure you want to drink that?	
+	bartender	confused	drinkeffect_dp_robotgrimdp_PRE_2		I was just trying to distill the essence of the worst timeline, to experiment with it.	
+	bartender	confused	drinkeffect_dp_robotgrimdp_PRE_3		But ofc you see it, and your first thought is to drink it.	
+	bartender	lick	drinkeffect_dp_robotgrimdp_PRE_4		This looks like a "big yikes" coming your way.	
+						
+>>>	drinkeffect_sp_bear					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_sp_bear_PRE_1		That drink turns you into a bear.	
+	bartender	lick	drinkeffect_sp_bear_PRE_2		But I guess by now you've noticed. Good luck with that!	
+						
+>>>	drinkeffect_lc_lovepoints					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_lc_lovepoints_PRE_1		Ah, the Love Potion No. 9.	
+	bartender	default	drinkeffect_lc_lovepoints_PRE_2		The right way to get someone to like you more is by being yourself and finding someone with whom you can match.	
+	bartender	roll	drinkeffect_lc_lovepoints_PRE_3		... But the fast way is by drinking this drink.	
+						
+>>>	drinkeffect_sc_boldness					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sc_boldness_PRE_1		Let's do some Phobia Shots, yeah!	
+	bartender	default	drinkeffect_sc_boldness_PRE_2		You know what they say: if you can't overcome your fears, drink them.	
+	bartender	hello	drinkeffect_sc_boldness_PRE_3		Cheers to you! Doing that is surely BOLD.	
+						
+>>>	drinkeffect_sc_charm					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sc_charm_PRE_1		Ah, the delicious Sangria. A Mediterranean concoction with a lot of heart.	
+	bartender	default	drinkeffect_sc_charm_PRE_2		If my calculations are correct, it should imbue you with the joie de vivre and the CHARM of the Mediterranean people.	
+						
+>>>	drinkeffect_sc_creativity					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_sc_creativity_PRE_1		Imagination Shots!	
+	bartender	hello	drinkeffect_sc_creativity_PRE_2		Drinking this will expand your mind. It's pure CREATIVITY.	
+	bartender	lick	drinkeffect_sc_creativity_PRE_3		The smol unicorn is just decorative. But you can eat it if you feel like it.	
+						
+>>>	drinkeffect_sc_fun					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_sc_fun_PRE_1		Ah, a Sex on the Beach.	
+	bartender	hello	drinkeffect_sc_fun_PRE_2		I brought this drink to the next level, as you can see.	
+	bartender	default	drinkeffect_sc_fun_PRE_3		Give it a try. I assure you it'll be a FUN ride.	
+						
+>>>	drinkeffect_sc_smarts					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sc_smarts_PRE_1		So you want to drink a Maaargherita, huh?	
+	bartender	default	drinkeffect_sc_smarts_PRE_2		To think that by drinking a brain you'll absorb its SMARTS is a bit simplistic.	
+	bartender	roll	drinkeffect_sc_smarts_PRE_3		But hey, it's what actually happens. Occam's Razor at its finest.	
+						
+>>>	drinkeffect_sc_alldownbig					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_sc_alldownbig_PRE_1		... What? That's straight-up Poison. Don't drink it.	
+	bartender	confused	drinkeffect_sc_alldownbig_PRE_2		I said don't drink it!	
+	bartender	confused	drinkeffect_sc_alldownbig_PRE_3		... And you drank it.	
+	bartender	roll	drinkeffect_sc_alldownbig_PRE_4		That'll surely take a toll on your STATS, genius.	
+						
+>>>	drinkeffect_sc_alldownsmall					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_sc_alldownsmall_PRE_1		Don't drink the Toilet Wine!	
+	bartender	roll	drinkeffect_sc_alldownsmall_PRE_2		I just have it here because Polly insisted that I offer it, as a marketing stunt.	
+	bartender	lick	drinkeffect_sc_alldownsmall_PRE_3		That shit cannot do anything good...	
+						
+>>>	drinkeffect_sc_allupbig					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sc_allupbig_PRE_1		I've managed to distill the STATS that make us who we are.	
+	bartender	default	drinkeffect_sc_allupbig_PRE_2		The result is this STAT SMOOTHIE.	
+	bartender	default	drinkeffect_sc_allupbig_PRE_3		It is a huge, delicious boost!	
+						
+>>>	drinkeffect_sc_allupsmall					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sc_allupsmall_PRE_1		I called this one Tequila Moonrise.	
+	bartender	default	drinkeffect_sc_allupsmall_PRE_2		What a powerful, invigorating drink.	
+	bartender	default	drinkeffect_sc_allupsmall_PRE_3		I gave it that name because when you drink it, you can feel all your STATS rising.	
+						
+>>>	drinkeffect_di_absorbstat					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_absorbstat_PRE_1		The Hot Shot!	
+	bartender	hello	drinkeffect_di_absorbstat_PRE_2		I managed to turn a demonic blood pact into a spicy drink!	
+	bartender	default	drinkeffect_di_absorbstat_PRE_3		You drink this one with a friend, OK?	
+	bartender	default	drinkeffect_di_absorbstat_PRE_4		Each one of you absorbs the strongest STAT of the other one.	
+						
+>>>	drinkeffect_di_averageself					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_averageself_PRE_1		Sometimes, you just want to blend in with the masses.	
+	bartender	lick	drinkeffect_di_averageself_PRE_2		Not me, I love to stand out!	
+	bartender	default	drinkeffect_di_averageself_PRE_3		But in any case, for those moments, I created this... The Average.	
+	bartender	roll	drinkeffect_di_averageself_PRE_4		It'll average all your STATS.	
+	bartender	hello	drinkeffect_di_averageself_PRE_5		Maybe one day being average will be being the new cool. Who knows?	
+						
+>>>	drinkeffect_di_averagestatall					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_averagestatall_PRE_1		THE EQUALIZER!	
+	bartender	default	drinkeffect_di_averagestatall_PRE_2		This one is not just a drink, but a whole experience!	
+	bartender	hello	drinkeffect_di_averagestatall_PRE_3		Choose a STAT, okay?	
+	bartender	hello	drinkeffect_di_averagestatall_PRE_4		You and all your friends will drink from it... and it will average that STAT for everyone.	
+	bartender	lick	drinkeffect_di_averagestatall_PRE_5		This will be good for some, bad for others. But sometimes you need to take one for the team, right?	
+						
+>>>	drinkeffect_di_drainaverage					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	lick	drinkeffect_di_drainaverage_PRE_1		A good ol' Moskito.	
+	bartender	default	drinkeffect_di_drainaverage_PRE_2		It's not a drink... just a magic mosquito that will drain your highest STAT.	
+	bartender	default	drinkeffect_di_drainaverage_PRE_3		But when it's finally in your stomach, it'll dissolve and distribute what it absorbed between the rest of your STATS.	
+	bartender	roll	drinkeffect_di_drainaverage_PRE_4		You might feel some tickles in your tummy!	
+						
+>>>	drinkeffect_di_drainfromall					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	lick	drinkeffect_di_drainfromall_PRE_1		AB Blood is not exactly a drink... but an experiment I'm conducting.	
+	bartender	default	drinkeffect_di_drainfromall_PRE_2		I try to take blood from all your friends using magic means. Then I transfuse it to you.	
+	bartender	roll	drinkeffect_di_drainfromall_PRE_3		If the spell works right, you should absorb a bit of EACH STAT from EVERYONE.	
+						
+>>>	drinkeffect_di_everyoneplusone					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_everyoneplusone_PRE_1		The Full Moon is a very powerful beverage.	
+	bartender	hello	drinkeffect_di_everyoneplusone_PRE_2		Not just YOU, but ALL OF YOU need to take sips from it, carefully.	
+	bartender	default	drinkeffect_di_everyoneplusone_PRE_3		It will open your souls to this beautiful full moon we have tonight. And its power will shower ALL YOUR STATS, even if it's JUST A BIT.	
+						
+>>>	drinkeffect_di_exallother					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_exallother_PRE_1		Ah, The Royale!	
+	bartender	hello	drinkeffect_di_exallother_PRE_2		This gives you true royal presence.	
+	bartender	hello	drinkeffect_di_exallother_PRE_3		You'll be so commanding that you could even MAKE TWO PEOPLE EXCHANGE THEIR STATS.	
+						
+>>>	drinkeffect_di_exallplayers					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	roll	drinkeffect_di_exallplayers_PRE_1		This Joe Crow is a legendary piece of magical booze.	
+	bartender	confused	drinkeffect_di_exallplayers_PRE_2		It's a spirit to drink with your friends; but beware, it will rock you to your very core.	
+	bartender	default	drinkeffect_di_exallplayers_PRE_3		When its effect goes away, you'll be so affected that it'll be as if you had changed all your STATS between yourselves.	
+	bartender	lick	drinkeffect_di_exallplayers_PRE_4		It's, to put it lightly, a wild ride.	
+						
+>>>	drinkeffect_di_exallself					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_exallself_PRE_1		The Spell Shake!	
+	bartender	roll	drinkeffect_di_exallself_PRE_2		I just turned a spell of mine into a beverage, because... well, I guess because I was bored.	
+	bartender	hello	drinkeffect_di_exallself_PRE_3		The spell will change ALL YOUR STATS with the stats of A FRIEND OF YOURS.	
+	bartender	default	drinkeffect_di_exallself_PRE_4		I can only imagine its drink version does exactly the same thing, but it also tastes like passionfruit! That's fun, right?	
+						
+>>>	drinkeffect_di_exoneother					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_di_exoneother_PRE_1		Nothing like drinking Spirits. But, like, LITERAL SPIRITS.	
+	bartender	hello	drinkeffect_di_exoneother_PRE_2		Let the spirits inside of you, and then focus on one STAT.	
+	bartender	roll	drinkeffect_di_exoneother_PRE_3		After that, just puke the spirits up onto TWO OF YOUR FRIENDS. They will exchange that STAT.	
+	bartender	confused	drinkeffect_di_exoneother_PRE_4		Magic can be gross sometimes, I guess.	
+						
+>>>	drinkeffect_di_exoneself					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_exoneself_PRE_1		Ah, the Old Chums Champagne! A drink to share with a good friend!	
+	bartender	default	drinkeffect_di_exoneself_PRE_2		Choose a STAT: you and your old chum will SWAP it, learning from each other.	
+	bartender	hello	drinkeffect_di_exoneself_PRE_3		You know: friendship can make you better... or worse.	
+						
+>>>	drinkeffect_di_otherplustwo					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_di_otherplustwo_PRE_1		The Double Gift! That's so generous of you.	
+	bartender	default	drinkeffect_di_otherplustwo_PRE_2		A beverage designed to be gifted. Choose a friend you'd want to grace with my humble concoction.	
+	bartender	default	drinkeffect_di_otherplustwo_PRE_3		This person will be gifted nicely.	
+						
+						
+>>>	drinkeffect_di_swapallself					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_swapallself_PRE_1		A nutritious Protein Shake!	
+	bartender	roll	drinkeffect_di_swapallself_PRE_2		It's just a bunch of magic bugs I was collecting and keeping in that cup. It wasn't supposed to be for someone to drink them.	
+	bartender	confused	drinkeffect_di_swapallself_PRE_3		But here we are. They will probably swarm inside you and CHANGE ALL OF YOUR STATS RANDOMLY.	
+	bartender	lick	drinkeffect_di_swapallself_PRE_4		That's why it's called a shake. Because they shake up your STATS. Not because it is an actual shake, you genius.	
+	bartender	default	drinkeffect_di_swapallself_PRE_5		I thought it was pretty obvious.	
+						
+>>>	drinkeffect_di_swapother					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_di_swapother_PRE_1		You idiot! That's not a drink! It's a Sake Bomb!	
+	bartender	confused	drinkeffect_di_swapother_PRE_2		Throw it before it explodes!	
+	narrator		drinkeffect_di_swapother_PRE_3		You do. But being the good samaritan that you are, you throw it at your friends.	
+	narrator		drinkeffect_di_swapother_PRE_4		The explosion is so big it SWAPS ALL YOUR FRIENDS' STATS RANDOMLY.	
+						
+>>>	drinkeffect_di_swaptwoself					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_di_swaptwoself_PRE_1		The Piña Skullada is a concoction that will shake the inside of your own skull.	
+	bartender	hello	drinkeffect_di_swaptwoself_PRE_2		Choose TWO STATS, and see how the kick of this beauty makes THOSE STATS SWAP.	
+						
+>>>	drinkeffect_mo_discountstats					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_mo_discountstats_PRE_1		Ah, The Bargain.	
+	bartender	default	drinkeffect_mo_discountstats_PRE_2		Thanks to this weird potion I prepared, now you'll receive everything AT A DISCOUNT.	
+	bartender	confused	drinkeffect_mo_discountstats_PRE_3		Not sure if that's a good or a bad thing, really...	
+						
+>>>	drinkeffect_mo_doublestats					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_mo_doublestats_PRE_1		The Cosmopolitan received its name because it disrupts the very core of the cosmos.	
+	bartender	lick	drinkeffect_mo_doublestats_PRE_2		Thanks to it, any STAT EFFECT is now doubled for you... for better or for worse.	
+						
+>>>	drinkeffect_mo_outcomeinverse					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_mo_outcomeinverse_PRE_1		Did you just put my Ectoplasm in a cup and drink it? Are you for real?	
+	bartender	confused	drinkeffect_mo_outcomeinverse_PRE_2		I was analyzing that to understand why some ghosts are so chaotic.	
+	bartender	roll	drinkeffect_mo_outcomeinverse_PRE_3		Who knows how your body will assimilate that degree of chaos? You could very well start getting INVERSE STAT EFFECTS from all the OUTCOMES of your adventures.	
+						
+>>>	drinkeffect_mo_outcomesamestat					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_mo_outcomesamestat_PRE_1		You can't just put a straw in a casket and call it Casket Wine!	
+	bartender	roll	drinkeffect_mo_outcomesamestat_PRE_2		I was studying an ancient curse tied to that casket. And you just drank it.	
+	bartender	confused	drinkeffect_mo_outcomesamestat_PRE_3		According to the experts, the curse "lets you choose a STAT and forces you to only gain and lose that STAT from OUTCOME EFFECTS."	
+	bartender	lick	drinkeffect_mo_outcomesamestat_PRE_4		Good luck with that. I hope you learn not to put a straw in everything and pretend it's a drink, dummy.	
+						
+>>>	drinkeffect_mo_statstoeveryone					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_mo_statstoeveryone_PRE_1		The Community Punch will change your lives forever.	
+	bartender	default	drinkeffect_mo_statstoeveryone_PRE_2		You ALL drink from it, and from now on, any STAT EFFECT will affect EVERYONE.	
+	bartender	lick	drinkeffect_mo_statstoeveryone_PRE_3		It's a community spell that will turn your lives into co-op.	
+	bartender	default	drinkeffect_mo_statstoeveryone_PRE_4		Time for some teamwork!	
+						
+>>>	drinkeffect_lo_allsame					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_lo_allsame_PRE_1		EFFECT lo_allsame	
+	bartender	default				
+	bartender	default				
+						
+>>>	drinkeffect_lo_doublerandom					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_lo_doublerandom_PRE_1		I created this Low Cost Energy Drink.	
+	bartender	hello	drinkeffect_lo_doublerandom_PRE_2		It will make EVERYONE gain TWICE AS MANY STATS in LOCATIONS!	
+	bartender	roll	drinkeffect_lo_doublerandom_PRE_3		Buuuut it's low cost because I haven't perfected it yet, so the STAT you get DOUBLE of will be RANDOM.	
+						
+>>>	drinkeffect_lo_doublespecific					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_lo_doublespecific_PRE_1		You think you can handle a Pair of Beer Boots?	
+	bartender	hello	drinkeffect_lo_doublespecific_PRE_2		Thanks to these babies, a random LOCATION will be chosen, and you can drunk-walk all over it until you become a true expert.	
+	bartender	default	drinkeffect_lo_doublespecific_PRE_3		After that, ANYONE could end up earning TWICE AS MANY STATS from visiting it!	
+						
+>>>	drinkeffect_lo_exp					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_lo_exp_PRE_1		I concocted the Loyalty Lemonade to study different LOCATIONS.	
+	bartender	default	drinkeffect_lo_exp_PRE_2		Its effect rewards loyalty: the more times ANYONE visits a LOCATION in a row, the more STATS they gain from it!	
+						
+>>>	drinkeffect_lo_extrapoint					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_lo_extrapoint_PRE_1		A Manhattan! Yeah, I turned an actual location into a drink.	
+	bartender	roll	drinkeffect_lo_extrapoint_PRE_2		It's so fucking concentrated that EVERYONE has the opportunity to GAIN +1 extra STAT point at EVERY LOCATION.	
+	bartender	hello	drinkeffect_lo_extrapoint_PRE_3		You'll be one with LOCATIONS!	
+						
+>>>	drinkeffect_lo_lose					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_lo_lose_PRE_1		What are you doing? Drinking a Bloody Mary?	
+	bartender	confused	drinkeffect_lo_lose_PRE_2		That's a curse! Who drinks curses?	
+	bartender	roll	drinkeffect_lo_lose_PRE_3		Just because I keep my curses in glasses and cups it doesn't mean you should drink them.	
+	bartender	lick	drinkeffect_lo_lose_PRE_4		When ANYONE visits a LOCATION, they will LOSE STATS. Have fun with that!	
+						
+>>>	drinkeffect_in_all					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_in_all_PRE_1		A Dark 'n' Stormy? Really?	
+	bartender	confused	drinkeffect_in_all_PRE_2		I just managed to capture an actual storm to experiment with it.	
+	bartender	hello	drinkeffect_in_all_PRE_3		I hope you have good memory, since this fucker will take some vision away from you.	
+						
+>>>	drinkeffect_in_self					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_in_self_PRE_1		That Ski Mask was imbued with magic, my friend.	
+	bartender	default	drinkeffect_in_self_PRE_2		It's a magical object to let someone go incognito.	
+	bartender	lick	drinkeffect_in_self_PRE_3		But since you just drank it, I guess your INNER STATS will go INCOGNITO now.	
+						
+>>>	drinkeffect_md_change					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_md_change_PRE_1		EFFECT md_change	
+						
+>>>	drinkeffect_md_newdrinksrandom					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_md_newdrinksrandom_PRE_1		Beware of drinking an Old Old Fashioned!	
+	bartender	confused	drinkeffect_md_newdrinksrandom_PRE_2		Messing with the Old Ones can have serious effects in our reality.	
+	narrator		drinkeffect_md_newdrinksrandom_PRE_3		It actually does; it changes the current timeline into a new one where everything is the same except THE DRINKS YOUR FRIENDS CHOSE.	
+						
+>>>	drinkeffect_md_steal					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_md_steal_PRE_1		EFFECT md_steal	
+						
+>>>	drinkeffect_na_typeothers					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_na_typeothers_PRE_1		My magic ink! Giving it for someone to drink it and calling it "Dr-Ink" was too fun of a joke not to do it.	
+	bartender	lick	drinkeffect_na_typeothers_PRE_2		I am unsure if it's actually edible. But if so, it should let you change EVERYONE ELSE'S NAMES.	
+						
+>>>	drinkeffect_na_others1					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_na_others1_PRE_1		The Foul Mouth is a nasty one.	
+	bartender	hello	drinkeffect_na_others1_PRE_2		It tastes spicy AF; but it also will RENAME your FRIENDS with creative insults.	
+	bartender	lick	drinkeffect_na_others1_PRE_3		This drinks knows nothing about manners.	
+						
+>>>	drinkeffect_na_all					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_na_all_PRE_1		The Cool Dude... I really did it this time with the naming, right?	
+	bartender	hello	drinkeffect_na_all_PRE_2		This drinks makes everything cooler...	
+	bartender	hello	drinkeffect_na_all_PRE_3		... Specifically by RENAMING ALL OF YOU with the coolest nicknames ever.	
+						
+>>>	drinkeffect_na_self1					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_na_self1_PRE_1		... Are you sure about drinking the Dumpster Fire? No one has ever drunk that shit.	
+	narrator		drinkeffect_na_self1_PRE_2		YOU ACTUALLY DO!	
+	narrator		drinkeffect_na_self1_PRE_3		It is so epic that from that day on, everyone knows you as Dumpster Fire.	
+	narrator		drinkeffect_na_self1_PRE_4		You've truly achieved your final form.	
+						
+>>>	drinkeffect_na_self3					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_na_self3_PRE_1		During Spooky High, bees poured OUT of your mouth, remember?	
+	bartender	hello	drinkeffect_na_self3_PRE_2		Well, in Spooky Camp, the bees pour in!	
+	bartender	default	drinkeffect_na_self3_PRE_3		YOU ACTUALLY JUST DRANK A BUNCH OF BEES!	
+	narrator		drinkeffect_na_self3_PRE_4		You sure did! It is so epic that from that day on, everyone knows you as Nicolas Cage.	
+						
+>>>	drinkeffect_na_self2					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_na_self2_PRE_1		The [REDACTED] has some weird, powerful properties that stop anyone from being capable of actually using its real name.	
+	bartender	confused	drinkeffect_na_self2_PRE_2		I think by drinking it, you've absorbed some of its properties!	
+	bartender	default	drinkeffect_na_self2_PRE_3		So I guess you're [REDACTED] from now on. So mysterious!	
+						
+>>>	drinkeffect_sn_dumb					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_sn_dumb_PRE_1		Uh... The Screwdriver.	
+	bartender	confused	drinkeffect_sn_dumb_PRE_2		This one is just... weird.	
+	bartender	roll	drinkeffect_sn_dumb_PRE_3		I think it changes the main STATS that determine who you are as a person.	
+						
+>>>	drinkeffect_sn_resources					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sn_resources_PRE_1		This beverage will make you focus on the really important things in life.	
+	bartender	default	drinkeffect_sn_resources_PRE_2		You can say goodbye to the puny STATS that focused too much on your individual self.	
+	bartender	lick	drinkeffect_sn_resources_PRE_3		Now, you will trade in much more important resources.	
+						
+>>>	drinkeffect_sn_rpg					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	roll	drinkeffect_sn_rpg_PRE_1		I always thought focusing on stuff like FUN or CREATIVITY was a bit frivolous.	
+	bartender	default	drinkeffect_sn_rpg_PRE_2		So I concocted this!	
+	bartender	default	drinkeffect_sn_rpg_PRE_3		It makes you focus on much more important STATS.	
+	bartender	hello	drinkeffect_sn_rpg_PRE_4		You're welcome.	
+						
+>>>	drinkeffect_au_chiptune					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_au_chiptune_PRE_1		Gamer Girl Bath Water. Some people find it cringey; but believe me:	
+	bartender	roll	drinkeffect_au_chiptune_PRE_2		It's less cringey than the alternative, Gamer Girl Birth Water.	
+	bartender	lick	drinkeffect_au_chiptune_PRE_3		This one just infests your head with an inner music that's way more... gamer.	
+						
+>>>	drinkeffect_au_gregorian					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_au_gregorian_PRE_1		Drinking Holy Water brings you closer to the Divine.	
+	bartender	default	drinkeffect_au_gregorian_PRE_2		This will enlighten you greatly, but the downside is that Gregorian chants will now infest your head.	
+	bartender	lick	drinkeffect_au_gregorian_PRE_3		Sorry! No refunds!	
+						
+>>>	drinkeffect_au_lofi					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	lick	drinkeffect_au_lofi_PRE_1		Co Fi Beats To Relax/Study To is a drink I created for when I need to go on long hours studying magic.	
+	bartender	default	drinkeffect_au_lofi_PRE_2		It will surround you with the entrancing embrace of lo-fi.	
+	bartender	hello	drinkeffect_au_lofi_PRE_3		Surrender to the power of lo-fi!	
+						
+>>>	drinkeffect_sp_godmode					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sp_godmode_PRE_1		Oof, The Spook is just too much.	
+	bartender	default	drinkeffect_sp_godmode_PRE_2		It gives you UNLIMITED POWER.	
+	bartender	roll	drinkeffect_sp_godmode_PRE_3		I don't brew too much of this stuff because it tastes like coriander. No one likes coriander.	
+						
+>>>	drinkeffect_sp_nothing					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	hello	drinkeffect_sp_nothing_PRE_1		Behold: a potion that looks like whiskey. Its power is to taste and smell like whiskey. Nothing else.	
+	bartender	roll	drinkeffect_sp_nothing_PRE_2		(I have the suspicion that I just made whiskey.)	
+						
+>>>	drinkeffect_vi_allbrians					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	default	drinkeffect_vi_allbrians_PRE_1		I'm trying to commercialize this new cereal: ALL-BRIANS!	
+	bartender	hello	drinkeffect_vi_allbrians_PRE_2		It turns everyone into... the same chill zombie.	
+	bartender	lick	drinkeffect_vi_allbrians_PRE_3		You may ask, "Why?" Well, I tend to ask: "Why not?"	
+						
+>>>	drinkeffect_vi_paintings					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_vi_paintings_PRE_1		Wanna drink The Classical Palette?	
+	bartender	default	drinkeffect_vi_paintings_PRE_2		I tried to harness the beauty of art in a potion.	
+	bartender	default	drinkeffect_vi_paintings_PRE_3		It enhances the inner beauty of the world. All LOCATIONS will become more beautiful.	
+	bartender	hello	drinkeffect_vi_paintings_PRE_4		Just bask in it!	
+						
+>>>	drinkeffect_sc_alldownverysmall					
+>location	any					
+>layout	solo	bartender				
+>background	campfire					
+	bartender	confused	drinkeffect_sc_alldownverysmall_PRE_1		No! Not the Bone-hurting Juice!	
+	bartender	confused	drinkeffect_sc_alldownverysmall_PRE_2		What have you done?!	
+	bartender	roll	drinkeffect_sc_alldownverysmall_PRE_3		Now all your bones will hurt. It's right there on the bottle, you dumb-dumb.	
+>>>	gossipstatement1					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement1_PRE_1		Hey, %CURRENTPLAYERNAME%!	
+	mothman	default	gossipstatement1_PRE_2		Welcome to my cozy little log.	
+	mothman	surprised	gossipstatement1_PRE_3		How is everything? Say, have you heard anything particularly juicy lately? Any good stories about our campmates?	
+	mothman	default	gossipstatement1_PRE_4		Look at me! Trying to make small talk and not at all just fishing for some gossip. No, no, just some good, old-fashioned small talk!	
+	mothman	smile	gossipstatement1_PRE_5		C'mon, spill the beans, my friend!	
+	narrator		gossipstatement1_PRE_6		Fuck it. It's time for some lies and gossip. Here we go!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement1_PRE_7		Ooh, how interesting! I'm so glad our conversation naturally led you to tell me that without me having to pry at all.	
+	mothman	surprised	gossipstatement1_PRE_8		I promise I will take this secret to my grave. If you'll excuse me, I'm off to whisper covertly to our campmates about... something completely unrelated!	
+						
+>>>	gossipstatement2					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement2_PRE_1		Hey, %CURRENTPLAYERNAME%!	
+	mothman	surprised	gossipstatement2_PRE_2		I was just in the middle of a date with this sexy campfire... but I could put it on standby if you're here to share some juicy gossip.	
+	narrator		gossipstatement2_PRE_3		You're not, you just wanted to chill by the campfire.	
+	mothman	annoyed	gossipstatement2_PRE_4		That wasn't a question or a suggestion... give me some gossip or prepare to join the campfire.	
+	narrator		gossipstatement2_PRE_5		What? Is he... pointing a gun at you? Gosh, this dude is in dire need of gossip!	
+	narrator		gossipstatement2_PRE_6		Well, you have some appreciation for your life. So let's concoct some lies and gossip for this psycho to spread...	
+>layout	solo	mothman				
+	mothman	default	gossipstatement2_PRE_7		Wonderful, thank you for sharing that with me. My murderous desire for gossip has been satiated... for now.	
+	mothman	smile	gossipstatement2_PRE_8		Now, if you'll excuse me, I'm off to repeat the process while I spread your rumor around camp.	
+	mothman	angry	gossipstatement2_PRE_9		You there! I have a question: would you like to hear this amazing rumor, or do you want your life to end right here and now?	
+						
+>>>	gossipstatement3					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement3_PRE_1		Hiya, %CURRENTPLAYERNAME%!	
+	mothman	default	gossipstatement3_PRE_2		I'm glad you're here. I was busy silently judging all of our campmates, but now I can judge them out loud with you!	
+	mothman	angry	gossipstatement3_PRE_3		Take Joy for example. She's a great hero and stuff, but what's up with her whole antisocial attitude? Do you think she's hiding anything?	
+	mothman	surprised	gossipstatement3_PRE_4		Do you know anything particularly juicy about someone, %CURRENTPLAYERNAME%? I MUST KNOW!	
+	narrator		gossipstatement3_PRE_5		Whoa, jeez, okay. It looks like this moth REALLY needs some juicy gossip in his life. Better get to making some up!	
+>layout	solo	mothman				
+	mothman	default	gossipstatement3_PRE_6		Oh my gosh, this is even juicier than I anticipated! Thanks for trusting this information with me, %CURRENTPLAYERNAME%.	
+	mothman	smile	gossipstatement3_PRE_7		Now, if you'll excuse me, I'm going to betray that trust by telling everyone what you said!	
+						
+>>>	gossipstatement4					
+>location	any					
+>layout	solo	mothman				
+	mothman	annoyed	gossipstatement4_PRE_1		Hey, %CURRENTPLAYERNAME%. Welcome to the log or whatever.	
+	mothman	angry	gossipstatement4_PRE_2		Sorry, I'm just a little irritated. Boris the Blabbering Blobmonster was sitting here earlier. He promised to give me some awesome gossip, but all he had was Coach's first name!	
+	mothman	surprised	gossipstatement4_PRE_3		As if THAT'S information anyone is desperate to hear. I need some real gossip! Please tell me you've got some!	
+	narrator		gossipstatement4_PRE_4		Hey, if it's gossip Moss Mann wants, it's gossip he'll get! Time to lie your ass off to get the best reaction possible!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement4_PRE_5		Ohoho, now that's some great gossip, %CURRENTPLAYERNAME%! My spirits have been lifted.	
+	mothman	default	gossipstatement4_PRE_6		Hope you don't mind if I go tell absolutely everyone what you said!	
+						
+>>>	gossipstatement5					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement5_PRE_1		Hi, %CURRENTPLAYERNAME%! Are you here to trust me with your juiciest secrets?	
+	narrator		gossipstatement5_PRE_2		Well, not really. Moss Mann doesn't really have a good track record with keeping the secrets you tell him to himself.	
+	mothman	surprised	gossipstatement5_PRE_3		Whaaat?! That's ridiculous! I've kept my very existence a secret from humans for, like, ever!	
+	narrator		gossipstatement5_PRE_4		Bullshit. You Google "mothman sightings" and pull up at least a half dozen articles complete with grainy photographs.	
+	mothman	angry	gossipstatement5_PRE_5		You can't prove that was me! Besides, I can't help it if the shitty disposable camera loves me.	
+	mothman	smile	gossipstatement5_PRE_6		Can't you pleeeeease spare a nice, semi-photogenic mothperson his gossip? I promise I won't tell anyone that doesn't already deserve to know!	
+	narrator		gossipstatement5_PRE_7		How can you say no to those adorable, glowing red eyes? Fuck it, it's time for some gossip!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement5_PRE_8		Ahh, that was some great gossip, %CURRENTPLAYERNAME%. You've done me a kindness today.	
+	mothman	default	gossipstatement5_PRE_9		Now, if you'll excuse me, I'm off to betray whatever promises I made to you and spread your gossip to the ends of the Earth!	
+						
+>>>	gossipstatement6					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement6_PRE_1		Hello there, %CURRENTPLAYERNAME%! I have just heard the most interesting gossip. Would you like to hear it?	
+	narrator		gossipstatement6_PRE_2		You could take it or leave it. You're really just here to relax by the fire.	
+	mothman	smile	gossipstatement6_PRE_3		I'll accept your silence as a yes! You'll never believe what I just heard...	
+	mothman	surprised	gossipstatement6_PRE_4		Our fellow campmate, Aaravi Mishra, seemingly innocent and endearing, actually moonlights as a MONSTER SLAYER! She slaughters monsters through the night -- just for fun!	
+	mothman	angry	gossipstatement6_PRE_5		What do you think of that?!	
+	narrator		gossipstatement6_PRE_6		You think... no shit?	
+	mothman	annoyed	gossipstatement6_PRE_7		Oh, you think YOU could do better? Why don't you tell me what gossip you've learned in the past 24 hours, if you're so good at it!	
+	mothman	default	gossipstatement6_PRE_8		...please?	
+	narrator		gossipstatement6_PRE_9		Yeah, you figured this was all just a bid by Moss to get you to tell him some gossip. Luckily, you're not going to disappoint!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement6_PRE_10		Holy smokes! I never would've believed it... this blows my Aaravi/Slayer revelation out of the water!	
+	mothman	smile	gossipstatement6_PRE_11		I can't wait to tell everybody about the insane double-lives people at Camp Spooky appear to be living!	
+						
+>>>	gossipstatement7					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement7_PRE_1		Good evening, %CURRENTPLAYERNAME%! I hope you enjoyed your day at summer camp!	
+	mothman	annoyed	gossipstatement7_PRE_2		My day is only just beginning. My people are mostly nocturnal, so I rarely spend time awake during daylight hours.	
+	mothman	surprised	gossipstatement7_PRE_3		So, while you and our other campmates get to frolic in the sunshine and hear all sorts of juicy, titillating, world-rocking gossip, I am sleeping away in my tent, unaware of it all!	
+	mothman	default	gossipstatement7_PRE_4		Which is why I'm hoping you, popular soul that you are, would be willing to tell me a bit of gossip you may have heard through the grapevine?	
+	narrator		gossipstatement7_PRE_5		Aww, poor nocturnal Moss Mann. You're not going to deny such a cute giant insect-person his gossip, are you?	
+	narrator		gossipstatement7_PRE_6		Time to concoct some lies and slander -- all in the name of being a good friend, of course!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement7_PRE_7		WOW! I slept through that?! I can't believe it!	
+	mothman	smile	gossipstatement7_PRE_8		I'll have to pull an all-dayer just to spread this news around... but it will be worth it! See you!	
+						
+>>>	gossipstatement8					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement8_PRE_1		Why hello there, %CURRENTPLAYERNAME%! What are you up to?	
+	narrator		gossipstatement8_PRE_2		Not much, just scrolling on your phone 'cause you're feeling a little introverted right now.	
+	mothman	default	gossipstatement8_PRE_3		Ah, you don't feel like talking? That's okay. I'll play on my phone too!	
+	narrator		gossipstatement8_PRE_4		Cool. You and Moss sit in comfortable silence...	
+	narrator		gossipstatement8_PRE_5		...for all of 15 seconds. Then you get a text from Moss that says "PLEASE TELL ME SOME GOSSIP I'M SO BORED PLEASE."	
+	mothman	surprised	gossipstatement8_PRE_6		Oh! Sorry, did I send that to you? I meant to send that to my cousin %CURRENTPLAYERNAME%! It's a common name among mothpeople, you know!	
+	narrator		gossipstatement8_PRE_7		No, it's not. Moss is obviously lying through his metaphorical teeth. So you suppose there's nothing wrong with you lying through this gossip to get him to leave you alone! Let's go!	
+>layout	solo	mothman				
+	mothman	angry	gossipstatement8_PRE_8		My, my, what titillating gossip. I can't wait to tell my cousin %CURRENTPLAYERNAME% about it! Also everyone else we know!	
+	narrator		gossipstatement8_PRE_9		Moss then proceeds to actually pull up a contact named "%CURRENTPLAYERNAME% Mann." Damn, I guess it's a common mothpeople name after all! You have a lot to ask your parents.	
+						
+>>>	gossipstatement9					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement9_PRE_1		Hi there, %CURRENTPLAYERNAME%! Thank you for joining me on my log! Say, would you say that we are friends?	
+	narrator		gossipstatement9_PRE_2		Sure, why not?	
+	mothman	smile	gossipstatement9_PRE_3		Wonderful! Why don't we do some friendship things while we're sitting by the fire together then, hm?	
+	narrator		gossipstatement9_PRE_4		What, like eat a platter of cheese, do anger management courses, or summon a dark spirit like your other friends often do by the campfire?	
+	mothman	annoyed	gossipstatement9_PRE_5		What? No. That sounds insane. Is that what you guys do while I sit over here by myself?	
+	mothman	surprised	gossipstatement9_PRE_6		I was thinking we could initiate our friendship with something a bit tamer... like spreading lies and subterfuge about people in the form of juicy gossip!	
+	narrator		gossipstatement9_PRE_7		Well, considering Damien is just going around stabbing all the other logs, that does sound like the most fun campfire-side activity right now. Let's gossip!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement9_PRE_8		Incredible! The more I learn about my fellow campmates, the more confused and afraid I am.	
+	mothman	angry	gossipstatement9_PRE_9		I'd better spread this gossip around so everyone else knows just how absurd the world we live in is!	
+						
+>>>	gossipstatement10					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement10_PRE_1		Hey, %CURRENTPLAYERNAME%! You like the campfire too, huh?	
+	mothman	surprised	gossipstatement10_PRE_2		I love the way the flames look... so bright, so hot, so unbelievably sexy... I just wanna THROW MYSELF INTO THEM AND EMBRACE THE WARMTH!!!	
+	narrator		gossipstatement10_PRE_3		Moss makes a mad dive into the fire. You calmly grab his wing and strongarm him back onto the log until he relaxes. This happens a LOT.	
+	mothman	default	gossipstatement10_PRE_4		Whoa... thanks, %CURRENTPLAYERNAME%, I really owe you one.	
+	mothman	smile	gossipstatement10_PRE_5		Hey, as a token of my appreciation for saving me from my own dangerous intrusive thoughts, why don't we swap a little gossip? It'd be fun!	
+	narrator		gossipstatement10_PRE_6		Hmm... isn't cashing in a life debt supposed to mean you do something the SAVIOR wants to do?	
+	narrator		gossipstatement10_PRE_7		Well, whatever. You could go for a little gossip after saving Moss' life!	
+>layout	solo	mothman				
+	mothman	angry	gossipstatement10_PRE_8		WOW! I'm so glad I was alive to hear that and not engulfed in flames!	
+	mothman	smile	gossipstatement10_PRE_9		Thanks, %CURRENTPLAYERNAME% -- your gossip is almost as titillating as the white-hot embrace of the campfire. I'm gonna go tell everybody!	
+						
+>>>	gossipstatement11					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement11_PRE_1		Good evening, %CURRENTPLAYERNAME%. Are you here to engage in idle chit chat with me?	
+	mothman	annoyed	gossipstatement11_PRE_2		How is your health? The weather has been temperature. I heard that the politics have been mediocre lately and have many complex opinions.	
+	mothman	surprised	gossipstatement11_PRE_3		Great! Now that the small talk's out of the way, can we get to the part where we exchange hot, steamy, world-rocking GOSSIP?!	
+	narrator		gossipstatement11_PRE_4		Well damn, Moss didn't need to make it sound like the intro to a porno. But sure, you're always down for a gossip quickie by the campfire!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement11_PRE_5		What delightful gossip, %CURRENTPLAYERNAME%! You never disappoint with your incredible rumors.	
+	mothman	annoyed	gossipstatement11_PRE_6		Anyway, we should do this again sometime, something something stay in touch I am no longer interested in this conversation and don't have a good excuse to leave goodbye.	
+						
+>>>	gossipstatement12					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement12_PRE_1		Hi, %CURRENTPLAYERNAME%, old pal! I'm so glad that we're such close friends!	
+	narrator		gossipstatement12_PRE_2		Um... cool? You don't remember when you became Moss Mann's BFF, but I guess it's a sweet gesture.	
+	mothman	surprised	gossipstatement12_PRE_3		And I have just read the most interesting statistic! It says, "friends who share gossip with each other have longer lives, fewer rates of food poisoning, and healthier fingernails!"	
+	narrator		gossipstatement12_PRE_4		...Oh.	
+	mothman	angry	gossipstatement12_PRE_5		So, we should engage in gossip! For our health! Please, tell me you have something juicy to spare before my fingernails wither up!	
+	narrator		gossipstatement12_PRE_6		Eh, fuck it. Time for some gossip!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement12_PRE_7		That was the perfect gossip! Ahh, my fingernails have never felt stronger.	
+	mothman	surprised	gossipstatement12_PRE_8		I can't wait to do this tomorrow night, and every night thereafter with my close friend %CURRENTPLAYERNAME%! Until next time!	
+						
+>>>	gossipstatement13					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement13_PRE_1		Greetings, %CURRENTPLAYERNAME%! Come, gather by the campfire with me!	
+	narrator		gossipstatement13_PRE_2		Yeah, sure, okay. You sit down next to Moss and gear up to make a bitchin' s'more.	
+	mothman	default	gossipstatement13_PRE_3		Wonderful. Now let us join hands...	
+	narrator		gossipstatement13_PRE_4		O...kay then?	
+	mothman	smile	gossipstatement13_PRE_5		Thank you. Now that we are one with one another...	
+	mothman	surprised	gossipstatement13_PRE_6		We shall become ONE WITH THE FIRE!!	
+	narrator		gossipstatement13_PRE_7		UM?!?!	
+	mothman	angry	gossipstatement13_PRE_8		...BY FEEDING THE FIRE OUR GOSSIP BY MEANS OF AN OFFERING. You first, %CURRENTPLAYERNAME%!	
+	narrator		gossipstatement13_PRE_9		Oh. Whew! You can spare the fire a little gossip if it's either that or your highly flammable flesh. Let's get gossiping!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement13_PRE_10		Yes, that was some wonderful gossip. I feel that the fire is satiated for tonight.	
+	mothman	surprised	gossipstatement13_PRE_11		Farewell for now, %CURRENTPLAYERNAME%! GLORY TO THE CAMPFIRE.	
+						
+>>>	gossipstatement14					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement14_PRE_1		Hello there, %CURRENTPLAYERNAME%! Do you fancy a gossip?	
+	narrator		gossipstatement14_PRE_2		Yeah, why not? You could go for a little gossip, as a treat.	
+	mothman	angry	gossipstatement14_PRE_3		Wonderful! The only problem is, I do not have a gossip. I am fresh out and looking to refill.	
+	mothman	surprised	gossipstatement14_PRE_4		Would YOU have a gossip to spare, perchance?	
+	narrator		gossipstatement14_PRE_5		You always have a spare gossip to donate to anyone who needs it! Let's go!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement14_PRE_6		Ahh, thank you %CURRENTPLAYERNAME%. You are truly charitable.	
+	mothman	default	gossipstatement14_PRE_7		I will pay your kindness forward by spreading this gossip amongst my other gossip-less peers!	
+						
+>>>	gossipstatement15					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement15_PRE_1		Hi there, %CURRENTPLAYERNAME%! I have a business proposition for you!	
+	narrator		gossipstatement15_PRE_2		Wow. If you had a nickel for every time a friend of yours proposed a business to you uninvited...	
+	mothman	smile	gossipstatement15_PRE_3		My idea is this: a magazine about Camp Spooky! It will feature stories about our fellow campers' lives, photography of our fellow campers frolicking, salacious details about our fellow campers' innermost secrets...	
+	narrator		gossipstatement15_PRE_4		O...kay?	
+	mothman	angry	gossipstatement15_PRE_5		It's genius, no? The only problem is, I need some GROUNDBREAKING GOSSIP to get my publication off the ground! Something the other gossip-reporters haven't gotten their greedy hands on yet!	
+	mothman	surprised	gossipstatement15_PRE_6		Would you... know anything, perchance?	
+	narrator		gossipstatement15_PRE_7		Eh, fuck it. You've always wanted to give an interview, and this might be your only chance! Let's gossip!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement15_PRE_8		AMAZING! This'll be our cover story for our debut issue: "%CURRENTPLAYERNAMECAPS% WITH THE SAUCY SECRETS!"	
+	mothman	smile	gossipstatement15_PRE_9		I'm going to go do more sleuthing for stories! Catch you later!	
+						
+>>>	gossipstatement16					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement16_PRE_1		Why hello there, %CURRENTPLAYERNAME%! Come to write by the firelight as well?	
+	mothman	default	gossipstatement16_PRE_2		I'm writing a letter home to my parents. They've asked so many questions about camp!	
+	mothman	annoyed	gossipstatement16_PRE_3		It's exhausting answering them all! "Have you been brushing your antennae every day?" "Are you getting enough clothing fibers in your diet?"	
+	mothman	surprised	gossipstatement16_PRE_4		"Has %CURRENTPLAYERNAME% heard any hot goss lately, and would %HESHE% be so kind as to dish?"	
+	narrator		gossipstatement16_PRE_5		...	
+	mothman	smile	gossipstatement16_PRE_6		Well... heh. I wouldn't want to be rude and not answer them, would I? I don't suppose you know of anything I could write home about?	
+	narrator		gossipstatement16_PRE_7		Damn, all your parents asked you about was if you had enough pairs of socks. If it's gossip Mr. and Mrs. Mann want, it's gossip they'll get!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement16_PRE_8		Wow! So many salacious details... my mother is going to blush straight through her fuzz!	
+	mothman	smile	gossipstatement16_PRE_9		I can't wait to tell everyone in my family all about your story, %CURRENTPLAYERNAME%! Thanks!	
+						
+>>>	gossipstatement17					
+>location	any					
+>layout	solo	mothman				
+	mothman	smile	gossipstatement17_PRE_1		Hello, %CURRENTPLAYERNAME%, and welcome to my log! There are many like it, but this one is mine.	
+	mothman	angry	gossipstatement17_PRE_2		However, in order to gain access to my log, there are a few rules you must follow.	
+	mothman	surprised	gossipstatement17_PRE_3		1. We pay the utmost respect to the campfire, our Lady and Savior, Her Brightness. Please throw something into the fire to show your respect.	
+	narrator		gossipstatement17_PRE_4		Aight, you toss in the jury duty summons you've had in your pocket all day. %CURRENTPLAYERNAME%: 1; justice system: 0!	
+	mothman	default	gossipstatement17_PRE_5		Wonderful! 2. We do not eat peanuts on my log. Never ever never.	
+	narrator		gossipstatement17_PRE_6		Why? Are peanuts disrespectful to Her Brightness, the campfire or something?	
+	mothman	annoyed	gossipstatement17_PRE_7		No. I'm just allergic.	
+	mothman	surprised	gossipstatement17_PRE_8		3. You must share with the other inhabitants of the log (that's me) the latest gossip you have heard! It's the MOST IMPORTANT RULE OF ALL!	
+	narrator		gossipstatement17_PRE_9		Of course it is. That's fine, you're not one to disrespect Moss's log's customs! Time for some gossip!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement17_PRE_10		Thank you very much, %CURRENTPLAYERNAME%! Your respect for my log's cultural norms has granted you sitting access anytime you want.	
+	mothman	angry	gossipstatement17_PRE_11		I will return in a moment to stamp your passport -- I just need to tell every living soul the gossip you just told me first!	
+						
+>>>	gossipstatement18					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement18_PRE_1		Ah, hello %CURRENTPLAYERNAME%. Thank you for joining me.	
+	mothman	angry	gossipstatement18_PRE_2		Though I must ask, why have you chosen to sit with me, Moss Mann, instead of one of our six most charismatic campers whom most of our friends seem to be crushing on?	
+	narrator		gossipstatement18_PRE_3		I dunno, 'cause you're not very romance-driven despite this being a dating sim? Or some other chucklefuck took the log you wanted before you could sit down?	
+	mothman	smile	gossipstatement18_PRE_4		I see! Well, as long as you are here, would you like to swap scandalizing stories and rumors about people?	
+	mothman	annoyed	gossipstatement18_PRE_5		That's kind of what we do here on my log, so if you don't like it, you can get off.	
+	narrator		gossipstatement18_PRE_6		Well, you're already sitting down and don't feel like getting up, so if it's gossip Moss demands, it's gossip he'll get!	
+>layout	solo	mothman				
+	mothman	smile	gossipstatement18_PRE_7		What a wonderful rumor, %CURRENTPLAYERNAME%! I adored every second of it.	
+	mothman	surprised	gossipstatement18_PRE_8		You should shirk your desires to flirt with our fellow campers and sit next to me more often!	
+						
+>>>	gossipstatement19					
+>location	any					
+>layout	solo	mothman				
+	mothman	annoyed	gossipstatement19_PRE_1		Ah... hello %CURRENTPLAYERNAME%. Yes, sit, whatever.	
+	mothman	angry	gossipstatement19_PRE_2		I apologize, I'm in a bit of a "mood" today. Nothing seems to cheer me up.	
+	narrator		gossipstatement19_PRE_3		Awww, that's too bad! Would a little gossip be enough to lift Moss's spirits?	
+	mothman	surprised	gossipstatement19_PRE_4		Well... perhaps! But only if it was really, REALLY good gossip.	
+	narrator		gossipstatement19_PRE_5		Damn, REALLY good gossip is a bit of a tall order, but hopefully you can rise to the challenge!	
+>layout	solo	mothman				
+	mothman	default	gossipstatement19_PRE_6		Wow... that was INCREDIBLE gossip, %CURRENTPLAYERNAME%! My "mood" is now so much happier!	
+	mothman	smile	gossipstatement19_PRE_7		I can't wait to tell this to everyone whose spirits need uplifting. Thank you for everything!	
+						
+>>>	gossipstatement20					
+>location	any					
+>layout	solo	mothman				
+	mothman	default	gossipstatement20_PRE_1		Why hello, %CURRENTPLAYERNAME%! I'm glad you sat with me, I've been meaning to talk to you!	
+	mothman	angry	gossipstatement20_PRE_2		I've heard a rumor recently that earlier this morning, you were caught in the bathroom vigorously masturbating to a photo of a can of raviolis. Is this true?	
+	narrator		gossipstatement20_PRE_3		Um... you cannot confirm nor deny without first consulting your lawyer. And clearing your browser history.	
+	mothman	smile	gossipstatement20_PRE_4		It is certainly a crazy rumor! It would be a shame if a certain moth were to spread it around...	
+	mothman	annoyed	gossipstatement20_PRE_5		Unless, of course, you know of something crazier that just might make everyone forget about this little incident?	
+	narrator		gossipstatement20_PRE_6		Oh, God. Is Moss threatening you, or does he just want gossip? Either way, you can't take the risk!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement20_PRE_7		Well, %CURRENTPLAYERNAME%, I must admit that that story was even wilder than the one regarding your ravioli fetish. Well done.	
+	mothman	smile	gossipstatement20_PRE_8		Maybe by tomorrow, everyone will be so busy talking about this new story, the bathroom incident will be nothing but a forgotten memory!	
+	narrator		gossipstatement20_PRE_9		You sure fucking hope so!	
+						
+>>>	gossipstatement21					
+>location	any					
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement21_PRE_1		%CURRENTPLAYERNAMECAPS%! I'm so glad you're here! I've just heard the most ASTOUNDING RUMOR!	
+	mothman	angry	gossipstatement21_PRE_2		There is gossip going around that Camp Spooky is not a summer camp at all! It is merely a SIMULATION -- of the dating variety, in fact!	
+	mothman	surprised	gossipstatement21_PRE_3		The reality that we have come to accept is all, in fact, a huge farce! I can't possibly wrap my head around it!	
+	narrator		gossipstatement21_PRE_4		Uh oh -- you saw what this fourth-wall breaking shit did to your friends before. Nobody would shut up about the world being a lie long enough for you to get any action!	
+	mothman	default	gossipstatement21_PRE_5		Please, %CURRENTPLAYERNAME%, tell me -- do you think these tales are true? I can't get it out of my mind!	
+	narrator		gossipstatement21_PRE_6		Shit, Moss is really starting to freak out. You need to distract him with the most boggling, incredible gossip you can think of before it's too late!	
+>layout	solo	mothman				
+	mothman	surprised	gossipstatement21_PRE_7		Oh, wow! That was such an engaging story, I completely forgot what we were talking about before! Was it important?	
+	mothman	smile	gossipstatement21_PRE_8		Well, I suppose it's no matter now. I feel so much more relaxed for some reason! I should tell everyone what you said so they can feel relaxed too!	
+						
+>>>	lovelog_intro1					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro1_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro1_PRE_2		Look at you, avoiding romance in a dating sim!	
+	narrator		lovelog_intro1_PRE_3		Now... the suspense! Will you remain forever alone, or will someone else take pity on you?	
+	narrator		lovelog_intro1_PRE_4		The mystery!	
+						
+>>>	lovelog_intro2					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro2_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro2_PRE_2		There are legends that say whoever sits by themselves by the campfire will be forever alone.	
+	narrator		lovelog_intro2_PRE_3		Look at you, gambling on your love life like there's no tomorrow!	
+	narrator		lovelog_intro2_PRE_4		Now it all depends on your friends. Will someone save your ass, or will you die alone?	
+	narrator		lovelog_intro2_PRE_5		We will see...	
+						
+>>>	lovelog_intro3					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro3_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro3_PRE_2		You're going for this cool, aloof loner vibe that makes you look mysterious and appealing...	
+	narrator		lovelog_intro3_PRE_3		...But you and I both know that you're really desperately hoping someone will come save your ass and sit with you.	
+	narrator		lovelog_intro3_PRE_4		Will anyone be coming to your rescue? Only time will tell!	
+						
+>>>	lovelog_intro4					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro4_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro4_PRE_2		I guess none of Monster Camp's love interests were good enough for you, or you're just really hoping to sit with one of your friends!	
+	narrator		lovelog_intro4_PRE_3		The question is, do your friends want to sit with you? Will anyone take pity on you, or will you be spending the night as alone as ever?	
+	narrator		lovelog_intro4_PRE_4		Let's find out!	
+						
+>>>	lovelog_intro5					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro5_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro5_PRE_2		Weird choice, IMHO, because you seem like the kind of person who already spends lots of nights alone by %HIMHER%%VERB_SELF_SELVES%.	
+	narrator		lovelog_intro5_PRE_3		I could be wrong, but I mean, you're the one playing a dating sim in your free time, soooo...	
+	narrator		lovelog_intro5_PRE_4		Anyway, will anyone join you, or will art imitate life and leave you alone for the night once again? We'll see!	
+						
+>>>	lovelog_intro6					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro6_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro6_PRE_2		You read about this in a walkthrough. Whoever sits alone on the "Love Log" at Camp Spooky will either be rewarded with friendship, or punished with loneliness and despair.	
+	narrator		lovelog_intro6_PRE_3		Tonight, which will it be? Will anyone sit with you? We'll just have to see!	
+						
+>>>	lovelog_intro7					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro7_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro7_PRE_2		Some nights are for flirting with your friends in your endless bid for romance and/or sex.	
+	narrator		lovelog_intro7_PRE_3		Some nights are for spreading ridiculous rumors and frolicking in the chaos.	
+	narrator		lovelog_intro7_PRE_4		But tonight, it seems, is for sitting with your friends. The question is, will your friends see it that way too? We'll see!	
+						
+>>>	lovelog_intro8					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro8_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro8_PRE_2		You're always the one running around trying to get your friends to fall in love with you. It's exhausting, dammit. Tonight, you want someone to come chase after you.	
+	narrator		lovelog_intro8_PRE_3		The question is, will anybody bother? Or will you spend the night wallowing in loneliness?	
+	narrator		lovelog_intro8_PRE_4		Let's find out!	
+						
+>>>	lovelog_intro9					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro9_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro9_PRE_2		Legend says that this log is CURSED. Whoever sits on it will find themselves plagued with eternal FOMO and terrible social skills.	
+	narrator		lovelog_intro9_PRE_3		The only way to break the curse is for the cursed sitter to find a friend to sit on the log with them all night...	
+	narrator		lovelog_intro9_PRE_4		So looks like your friends are on curse-breaking duty tonight. Or they might just leave your sorry ass to rot. Only one way to find out which!	
+						
+>>>	lovelog_intro10					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro10_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro10_PRE_2		Oh, you poor soul! Look at how your heart cries out for the companionship of another! Such tragedy!	
+	narrator		lovelog_intro10_PRE_3		...Oh, what's that? You sat here because you wanted some quiet privacy to read your book?	
+	narrator		lovelog_intro10_PRE_4		Nah, that can't be right. This is CAMP SPOOKY, after all. Everyone wants to boink someone! Them's the rules!	
+	narrator		lovelog_intro10_PRE_5		And you'd better hope someone comes over here and sits with you, or you're gonna regret it, book or no book!	
+						
+>>>	lovelog_intro11					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro11_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro11_PRE_2		Such a daring maneuver! In the face of all romantic odds, you chose to play hard-to-get. Wow!	
+	narrator		lovelog_intro11_PRE_3		Now, all that's left to do is hope that it pays off.	
+	narrator		lovelog_intro11_PRE_4		Will someone sit with you and make this night magical? Or will you spend campfire time forever alone? Let's find out!	
+						
+>>>	lovelog_intro12					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro12_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro12_PRE_2		Hopefully someone will sit with you. That said, I know there's at least one person you're REALLY hoping will sit with you...	
+	narrator		lovelog_intro12_PRE_3		Oh, don't give me that look. I've been watching you make "fuck me" eyes at %ANYPLAYERNAME% all game long.	
+	narrator		lovelog_intro12_PRE_4		Maybe they'll sit with you, maybe not. Maybe this will all be a totally embarrassing waste of time! Who knows?	
+	narrator		lovelog_intro12_PRE_5		That's the fun of the Love Log: it's always a gamble! Let's hope it pays off this time...	
+						
+>>>	lovelog_intro13					
+>location	any					
+>layout	none					
+>background	campfire					
+	narrator		lovelog_intro13_PRE_1		You sit on a log by yourself.	
+	narrator		lovelog_intro13_PRE_2		Maybe one of your friends will join you, and you can spend the evening having fun and making summer memories.	
+	narrator		lovelog_intro13_PRE_3		...Or maybe no one will sit with you, proving once and for all that romance is dead and there is no hope left in this universe.	
+	narrator		lovelog_intro13_PRE_4		That's Camp Spooky for you: always a fun, silly dichotomy! Now let's see what this night has planned for you...	
+						
+						
+>>>	lovelog_failure1					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure1_PRE_1		No one sat with you.	
+	narrator		lovelog_failure1_PRE_2		You spent the night alone on your sad little forever alone log.	
+	narrator		lovelog_failure1_PRE_3		I mean... is it really such a big deal after all?	
+	narrator		lovelog_failure1_PRE_4		Welp, it was for you. An existential dread fills your soul and makes you question all of your choices in life.	
+	narrator		lovelog_failure1_PRE_5		Ah, the young heart, so intensely and utterly stupid!	
+	narrator		lovelog_failure1_PRE_6		You lose -2CREATIVITY and -2SMARTS.	
+						
+>>>	lovelog_failure2					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure2_PRE_1		No one sits with you.	
+	narrator		lovelog_failure2_PRE_2		You spent the night alone on your sad little forever alone log.	
+	narrator		lovelog_failure2_PRE_3		I mean... is it really such a big deal after all?	
+	narrator		lovelog_failure2_PRE_4		Apparently it was. From that day on, everyone treated you differently, as if your loneliness from that night was a contagious disease.	
+	narrator		lovelog_failure2_PRE_5		Sheesh, young people can really be mean and stupid, huh?	
+	narrator		lovelog_failure2_PRE_6		You lose -2FUN and -2CHARM.	
+						
+>>>	lovelog_failure3					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure3_PRE_1		No one sits with you.	
+	narrator		lovelog_failure3_PRE_2		You spent the night alone on your sad little forever alone log.	
+	narrator		lovelog_failure3_PRE_3		It wasn't a big deal... and yet it messed with your head.	
+	narrator		lovelog_failure3_PRE_4		Why did no one sit with you?	
+	narrator		lovelog_failure3_PRE_5		Was it your body odor? Maybe they noticed your eyelashes are asymmetrical. Or maybe they heard that you play dating sims in your free time.	
+	narrator		lovelog_failure3_PRE_6		In reality, no one cared about any of this, but that didn't stop you from getting in over your head for the rest of the summer and becoming your own worst saboteur.	
+	narrator		lovelog_failure3_PRE_7		You lose -2FUN and -2CREATIVITY.	
+	narrator		lovelog_failure3_PRE_8		Yikes.	
+						
+						
+>>>	lovelog_failure4					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure4_PRE_1		No one sits with you.	
+	narrator		lovelog_failure4_PRE_2		You write a sad letter home to your parents while you're sadly alone on your sad little log.	
+	narrator		lovelog_failure4_PRE_3		It reads, "Dear Mom and Dad, It's %CURRENTPLAYERNAME% again, camp is fine except I'm sitting alone because no one likes me. Missing you. XOXO"	
+	narrator		lovelog_failure4_PRE_4		You send your letter home via carrier pigeon which we've always had here at Camp Spooky so shut up.	
+	narrator		lovelog_failure4_PRE_5		You get your reply back within a matter of minutes: "Dear %CURRENTPLAYERNAME%, It's Mom. Didn't read your letter yet, out clubbing, having time of my life, don't wait up for me. Remember to wash the rash in your armpit before it gets infected again. Kisses!"	
+	narrator		lovelog_failure4_PRE_6		Curses, you're even lamer than your own mother! And you TOTALLY forgot about that rash! You lose -2 BOLDNESS and -2 FUN.	
+						
+>>>	lovelog_failure5					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure5_PRE_1		No one sits with you.	
+	narrator		lovelog_failure5_PRE_2		By tomorrow, nobody even remembers that %CURRENTPLAYERNAME% sat at the campfire at all.	
+	narrator		lovelog_failure5_PRE_3		In fact, you were so socially invisible that a rumor spreads that you skipped the campfire to go on a blind date with three ducks in a trenchcoat.	
+	narrator		lovelog_failure5_PRE_4		You honestly wish that that had been the case instead of sitting alone all night. You lose -2 CHARM and -2 CREATIVITY.	
+						
+>>>	lovelog_failure6					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure6_PRE_1		No one sits with you.	
+	narrator		lovelog_failure6_PRE_2		You try to rename the Love Log the "Lonely Log" to make it look intentional.	
+	narrator		lovelog_failure6_PRE_3		...But then everybody just wonders why you intentionally sat on a log to be alone instead of joining up with a friend.	
+	narrator		lovelog_failure6_PRE_4		The kindest explanation is that you're super introverted, so everyone avoids you out of respect for your space.	
+	narrator		lovelog_failure6_PRE_5		The more popular explanation is that you have a rare form of contagious body odor, and anyone who sits next to you will smell like rotten eggs forever.	
+	narrator		lovelog_failure6_PRE_6		Neither of these theories get you any closer to getting laid. You lose -2 CHARM and -2 FUN.	
+						
+						
+>>>	lovelog_failure7					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure7_PRE_1		No one sits with you.	
+	narrator		lovelog_failure7_PRE_2		You're so upset and enraged that you demand to speak to the manager of camp to rectify this injustice.	
+	narrator		lovelog_failure7_PRE_3		Unfortunately, management is not responsible for any stolen items, unlicensed yodeling, or emotionally crippling rejection you may experience at Camp Spooky.	
+	narrator		lovelog_failure7_PRE_4		Also your friends are even more repulsed by you now that they've seen your Karen side. Oof. You lose -2 CHARM and -2 SMARTS.	
+						
+>>>	lovelog_failure8					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure8_PRE_1		No one sits with you.	
+	narrator		lovelog_failure8_PRE_2		You go slightly crazy from the loneliness and decide to try and date the log.	
+	narrator		lovelog_failure8_PRE_3		You put the log in a dress and wig and name her Logretta. You take her on a date to Olive Park and split a basket of unlimited breadsticks.	
+	narrator		lovelog_failure8_PRE_4		Unfortunately Logretta ditches you for a girthy cedarwood branch and leaves you with the bill. Damn, rejected by a log! You lose -2 BOLDNESS and -2 CHARM.	
+						
+>>>	lovelog_failure9					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure9_PRE_1		No one sits with you.	
+	narrator		lovelog_failure9_PRE_2		During the night, a double-decker tour bus makes a stop by your log.	
+	narrator		lovelog_failure9_PRE_3		The tour guide says, "If you look to your right you'll see %CURRENTPLAYERNAME%, Camp Spooky's living monument to total crippling rejection and humiliation."	
+	narrator		lovelog_failure9_PRE_4		You end up in a lot of tourists' disposable camera rolls, but you lose -2 SMARTS and -2 FUN.	
+						
+>>>	lovelog_failure10					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure10_PRE_1		No one sits with you.	
+	narrator		lovelog_failure10_PRE_2		...Until later that night, when a freelance journalist sits with you and asks to interview you for a feature in his new magazine!	
+	narrator		lovelog_failure10_PRE_3		You're excited until you receive your advance copy of the story in the mail: "Top 10 Lame Summer Campers to Laugh At and Feel Better About Yourself".	
+	narrator		lovelog_failure10_PRE_4		Well, all press is good press at least? ...Nah, this sucks. You lose -2 SMARTS and -2 BOLDNESS.	
+						
+>>>	lovelog_failure11					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure11_PRE_1		No one sits with you.	
+	narrator		lovelog_failure11_PRE_2		You're still moping around long after the campfire is extinguished and everyone goes to bed.	
+	narrator		lovelog_failure11_PRE_3		The camp janitors assume you're some weird Monster Scouts art project somebody forgot, so they throw you in the dumpster.	
+	narrator		lovelog_failure11_PRE_4		Now you're alone, you smell like garbage, AND you have to pay the littering fine. Ugh. You pay with -2 CREATIVITY and -2 FUN.	
+						
+>>>	lovelog_failure12					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_failure12_PRE_1		No one sits with you.	
+	narrator		lovelog_failure12_PRE_2		Your campfire gamble was a spectacular failure. Bravo.	
+	narrator		lovelog_failure12_PRE_3		As punishment for fucking up something as simple as choosing which friend to sit next to, you lose -2 CREATIVITY.	
+	narrator		lovelog_failure12_PRE_4		Oh, what's that? That's not fair? How about I take -2 BOLDNESS too, wiseguy?	
+	narrator		lovelog_failure12_PRE_5		What, no more smart retorts? Yeah, that's what I thought.	
+						
+						
+						
+>>>	lovelog_success1					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success1_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success1_PRE_2		Fuck all of this game's romantic interests. No one is as interesting as your pal!	
+	narrator		lovelog_success1_PRE_3		You spent the night chatting and realizing how much you have in common, such as playing visual novels in your free time.	
+	narrator		lovelog_success1_PRE_4		While spending time together, you realize for the first time that %LOVELOG_FIRSTPLAYER%'s booty...	
+>lovelogcompliment_stat	creativity		lovelog_success1_PRE_5		is worthy of a thousand sonnets	
+>lovelogcompliment_stat	fun		lovelog_success1_PRE_6		should be the main item on a high-end restaurant menu	
+>lovelogcompliment_stat	smarts		lovelog_success1_PRE_7		has the Golden Ratio of Fibonacci	
+>lovelogcompliment_stat	boldness		lovelog_success1_PRE_8		fucking slays	
+>lovelogcompliment_stat	charm		lovelog_success1_PRE_9		looks like it could cure your sadness forever	
+	narrator		lovelog_success1_PRE_10		Gasp.	
+	narrator		lovelog_success1_PRE_11		You have a nice time together! You don't dare tell %LOVELOG_FIRSTPLAYER_HIMHER% your thoughts since playable characters shouldn't be romancing each other...	
+	narrator		lovelog_success1_PRE_12		...but your eyes give you away a bit. Just by looking your bootylicious friend in the eye, you give away %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES%.	
+	narrator		lovelog_success1_PRE_13		And you yourself have such a nice time that you gain %LOVELOG_FINALSTATCHANGES% from the time well-spent.	
+						
+>>>	lovelog_success2					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success2_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success2_PRE_2		Flirting with the love interests of this game can get exhausting, and you two need to recharge from all that.	
+	narrator		lovelog_success2_PRE_3		You propose a light activity to replace the harsh dating sim shenanigans with some homie quality time:	
+>lovelogcompliment_stat	creativity		lovelog_success2_PRE_4		rewriting Homer's Iliad to make it... Homier	
+>lovelogcompliment_stat	fun		lovelog_success2_PRE_5		cooking a Homie-made homielette	
+>lovelogcompliment_stat	smarts		lovelog_success2_PRE_6		studying the homienids together	
+>lovelogcompliment_stat	boldness		lovelog_success2_PRE_7		building a deadly homieing missile	
+>lovelogcompliment_stat	charm		lovelog_success2_PRE_8		boosting each other's self-esteem with homie-related puns and compliments!	
+	narrator		lovelog_success2_PRE_9		You tell your homie about your idea and %LOVELOG_FIRSTPLAYER_HESHE% %VERB_IS_ARE% all in!	
+	narrator		lovelog_success2_PRE_10		%LOVELOG_FIRSTPLAYER_HESHE% gains %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% through the sheer power of spending all night %LOVELOGCOMPLIMENT%.	
+	narrator		lovelog_success2_PRE_11		And you? You gain %LOVELOG_FINALSTATCHANGES% just by spending time with your homie. By the end of it you can't help but wonder... is it OK to kiss your homies good night?	
+						
+>>>	lovelog_success3					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success3_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success3_PRE_2		You weren't about to let %LOVELOG_FIRSTPLAYER_HIMHER% be alone during the campfire!	
+	narrator		lovelog_success3_PRE_3		You had a nice conversation! Being friends, you navigate through topics with ease: your biggest fears, how cute octopuses are, do's and don'ts in fashion choices...	
+	narrator		lovelog_success3_PRE_4		And in doing so, you notice %LOVELOG_FIRSTPLAYER%'s unique fashion sense, patently expressed through %LOVELOG_FIRSTPLAYER_HISHER% most iconic piece of clothing:	
+>lovelogcompliment_stat	creativity		lovelog_success3_PRE_5		pants... but for your head	
+>lovelogcompliment_stat	fun		lovelog_success3_PRE_6		tight jeans with unexpected holes for the buttcheeks	
+>lovelogcompliment_stat	smarts		lovelog_success3_PRE_7		a library card worn as jewelry	
+>lovelogcompliment_stat	boldness		lovelog_success3_PRE_8		an outfit that can only be described as "anime villain chic"	
+>lovelogcompliment_stat	charm		lovelog_success3_PRE_9		a gorgeous Victorian wig	
+	narrator		lovelog_success3_PRE_10		You compliment the garment and comment how %LOVELOG_FIRSTPLAYER_HESHE% probably got %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% just by wearing that!	
+	narrator		lovelog_success3_PRE_11		And to think few know about this iconic piece of garment, as %LOVELOG_FIRSTPLAYER% takes it off when a picture of %LOVELOG_FIRSTPLAYER_HIMHER% is taken so nobody can steal %LOVELOG_FIRSTPLAYER_HISHER% look!	
+	narrator		lovelog_success3_PRE_12		As a sign of gratitude for the compliment, %LOVELOG_FIRSTPLAYER% kisses you in the cheek. You feel you somehow gain... %LOVELOG_FINALSTATCHANGES%?	
+	narrator		lovelog_success3_PRE_13		Woah! What a strange feeling. A wild thought crosses your mind: imagine if %LOVELOG_FIRSTPLAYER% was a love interest!	
+	narrator		lovelog_success3_PRE_14		Nah... silly %CURRENTPLAYERNAME%!	
+						
+>>>	lovelog_success4					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success4_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success4_PRE_2		Monster Camp might've been advertised as a dating simulator, but tonight is all about friendship simulator with you and your pal!	
+	narrator		lovelog_success4_PRE_3		You laugh the night away. %LOVELOG_FIRSTPLAYER% is so fun and cool. You find yourself thinking about how %LOVELOG_FIRSTPLAYER_HISHER% eyes remind you of...	
+>lovelogcompliment_stat	creativity		lovelog_success4_PRE_4		the most quotable line of poetry	
+>lovelogcompliment_stat	fun		lovelog_success4_PRE_5		a delicious banana split	
+>lovelogcompliment_stat	smarts		lovelog_success4_PRE_6		Mercury in retrograde	
+>lovelogcompliment_stat	boldness		lovelog_success4_PRE_7		the glory of battle	
+>lovelogcompliment_stat	charm		lovelog_success4_PRE_8		dat ass	
+	narrator		lovelog_success4_PRE_9		You don't say this aloud for fear of rejection, but based on the heavy eye contact you're getting, you can tell %LOVELOG_FIRSTPLAYER_HESHE% got %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% from your compliment regardless.	
+	narrator		lovelog_success4_PRE_10		And having such poignant, pining thoughts as "%LOVELOG_FIRSTPLAYER%'s eyes are like %LOVELOGCOMPLIMENT%", you also gain %LOVELOG_FINALSTATCHANGES%!	
+	narrator		lovelog_success4_PRE_11		If only you could have %LOVELOG_FIRSTPLAYER%'s heart instead... oh, to dream!	
+						
+>>>	lovelog_success5					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success5_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success5_PRE_2		You two bond over being the only self-aware video game characters sitting around the campfire.	
+	narrator		lovelog_success5_PRE_3		You laugh as your companions jump through hoops to gain "stats" and "love points", as if those things matter in the real world.	
+	narrator		lovelog_success5_PRE_4		Suddenly, you blurt out, "You know, %LOVELOG_FIRSTPLAYER%, if you were to gain a stat in anything, it'd be..."	
+>lovelogcompliment_stat	creativity		lovelog_success5_PRE_5		the "living work of art" stat	
+>lovelogcompliment_stat	fun		lovelog_success5_PRE_6		the "angelic laughter" stat	
+>lovelogcompliment_stat	smarts		lovelog_success5_PRE_7		the "smexy" stat	
+>lovelogcompliment_stat	boldness		lovelog_success5_PRE_8		the "2 kool 4 skool" stat	
+>lovelogcompliment_stat	charm		lovelog_success5_PRE_9		the "UwU" stat	
+	narrator		lovelog_success5_PRE_10		You're shocked! You have no idea where that came from. Could it be that... you're actually falling for %LOVELOG_FIRSTPLAYER_HIMHER%? How can this be?!	
+	narrator		lovelog_success5_PRE_11		Meanwhile, %LOVELOG_FIRSTPLAYER% gains %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% from your sweet compliment...	
+	narrator		lovelog_success5_PRE_12		And for growing that much more in touch with your sexy, forbidden feelings, you gain %LOVELOG_FINALSTATCHANGES% yourself!	
+	narrator		lovelog_success5_PRE_13		(Unfortunately, nobody gains anything in %LOVELOGCOMPLIMENT% category. Maybe next time.)	
+						
+>>>	lovelog_success6					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success6_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success6_PRE_2		Your friendship is strengthened by your conversation held by campfirelight. By the time the flames have died down, you aren't ready to part ways yet.	
+	narrator		lovelog_success6_PRE_3		But you don't wanna seem weird or desperate, so you suavely suggest that you and %LOVELOG_FIRSTPLAYER% continue the evening by...	
+>lovelogcompliment_stat	creativity		lovelog_success6_PRE_4		making paper-mache sculptures of each other	
+>lovelogcompliment_stat	fun		lovelog_success6_PRE_5		teaching a dog to breakdance	
+>lovelogcompliment_stat	smarts		lovelog_success6_PRE_6		discovering the last digit of pi	
+>lovelogcompliment_stat	boldness		lovelog_success6_PRE_7		going on a daring museum heist	
+>lovelogcompliment_stat	charm		lovelog_success6_PRE_8		taking mysterious aphrodisiacs	
+	narrator		lovelog_success6_PRE_9		%LOVELOG_FIRSTPLAYER% loves your suggestion, and that night, you two make some beautiful (and very weird) memories together!	
+	narrator		lovelog_success6_PRE_10		By morning, you'll continue your solo misadventures in monster dating, but you'll never forget this wild night, or the newfound shift in your relationship dynamics...	
+	narrator		lovelog_success6_PRE_11		But in the meantime, %LOVELOG_FIRSTPLAYER% gained %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% from your adventure, and you gained %LOVELOG_FINALSTATCHANGES% yourself!	
+						
+>>>	lovelog_success7					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success7_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%, your sexiest friend who's also a player character!	
+	narrator		lovelog_success7_PRE_2		You two have fun flipping through last year's Spooky High yearbook. You laugh at the awkward class photos and read all the weird signatures from your other friends.	
+	narrator		lovelog_success7_PRE_3		You get to the "Most Likely To..." section, and %LOVELOG_FIRSTPLAYER% asks you, sexily, "Hey %CURRENTPLAYERNAME%, just for fun, which superlative do you think I could earn?"	
+>lovelogcompliment_stat	creativity		lovelog_success7_PRE_4		most likely to discover a new color	
+>lovelogcompliment_stat	fun		lovelog_success7_PRE_5		most likely to win gold in Olympic beer pong	
+>lovelogcompliment_stat	smarts		lovelog_success7_PRE_6		most likely to get drunk and accidentally invent time travel	
+>lovelogcompliment_stat	boldness		lovelog_success7_PRE_7		most likely to rap battle someone to the death	
+>lovelogcompliment_stat	charm		lovelog_success7_PRE_8		most likely to kiss %CURRENTPLAYERNAME% on the cheek ;)	
+	narrator		lovelog_success7_PRE_9		Nice! %LOVELOG_FIRSTPLAYER% is sexily smitten by your compliment, and you have a great night together.	
+	narrator		lovelog_success7_PRE_10		Later, alone in your tent, you find yourself doodling "%CURRENTPLAYERNAME% + %LOVELOG_FIRSTPLAYER%" hearts in your old yearbook...	
+	narrator		lovelog_success7_PRE_11		But it'd be crazy to even consider dating %LOVELOG_FIRSTPLAYER%! ...Right?	
+	narrator		lovelog_success7_PRE_12		Well, for now, we're voting %LOVELOG_FIRSTPLAYER% as Most Likely to Gain %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES%, and you get %LOVELOG_FINALSTATCHANGES% for yourself.	
+						
+>>>	lovelog_success8					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success8_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success8_PRE_2		This is great! This is fine. %LOVELOG_FIRSTPLAYER% is your dear friend, and you would never want to breach that platonic friendship trust between besties, right?	
+	narrator		lovelog_success8_PRE_3		Unless...?	
+	narrator		lovelog_success8_PRE_4		Shit, %LOVELOG_FIRSTPLAYER_HESHE%%LOVELOG_FIRSTPLAYER_VERB_'S_'RE% looking at you. Make a suave-but-subtle move on %LOVELOG_FIRSTPLAYER_HIMHER% that'll gauge the possibility of a relationship here!	
+>lovelogcompliment_stat	creativity		lovelog_success8_PRE_5		admire %LOVELOG_FIRSTPLAYER_HISHER% aesthetically pleasing color scheme	
+>lovelogcompliment_stat	fun		lovelog_success8_PRE_6		offer to split a fudgesicle together	
+>lovelogcompliment_stat	smarts		lovelog_success8_PRE_7		rearrange the alphabet so "U" and "I" are next to each other	
+>lovelogcompliment_stat	boldness		lovelog_success8_PRE_8		punch %LOVELOG_FIRSTPLAYER_HIMHER% in the shoulder... with love	
+>lovelogcompliment_stat	charm		lovelog_success8_PRE_9		do a sensual mating dance	
+	narrator		lovelog_success8_PRE_10		Whoa... it worked! %LOVELOG_FIRSTPLAYER% is totally giving you eyes. Score!	
+	narrator		lovelog_success8_PRE_11		Too bad this was just one night, and you two will have to go back to your regularly-scheduled dating sim antics soon...	
+	narrator		lovelog_success8_PRE_12		...Or will you? Well, for now, %LOVELOG_FIRSTPLAYER% gets %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% from your flirting, and I'll throw in %LOVELOG_FINALSTATCHANGES% for you too, 'cause I'm nice.	
+						
+>>>	lovelog_success9					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success9_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success9_PRE_2		You talk. You laugh. You make s'mores. You contemplate the meaning (or lack thereof) of life and death. You make more s'mores.	
+	narrator		lovelog_success9_PRE_3		At one point your fingers accidentally touch when you're reaching for the marshmallows, and both of you blush and shy away in a really cute tropey way.	
+	narrator		lovelog_success9_PRE_4		Things are getting a little steamy... maybe it's time to seal the deal with the classiest, most beautiful compliment you've ever given anyone!	
+>lovelogcompliment_stat	creativity		lovelog_success9_PRE_5		are you an artist? 'Cause you're good at drawing me in.	
+>lovelogcompliment_stat	fun		lovelog_success9_PRE_6		I’d like to take you to the movies, but they don’t let you bring in your own snacks.	
+>lovelogcompliment_stat	smarts		lovelog_success9_PRE_7		are you made of Fluorine, Iodine, and Neon? 'Cause you are F-I-Ne.	
+>lovelogcompliment_stat	boldness		lovelog_success9_PRE_8		I need to buy life insurance, because when I saw you, my heart stopped.	
+>lovelogcompliment_stat	charm		lovelog_success9_PRE_9		you know what you would look really beautiful in? My arms.	
+	narrator		lovelog_success9_PRE_10		Perfect, suuuuuper classy. %LOVELOG_FIRSTPLAYER% is totally smitten! ...Well, %LOVELOG_FIRSTPLAYER_HESHE% %LOVELOG_FIRSTPLAYER_VERB_SEEMS_SEEM% amused at the very least.	
+	narrator		lovelog_success9_PRE_11		%LOVELOG_FIRSTPLAYER_HESHE% %LOVELOG_FIRSTPLAYER_VERB_IS_ARE% so amused, in fact, that %LOVELOG_FIRSTPLAYER_HESHE% %LOVELOG_FIRSTPLAYER_VERB_GAINS_GAIN% %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% from your compliment! Wow!	
+	narrator		lovelog_success9_PRE_12		You also gain %LOVELOG_FINALSTATCHANGES% for yourself -- but what you truly want is %LOVELOG_FIRSTPLAYER%'s heart... oh, to dream!	
+						
+>>>	lovelog_success10					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success10_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success10_PRE_2		You spend the whole night laughing, talking, and strengthening your bonds in friendship. You also take some dumb online quizzes for fun.	
+	narrator		lovelog_success10_PRE_3		It's %LOVELOG_FIRSTPLAYER%'s turn, and the question is, "If your friends were to describe you as a type of hamburger, what would they say?"	
+	narrator		lovelog_success10_PRE_4		%LOVELOG_FIRSTPLAYER_HESHE% %LOVELOG_FIRSTPLAYER_VERB_IS_ARE% looking to you now. This is your chance to put some moves on your cute friend!	
+	narrator		lovelog_success10_PRE_5		"%LOVELOG_FIRSTPLAYER%," you say (very suavely), "if you were a hamburger, you'd be..."	
+>lovelogcompliment_stat	creativity		lovelog_success10_PRE_6		a deconstructed Kimchi burger with a teriyaki infusion and shaved gold on top	
+>lovelogcompliment_stat	fun		lovelog_success10_PRE_7		confetti!	
+>lovelogcompliment_stat	smarts		lovelog_success10_PRE_8		80% lean, 20% beef, 100% a snacc	
+>lovelogcompliment_stat	boldness		lovelog_success10_PRE_9		made from unethically-sourced griffin meat with dynamite fries	
+>lovelogcompliment_stat	charm		lovelog_success10_PRE_10		a hot dog, 'cause I wanna stick you between my buns	
+	narrator		lovelog_success10_PRE_11		Aww, %LOVELOG_FIRSTPLAYER% is flattered! So flattered, in fact, that you watch %LOVELOG_FIRSTPLAYER_HIMHER% gain %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% right before your eyes!	
+	narrator		lovelog_success10_PRE_12		This hamburger metaphor might just be the start of a beautiful new chapter of your relationship with %LOVELOG_FIRSTPLAYER%...	
+	narrator		lovelog_success10_PRE_13		But for now, you gain %LOVELOG_FINALSTATCHANGES% (and a craving for a burger.)	
+						
+>>>	lovelog_success11					
+>location	any					
+>background	campfire					
+>layout	none					
+	narrator		lovelog_success11_PRE_1		You sit with %LOVELOG_FIRSTPLAYER%.	
+	narrator		lovelog_success11_PRE_2		You two laugh the night away, cracking jokes and staring at the stars and growing ever closer.	
+	narrator		lovelog_success11_PRE_3		%LOVELOG_FIRSTPLAYER% is so great. So, so great. There's barely a word to describe how great %LOVELOG_FIRSTPLAYER_HESHE% %LOVELOG_FIRSTPLAYER_VERB_IS_ARE%!	
+	narrator		lovelog_success11_PRE_4		But you're still gonna try. You look %LOVELOG_FIRSTPLAYER_HIMHER% in the eyes and say, "%LOVELOG_FIRSTPLAYER%, you are absolutely, positively..."	
+>lovelogcompliment_stat	creativity		lovelog_success11_PRE_5		effervescent	
+>lovelogcompliment_stat	fun		lovelog_success11_PRE_6		the bee's knees	
+>lovelogcompliment_stat	smarts		lovelog_success11_PRE_7		recherché	
+>lovelogcompliment_stat	boldness		lovelog_success11_PRE_8		baller	
+>lovelogcompliment_stat	charm		lovelog_success11_PRE_9		fine as hell	
+	narrator		lovelog_success11_PRE_10		%LOVELOG_FIRSTPLAYER% is stunned! But then %LOVELOG_FIRSTPLAYER_HESHE% %LOVELOG_FIRSTPLAYER_VERB_LAUGHS_LAUGH% and %LOVELOG_FIRSTPLAYER_VERB_SAYS_SAY%, "Oh, %CURRENTPLAYERNAME%, you're so sweet! I've always thought you were %LOVELOGCOMPLIMENT% too!"	
+	narrator		lovelog_success11_PRE_11		WHOA! Things are getting steamy up in here! Who would've thought that in a camp full of tantalizing love interests, the most interesting love would be your love for your pal?	
+	narrator		lovelog_success11_PRE_12		%LOVELOG_FIRSTPLAYER% gains %LOVELOG_FIRSTPLAYER_FINALSTATCHANGES% from your lovely compliment, and you gain %LOVELOG_FINALSTATCHANGES% for giving it!	
+	narrator		lovelog_success11_PRE_13		%CURRENTPLAYERNAME% and %LOVELOG_FIRSTPLAYER%: %LOVELOGCOMPLIMENT% to the very end.	
+						
+>>>	metashop_tutorial					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	greeting	metashop_tutorial_PRE_1	Эй, игрок! Это я, Рассказ... То есть Мета-торговец!	Hey, player! It's me the Narrat... I mean, the Meta-Shopkeeper!	
+	shopkeeper	script	metashop_tutorial_PRE_2	Впервые в моей скромной лавке, да? Не переживай, сейчас я объясню, как тут всё устроено.	This is your first time in my little shop, huh? Don't worry, I'll explain how this works.	
+	shopkeeper	default	metashop_tutorial_PRE_3	Здесь, в Мета-лавке, мы не принимаем деньги. Вместо них мы расплачиваемся и торгуем Летними воспоминаниями!	Here in the Meta-Shop, we don't accept money. We buy and trade with Summer Memories instead!	
+	shopkeeper	smirk	metashop_tutorial_PRE_4	Ты будешь получать Летние воспоминания каждый раз, когда откроешь новое событие, исход, секретную концовку или какую-нибудь особую штуку в Monster Camp!	You'll earn Summer Memories every time you encounter a new event, outcome, secret ending, or special thing in Monster Camp!	
+	shopkeeper	thinking	metashop_tutorial_PRE_5	(Спросишь, что ещё за "особые штуки"? Ну... поверь мне, когда увидишь — сразу поймёшь.)	(What are special things, you ask? Well... trust me, you'll know one when you've seen one.)	
+	shopkeeper	friendly	metashop_tutorial_PRE_6	Не волнуйся, немного Воспоминаний тебе отсыплют и просто за завершение прохождений, так что никакого давления!	Don't fret, you'll also get some Memories just for finishing games, so don't feel pressured!	
+	shopkeeper	script	metashop_tutorial_PRE_7	Трать Воспоминания здесь, чтобы разблокировать руководство по игре, новые наборы нарядов, материалы для галереи и напитки, которые пригодятся в питейном режиме Хуана "Бесплатная выпивка"!	You can spend your Memories here to unlock the tutorial guide, new outfit packs, gallery content, and drinks, which you can access in Juan's "Free Drinks" drinking game mode!	
+	shopkeeper	smirk	metashop_tutorial_PRE_8	Monster Camp — это поистине подарок, который не перестает радовать, правда же?	Monster Camp truly is the gift that keeps on giving, isn't it?	
+	shopkeeper	greeting	metashop_tutorial_PRE_9	О, и вдобавок ко всему: если ты уже играл%PRN__а_и% в Monster Camp раньше, то получишь полагающиеся Летние воспоминания задним числом за всё, чего успел добиться! Ну разве мы не душки?	Oh, on top of that, if you've already played Monster Camp before, you'll get your corresponding Summer Memories retroactively for what you've already achieved! Aren't we nice?	
+	shopkeeper	friendly	metashop_tutorial_PRE_10	Так чего же ты ждёшь? Либо покупай что-нибудь, либо бегом играть!	So what are you waiting for? Either buy something or get busy playing the game!	
+						
+>>>	metashop_intro1					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	greeting	metashop_intro1_PRE_1	Приветствую, игрок! С возвращением в Мета-лавку.	Greetings, player! Welcome back to the Meta-Shop.	
+	shopkeeper	lore	metashop_intro1_PRE_2	Осматривайся не спеша. Или вообще не осматривайся. Я ненастоящий, так что мне, по сути, всё равно, что ты делаешь.	Take your time browsing around. Or don't. I'm not real, so I don't really care what you do.	
+						
+>>>	metashop_intro2					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	greeting	metashop_intro2_PRE_1	И снова привет, игрок! Приглянулось что-нибудь?	Hello again, player! See anything you like?	
+	shopkeeper	thinking	metashop_intro2_PRE_2	У нас есть закулисные арты, есть крутые наряды, есть напитки, к которым ни один дорожащий жизнью человек в жизни не притронется... отрывайся по полной!	We've got behind-the-scenes art, we've got cool outfits, we've got drinks that no one who values their lives should ever drink... go nuts!	
+						
+>>>	metashop_intro3					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	greeting	metashop_intro3_PRE_1	Рад тебя видеть, игрок! С возвращением в Мета-лавку.	Good to see you, player! Welcome back to the Meta-Shop.	
+	shopkeeper	lore	metashop_intro3_PRE_2	Полагаю, у тебя накопилась куча Воспоминаний, которые так и чешутся руки потратить... давай, осмотрись тут.	I suppose you've piled up some Memories you're itching to spend... go ahead, have a look around.	
+						
+>>>	metashop_intro4					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	annoyed	metashop_intro4_PRE_1	О! Э-э, привет, игрок! Не знал, что ты заглянешь так скоро... а, чёрт, я совсем забыл свои реплики.	Oh! Uh, hello player! I didn't know you were coming by again so soon... ah, shit, I completely forgot my lines.	
+	shopkeeper	script	metashop_intro4_PRE_2	Эм-м, что-то там, добро пожаловать в Мета-магазин, ты пока осмотрись или типа того, пока я тут разгребусь, окей?	Umm, something something welcome to the Meta-Shop, you can look around or whatever while I get caught up, yeah?	
+						
+>>>	metashop_purchase1					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	friendly	metashop_purchase1_PRE_1	А! Превосходный выбор!	Ah! Excellent choice!	
+						
+>>>	metashop_purchase2					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	smirk	metashop_purchase2_PRE_1	М-м-м, уверен, с этой штукой ты повеселишься на славу.	Mmm, I bet you'll have fun with that one.	
+						
+>>>	metashop_purchase3					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	script	metashop_purchase3_PRE_1	И помни: товар возврату не подлежит!	Remember, no refunds!	
+						
+>>>	metashop_purchase4					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	friendly	metashop_purchase4_PRE_1	О-о, отличный выбор!	Ooh, that's a good one!	
+						
+>>>	metashop_purchase5					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	smirk	metashop_purchase5_PRE_1	У тебя отличный вкус.	You have excellent taste.	
+						
+>>>	metashop_exit1					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	thinking	metashop_exit1_PRE_1	До встречи в следующий раз!	See you next time!	
+						
+>>>	metashop_exit2					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	greeting	metashop_exit2_PRE_1	Хорошо повеселиться в лагере!	Have fun at camp!	
+						
+>>>	metashop_exit3					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	lore	metashop_exit3_PRE_1	Заглядывай в любое время.	Come back anytime.	
+						
+>>>	metashop_exit4					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	annoyed	metashop_exit4_PRE_1	Осторожнее там, снаружи!	Be careful out there!	
+						
+>>>	metashop_exit5					
+>location	any					
+>layout	solo	shopkeeper				
+	shopkeeper	script	metashop_exit5_PRE_1	Прощай, игрок!	Farewell, player!	
+>>>	prologue_1					
+>location	any					
+	narrator		prologue_1_PRE_1	Ах, лагерь «Жуть»… место, где прошли одни из наших самых дорогих сердцу летних дней. Тогда мы были молоды и бесстрашны…	Ah, Camp Spooky... the stage of some of our dearest summers. Back then we were young and unafraid...	
+	narrator		prologue_1_PRE_2	Школа осталась далеко позади, и всё казалось возможным, пока солнце согревало нас своими лучами по дороге в лагерь.	With school far away, everything seemed possible as the sun embraced us on our way to camp. 	
+	narrator		prologue_1_PRE_3	У лета есть эта особая сила, правда? Днями ты просто живёшь на полную, а ночи пьянят тебя предвкушением возможностей.	Summer has that distinct power, doesn't it? You live for the days, while the nights inebriate you with possibilities. 	
+	narrator		prologue_1_PRE_4	Такое чувство... будто жизнь может измениться на каждом шагу.	It's like... life could take a turn at every corner. 	
+	narrator		prologue_1_PRE_5	И с нами так и случилось.	And for us, it did.	
+>>>	prologue_2					
+>location	any					
+	narrator		prologue_2_PRE_1	Можно подумать, что Монстровыпускной закалил нас и подготовил ко всем взлётам и падениям в любви.	One might say that the Monster Prom had hardened us on the highs and lows of love. 	
+	narrator		prologue_2_PRE_2	Но нет — в любви мы всегда полные новички.	But no, in love we're always absolute beginners. 	
+	narrator		prologue_2_PRE_3	И летний лагерь не стал исключением.	And summer camp was no different.	
+	narrator		prologue_2_PRE_4	Никто не говорил об этом вслух, но мысль о летнем романе так и витала в воздухе.	No one talked about it, but the idea of a summer love loomed over our heads. 	
+>>>	prologue_3					
+>location	any					
+	narrator		prologue_3_PRE_1	Ближе к последнему дню лагерной смены ожидался звездопад — до него оставалось всего %WEEKS% нед.	Close to last day of camp there was a meteor shower happening, just %WEEKS% weeks away. 	
+	narrator		prologue_3_PRE_2	Все знали: если тебе кто-то нравится, вы просто обязаны посмотреть на эту чертовщину вместе.	Everyone knew that if you were into someone, you were going to watch that damn thing together.	
+	narrator		prologue_3_PRE_3	И вот нас охватило незримое, но сильное напряжение. Всё повторялось точь-в-точь как на Монстровыпускном...	And so, a silent yet powerful pressure invaded us. It was the Monster Prom all over again...	
+	narrator		prologue_3_PRE_4	Всё казалось таким неопределённым... всё, кроме одного: кого бы мы ни позвали на свидание под звездопадом, это наверняка был бы кто-то из шестёрки самых крутых ребят в том автобусе:	Everything seemed uncertain.... everything but one thing: whoever we were asking on a meteor shower date, it was probably going to be one of the six coolest people on that bus: 	
+>>>	prologue_joy					
+>location	any					
+	narrator		prologue_joy_PRE_1	Джой Джонсон-Джоджима (23), крутая ведьма, которая захотела немного отдохнуть после бесчисленных спасений мира.	Joy Johnson-Johjima (23), a badass witch who wanted to chill a bit after saving the world countless times.	
+						
+>>>	prologue_aaravi					
+>location	any					
+	narrator		prologue_aaravi_PRE_1	Аарави Мишра (22), вспыльчивая искательница приключений, одержимая проклятием, которая оказалась самой невыносимой соседкой по комнате на свете.	Aaravi Mishra (22), a hotheaded adventurer possessed by a curse who had turned out to be the most annoying roommate ever.	
+						
+>>>	prologue_calculester					
+>location	any					
+	narrator		prologue_calculester_PRE_1	Калькулестер Хьюлетт-Паккард (v1.1), библиотечный компьютер, ставший разумным роботом, готовым прочувствовать жизнь на полную катушку.	Calculester Hewlett-Packard (v1.1), a library computer who had become a sentient robot ready to experience life to its fullest.	
+						
+>>>	prologue_dahlia					
+>location	any					
+	narrator		prologue_dahlia_PRE_1	Далия Акино (20), накачанная синяя демоница и разжигательница войн, которая теперь нацелилась покорить лето.	Dahlia Aquino (20), a buff blue demon and warmonger who had set her sights on conquering summer next.	
+						
+>>>	prologue_damien					
+>location	any					
+	narrator		prologue_damien_PRE_1	Дэмиен Лавей (21), бесстрашный демон со страстью к разрушениям и любовью к огню.	Damien LaVey (21), a fearless demon with a taste for destruction and a love of fire.	
+						
+>>>	prologue_milo					
+>location	any					
+	narrator		prologue_milo_PRE_1	И Майло Белладонна (23?), жнец смерти, подрабатывающий интернет-инфлюенсером и без памяти влюблённый в жизнь и все её земные удовольствия.	And Milo Belladonna (23?), a death reaper doubling as an Internet influencer, and who was profoundly in love with life and all its earthly pleasures.	
+						
+>>>	prologue_introicebreakers					
+>location	any					
+	narrator		prologue_introicebreakers_PRE_1	Поездка на автобусе предстояла долгая, и от удачного первого шага могло зависеть всё лето.	The bus trip was long, and all of summer could be shaped by the first step well-taken. 	
+	narrator		prologue_introicebreakers_PRE_2	И поэтому стало ясно: всё сводилось к тому, чтобы растопить лёд и произвести хорошее впечатление на нужного человека.	And so it was clear: it all came down to breaking the ice and causing a good impression with the right person.	
+>>>	prologue_end					
+>location	any					
+	narrator		prologue_end_PRE_1	У нас оставалось всего %WEEKS% нед., чтобы добиться расположения тех, кто нам нравится, и покорить их сердца!	We only had %WEEKS% weeks left to woo our crushes and conquer their hearts!	
+	narrator		prologue_end_PRE_2	Но как я уже сказал: мы были молоды и бесстрашны... и были готовы начать.	But as I already said: we were young and unafraid... and we were ready to start. 	
+						
+>>>	standard_woods1					
+>location	woods					
+	narrator		standard_woods1_PRE_1	------Во время похода по лесу вы натыкаетесь на кучу вкусных съедобных грибов!	While hiking through the woods, you come across a bunch of delicious edible mushrooms!	
+	narrator		standard_woods1_PRE_2	Ну... вы, во всяком случае, считаете их съедобными. В смысле, вы их съели.	Well... you think they're edible anyway. I mean, you ate them.	
+	narrator		standard_woods1_PRE_3	Совершенно не по теме, вы также встречаете древнего всемогущего бога, обладающего непреходящим разумом и почему-то очень увлеченного вейпорвейвом.	On a completely unrelated note, you also meet an ancient all-powerful god who's timelessly intelligent, and also really into vaporwave for some reason.	
+	narrator		standard_woods1_PRE_4	Ты получаешь +2 СООБРАЗИТЕЛЬНОСТЬ за крутой разговор с богом вейпорвейва!	You gain +2 SMARTS from your dope conversation with the vaporwave god!	
+						
+>>>	standard_woods2					
+>location	woods					
+	narrator		standard_woods2_PRE_1		During your hike through the woods, you find a baby bird that's fallen out of his nest!	
+	narrator		standard_woods2_PRE_2		You nurse him back to health with some delicious trail mix. You also give him some great advice on puberty and how to do his taxes when he grows up.	
+	narrator		standard_woods2_PRE_3		Then the mama bird finds you... and she is PISSED that you're holding her baby. She tries to peck your eyes out, but you fight her off!	
+	narrator		standard_woods2_PRE_4		You've learned an important lesson today: don't fuck with birds. You gain +2 SMARTS.	
+						
+>>>	standard_woods3					
+>location	woods					
+	narrator		standard_woods3_PRE_1		Today you decide to hike ALL THE WAY across the woods. You wanna see what's on the other side!	
+	narrator		standard_woods3_PRE_2		It's a long, treacherous hike... that ends up only taking an hour. I guess these woods aren't that big after all. How do you and your friends get lost in them so often?	
+	narrator		standard_woods3_PRE_3		Anyway, it turns out there's a library on the other side of the woods. You go in and read some books or something and gain +2 SMARTS!	
+						
+>>>	standard_woods4					
+>location	woods					
+	narrator		standard_woods4_PRE_1		That day, you get lost hiking in the woods. You use the stars, AKA nature's compass, to get back to camp.	
+	narrator		standard_woods4_PRE_2		The stars actually teach you all sorts of things! Like how one of the stars in Orion's belt is actually a nebula!	
+	narrator		standard_woods4_PRE_3		The stars also teach you Italian, the quadratic formula, and the true meaning of friendship!	
+	narrator		standard_woods4_PRE_4		Wow, the stars sure are smart! And they give you +2 SMARTS!	
+						
+>>>	standard_woods5					
+>location	woods					
+	narrator		standard_woods5_PRE_1		While you're hiking through the woods, you accidentally step on a pile of leaves covering a MASSIVE HOLE!	
+	narrator		standard_woods5_PRE_2		IT WAS A TRAP! An evil goblin hunter (is it a goblin who hunts or someone who hunts goblins? YOU'LL NEVER KNOW) appears. They were the one who put the trap in there.	
+	narrator		standard_woods5_PRE_3		This is it, you're done. You get ready to embrace death... but the goblin hunter only set the trap to get someone to help them to do their math homework. 	
+	narrator		standard_woods5_PRE_4		They'll only let you leave if you help them. You don't have any other option here. It's a bit boring, but you actually learn some useful calculus. You gain +2 SMARTS.	
+						
+>>>	standard_woods6					
+>location	woods					
+	narrator		standard_woods6_PRE_1		You hike deep into the woods and find a mysterious journal with the number 3 on it half-buried in the dirt!	
+	narrator		standard_woods6_PRE_2		Inside is tons of information on local monsters and how to defeat them. It covers gnomes, psychics, time-travelers, Illuminati-shaped demons...	
+	narrator		standard_woods6_PRE_3		...What a boring journal! Where's the drama? Where's the inner thoughts and insecurities about school crushes?!	
+	narrator		standard_woods6_PRE_4		Whoever wrote this journal knew nothing about how journals work. You gain no FUN from this, but you surely get +2 SMARTS. Boring. 	
+						
+>>>	standard_woods7					
+>location	woods					
+	narrator		standard_woods7_PRE_1		That day you go on a hiking trip with a bunch of random campers. You live some weird adventures and share personal stories and secrets.	
+	narrator		standard_woods7_PRE_2		You don't know their names and they don't seem to have their own character models. But they reveal to you they're part of a different game, a survival resource-managing one. 	
+	narrator		standard_woods7_PRE_3		It turns out they cannot perceive YOUR character model. You go to the same camp, yet you're part of different games. 	
+	narrator		standard_woods7_PRE_4		This is deeply strange, and makes you reflect so much about your own existence that you gain +2 SMARTS out of it. 	
+	narrator		standard_woods7_PRE_5		They apparently gain +10 BERRIES and +2 STAMINA, whatever that means.	
+						
+>>>	standard_woods8					
+>location	woods					
+	narrator		standard_woods8_PRE_1		That day you go searching the woods for edible wildflowers to make a delicious wildflower soup.	
+	narrator		standard_woods8_PRE_2		You heard that some well-known flowers like lilies and tulips are actually poisonous! You decide to find out which flowers are bad by eating them all.	
+	narrator		standard_woods8_PRE_3		A few hours later, you've vomited up all the contents of your stomach and have a comprehensive list of which flowers NOT to put in the soup next time. Nice! You gain +2 SMARTS. 	
+	narrator		standard_woods8_PRE_4		WILDFLOWER SOUP FOREVER!	
+						
+>>>	standard_woods9					
+>location	woods					
+	narrator		standard_woods9_PRE_1		That day you go to the woods searching for edible roots to make a wilderness tea.	
+	narrator		standard_woods9_PRE_2		You find lots of roots! Beetroot, ginger root, the square root of pi, the root of all evil...	
+	narrator		standard_woods9_PRE_3		You brew it all together, and it's the most delicious tea you've ever had! It's so "rooted" with knowledge that you gain +2 SMARTS.	
+						
+>>>	standard_woods10					
+>location	woods					
+	narrator		standard_woods10_PRE_1		That day you get lost in the woods.	
+	narrator		standard_woods10_PRE_2		You decide to study the trees' bark and moss patterns to solve the situation.	
+	narrator		standard_woods10_PRE_3		By reading one tree's bark, you realize which direction North is!	
+	narrator		standard_woods10_PRE_4		By reading another tree's bark, you learn the exact age of the tree (73 years old).	
+	narrator		standard_woods10_PRE_5		By reading yet another tree's bark, you learn the tree likes Irish poetry and believes Buffy and Spike were the ultimate ship on Buffy the Vampire Slayer.	
+	narrator		standard_woods10_PRE_6		Woah! So much useless knowledge! You gain +2 SMARTS.	
+						
+>>>	standard_woods11					
+>location	woods					
+	narrator		standard_woods11_PRE_1		That day while you're hiking through the woods, an angry gnome steps into your path!	
+	narrator		standard_woods11_PRE_2		"HALT, GIANT BEAST!" he cries. "If it is passage you seek, you must first answer my riddles three!"	
+	narrator		standard_woods11_PRE_3		"Riddle number one: how is a raven like a writing desk?"	
+	narrator		standard_woods11_PRE_4		Hmmm... that's a tough call, but you give your answer: you punt the gnome into the sky and continue on your merry way.	
+	narrator		standard_woods11_PRE_5		Apparently that was the correct response, because nobody else tries to fuck with you! You gain +2 SMARTS.	
+						
+>>>	standard_woods12					
+>location	woods					
+	narrator		standard_woods12_PRE_1		That day in the woods, you find a mysterious portal to an unknown dimension! WHOA!	
+	narrator		standard_woods12_PRE_2		You're not so stupid that you'd jump into it yourself (this time), so you decide to tie a chipmunk to a string and throw it in there.	
+	narrator		standard_woods12_PRE_3		You pull the chipmunk back, expecting it to be dead or at least warped by the interdimensional travel, but it turns out whatever is on the other side of that portal taught the chipmunk calculus and some very cogent arguments about gender identity!	
+	narrator		standard_woods12_PRE_4		You and the chipmunk have a long, insightful conversation, and he helps you with your summer school homework. You gain +2 SMARTS!	
+						
+>>>	standard_woods13					
+>location	woods					
+	narrator		standard_woods13_PRE_1		That day while hiking through the woods, you find a tree with the words "J + S 4EVER" carved on it. Awww!	
+	narrator		standard_woods13_PRE_2		Then on another tree you find "J IS A LIAR AND A CHEATING HO". That's... less cute.	
+	narrator		standard_woods13_PRE_3		Then on yet ANOTHER tree you find "S I KNOW YOU BANGED LIKE 12 PEOPLE ABROAD IN EUROPE DON'T DISH WHAT YOU CAN'T TAKE".	
+	narrator		standard_woods13_PRE_4		On the last tree, S doxxes J. It turns out J lives on 7889 +2SMARTS Lane.	
+	narrator		standard_woods13_PRE_5		Boy, you sure can learn a lot from trees!	
+						
+>>>	standard_woods14					
+>location	woods					
+	narrator		standard_woods14_PRE_1		While hiking through the woods, you're approached by an NPC who has a quest for you. You can tell she's an NPC because she only says the same four things over and over and keeps doing the same idle animation.	
+	narrator		standard_woods14_PRE_2		The NPC's quest is to deliver a very important scroll to her father. She makes it extremely clear that NO ONE ELSE is allowed to read it, or terrible things will happen!	
+	narrator		standard_woods14_PRE_3		You read it, ofc. It turns out it's her father's secret recipe to the perfect peach cobbler!	
+	narrator		standard_woods14_PRE_4		Looks like her dad is never going to make that famed dessert in time for the NPC family potluck, because you eat the recipe scroll and gain +2 SMARTS!	
+						
+>>>	standard_woods15					
+>location	woods					
+	narrator		standard_woods15_PRE_1		While you're hiking through the woods, you find a little clearing with a beautiful blue pond.	
+	narrator		standard_woods15_PRE_2		There's a very handsome man staring deeply into the pond. He's talking to his reflection like it's another person... a person he REALLY wants to fuck.	
+	narrator		standard_woods15_PRE_3		You swipe his wallet while he's not looking and find out his name is Narcissus, he is NOT an organ donor (asshole), and he's one punch away from getting a free SmartWater at 7/11.	
+	narrator		standard_woods15_PRE_4		Well, he's definitely not going to be using that anytime soon! You head to the gas station and gain +2 SMARTS from your SmartWater!	
+						
+						
+						
+>>>	standard_manor1					
+>location	manor					
+	narrator		standard_manor1_PRE_1	В тот день ты решаешься заглянуть в Особняк с привидениями, чтобы доказать, что ты вовсе не трусишка.	That day you venture into the Haunted Manor to prove that you're not a little scaredy-cat.	
+	narrator		standard_manor1_PRE_2	Особняк превращается в извилистый лабиринт, из которого нет выхода. Ты застрянешь здесь... НАВСЕГДА!	The manor transforms itself into a winding maze from which there is no escape. You'll be trapped here... FOREVER!	
+	narrator		standard_manor1_PRE_3	К счастью, ты прихватил%PRN__а_и% с собой телефон и немного перекусить, поэтому просто садишься и раскладываешь пасьянс, пока дому не становится с тобой скучно и он сам не показывает тебе выход.	Luckily, you brought your phone and some snacks, so you sit down and play Solitaire until the house gets bored of you and shows you the exit.	
+	narrator		standard_manor1_PRE_4	Оказывается, лучшая защита от сверхъестественного — это полная апатия! Ты получаешь +2 СМЕЛОСТЬ.	It turns out the best defense against the supernatural is total apathy! You gain +2 BOLDNESS.	
+						
+>>>	standard_manor2					
+>location	manor					
+	narrator		standard_manor2_PRE_1	В тот день в Особняке с привидениями к тебе на трехколесном велосипеде подъезжает маленький клоун и спрашивает, не хочешь ли ты сыграть в игру.	That day in the Haunted Manor, a little clown-man rides a tricycle up to you and asks if you would like to play a game.	
+	narrator		standard_manor2_PRE_2	Круто, ты обожаешь игры! Ты предлагаешь «Монополию» или «Города». Клоун отвечает, что тебе нужно найти ключ от выхода за час, иначе он сдерет с тебя всю кожу.	Cool, you love games! You suggest Monopoly or Scattergories. The clown-man tells you to find the exit key in an hour or he's going to rip all your skin off.	
+	narrator		standard_manor2_PRE_3	Тебе эта идея не особо по душе, поэтому вы решаете пойти на компромисс и отправиться в квест-комнату, чтобы вместе решить несколько головоломок.	You're not super into that idea, so you two decide to compromise by going to an escape room and solving some puzzles together.	
+	narrator		standard_manor2_PRE_4	Это было очень задорно! Но здесь ты получаешь не ЗАДОР. Вместо этого ты получаешь +2 СМЕЛОСТЬ.	It's lots of fun! But you don't gain FUN here. You gain +2 BOLDNESS instead.	
+						
+>>>	standard_manor3					
+>location	manor					
+	narrator		standard_manor3_PRE_1	Исследуя Особняк с привидениями, ты находишь зачарованный череп, который говорит загадками. От его голоса у тебя идет кровь из ушей.	While exploring the Haunted Manor, you find an enchanted skull who speaks in riddles. His voice makes your ears bleed.	
+	narrator		standard_manor3_PRE_2	Ты решаешь назвать его Спарки и вешаешь на брелок для ключей как забавного питомца.	You decide to name him Sparky and put him on your keychain as a fun pet.	
+	narrator		standard_manor3_PRE_3	Он рассказывает тебе кучу крутых штук — например: "Остерегайся приливов Венеры" или "Если встретишь в супермаркете парня по имени Ленни, не давай ему двадцать баксов".	He tells you all sorts of cool things, like "Beware the tides of Venus," and "If you meet a guy named Lenny at Costco, don't give him twenty dollars."	
+	narrator		standard_manor3_PRE_4	Еще Спарки в точности предсказывает, когда и как ты умрешь! Судя по всему, в этом будет замешано ОЧЕНЬ МНОГО сырных палочек. За такое предвидение ты получаешь +2 СМЕЛОСТЬ.	Sparky also tells you exactly when and how you'll die! Apparently it's gonna involve a LOT of mozzarella sticks. You gain +2 BOLDNESS for gaining that foresight.	
+						
+>>>	standard_manor4					
+>location	manor					
+	narrator		standard_manor4_PRE_1	В тот день ты находишь в Особняке с привидениями зеркало. Но вместо твоего отражения в нем появляется твоя гротескная злая версия.	That day, you find a mirror in the Haunted Manor. But instead of showing your reflection, it shows you an exaggerated evil version of yourself.	
+	narrator		standard_manor4_PRE_2	Злое "Я" говорит: "Тебе никогда не побороть свои комплексы. Посмотри на мое совершенство и на свои недостатки. Тебя никто и никогда не полюбит".	Evil You says, "You will never surmount your insecurities. Look at how perfect I am, and look at how flawed you are. Nobody will ever love you."	
+	narrator		standard_manor4_PRE_3	Контраргумент: многие из твоих так называемых "недостатков" целиком выдуманы жадными корпорациями, которые хотят нажиться, обещая "исправить" то, на что ты буквально не можешь повлиять.	Counterpoint: many of your perceived "flaws" are totally fabricated by greedy companies looking to make a profit by promising to "fix" things you literally can't control.	
+	narrator		standard_manor4_PRE_4	Как только ты это произносишь, Злое "Я" испускает истошный вопль и исчезает. Класс! Ты получаешь +2 СМЕЛОСТЬ, потому что ты потрясающий человек — такой, какой есть.	As soon as you say that, Evil You shrieks bloody murder and disappears. Nice! You gain +2 BOLDNESS because you're amazing just the way you are.	
+						
+>>>	standard_manor5					
+>location	manor					
+	narrator		standard_manor5_PRE_1	Блуждая по Особняку с привидениями, ты попадаешь в засаду группы злых духов!	While wandering the Haunted Manor, you're ambushed by a group of evil spirits!	
+	narrator		standard_manor5_PRE_2	Ты даешь им достойный отпор, но их слишком много, и они сбегают, ПРИХВАТИВ ТВОЮ БЕССМЕРТНУЮ ДУШУ.	You put up a good fight, but there's just too many of them, and they run away WITH YOUR IMMORTAL SOUL.	
+	narrator		standard_manor5_PRE_3	К счастью, ты всегда знал%PRN__а_и%, что этот день настанет, и много лет назад заменил%PRN__а_и% свою бессмертную душу плюшевой игрушкой.	Luckily you always knew this day would come, and you replaced your immortal soul with a Beanie Baby years ago.	
+	narrator		standard_manor5_PRE_4	Отличная предусмотрительность с твоей стороны! Ты получаешь +2 СМЕЛОСТЬ!	Good foresight on your part! You gain +2 BOLDNESS!	
+						
+>>>	standard_manor6					
+>location	manor					
+	narrator		standard_manor6_PRE_1		As you're searching the Haunted Manor, you come across an enchanted doll that promises to grant all your wishes!	
+	narrator		standard_manor6_PRE_2		Cool! You take it. It possesses you, of course.	
+	narrator		standard_manor6_PRE_3		It turns out the spirit that was inside it is exactly like you in every way, so nobody notices the difference.	
+	narrator		standard_manor6_PRE_4		The only difference is that this spirit is a little bit bolder than you -- so you basically gain +2 BOLDNESS!	
+						
+>>>	standard_manor7					
+>location	manor					
+	narrator		standard_manor7_PRE_1		You go to the Haunted Manor to gain some boldness, since you found a brochure that promised some boldness if you visited. 	
+	narrator		standard_manor7_PRE_2		Instead you find a mischievous demon. It was all a ruse to lure you here. The demon will take nine years of your life. 	
+	narrator		standard_manor7_PRE_3		You take the demon to court for misleading advertising. 	
+	narrator		standard_manor7_PRE_4		The jury isn't fond of mischievous demons who fool people into giving years of their life up, so you win and the demon has to give you +2 BOLDNESS. Fuck yeah! 	
+						
+>>>	standard_manor8					
+>location	manor					
+	narrator		standard_manor8_PRE_1		While you're exploring the Haunted Manor, you hear a voice calling your name. It comes from under the bed.	
+	narrator		standard_manor8_PRE_2		Two blood-red eyes stare at you from the inky darkness under the bed. A voice that sounds older than time whispers:	
+	narrator		standard_manor8_PRE_3		"Do you want to gain some boldness, %CURRENTPLAYERNAME%?"	
+	narrator		standard_manor8_PRE_4		You say "yes", because you actually do want that.	
+	narrator		standard_manor8_PRE_5		"OK, here you go." Whatever that thing is, it gives you +2 BOLDNESS. What a nice under-the-bed-thing!	
+						
+>>>	standard_manor9					
+>location	manor					
+	narrator		standard_manor9_PRE_1		In the Haunted Manor, a voice whispers from the walls in a frightening voice:	
+	narrator		standard_manor9_PRE_2		"%CURRENTPLAYERNAME%... you can't escape your fate... you'll soon gain BOLDNESS... but after that something WEIRD will happen to you... it could be great... OR TERRIBLE..."	
+	narrator		standard_manor9_PRE_3		You don't want something potentially terrible happening to you. You stay put to be sure you don't get extra BOLDNESS per the voice's prediction.	
+	narrator		standard_manor9_PRE_4		Look at you, trying to defy destiny itself! That takes some bravery. Here, have +2 BOLDNESS. 	
+						
+>>>	standard_manor10					
+>location	manor					
+	narrator		standard_manor10_PRE_1		That day you venture into the Haunted Manor.	
+	narrator		standard_manor10_PRE_2		Everything is going fine and you're reassured on how brave you are...	
+	narrator		standard_manor10_PRE_3		...when suddenly a ghost (or is it just someone wearing a blanket with 2 holes? So hard to tell the difference) appears and whispers in your ear:	
+	narrator		standard_manor10_PRE_4		Remember one day you will be long gone and no one will remember you. All the struggle you endure to become a better version of yourself both personally and professionally will eventually mean nothing.	
+	narrator		standard_manor10_PRE_5		The ghost leaves while you take all that in, gaining +2 BOLDNESS in the process.	
+						
+						
+>>>	standard_manor11					
+>location	manor					
+	narrator		standard_manor11_PRE_1		That day you explore the Haunted Manor's basement, only to find it has a sub-basement.	
+	narrator		standard_manor11_PRE_2		The sub-basement is full of haunted chairs and a staircase to a sub-sub-basement. The sub-sub-basement is a haunted wine cellar. 	
+	narrator		standard_manor11_PRE_3		The sub-sub-sub-basement is a haunted nightclub for ghosts who don't like wine. They serve haunted spirits! HA!	
+	narrator		standard_manor11_PRE_4		The sub-basement to the tenth power is a Subway. You eat a footlong reuben and continue your travels.	
+	narrator		standard_manor11_PRE_5		You eventually check a walkthrough and find out the Haunted Manor can spawn an infinite amount of sub-basements. You only make it as far as the 89th level, which is a dom-sub leather room. You gain +2 BOLDNESS from the horrors you witness there.	
+						
+>>>	standard_manor12					
+>location	manor					
+	narrator		standard_manor12_PRE_1		That day in the Haunted Manor, you accidentally stumble upon a cult meeting in the hallway!	
+	narrator		standard_manor12_PRE_2		The cultists are wearing terrifying black robes, standing over a bloodied body and chanting. You try to flee, but one of them shoves a flyer in your hand.	
+	narrator		standard_manor12_PRE_3		The ink burns your eyes to read, but you manage to find the words "NEW RECRUITS GET HEALTHCARE BENEFITS WITH SAME-DAY SIGN UP."	
+	narrator		standard_manor12_PRE_4		WHAT?! Sold! You gain a bunch of new cultist buddies, and your new insurance covers spontaneous +2 BOLDNESS growths! Cool!	
+						
+>>>	standard_manor13					
+>location	manor					
+	narrator		standard_manor13_PRE_1		You decide to get your tarot cards read while you're in the Haunted Manor. The wicked old lady who offers you the service said it'd be fun!	
+	narrator		standard_manor13_PRE_2		The first card she flips over shows a photorealistic drawing of you flying on a hang glider directly into power lines.	
+	narrator		standard_manor13_PRE_3		"...Is that good?" you ask the psychic.	
+	narrator		standard_manor13_PRE_4		She wordlessly puts her cards away and vanishes into the darkness. It's probably fine! You gain +2 BOLDNESS and a fun new phobia.	
+						
+>>>	standard_manor14					
+>location	manor					
+	narrator		standard_manor14_PRE_1		That day in the Haunted Manor, you find a bunch of ghosts playing craps. You're terrible at gambling, but that's never stopped you before!	
+	narrator		standard_manor14_PRE_2		You face off against the craps champion, slam all of your chips down on the table, and cry out, "I BET MY IMMORTAL SOUL!!!"	
+	narrator		standard_manor14_PRE_3		Everyone gasps... and then someone says, "Dude, chill. We're just, like, playing to have fun. Nobody's even betting real money."	
+	narrator		standard_manor14_PRE_4		Oh! You're not used to such low-stakes betting around camp -- honestly, it's a relief. You bet +2 BOLDNESS against the champion instead... and you win!	
+						
+>>>	standard_manor15					
+>location	manor					
+	narrator		standard_manor15_PRE_1		You go into the Haunted Manor with a group, only to immediately split up once you get inside, as is customary.	
+	narrator		standard_manor15_PRE_2		You quickly get lost and have no cell signal, but in a stroke of genius, you follow the signs to the Haunted Manor's lost and found to wait for your friends to pick you up.	
+	narrator		standard_manor15_PRE_3		You find all sorts of cool lost knick-knacks while you wait! Some bloody gloves, a haunted iPod (it only plays "Thriller" by Michael Jackson), a totally normal Furby that still manages to be the creepiest thing in there...	
+	narrator		standard_manor15_PRE_4		At the bottom of the box, you even find +2 BOLDNESS! YOINK! Who in their right mind would throw that away?	
+						
+						
+>>>	standard_lake1					
+>location	lake					
+	narrator		standard_lake1_PRE_1		That day you decide to take a swimming class in the lake. You learn all sorts of cool swimming techniques!	
+	narrator		standard_lake1_PRE_2		The backstroke! The side stroke! The Macarena stroke! The mime-having-a stroke!	
+	narrator		standard_lake1_PRE_3		All those strokes sure are fun! (Though perhaps a bit medically concerning.) You gain +2 FUN.	
+						
+>>>	standard_lake2					
+>location	lake					
+	narrator		standard_lake2_PRE_1		You want to go swimming, but it seems like the God of the Lake is in a bit of a mood today. It demands an offering before you can get in the water!	
+	narrator		standard_lake2_PRE_2		The only thing you have to give is your favorite yo-yo, which you were playing with on the way here.	
+	narrator		standard_lake2_PRE_3		The God of the Lake accepts your humble gift, and is actually kind of relieved you didn't leave something boring like a dead fish or the soul of a mortal.	
+	narrator		standard_lake2_PRE_4		So in addition to gaining access to the lake, the God blesses you with +2 FUN! Yay!	
+						
+>>>	standard_lake3					
+>location	lake					
+	narrator		standard_lake3_PRE_1		That day, you decide to go scuba diving and find a treasure chest at the bottom of the lake! WHOA!	
+	narrator		standard_lake3_PRE_2		You pick the lock, which is quite impressive if you keep in mind that you're still underwater. Inside you find... OVER 1000 FUN!!	
+	narrator		standard_lake3_PRE_3		Unfortunately, your wetsuit doesn't have pockets, so you can only go back to shore only with +2 FUN. When you go back, fish have eaten the rest. They're having a rave right now. 	
+	narrator		standard_lake3_PRE_4		Fucking fish.	
+						
+>>>	standard_lake4					
+>location	lake					
+	narrator		standard_lake4_PRE_1		You decide to go relax in the lake for a bit. Camp Spooky gets pretty crazy, so it's nice to just float on the water and chill.	
+	narrator		standard_lake4_PRE_2		You end up falling asleep... and wake up to realize you've floated halfway across the lake straight into a CRAB RAVE?!	
+	narrator		standard_lake4_PRE_3		The crabs are just as confused as you are, but they invite you to rave with them, and their party is surprisingly popping!	
+	narrator		standard_lake4_PRE_4		You gain +1 INVITE to the next crab rave, and +2 FUN!	
+						
+>>>	standard_lake5					
+>location	lake					
+	narrator		standard_lake5_PRE_1		That day you go diving to see what's at the bottom of the lake.	
+	narrator		standard_lake5_PRE_2		You find a comic book! You pick it up, but it's so interesting you stay there reading it. This is bad, since you cannot hold your breath indefinitely. 	
+	narrator		standard_lake5_PRE_3		You rush to the surface, but before getting there you drown a little and some lake water gets into your mouth. Gross!	
+	narrator		standard_lake5_PRE_4		You swallow some weird stuff that was in the lake water, like a whole jellyfish and... +2 FUN? What was that doing there? 	
+						
+>>>	standard_lake6					
+>location	lake					
+	narrator		standard_lake6_PRE_1		Before you go to the lake, you decide to make the most fun inflatable toy to float on that you possibly can.	
+	narrator		standard_lake6_PRE_2		You combine many of your favorite "fun" things: ice cream, tabletop games, watching your enemies fail, ducks...	
+	narrator		standard_lake6_PRE_3		The resulting amalgamation is certainly... interesting. Even if it doesn't exactly float on water.	
+	narrator		standard_lake6_PRE_4		You decide to name your toy Dr. Frankenfun (or maybe you should name it Dr. Frankenfun's Monster?). Just beholding the horror you've created gives you +2 FUN!	
+						
+>>>	standard_lake7					
+>location	lake					
+	narrator		standard_lake7_PRE_1		That day at the lake, you start a Super Soaker fight that turns into an all-out war.	
+	narrator		standard_lake7_PRE_2		The enemy team manages to capture the northern section of the lake, but you take a few of their members hostage and learn their empire's weaknesses.	
+	narrator		standard_lake7_PRE_3		You lead a full-scale infiltration. Thousands of soldiers get totally Soaked(TM). It's a bloodbath.	
+	narrator		standard_lake7_PRE_4		After several hours, the enemy team surrenders, and you gain +2 FUN from the peace treaty. Yay!	
+						
+>>>	standard_lake8					
+>location	lake					
+	narrator		standard_lake8_PRE_1		You decide to bring a metal detector to the lake that day. You scour the beach for buried treasure.	
+	narrator		standard_lake8_PRE_2		You find a keychain, a tin box of stale cookies (which you eat anyway), a glowing chalice that the Knights Templar come to confiscate for some reason...	
+	narrator		standard_lake8_PRE_3		But best of all, you manage to find some genuine, silver-plated +2 FUN! Score!	
+						
+>>>	standard_lake9					
+>location	lake					
+	narrator		standard_lake9_PRE_1		You're in the lake, sunbathing. It's kinda relaxing... but hella boring.	
+	narrator		standard_lake9_PRE_2		What's the issue? Have you lost your ability to have some fun unless you're playing videogames or partying in wild raves?	
+	narrator		standard_lake9_PRE_3		Ah, no, you see the problem now: you didn't put on sunscreen, but FUNscreen, which has a fun protection factor of 50. 	
+	narrator		standard_lake9_PRE_4		You wash the funscreen away with some water and put on some sunscreen. Theeere you go! You prevent some sunburn and gain +2 FUN.	
+						
+>>>	standard_lake10					
+>location	lake					
+	narrator		standard_lake10_PRE_1		You spend the day playing in the lake.	
+	narrator		standard_lake10_PRE_2		Everything is fun, until you're mesmerized by a strange song... IT'S THE SIRENS!	
+	narrator		standard_lake10_PRE_3		They try to lure you with their beautiful chants, but you know better and challenge them to a Riff-Off!	
+	narrator		standard_lake10_PRE_4		They kick your ass, but you all definitely have a lot of FUN. More specifically, +2 FUN.	
+						
+						
+>>>	standard_lake11					
+>location	lake					
+	narrator		standard_lake11_PRE_1		You head to the lake to get your tan on, but as soon as you get there, it starts to rain!	
+	narrator		standard_lake11_PRE_2		Most of the beachgoers leave... but NO. You WILL enjoy a fun lake day, dammit. You had a really rough morning and you won't let anything else stop you from gaining FUN!!!	
+	narrator		standard_lake11_PRE_3		You aggressively splash in the lake and laugh as loudly as you can, hoping the clouds will give up on trying to ruin your day. Instead the lake gets struck by lightning.	
+	narrator		standard_lake11_PRE_4		When you wake up from the electrocution coma, you're onshore, the sun is shining, and you have a cool new facial twitch! YOU WIN! You gain +2 FUN.	
+>>>	standard_lake12					
+>location	lake					
+	narrator		standard_lake12_PRE_1		While looking around the lake for a private place to take a pee, you find a treasure map buried in the sand!	
+	narrator		standard_lake12_PRE_2		It leads to an X in the center of the lake. You gather a crew of trusted friends, don your eyepatch, and sail out there to find the booty!	
+	narrator		standard_lake12_PRE_3		When you arrive, you find a tiny island with a single palm tree. You dig up a box that says "OPEN IN CASE OF A VERY BORING DAY."	
+	narrator		standard_lake12_PRE_4		You open the box and find... +2 FUN! ARRRR!	
+>>>	standard_lake13					
+>location	lake					
+	narrator		standard_lake13_PRE_1		That day you bring a magazine to read by the lake. The cover story is "How to Gain FUN While Camping With Your Six Hottest, Most Charismatic Friends."	
+	narrator		standard_lake13_PRE_2		"STEP ONE: Go to the lake. STEP TWO: Wait."	
+	narrator		standard_lake13_PRE_3		What, that's it? Then why hasn't that worked for you yet--?	
+	narrator		standard_lake13_PRE_4		Oh, wait, you just gained +2 FUN. Thanks, Cosmopolitan!	
+						
+						
+>>>	standard_scouthq1					
+>location	scouthq					
+	narrator		standard_scouthq1_PRE_1		That day in Monster Scouts, they teach you how to use the stars and trees' bark to find your way when you get lost...	
+	narrator		standard_scouthq1_PRE_2		...On the internet. 	
+	narrator		standard_scouthq1_PRE_3		As a test, Coach leaves you in the middle of the internet. You easily get lost. Before you know it, you're watching the Spanish synchronized swimming team perform a routine based on "Stairway to Heaven." 	
+	narrator		standard_scouthq1_PRE_4		You don't earn the "Orientation While in the Internet" badge, but you definitely gain +2 CREATIVITY from watching such beautiful display of skill.	
+						
+>>>	standard_scouthq2					
+>location	scouthq					
+	narrator		standard_scouthq2_PRE_1		That day there's a guest speaker at the Monster Scouts HQ. She's a Wereagle Monster Scout here to tell you all about advancing through the levels!	
+	narrator		standard_scouthq2_PRE_2		Her speech is surprisingly interesting! She started out at Camp Spooky, just like you, and worked super hard to earn every single badge!	
+	narrator		standard_scouthq2_PRE_3		She also hints at some possible foul play, including her murdering a higher-level Scout and wearing her skin as a disguise in order to advance through the ranks.	
+	narrator		standard_scouthq2_PRE_4		Sure is inspiring! You're too busy flirting with your friends to dedicate that kind of time to Monster Scouts, but still, her speech instills you with +2 CREATIVITY.	
+						
+>>>	standard_scouthq3					
+>location	scouthq					
+	narrator		standard_scouthq3_PRE_1		That day, the Monster Scouts hike around the camp cleaning up litter to "respect nature" and stuff.	
+	narrator		standard_scouthq3_PRE_2		Nobody but Coach gives a damn about picking up trash, but it does quickly become a contest to find the coolest garbage!	
+	narrator		standard_scouthq3_PRE_3		Some find used condoms, others find weirdly-shaped fruit. You somehow find a Rembrandt. It's an original.	
+	narrator		standard_scouthq3_PRE_4		The mystery of how the Rembrandt ended up there will go on to trigger the most epic adventure you all will go on during this summer. But it won't happen on-screen.	
+	narrator		standard_scouthq3_PRE_5		But you still gain +2 CREATIVITY just by looking at it. So magnificent! 	
+						
+>>>	standard_scouthq4					
+>location	scouthq					
+	narrator		standard_scouthq4_PRE_1		That day in Monster Scouts, you all learn to identify different animal tracks.	
+	narrator		standard_scouthq4_PRE_2		First you practice identifying bears and deer, but then you start having to identify way more specific tracks.	
+	narrator		standard_scouthq4_PRE_3		You identify the tracks of a Sculptaur: half human, half sculptor. You follow the tracks until you find the legendary beast.	
+	narrator		standard_scouthq4_PRE_4		The Sculptaur teaches you the basics of sculpture. You gain +2 CREATIVITY!	
+						
+>>>	standard_scouthq5					
+>location	scouthq					
+	narrator		standard_scouthq5_PRE_1		That day in Monster Scouts, you all learn how to build scarecrows! That's vaguely nature-related, right?	
+	narrator		standard_scouthq5_PRE_2		You decide to take it a step further, though: you add a magical crystal you found in a cave last month to your scarecrow to turn it into a SENTIENT BEING.	
+	narrator		standard_scouthq5_PRE_3		The scarecrow is very grateful to have been made alive. You take your new friend out for a soda and have a very pleasant afternoon!	
+	narrator		standard_scouthq5_PRE_4		Then you're forced to disassemble him so the next group of Scouts can use the materials. Your scarecrow begs you not to relinquish your gift of life, but you're a dedicated Monster Scout first!	
+	narrator		standard_scouthq5_PRE_5		The Scouts appreciate your dedication to the organization. You're awarded +2 CREATIVITY!	
+						
+>>>	standard_scouthq6					
+>location	scouthq					
+	narrator		standard_scouthq6_PRE_1		That day in Monster Scouts you all practice writing speeches in preparation for possibly being killed by a bear. You wanna get your last words right!	
+	narrator		standard_scouthq6_PRE_2		You decide to write a heartfelt poem dedicated to your favorite things in life: 	
+	narrator		standard_scouthq6_PRE_3		Monster Camp, the smell of rain, the bittersweet joy of watching the sun set for the very last time, and chicken tenders.	
+	narrator		standard_scouthq6_PRE_4		Everyone is moved by your poem; you're pretty sure you even make the nearby bears cry. You gain +2 CREATIVITY.	
+						
+>>>	standard_scouthq7					
+>location	scouthq					
+	narrator		standard_scouthq7_PRE_1		That day in Monster Scouts, you learn to make your very own clothes in the wild!	
+	narrator		standard_scouthq7_PRE_2		Someone suggests a fashion show, so afterwards you all put on your outfits and show them off.	
+	narrator		standard_scouthq7_PRE_3		If you'd known that that would be the result, you probably would've made something other than a leaf-and-stick thong and vine-woven nipple tassels...	
+	narrator		standard_scouthq7_PRE_4		Needless to say, nobody will be forgetting your performance anytime soon. You gain +2 CREATIVITY!	
+						
+>>>	standard_scouthq8					
+>location	scouthq					
+	narrator		standard_scouthq8_PRE_1		That day in Monster Scouts, you make each other friendship bracelets!	
+	narrator		standard_scouthq8_PRE_2		...Except the Monster Scout leader pairs you randomly with your "friendship bracelet recipients", I guess so Larry the Lich doesn't feel left out for having no friends.	
+	narrator		standard_scouthq8_PRE_3		You get paired with Larry. Surprisingly, though, he's a great conversationalist, and he makes you a super heartfelt bracelet that imbues you with +2 CREATIVITY when you wear it!	
+	narrator		standard_scouthq8_PRE_4		Larry sure is nice... maybe there will come a day when he's cool enough to be your friend, or at least a romanceable summer fling option. But today is not that day!	
+						
+>>>	standard_scouthq9					
+>location	scouthq					
+	narrator		standard_scouthq9_PRE_1		That day in Monster Scouts, you learn to identify different berries!	
+	narrator		standard_scouthq9_PRE_2		You all search for berries and try to identify them. A blackberry, a blueberry...	
+	narrator		standard_scouthq9_PRE_3		But Rachel the Deer-Person finds a very weirdly shaped berry no one can identify. You all stare at it for hours. It's closer to abstract art than to a berry, somehow.	
+	narrator		standard_scouthq9_PRE_4		It's a true thinkpiece. It forces you to reflect on berry inequality, and although there are no easy answers to the questions it poses, you all gain +2 CREATIVITY from the experience.	
+						
+>>>	standard_scouthq10					
+>location	scouthq					
+	narrator		standard_scouthq10_PRE_1		You spend the day learning new skills with the Monster Scouts in order to earn badges!	
+	narrator		standard_scouthq10_PRE_2		You earn a badge for healing a wound only using the bark of a tree.	
+	narrator		standard_scouthq10_PRE_3		You earn a badge for writing poems in iambic pentameter.	
+	narrator		standard_scouthq10_PRE_4		You earn a badge for building a Blackberry using only real blackberries. 	
+	narrator		standard_scouthq10_PRE_5		Nice! Completing all of those unexpected and probably useless lessons earned you +2 CREATIVITY!	
+						
+						
+>>>	standard_scouthq11					
+>location	scouthq					
+	narrator		standard_scouthq11_PRE_1		You spend all day trying to learn how to use the North Star to know your location and never get lost.	
+	narrator		standard_scouthq11_PRE_2		It's a fierce challenge, and everyone gets, like, super lost. You say fuck it and try to text the North Star to ask for directions. Maybe no one never asked?	
+	narrator		standard_scouthq11_PRE_3		Of course this achieves nothing. It's a star, and you should stop trying to resort to sheer absurdity to solve your problems.	
+	narrator		standard_scouthq11_PRE_4		You get no badge (no one does, it was all a trick test and it wasn't even nighttime); but Coach awards you with +2 CREATIVITY for your lateral thinking. 	
+						
+						
+>>>	standard_scouthq12					
+>location	scouthq					
+	narrator		standard_scouthq12_PRE_1		That day all the Scouts make a braid-chain as a teambuilding exercise. You learn all sorts of new ways to braid hair.	
+	narrator		standard_scouthq12_PRE_2		But the person braiding your hair accidentally ties an Infinity Knot into your head. There's no way to untie it. YOU CAN SEE INTO INFINITY.	
+	narrator		standard_scouthq12_PRE_3		But right before Coach gives you the worst haircut of your life, you see how all of your friends will die! It's useful in helping you eliminate David Davidson the Doomed Deer-Person from your romantic prospects.	
+	narrator		standard_scouthq12_PRE_4		You also watch every Marvel movie that will ever be released! You gain +2 CREATIVITY from witnessing so many plot twists.	
+						
+>>>	standard_scouthq13					
+>location	scouthq					
+	narrator		standard_scouthq13_PRE_1		That day you happen to take the same Monster Scouts class as Mamimi the Oni Girl.	
+	narrator		standard_scouthq13_PRE_2		You didn't get good sleep last night, so you ask her if she has any of that weird energy drink she let you have once during high school.	
+	narrator		standard_scouthq13_PRE_3		She doesn't, but she does have some very strange-smelling coffee that could help. Where does this girl even FIND these weird-ass drinks?	
+	narrator		standard_scouthq13_PRE_4		The coffee is delicious, but it comes with side effects: you get an acquired fear of caterpillars and you grow +2 CREATIVITY in your hair.	
+						
+						
+>>>	standard_dome1					
+>location	dome					
+	narrator		standard_dome1_PRE_1		That day you play Competitive Spin The Bottle.	
+	narrator		standard_dome1_PRE_2		You must kiss a camper from Camp Rival Camp. It's a long, intense kiss in which your tongues wrestle mercilessly. 	
+	narrator		standard_dome1_PRE_3		You apply some unexpected biting (since that's currently very high on the meta) while holding the back of their head to prevent an untimely escape.	
+	narrator		standard_dome1_PRE_4		You win at kissing. It goes without saying you've earned +2 CHARM.	
+						
+>>>	standard_dome2					
+>location	dome					
+	narrator		standard_dome2_PRE_1		That day at the Camp Dome, you play hacky-sack. 	
+	narrator		standard_dome2_PRE_2		It's all fun and games (literally) until the hacky-sack falls and -- against all your knowledge of hacky-sacks' supposed composition -- it breaks upon hitting the floor. 	
+	narrator		standard_dome2_PRE_3		What the fuck? The good news is inside of it there's... +2 CHARM? You call dibs. 	
+						
+>>>	standard_dome3					
+>location	dome					
+	narrator		standard_dome3_PRE_1		That day at the Camp Dome you play a game of tug-o-war. 	
+	narrator		standard_dome3_PRE_2		You see, tug-o-war is a harder game than it seems. It involves a lot of strategy, and there's a secret technique not everyone knows. It's... "you need to be strong".	
+	narrator		standard_dome3_PRE_3		You mastered this technique years ago, and so you win. The audience is cheering and roaring in joy while you salute them, victorious.	
+	narrator		standard_dome3_PRE_4		They throw roses at you. They throw their underwear. Someone throws you +2 CHARM, which you happily take. 	
+						
+>>>	standard_dome4					
+>location	dome					
+	narrator		standard_dome4_PRE_1		That day at the Camp Dome you all do thumb wars.	
+	narrator		standard_dome4_PRE_2		That means the campers are waging war against the Thumb Warriors, the supernaturally-buff thumb monsters from Camp Thumb. It's surprisingly terrifying.	
+	narrator		standard_dome4_PRE_3		You all were sure to lose -- but thanks to your quick thinking, you hatch a plan to fight the thumb warriors with their greatest weakness: PREDATORS WITHOUT OPPOSABLE THUMBS.	
+	narrator		standard_dome4_PRE_4		Some may say that your team siccing a pack of rabid mountain lions on the competitors is cheating, but you prefer the term "strategic". You gain +2 CHARM!	
+						
+>>>	standard_dome5					
+>location	dome					
+	narrator		standard_dome5_PRE_1		That day at the Camp Dome, you all play the classic children's game "The Floor Is Lava" with a twist: the floor is literally lava.	
+	narrator		standard_dome5_PRE_2		You're all hopping here and there, trying to survive the dangers of... you know... lava. But then one of your teammates falls.	
+	narrator		standard_dome5_PRE_3		He's sinking into the lava, dying a slow, agonizing death. You offer a hand but it's too late. Before disappearing under the hot lava he whispers his last words: 	
+	narrator		standard_dome5_PRE_4		"%CURRENTPLAYERNAME%... you... your hair looks great."	
+	narrator		standard_dome5_PRE_5		It does! You gain +2 CHARM from a nice compliment.	
+						
+>>>	standard_dome6					
+>location	dome					
+	narrator		standard_dome6_PRE_1		That day at the Camp Dome you play Never Have I Ever XTREME. Every time someone mentions something you've done, you have to cut a finger off.	
+	narrator		standard_dome6_PRE_2		But besides the finger part, this is finally a great time to brag about all the cool illegal things you've done!	
+	narrator		standard_dome6_PRE_3		You're the first out, and while they're sewing your digits back on, you get to regale your friends with stories of how you "robbed a bank while wearing your grandfather's skull as a hat."	
+	narrator		standard_dome6_PRE_4		You're so cool! Also, they sew you +2 CHARM to your left hand by mistake.	
+						
+>>>	standard_dome7					
+>location	dome					
+	narrator		standard_dome7_PRE_1		Today at Camp Dome, the game is Seven Minutes in Heaven XTREME.	
+	narrator		standard_dome7_PRE_2		You volunteer yourself as tribute for your camp. You put on some lip balm, ready for some hot kissing... but it seems you got the rules wrong.	
+	narrator		standard_dome7_PRE_3		In Seven Minutes in Heaven XTREME, they straight-up murder you and you need to stay in literal Heaven for seven minutes.	
+	narrator		standard_dome7_PRE_4		They stab you repeatedly. You're sure you're going to Hell... but no. Heaven is beautiful, it's all you ever wanted. You want to stay, but they bring you back to life.	
+	narrator		standard_dome7_PRE_5		You are cheered by your teammates, but you will never be the same after being taken from Heaven. You do look more heavenly, tho... and that translates into +2 CHARM. 	
+						
+>>>	standard_dome8					
+>location	dome					
+	narrator		standard_dome8_PRE_1		While you're in the throes of battle at the Camp Dome, one of your teammates suddenly gets shot by three swift arrows.	
+	narrator		standard_dome8_PRE_2		While slowly dying, he asks you to take the +2 CHARM he had hanging around his neck in a silver locket.	
+	narrator		standard_dome8_PRE_3		It's a family heirloom. He wants you to take it to his father and tell him his son died in battle. 	
+	narrator		standard_dome8_PRE_4		While crying, you promise to do so. You'll honor his death.	
+	narrator		standard_dome8_PRE_5		Thing is, later you end up binge-watching 15 episodes of Garfield back to back, and you totally forget about your promise. Oopsies. 	
+						
+>>>	standard_dome9					
+>location	dome					
+	narrator		standard_dome9_PRE_1		That day at the Camp Dome you're doing some classic battle royale. Lots of fun and murder!	
+	narrator		standard_dome9_PRE_2		You've cornered another player, who begs you to spare her life. 	
+	narrator		standard_dome9_PRE_3		You decide to spare her, but you still shoot an arrow in her spleen. Little-known fact: people store excess CHARM in there.	
+	narrator		standard_dome9_PRE_4		She starts bleeding CHARM, so you take +2 CHARM and drink it. It refreshes you and makes your skin clearer.	
+						
+>>>	standard_dome10					
+>location	dome					
+	narrator		standard_dome10_PRE_1		Today, you're playing the most dangerous Camp Dome game of all... CHARM WARS!	
+	narrator		standard_dome10_PRE_2		The rules are simple: you must gain CHARM by the end of the round, or YOU WILL DIE INSTANTLY.	
+	narrator		standard_dome10_PRE_3		%CURRENTPLAYERNAME%, you better earn some charm quick! Like, in the next ten seconds or YOU'RE GONNA FUCKING DIE HOLY SHIT EARN SOME CHARM ALREADY--!	
+	narrator		standard_dome10_PRE_4		Oh! Okay, thank God. You just earned +2 CHARM. Phew, that was WAY too close!	
+						
+>>>	standard_dome11					
+>location	dome					
+	narrator		standard_dome11_PRE_1		That day you join the merciless trials of the Camp Dome.	
+	narrator		standard_dome11_PRE_2		Your team is faced with a potato sack race.	
+	narrator		standard_dome11_PRE_3		It seems easy... but this is THE CAMP DOME, and so the potato sacks are filled with swarms of bees!	
+	narrator		standard_dome11_PRE_4		Your teammates are discouraged, both because they are not fond of bees and because the enemy team is mostly comprised by sentient bees (aren't all bees sentient anyway?), giving them a clear advantage over you.	
+	narrator		standard_dome11_PRE_5		It all looks dire for you... but you use your cunning and remind the enemy team that the bee population of Earth is inexplicably decreasing and bees are heading towards unavoidable extinction!	
+	narrator		standard_dome11_PRE_6		This fact really messes with the enemy team's heads, giving you the edge you need to win. Your nasty leadership skills grant you +2CHARM!	
+						
+>>>	standard_dome12					
+>location	dome					
+	narrator		standard_dome12_PRE_1		Today at the Camp Dome, the game is Charades XTREME.	
+	narrator		standard_dome12_PRE_2		It's just regular charades, but apparently they love to stick "XTREME" onto any classic game. 	
+	narrator		standard_dome12_PRE_3		It's your turn, and you get "THIRD TIME'S THE CHARM". "Third" is easy to convey just by using your fingers. 	
+	narrator		standard_dome12_PRE_4		But "Charm" is harder... to get your team to guess it right, you act as if you were more charming than you really are.	
+	narrator		standard_dome12_PRE_5		You manage to do that, gain +2 CHARM by playing that role, and bring your team to victory. Hooray!	
+						
+>>>	standard_dome13					
+>location	dome					
+	narrator		standard_dome13_PRE_1		You're huddled behind a bullet bunker in the throes of a tail tag battle royale against Camp Rival Camp. You're sure that this is the end.	
+	narrator		standard_dome13_PRE_2		You've lived a good life, you think. Next to you is a Camp Rival Camp member, shivering and crying and out of ammo (why guns are part of tail tag is beyond your comprehension).	
+	narrator		standard_dome13_PRE_3		"Is this where we die, %CURRENTPLAYERNAME%?" they sob. "Why couldn't Camp Spooky and Camp Rival Camp just make love and not war?"	
+	narrator		standard_dome13_PRE_4		You reach for them, as if to bring them into a tender kiss... and as soon as they're in your grasp, you take their tail. 	
+	narrator		standard_dome13_PRE_5		FUCK YEAH! That gives Camp Spooky the win! Everyone saw your sexy ruse, which also gives you +2 CHARM.	
+						
+>>>	standard_dome14					
+>location	dome					
+	narrator		standard_dome14_PRE_1		That day, a fun and zany scavenger hunt awaits you at the Camp Dome.	
+	narrator		standard_dome14_PRE_2		Last night, the counselors stole your organs while you were asleep, and you have to solve the scavenger hunt clues to get them back! Isn't that fun? No? TOO BAD!	
+	narrator		standard_dome14_PRE_3		You make the best of the situation by stealing your hotter friends' organs in place of your own. You get +10 EVIL from Dmitri's liver! 	
+	narrator		standard_dome14_PRE_4		You also find a very strange gland, and against common sense you shove it up your nose. It secretes +2 CHARM.	
+						
+>>>	standard_dome15					
+>location	dome					
+	narrator		standard_dome15_PRE_1		It's a typical bloody Camp Dome battle royale. While you're hiding to catch a breath, a severed fist flies through the air and lands in your lap.	
+	narrator		standard_dome15_PRE_2		You unfold it. The fist was holding a tarnished silver locket containing the photo of a loved one, likely waiting for the hand's former owner to return home safely.	
+	narrator		standard_dome15_PRE_3		You toss that behind you and also find a crumpled-up coupon redeemable for +2 CHARM at Pedro's Pastrami Paradise!	
+	narrator		standard_dome15_PRE_4		Rad! Thanks, mysterious hand!	
+						
+>>>	standard_dome16					
+>location	dome					
+	narrator		standard_dome16_PRE_1		Another day at Camp Dome, another day trying to survive a deadly battle royale game.	
+	narrator		standard_dome16_PRE_2		You manage to murder ten people in twenty minutes. What a feat. 	
+	narrator		standard_dome16_PRE_3		The audience roars. This will certainly give you a lot of BOLDNESS.	
+	narrator		standard_dome16_PRE_4		But wait! The Camp Dome shouldn't make you gain BOLDNESS, but CHARM! Even if that doesn't make sense! You want CHARM!	
+	narrator		standard_dome16_PRE_5		You think quickly and make a fancy hat out of the guts of a corpse. The audience is wowed and grants you +2 CHARM. Much better!	
