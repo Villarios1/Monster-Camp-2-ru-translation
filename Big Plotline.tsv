@@ -96,40 +96,40 @@ Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
 >>>	bp_dahliabestsummer2					
 >location	any					
 >layout	solo	dahlia				
-	dahlia	scary	bp_dahliabestsummer2_PRE_1		%CURRENTPLAYERNAME%! Hi! What are you doing? Not important! It's time to kill winter!	
-	dahlia	winky	bp_dahliabestsummer2_PRE_2		I tracked her down! Her name is Bruma and she lives in Alaska in a palace made of ice and crude oil! Let's go!	
-	narrator		bp_dahliabestsummer2_PRE_3		You hesitate for a moment because Alaska sucks, but Dahlia triggers a travel montage before you can object.	
+	dahlia	scary	bp_dahliabestsummer2_PRE_1	%CURRENTPLAYERNAME%! Привет! Чем занимаешься? Неважно! Пора прикончить зиму!	%CURRENTPLAYERNAME%! Hi! What are you doing? Not important! It's time to kill winter!	
+	dahlia	winky	bp_dahliabestsummer2_PRE_2	Я её выследила! Её зовут Брума, и она живёт на Аляске во дворце изо льда и сырой нефти! Погнали!	I tracked her down! Her name is Bruma and she lives in Alaska in a palace made of ice and crude oil! Let's go!	
+	narrator		bp_dahliabestsummer2_PRE_3	Ты на секунду колеблешься, ведь Аляска — полный отстой, но Далия запускает монтажную нарезку путешествия раньше, чем ты успеваешь возразить.	You hesitate for a moment because Alaska sucks, but Dahlia triggers a travel montage before you can object.	
 >background	genericbright					
-	narrator		bp_dahliabestsummer2_PRE_4		One plane, one bus, and one tauntaun ride later, you stand before the palace of the Herald of Winter. The portcullis opens with a tremendous grating noise.	
-	narrator		bp_dahliabestsummer2_PRE_5		"Who dares approach my sanctum?" bellows the Herald, who looks like Elsa from "Frozen" but wearing a Christmas sweater emblazoned with the words "THIS IS NOT COPYRIGHT INFRINGEMENT".	
-	dahlia	angry	bp_dahliabestsummer2_PRE_6		It is I, Dahlia Aquino, and I have come on behalf of the Herald of Summer to MELT YOU INTO FLUID.	
-	narrator		bp_dahliabestsummer2_PRE_7		"Foolish mortal," says Elsa, I mean Bruma. "You cannot defeat the mighty winter. It is by far the superior season."	
-	dahlia	surprised	bp_dahliabestsummer2_PRE_8		What?! Impossible! Summer has all the best things: revealing swimsuits, sweating profusely, the Summer Olympics...	
-	narrator		bp_dahliabestsummer2_PRE_9		"Indeed," says Bruma, "but winter has bitter cold, not being able to go outside, and the Winter Olympics."	
-	dahlia	disappointed	bp_dahliabestsummer2_PRE_10		Curses! She's right! Damn those figure skaters and their sexy ice bikinis!	
-	narrator		bp_dahliabestsummer2_PRE_11		"Yes, you cannot stand against me," smiles Bruma. "Now run along. I have lunch with Sarah Palin in an hour."	
-	narrator		bp_dahliabestsummer2_PRE_12		No, you can't give up so easily! Surely there must be a way to ruin winter and defeat its herald. Wait... you've got it!	
->choice_option1			bp_dahliabestsummer2_CHO_1		Invite all her relatives to a holiday dinner, then ambush them with POLITICS!	
->choice_option2			bp_dahliabestsummer2_CHO_2		SOCKS. GIVE HER SOCKS.	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_1		You share your fiendish plan with Dahlia. She's appalled.	
-	dahlia	surprised	bp_dahliabestsummer2_OUT_1_SUC_2		No, we can never do something so heinous. We must have standards! We must be noble!	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_3		You remind her that you're on a quest to murder every season but Summer because a meteor told you to.	
-	dahlia	winky	bp_dahliabestsummer2_OUT_1_SUC_4		Hm... I guess there really isn't anything noble about that. What a relief! Now we can do anything!	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_5		A few phone calls and handwritten invitations later, Bruma's family is at the gates of her palace, demanding to be let inside.	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_6		"What is the meaning of this?" shouts the ice princess. "It is not a holiday! Why are we gathering?"	
-	dahlia	scary	bp_dahliabestsummer2_OUT_1_SUC_7		We're gathered here to celebrate... YOUR DOOM.	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_8		"Your doom, honey?" says Bruma's mom, a hag made of icicles. "Does that mean you're finally getting married?"	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_9		"Ugh, Mom, I told you, I'm focused on my career right now!" says Bruma. "Fine, come in, I'll make everyone slushies."	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_10		The crowd files inside, Bruma makes slushies, Uncle Yeti makes some uncomfortable comments about race; it's a typical family gathering.	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_11		Then, just as everyone's sitting down to a meal of crushed, flavored ice...	
-	dahlia	winky	bp_dahliabestsummer2_OUT_1_SUC_12		So... how does everyone feel about CURRENT POLITICAL FIGURE?	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_13		"I hate him!" cries Bruma's left-leaning Yuki-Onna half-sister. "I fundamentally reject his conservative position on CONTROVERSIAL TOPIC!"	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_14		"You have it all backwards," says Bruma's aunt, who is a wendigo and also an anti-vaxxer. "According to this Facebook post widely shared in my own conservative echo chamber..."	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_15		"INCOMPREHENSIBLE RACIST DIATRIBE!" shouts Uncle Yeti.	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_16		"UGH, THAT'S IT," shouts Bruma. "I'M MOVING TO COSTA RICA AND TURNING INTO LIQUID."	
-	dahlia	scary	bp_dahliabestsummer2_OUT_1_SUC_17		Yes! Another life claimed in the service of the Herald of Summer! Soon, only one season will remain!	
-	dahlia	default	bp_dahliabestsummer2_OUT_1_SUC_18		I assume this will have no negative impact on the climate, and I refuse to examine that assumption!!!	
-	narrator		bp_dahliabestsummer2_OUT_1_SUC_19		You do too, because you're horny! Your single-minded quest of booty over all else earns you +2FUN and +1BOLDNESS.	
+	narrator		bp_dahliabestsummer2_PRE_4	Один самолёт, один автобус и одна поездка верхом на таунтауне спустя вы стоите перед дворцом Вестницы Зимы. Опускная решётка поднимается с оглушительным скрежетом.	One plane, one bus, and one tauntaun ride later, you stand before the palace of the Herald of Winter. The portcullis opens with a tremendous grating noise.	
+	narrator		bp_dahliabestsummer2_PRE_5	— Кто смеет приближаться к моей обители? — громогласно вопрошает Вестница, которая выглядит точь-в-точь как Эльза из «Холодного сердца», но в рождественском свитере с огромной надписью: «ЭТО НЕ НАРУШЕНИЕ АВТОРСКИХ ПРАВ».	"Who dares approach my sanctum?" bellows the Herald, who looks like Elsa from "Frozen" but wearing a Christmas sweater emblazoned with the words "THIS IS NOT COPYRIGHT INFRINGEMENT".	
+	dahlia	angry	bp_dahliabestsummer2_PRE_6	Это я, Далия Акино, и я пришла от лица Вестника Лета, чтобы РАСПЛАВИТЬ ТЕБЯ В ЖИДКОСТЬ.	It is I, Dahlia Aquino, and I have come on behalf of the Herald of Summer to MELT YOU INTO FLUID.	
+	narrator		bp_dahliabestsummer2_PRE_7	— Глупая смертная, — говорит Эльза, то есть Брума. — Тебе не одолеть могучую зиму. Это без сомнения лучший сезон.	"Foolish mortal," says Elsa, I mean Bruma. "You cannot defeat the mighty winter. It is by far the superior season."	
+	dahlia	surprised	bp_dahliabestsummer2_PRE_8	Что?! Невозможно! Летом есть всё самое лучшее: откровенные купальники, обильное потоотделение, Летние Олимпийские игры...	What?! Impossible! Summer has all the best things: revealing swimsuits, sweating profusely, the Summer Olympics...	
+	narrator		bp_dahliabestsummer2_PRE_9	— Безусловно, — отвечает Брума, — но зимой есть лютый мороз, невозможность выйти на улицу и Зимние Олимпийские игры.	"Indeed," says Bruma, "but winter has bitter cold, not being able to go outside, and the Winter Olympics."	
+	dahlia	disappointed	bp_dahliabestsummer2_PRE_10	Проклятье! Она права! Будь они неладны, эти фигуристы в их секси-бикини на льду!	Curses! She's right! Damn those figure skaters and their sexy ice bikinis!	
+	narrator		bp_dahliabestsummer2_PRE_11	— Да, вам против меня не устоять, — улыбается Брума. — А теперь бегите отсюда. Через час у меня обед с Сарой Пэйлин.	"Yes, you cannot stand against me," smiles Bruma. "Now run along. I have lunch with Sarah Palin in an hour."	
+	narrator		bp_dahliabestsummer2_PRE_12	Нет, так легко сдаваться нельзя! Должен же быть способ испортить зиму и одолеть её вестницу. Постой-ка... Эврика!	No, you can't give up so easily! Surely there must be a way to ruin winter and defeat its herald. Wait... you've got it!	
+>choice_option1			bp_dahliabestsummer2_CHO_1	Пригласить всю её родню на праздничный ужин, а потом устроить им засаду из ПОЛИТИКИ!	Invite all her relatives to a holiday dinner, then ambush them with POLITICS!	
+>choice_option2			bp_dahliabestsummer2_CHO_2	НОСКИ. ПОДАРИТЬ ЕЙ НОСКИ.	SOCKS. GIVE HER SOCKS.	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_1	Ты делишься своим дьявольским планом с Далией. Она в ужасе.	You share your fiendish plan with Dahlia. She's appalled.	
+	dahlia	surprised	bp_dahliabestsummer2_OUT_1_SUC_2	Нет, мы ни за что не пойдём на такое злодейство. У нас должны быть принципы! Мы должны быть благородными!	No, we can never do something so heinous. We must have standards! We must be noble!	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_3	Ты напоминаешь ей, что вы отправились убивать все времена года, кроме Лета, потому что вам так велел метеорит.	You remind her that you're on a quest to murder every season but Summer because a meteor told you to.	
+	dahlia	winky	bp_dahliabestsummer2_OUT_1_SUC_4	Хм... Пожалуй, в этом и правда нет ничего благородного. Какое облегчение! Теперь нам всё дозволено!	Hm... I guess there really isn't anything noble about that. What a relief! Now we can do anything!	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_5	Спустя пару телефонных звонков и написанных от руки приглашений родня Брумы уже стоит у ворот её дворца, требуя впустить их внутрь.	A few phone calls and handwritten invitations later, Bruma's family is at the gates of her palace, demanding to be let inside.	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_6	— Что всё это значит? — кричит ледяная принцесса. — Сейчас даже не праздник! С чего бы нам собираться?	"What is the meaning of this?" shouts the ice princess. "It is not a holiday! Why are we gathering?"	
+	dahlia	scary	bp_dahliabestsummer2_OUT_1_SUC_7	Мы собрались здесь, чтобы отпраздновать... ТВОЮ ПОГИБЕЛЬ.	We're gathered here to celebrate... YOUR DOOM.	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_8	— Твою погибель, милая? — спрашивает мама Брумы, старуха из сосулек. — Это значит, ты наконец-то выходишь замуж?	"Your doom, honey?" says Bruma's mom, a hag made of icicles. "Does that mean you're finally getting married?"	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_9	— Ой, мам, я же говорила, сейчас я сосредоточена на карьере! — отвечает Брума. — Ладно, заходите, я сделаю всем фруктовый лёд.	"Ugh, Mom, I told you, I'm focused on my career right now!" says Bruma. "Fine, come in, I'll make everyone slushies."	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_10	Толпа вваливается внутрь, Брума готовит фруктовый лёд, дядюшка Йети отпускает пару неловких комментариев на расовую тему — в общем, типичные семейные посиделки.	The crowd files inside, Bruma makes slushies, Uncle Yeti makes some uncomfortable comments about race; it's a typical family gathering.	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_11	И вот, как только все усаживаются за трапезу из колотого ароматизированного льда...	Then, just as everyone's sitting down to a meal of crushed, flavored ice...	
+	dahlia	winky	bp_dahliabestsummer2_OUT_1_SUC_12	Ну так... как вы все относитесь к О НЫНЕШНЕЙ ПОЛИТИЧЕСКОЙ ФИГУРЕ?	So... how does everyone feel about CURRENT POLITICAL FIGURE?	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_13	— Ненавижу его! — восклицает сводная сестра Брумы, Юки-онна левых взглядов. — Я в корне не согласна с его консервативной позицией по СПОРНОЙ ТЕМЕ!	"I hate him!" cries Bruma's left-leaning Yuki-Onna half-sister. "I fundamentally reject his conservative position on CONTROVERSIAL TOPIC!"	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_14	— Ты всё поняла задом наперёд, — говорит тётя Брумы, которая по совместительству вендиго и антипрививочница. — Согласно вот этому посту на Фейсбуке, который активно репостят в моём консервативном инфопузыре...	"You have it all backwards," says Bruma's aunt, who is a wendigo and also an anti-vaxxer. "According to this Facebook post widely shared in my own conservative echo chamber..."	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_15	— НЕЧЛЕНОРАЗДЕЛЬНАЯ РАСИСТСКАЯ ТИРАДА! — орёт дядюшка Йети.	"INCOMPREHENSIBLE RACIST DIATRIBE!" shouts Uncle Yeti.	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_16	— ОЙ, ВСЁ, ХВАТИТ, — кричит Брума. — Я ПЕРЕЕЗЖАЮ В КОСТА-РИКУ И ПРЕВРАЩАЮСЬ В ЖИДКОСТЬ.	"UGH, THAT'S IT," shouts Bruma. "I'M MOVING TO COSTA RICA AND TURNING INTO LIQUID."	
+	dahlia	scary	bp_dahliabestsummer2_OUT_1_SUC_17	Есть! Ещё одна жизнь принесена в жертву во славу Вестника Лета! Скоро останется лишь одно время года!	Yes! Another life claimed in the service of the Herald of Summer! Soon, only one season will remain!	
+	dahlia	default	bp_dahliabestsummer2_OUT_1_SUC_18	Полагаю, это никак не навредит климату, и я наотрез отказываюсь проверять эту догадку!!!	I assume this will have no negative impact on the climate, and I refuse to examine that assumption!!!	
+	narrator		bp_dahliabestsummer2_OUT_1_SUC_19	И ты тоже, ведь у тебя в голове сплошной разврат! Твой самоотверженный поход за попкой вопреки всему остальному приносит тебе +2 ЗАДОР и +1 СМЕЛОСТЬ.	You do too, because you're horny! Your single-minded quest of booty over all else earns you +2FUN and +1BOLDNESS.	
 	dahlia	surprised	bp_dahliabestsummer2_OUT_1_FAIL_1		Wow, I was just going to stab her with an icepick. That's way more complicated... which must mean it's way smarter!!!	
 	narrator		bp_dahliabestsummer2_OUT_1_FAIL_2		A few phone calls and handwritten invitations later, Bruma's family is at the gates of her palace, demanding to be let inside.	
 	narrator		bp_dahliabestsummer2_OUT_1_FAIL_3		"What is the meaning of this?" shouts the ice princess. "It is not a holiday! Why are we gathering?"	
