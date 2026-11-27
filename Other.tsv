@@ -1566,7 +1566,7 @@ Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
 	shopkeeper	friendly	metashop_tutorial_PRE_6	Не волнуйся, немного Воспоминаний тебе отсыплют и просто за завершение прохождений, так что никакого давления!	Don't fret, you'll also get some Memories just for finishing games, so don't feel pressured!	
 	shopkeeper	script	metashop_tutorial_PRE_7	Трать Воспоминания здесь, чтобы разблокировать руководство по игре, новые наборы нарядов, материалы для галереи и напитки, которые пригодятся в питейном режиме Хуана "Бесплатная выпивка"!	You can spend your Memories here to unlock the tutorial guide, new outfit packs, gallery content, and drinks, which you can access in Juan's "Free Drinks" drinking game mode!	
 	shopkeeper	smirk	metashop_tutorial_PRE_8	Monster Camp — это поистине подарок, который не перестает радовать, правда же?	Monster Camp truly is the gift that keeps on giving, isn't it?	
-	shopkeeper	greeting	metashop_tutorial_PRE_9	О, и вдобавок ко всему: если ты уже играл%PRN__а_и% в Monster Camp раньше, то получишь полагающиеся Летние воспоминания задним числом за всё, чего успел добиться! Ну разве мы не душки?	Oh, on top of that, if you've already played Monster Camp before, you'll get your corresponding Summer Memories retroactively for what you've already achieved! Aren't we nice?	
+	shopkeeper	greeting	metashop_tutorial_PRE_9	О, и сверх того: при наличии прогресса в Monster Camp соответствующие Летние воспоминания начислятся задним числом за все прежние достижения! Разве мы не душки?	Oh, on top of that, if you've already played Monster Camp before, you'll get your corresponding Summer Memories retroactively for what you've already achieved! Aren't we nice?	
 	shopkeeper	friendly	metashop_tutorial_PRE_10	Так чего же ты ждёшь? Либо покупай что-нибудь, либо бегом играть!	So what are you waiting for? Either buy something or get busy playing the game!	
 						
 >>>	metashop_intro1					
@@ -1657,7 +1657,7 @@ Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
 	narrator		prologue_2_PRE_4	Никто не говорил об этом вслух, но мысль о летнем романе так и витала в воздухе.	No one talked about it, but the idea of a summer love loomed over our heads. 	
 >>>	prologue_3					
 >location	any					
-	narrator		prologue_3_PRE_1	Ближе к последнему дню лагерной смены ожидался звездопад — до него оставалось всего %WEEKS% нед.	Close to last day of camp there was a meteor shower happening, just %WEEKS% weeks away. 	
+	narrator		prologue_3_PRE_1	Ближе к последнему дню в лагере ожидался звездопад — до него оставалось всего %WEEKS% нед.	Close to last day of camp there was a meteor shower happening, just %WEEKS% weeks away. 	
 	narrator		prologue_3_PRE_2	Все знали: если тебе кто-то нравится, вы просто обязаны посмотреть на эту чертовщину вместе.	Everyone knew that if you were into someone, you were going to watch that damn thing together.	
 	narrator		prologue_3_PRE_3	И вот нас охватило незримое, но сильное напряжение. Всё повторялось точь-в-точь как на Монстровыпускном...	And so, a silent yet powerful pressure invaded us. It was the Monster Prom all over again...	
 	narrator		prologue_3_PRE_4	Всё казалось таким неопределённым... всё, кроме одного: кого бы мы ни позвали на свидание под звездопадом, это наверняка был бы кто-то из шестёрки самых крутых ребят в том автобусе:	Everything seemed uncertain.... everything but one thing: whoever we were asking on a meteor shower date, it was probably going to be one of the six coolest people on that bus: 	

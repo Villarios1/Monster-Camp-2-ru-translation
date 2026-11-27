@@ -372,7 +372,7 @@ END_TTL	Кто станет твоей летней любовью?	Who will be 
 END_JTL	Кто убил Крутого Джоша?	Who murdered Cool Josh?	
 END_NON_THM	Никто из них!	None of them!	
 END_ASK_NPC	Позвать [NPC] на звездопад?	Ask [NPC] to go to the meteor shower?	[NPC] gets replaced by the NPC name.
-END_ASK_NON	Попросить... НИКОГО ИЗ НИХ!	Ask... NONE OF THEM!	
+END_ASK_NON	Позвать... НИКОГО ИЗ НИХ!	Ask... NONE OF THEM!	
 END_JAS_NPC	Обвинить [NPC] в убийстве?	Accuse [NPC] of murder?	
 END_JAS_NON	Обвинить... НИКОГО ИЗ НИХ?	Accuse... NONE OF THEM?	
 END_NSW_YES	ДА!	YES!	
@@ -549,10 +549,10 @@ SHP_TTL_SK_SECRETENDINGS	Набор эскизов «Секретные конц
 SHP_TTL_SK_PROLOGUE	Набор эскизов «Пролог»	Prologue Sketch Pack	
 SHP_TTL_SK_BARTENDER	Набор эскизов «Бармен»	Bartender Sketch Pack	
 SHP_TTL_SK_ALTPCS	Набор эскизов альтернативных игровых персонажей	Alternative Playable Characters Sketch Pack	
-SHP_TTL_PCP_FRI	Игровой персонаж «Холодильник»	"A fridge" Playable Character	
+SHP_TTL_PCP_FRI	Игрового персонажа«Холодильник»	"A fridge" Playable Character	
 SHP_TTL_OP_NAU	Набор нарядов «Дикое море»	"Savage Sea" Outfit Pack	
 SHP_TTL_OP_MAZ	Набор нарядов «Mazeman»	"Mazeman" Outfit Pack	
-SHP_TTL_PCP_MOD	Игровой персонаж «Модеус»	"Modeus" Playable Character	
+SHP_TTL_PCP_MOD	Игрового персонажа «Модеус»	"Modeus" Playable Character	
 SHP_TTL_OP_EIG	Набор нарядов «Назад в 80-е»	"Back to the 80s" Outfit Pack	
 SHP_TTL_OP_CAT	Набор «Кот»	"The Cat Pack"	
 SHP_TTL_OP_WIL	Набор нарядов «Йиха!»	"Yeehaw!" Outfit Pack	
@@ -1167,33 +1167,33 @@ DRN_DSC_SP_NOTHING_SAFE		It's just apple juice.
 DRN_DSC_VI_ALLBRIANS		A whimsical cereal that changes anyone who eats it into the same tired zombie. Braaaaains.	
 DRN_DSC_VI_PAINTINGS		This drink will enhance the natural beauty of the world around you. Why live in reality when you can live in a Rembrandt, right?	
 #Tab titles			
-GLR_BCK		Back	
-GLR_TTL_END		Endings	
-GLR_TTL_BCK		Backgrounds	
-GLR_TTL_CHR		Characters	
-GLR_TTL_DRN		Drinks	
-GLR_TTL_ITM		Items	
-GLR_TTL_CRD		Credits	
-GLR_TTL_CNC		Concept art	
-GLR_TTL_SPC		Special stuff	
-GLR_TTL_EVT		Event checklist	
-GLR_TTL_STT		Stats	
-GLR_TTL_PRM		Promo art	
+GLR_BCK	Назад	Back	
+GLR_TTL_END	Концовки	Endings	
+GLR_TTL_BCK	Фон	Backgrounds	
+GLR_TTL_CHR	Персонажи	Characters	
+GLR_TTL_DRN	Напитки	Drinks	
+GLR_TTL_ITM	Предметы	Items	
+GLR_TTL_CRD	Авторы	Credits	
+GLR_TTL_CNC	Концепт-арт	Concept art	
+GLR_TTL_SPC	Особые материалы	Special stuff	
+GLR_TTL_EVT	Список событий	Event checklist	
+GLR_TTL_STT	Статистика	Stats	
+GLR_TTL_PRM	Промо-арт	Promo art	
 			
 #Art Viewers			
-GLR_VG1		Variation	
-GLR_VG2		Variation 2	
-GLR_VC1		Outfit	
-GLR_VC2		Expression	
-GLR_VC3		Expression 2	
-GLR_CHR_CLS		Close	
-GLR_CHR_FLL		Fullscreen	
+GLR_VG1	Вариация	Variation	
+GLR_VG2	Вариация 2	Variation 2	
+GLR_VC1	Наряды	Outfit	
+GLR_VC2	Выражение лица	Expression	
+GLR_VC3	Выражение лица 2	Expression 2	
+GLR_CHR_CLS	Закрыть	Close	
+GLR_CHR_FLL	Полноэкранный режим	Fullscreen	
 			
 #Special stuff list			
 GLR_SPC_TTL		Special stuff	
 			
 #Events list			
-GLR_EVT_TTL		Event completion checklist	
+GLR_EVT_TTL	Чек-лист выполнения событий	Event completion checklist	
 GLR_EVT_SC1		Success 1	
 GLR_EVT_SC2		Success 2	
 GLR_EVT_FL1		Failure 1	
@@ -1210,18 +1210,18 @@ GLR_GST_SPC	Особые вещи:	Special stuff:
 GLR_GST_DRN	Получены напитки:	Drinks got:	
 GLR_GST_ITM	Выбранные предметы:	Items chosen:	
 			
-GLR_GLR_TTL		Gallery stats	
-GLR_GLR_ENP		Ending pictures:	
-GLR_GLR_ENV		Ending variations:	
-GLR_GLR_BGP		Background pictures:	
-GLR_GLR_LLV		Love log variations:	
-GLR_GLR_CHM		Character models:	
-GLR_GLR_CHV		Character variations:	
+GLR_GLR_TTL	Статистика галереи	Gallery stats	
+GLR_GLR_ENP	Заключительные картинки:	Ending pictures:	
+GLR_GLR_ENV	Заключительные вариации:	Ending variations:	
+GLR_GLR_BGP	Фоновые изображения:	Background pictures:	
+GLR_GLR_LLV	Варианты любовного дневника:	Love log variations:	
+GLR_GLR_CHM	Модели персонажей:	Character models:	
+GLR_GLR_CHV	Варианты персонажей:	Character variations:	
 			
-RES_NEX		[0] of [1]	Stats counter. Gets replaced by 2 numbers. For example: "7 of 80".
+RES_NEX	[0] из [1]	[0] of [1]	Stats counter. Gets replaced by 2 numbers. For example: "7 of 80".
 			
 #Drinks Menu			
-GLR_DRN_TTL		Drinks menu	
+GLR_DRN_TTL	Меню напитков	Drinks menu	
 			
 #Gallery - Special Stuff - Title in the list			
 SPST_DAHLIACOSPLAY		The Best Costume Contest	
