@@ -41,25 +41,25 @@ Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
 	narrator		bearattackdh_OUT_1_SUC_10	Вот это… по-настоящему неожиданный поворот событий. Ты спрашиваешь Далию, почему она решила выработать иммунитет к медвежьему яду много лет назад.	This is... a genuinely surprising turn of events. You ask Dahlia why she decided to develop an immunity to bear venom all those years ago.	
 	dahlia	default	bearattackdh_OUT_1_SUC_11	А я и не вырабатывала! Я блефовала! ХА-ХА-ХА! БИТВА УМОВ: ПРОЙДЕНА!	I didn't! I was bluffing! HAHAHA! BATTLE OF WITS: DEFEATED!	
 	narrator		bearattackdh_OUT_1_SUC_12	Далия тут же вырубается от медвежьего отравления. К счастью, доза не смертельная, и ты проводишь следующий час, откачивая её. Как же это интимно! Ты получаешь +2 СООБРАЗИТЕЛЬНОСТЬ и +1 ЗАДОР.	Dahlia immediately passes out from bear poisoning. Luckily it's not a lethal dose, and you get to spend the next hour resuscitating her. It's so intimate! You gain +2SMARTS and +1FUN.	
-	dahlia	thinking	bearattackdh_OUT_1_FAIL_1		Outwit the poison, you say? What if I told you...	
-	dahlia	default	bearattackdh_OUT_1_FAIL_2		I ALREADY HAVE!	
-	coach	surprised	bearattackdh_OUT_1_FAIL_3		Inconceivable!	
-	dahlia	scary	bearattackdh_OUT_1_FAIL_4		Conceive it, Coach! Last night, while the other campers were asleep, I swapped all of my blood with all of %CURRENTPLAYERNAME%'s blood!	
-	dahlia	default	bearattackdh_OUT_1_FAIL_5		I was just doing it to earn my "Swap Bodily Fluids With Another Camper" badge...	
-	narrator		bearattackdh_OUT_1_FAIL_6		Not sure that's how the Monster Scouts intended that badge to be earned, but ok...	
-	dahlia	default	bearattackdh_OUT_1_FAIL_7		But now my true genius has been revealed! The poison isn't in my blood! It's in %CURRENTPLAYERNAME%'s blood.	
-	narrator		bearattackdh_OUT_1_FAIL_8		Sure, but the poisoned blood is still in Dahlia's body, right? It's not like just because it came from you it's going to -- oh shit, you actually feel super poisoned.	
-	dahlia	winky	bearattackdh_OUT_1_FAIL_9		Don't worry, %CURRENTPLAYERNAME%, I'm sure your super-buff organs will have no problem metabolizing all this bear venom I ingested!	
-	narrator		bearattackdh_OUT_1_FAIL_10		Nope, your organs are just regular organs, and they respond to the poison in the normal way: by shutting you down and making you pass out.	
+	dahlia	thinking	bearattackdh_OUT_1_FAIL_1	Перехитрить яд, говоришь? А что, если я скажу тебе…	Outwit the poison, you say? What if I told you...	
+	dahlia	default	bearattackdh_OUT_1_FAIL_2	УЖЕ ПЕРЕХИТРИЛА!	I ALREADY HAVE!	
+	coach	surprised	bearattackdh_OUT_1_FAIL_3	Немыслимо!	Inconceivable!	
+	dahlia	scary	bearattackdh_OUT_1_FAIL_4	Помысли об этом, Тренер! Прошлой ночью, пока остальные ребята спали, я поменялась всей своей кровью со всей кровью %CURRENTPLAYERNAME%!	Conceive it, Coach! Last night, while the other campers were asleep, I swapped all of my blood with all of %CURRENTPLAYERNAME%'s blood!	
+	dahlia	default	bearattackdh_OUT_1_FAIL_5	Я сделала это просто чтобы заработать значок "Обменяйся телесными жидкостями с другим скаутом"...	I was just doing it to earn my "Swap Bodily Fluids With Another Camper" badge...	
+	narrator		bearattackdh_OUT_1_FAIL_6	Не уверен, что Монстро-скауты подразумевали именно такой способ получения этого значка, ну да ладно...	Not sure that's how the Monster Scouts intended that badge to be earned, but ok...	
+	dahlia	default	bearattackdh_OUT_1_FAIL_7	Но теперь мой истинный гений раскрыт! Яд не в моей крови! Он в крови %CURRENTPLAYERNAME%.	But now my true genius has been revealed! The poison isn't in my blood! It's in %CURRENTPLAYERNAME%'s blood.	
+	narrator		bearattackdh_OUT_1_FAIL_8	Ну да, но отравленная кровь ведь всё ещё в теле Далии, так? Не может же быть, что раз она взята у тебя, то это... ох, чёрт, ты и правда чувствуешь себя ужасно отравленн%PRN_ым_ой_ыми%.	Sure, but the poisoned blood is still in Dahlia's body, right? It's not like just because it came from you it's going to -- oh shit, you actually feel super poisoned.	
+	dahlia	winky	bearattackdh_OUT_1_FAIL_9	Не переживай, %CURRENTPLAYERNAME%, я уверена, твои супер-накачанные органы без проблем переварят весь этот медвежий яд, которого я наглоталась!	Don't worry, %CURRENTPLAYERNAME%, I'm sure your super-buff organs will have no problem metabolizing all this bear venom I ingested!	
+	narrator		bearattackdh_OUT_1_FAIL_10	Неа, твои органы — самые обычные органы, и реагируют на яд они самым обычным образом: отключаются и отправляют тебя в отруб.	Nope, your organs are just regular organs, and they respond to the poison in the normal way: by shutting you down and making you pass out.	
 >layout	none					
-	narrator		bearattackdh_OUT_1_FAIL_11		You wake up several hours later in the infirmary, suffering from an acute hunger for salmon, hair in all the wrong places, and liver toxicosis.	
+	narrator		bearattackdh_OUT_1_FAIL_11	Ты приходишь в себя несколько часов спустя в медкабинете, страдая от острой тяги к лососю, волос в самых неподходящих местах и токсикоза печени.	You wake up several hours later in the infirmary, suffering from an acute hunger for salmon, hair in all the wrong places, and liver toxicosis.	
 >layout	solo	coach				
-	coach	default	bearattackdh_OUT_1_FAIL_12		Ah, you're awake! Congratulations on surviving your first bear poisoning!	
-	coach	thinking	bearattackdh_OUT_1_FAIL_13		Although, I have to say... you've still got a lot to learn about bear safety.	
-	coach	winky	bearattackdh_OUT_1_FAIL_14		Rule number 1 of bear safety: never let one of your classmates swap all their blood with yours and then ingest poison as part of a battle of wits with a bear!	
-	coach	laugh	bearattackdh_OUT_1_FAIL_15		Basic mistakes like these are exactly why I'm running this bear awareness campaign.	
-	coach	default	bearattackdh_OUT_1_FAIL_16		Anyway, I should go. Dahlia promised to visit you and help heal your organs with something she calls "punch therapy"! Enjoy!	
-	narrator		bearattackdh_OUT_1_FAIL_17		You do not enjoy. Not at all. Instead you lose -2FUN and -1BOLDNESS.	
+	coach	default	bearattackdh_OUT_1_FAIL_12	А, ты очнул%PRN_ся_ась_ись%! Поздравляю с тем, что пережил%PRN__а_и% своё первое отравление медведем!	Ah, you're awake! Congratulations on surviving your first bear poisoning!	
+	coach	thinking	bearattackdh_OUT_1_FAIL_13	Хотя, должен сказать... тебе ещё многому предстоит научиться в плане медвежьей безопасности.	Although, I have to say... you've still got a lot to learn about bear safety.	
+	coach	winky	bearattackdh_OUT_1_FAIL_14	Правило номер один медвежьей безопасности: никогда не позволяй одноклассникам меняться с тобой всей кровью, а затем глотать яд в ходе битвы умов с медведем!	Rule number 1 of bear safety: never let one of your classmates swap all their blood with yours and then ingest poison as part of a battle of wits with a bear!	
+	coach	laugh	bearattackdh_OUT_1_FAIL_15	Именно из-за таких базовых ошибок я и провожу эту кампанию по медвежьей осведомлённости.	Basic mistakes like these are exactly why I'm running this bear awareness campaign.	
+	coach	default	bearattackdh_OUT_1_FAIL_16	В общем, мне пора. Далия обещала навестить тебя и помочь вылечить твои органы с помощью того, что она называет "ударной терапией"! Наслаждайся!	Anyway, I should go. Dahlia promised to visit you and help heal your organs with something she calls "punch therapy"! Enjoy!	
+	narrator		bearattackdh_OUT_1_FAIL_17	Ты не наслаждаешься. Совсем. Вместо этого ты теряешь -2 ЗАДОР и -1 СМЕЛОСТЬ.	You do not enjoy. Not at all. Instead you lose -2FUN and -1BOLDNESS.	
 	dahlia	thinking	bearattackdh_OUT_2_SUC_1		Of course! It's simple math! Poison plus poison equals... no poison!	
 	narrator		bearattackdh_OUT_2_SUC_2		Dahlia produces a bottle of bleach from somewhere in her muscles, and pours it into a tall glass with ice and a little umbrella.	
 	coach	surprised	bearattackdh_OUT_2_SUC_3		Dahlia, wait! Drinking bleach is bad for your health!	
