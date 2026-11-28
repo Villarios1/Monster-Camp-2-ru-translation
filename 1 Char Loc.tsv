@@ -28,19 +28,19 @@ Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
 	narrator		bearattackdh_PRE_22	О нет! Ты не сможешь засосаться с Далией, если она умрёт от яда! Крутить романы с трупами нормально, только если их хоть как-то воскресили! Подскажи ей, как выжить после этой идиотской последней ошибки!	Oh no! You can't smooch Dahlia if she dies of poison! Romancing corpses is only okay if they're reanimated somehow! Tell her how to survive this latest idiotic mistake!	
 >choice_option1			bearattackdh_CHO_1	"Одолей яд в битве умов!"	"Best the poison in a battle of wits!"	
 >choice_option2			bearattackdh_CHO_2	"Выпей отбеливатель — природного врага медвежьего яда!"	"Drink bleach, bear venom's natural enemy!"	
-	dahlia	thinking	bearattackdh_OUT_1_SUC_1		Outwit the poison, you say? What if I told you...	
-	dahlia	default	bearattackdh_OUT_1_SUC_2		I ALREADY HAVE!	
-	coach	surprised	bearattackdh_OUT_1_SUC_3		Inconceivable!	
-	dahlia	scary	bearattackdh_OUT_1_SUC_4		Conceive it, Coach! You see, I've spent the last few years developing an immunity to bear venom! That poison never stood a chance against me!	
-	dahlia	thinking	bearattackdh_OUT_1_SUC_5		I've also developed an immunity to bird venom, bad vibes, and trans fats!	
-	coach	laugh	bearattackdh_OUT_1_SUC_6		Wow, Dahlia! I'm so proud of your commitment to bear safety!	
-	coach	default	bearattackdh_OUT_1_SUC_7		Who else would ingest bear venom every day for years in case their high school coach followed them to camp in a bear costume and poisoned them as part of a safety drill? Wow!	
-	coach	thinking	bearattackdh_OUT_1_SUC_8		Well, I'm off to subject more students to dangerous, bear-related drills so we can all be safer!	
-	coach	winky	bearattackdh_OUT_1_SUC_9		You know what they say: There's no "I" in "Bear", but "I" am in a "bear costume"! Life is full of little mysteries like that! So long!	
+	dahlia	thinking	bearattackdh_OUT_1_SUC_1	Перехитрить яд, говоришь? А что, если я скажу тебе…	Outwit the poison, you say? What if I told you...	
+	dahlia	default	bearattackdh_OUT_1_SUC_2	УЖЕ ПЕРЕХИТРИЛА!	I ALREADY HAVE!	
+	coach	surprised	bearattackdh_OUT_1_SUC_3	Немыслимо!	Inconceivable!	
+	dahlia	scary	bearattackdh_OUT_1_SUC_4	Помысли об этом, Тренер! Видишь ли, последние несколько лет я вырабатывала иммунитет к медвежьему яду! У твоей отравы не было ни единого шанса против меня!	Conceive it, Coach! You see, I've spent the last few years developing an immunity to bear venom! That poison never stood a chance against me!	
+	dahlia	thinking	bearattackdh_OUT_1_SUC_5	А ещё я выработала иммунитет к птичьему яду, дурным вайбам и трансжирам!	I've also developed an immunity to bird venom, bad vibes, and trans fats!	
+	coach	laugh	bearattackdh_OUT_1_SUC_6	Ого, Далия! Я так горжусь твоей преданностью медвежьей безопасности!	Wow, Dahlia! I'm so proud of your commitment to bear safety!	
+	coach	default	bearattackdh_OUT_1_SUC_7	Кто бы ещё стал годами каждый день принимать медвежий яд на случай, если их школьный физрук проследит за ними до лагеря в костюме медведя и отравит ради учебной тревоги? Вот это да!	Who else would ingest bear venom every day for years in case their high school coach followed them to camp in a bear costume and poisoned them as part of a safety drill? Wow!	
+	coach	thinking	bearattackdh_OUT_1_SUC_8	Ну, а я пошёл подвергать других учеников опасным медвежьим учениям, чтобы мы все были в большей безопасности!	Well, I'm off to subject more students to dangerous, bear-related drills so we can all be safer!	
+	coach	winky	bearattackdh_OUT_1_SUC_9	Знаешь, как говорят: в слове "медведь" нет буквы "Я", зато "Я" в "медвежьем костюме"! Жизнь полна таких маленьких загадок! Бывай!	You know what they say: There's no "I" in "Bear", but "I" am in a "bear costume"! Life is full of little mysteries like that! So long!	
 >layout	solo	dahlia				
-	narrator		bearattackdh_OUT_1_SUC_10		This is... a genuinely surprising turn of events. You ask Dahlia why she decided to develop an immunity to bear venom all those years ago.	
-	dahlia	default	bearattackdh_OUT_1_SUC_11		I didn't! I was bluffing! HAHAHA! BATTLE OF WITS: DEFEATED!	
-	narrator		bearattackdh_OUT_1_SUC_12		Dahlia immediately passes out from bear poisoning. Luckily it's not a lethal dose, and you get to spend the next hour resuscitating her. It's so intimate! You gain +2SMARTS and +1FUN.	
+	narrator		bearattackdh_OUT_1_SUC_10	Вот это… по-настоящему неожиданный поворот событий. Ты спрашиваешь Далию, почему она решила выработать иммунитет к медвежьему яду много лет назад.	This is... a genuinely surprising turn of events. You ask Dahlia why she decided to develop an immunity to bear venom all those years ago.	
+	dahlia	default	bearattackdh_OUT_1_SUC_11	А я и не вырабатывала! Я блефовала! ХА-ХА-ХА! БИТВА УМОВ: ПРОЙДЕНА!	I didn't! I was bluffing! HAHAHA! BATTLE OF WITS: DEFEATED!	
+	narrator		bearattackdh_OUT_1_SUC_12	Далия тут же вырубается от медвежьего отравления. К счастью, доза не смертельная, и ты проводишь следующий час, откачивая её. Как же это интимно! Ты получаешь +2 СООБРАЗИТЕЛЬНОСТЬ и +1 ЗАДОР.	Dahlia immediately passes out from bear poisoning. Luckily it's not a lethal dose, and you get to spend the next hour resuscitating her. It's so intimate! You gain +2SMARTS and +1FUN.	
 	dahlia	thinking	bearattackdh_OUT_1_FAIL_1		Outwit the poison, you say? What if I told you...	
 	dahlia	default	bearattackdh_OUT_1_FAIL_2		I ALREADY HAVE!	
 	coach	surprised	bearattackdh_OUT_1_FAIL_3		Inconceivable!	
