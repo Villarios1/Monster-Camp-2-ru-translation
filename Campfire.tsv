@@ -136,47 +136,47 @@ Command	Speaker	Mood	Translation ID	Translated Text	Original Text	Comments
 >>>	winningatpoetry2					
 >location	any					
 >layout	none					
-	narrator		winningatpoetry2_PRE_1		You loiter over to the campfire, desperately hoping that some of your zany friends will pull you into one of their shenanigans.	
+	narrator		winningatpoetry2_PRE_1	Ты слоняешься возле костра, отчаянно надеясь, что кто-нибудь из твоих чудаковатых друзей втянет тебя в очередную авантюру.	You loiter over to the campfire, desperately hoping that some of your zany friends will pull you into one of their shenanigans.	
 >layout	solo	aaravi				
-	aaravi	struggling	winningatpoetry2_PRE_2		Hey! %CURRENTPLAYERNAME%! Come over here and do poetry with us. I don't want to be the worst at this.	
-	narrator		winningatpoetry2_PRE_3		Yay! You found a shenanigan! You join Milo, Hex, and Aaravi around the fire. They're all writing in cute little notebooks. Aaravi's notebook does look pretty bloodsoaked, though.	
+	aaravi	struggling	winningatpoetry2_PRE_2	Эй! %CURRENTPLAYERNAME%! Иди сюда, попишем стихи вместе. Не хочу быть в этом хуже всех.	Hey! %CURRENTPLAYERNAME%! Come over here and do poetry with us. I don't want to be the worst at this.	
+	narrator		winningatpoetry2_PRE_3	Ура! Авантюра нашлась! Ты подсаживаешься к костру, где уже сидят Майло, Хекс и Аарави. Все они строчат что-то в миленьких блокнотиках. Правда, блокнот Аарави выглядит так, будто его хорошенько вымочили в крови.	Yay! You found a shenanigan! You join Milo, Hex, and Aaravi around the fire. They're all writing in cute little notebooks. Aaravi's notebook does look pretty bloodsoaked, though.	
 >layout	duo	aaravi_milo				
-	aaravi	unimpressed	winningatpoetry2_PRE_4		Milo is trying to convince me to write poetry again. They said I can watch them do an actual reaping of a monster if I write a good poem.	
-	milo	distracted	winningatpoetry2_PRE_5		It's true... really, I'm just trying to help a dear friend access her inner emotions through the majesty of the poetic word.	
-	hex	smirk	winningatpoetry2_PRE_6		And I'm doing it because it's fun! And because I'm awesome at it. My poems all have two or three emotions in them, AT LEAST.	
-	aaravi	skeptical	winningatpoetry2_PRE_7		Honestly Milo, I'm still pretty confused. How are you going to judge if I write a good poem or not?	
-	aaravi	angry	winningatpoetry2_PRE_8		What judging metrics are you using? How do I get the most points? HOW DO I WIN?!?!?	
-	milo	annoyed	winningatpoetry2_PRE_9		Aaravi, I'm getting a bit tired of you asking me how to "win" things. I've taken that emotion, and used it to write you the following poem:	
-	milo	distracted	winningatpoetry2_PRE_10		"Avocado rot, don't tell me your dreams are dead. Be your own dream, fruit."	
-	milo	winky	winningatpoetry2_PRE_11		There. That should be all the clarification you need. And I did it in haiku form!	
-	aaravi	thinking	winningatpoetry2_PRE_12		So you're telling me... I can get points in poetry writing... by collecting... the dreams of fruit?	
-	milo	annoyed	winningatpoetry2_PRE_13		UGH! No, you blockhead! It's a metaphor!	
-	hex	thinking	winningatpoetry2_PRE_14		Yeah, Milo's right. They're trying to say that all poems should be about avocados! Like my latest poem, "Guacamole Emotions."	
-	milo	unimpressed	winningatpoetry2_PRE_15		You're both hopeless, and frankly, I'm heartbroken that my unparalleled aesthetics were wasted on you two.	
-	aaravi	smile	winningatpoetry2_PRE_16		Whatever, Milo! You already set a win condition for this poem, so like it or not, this is a competition.	
-	milo	surprised	winningatpoetry2_PRE_17		Not EVERYTHING is a competition, Aaravi! Just think about... I don't know, crying! People do that all the time, and it's NOT a competition. It's about the emotion!	
-	aaravi	victorious	winningatpoetry2_PRE_18		CRYING IS OBVIOUSLY A COMPETITION TO SEE WHO CAN SQUEEZE THE MOST WATER OUT OF THEIR EYES! GET IT TOGETHER, MILO.	
-	narrator		winningatpoetry2_PRE_19		Hmm, seems like your friends are having a petty conflict. This could be a great opportunity to side with one of them and win that person's affection...	
->choice_option1			winningatpoetry2_CHO_1		“Poets don’t tend to be ‘traditional winners.’ Most of them die alone and penniless. Poetry is about learning to cope with the fact that, sometimes, we will inevitably lose.”	
->choice_option2			winningatpoetry2_CHO_2		“There's a clear winner here: whoever can write Beowulf to completion first!”	
-	aaravi	surprised	winningatpoetry2_OUT_1_SUC_1		No way, really? The way to WIN at poetry is by LOSING at life? But wait, there's gotta be at least SOME poets that were famous and successful.	
-	aaravi	thinking	winningatpoetry2_OUT_1_SUC_2		Like... um... Emily Dickinson?	
-	milo	distracted	winningatpoetry2_OUT_1_SUC_3		Ha! No way. I remember reaping her. The whole time, she just complained to me about how there were so few hot girls in her town that she decided to never leave her room.	
-	milo	winky	winningatpoetry2_OUT_1_SUC_4		She did write the most LOVELY poem about me, though. I gave her an extra few years just for that.	
-	aaravi	skeptical	winningatpoetry2_OUT_1_SUC_5		Well, what about Edgar Allan Poe? He was a super famous poet, right?	
-	milo	unimpressed	winningatpoetry2_OUT_1_SUC_6		Oh God, I can't believe you just said that. You know that he married his cousin, right? And that basically everyone thought he was insane?	
-	milo	dangerhood	winningatpoetry2_OUT_1_SUC_7		He was SO. RUDE. to me on his deathbed that I made the whole ordeal one of the most painful deaths I've ever delivered. No regrets though!	
-	aaravi	surprised	winningatpoetry2_OUT_1_SUC_8		Wow... then I've been going about this whole "poetry" thing all wrong! Apparently, I should've been trying to live my life like shit, and then I'll be a poetry champion!	
-	aaravi	smile	winningatpoetry2_OUT_1_SUC_9		Now that I finally GET poetry, where should I start?	
-	hex	confused	winningatpoetry2_OUT_1_SUC_10		I dunno, maybe fall in love with someone who's married and develop an opium addiction?	
-	aaravi	victorious	winningatpoetry2_OUT_1_SUC_11		HELL YEAH, SPEEDRUN!	
-	hex	grumpy	winningatpoetry2_OUT_1_SUC_12		Wait, Aaravi, I was being SARCASTIC!	
-	narrator		winningatpoetry2_OUT_1_SUC_13		It's too late. Aaravi runs off with Hex, desperately looking for a happily-married opium dealer.	
+	aaravi	unimpressed	winningatpoetry2_PRE_4	Майло снова пытается уговорить меня писать стихи. Говорят, если сочиню хороший стих, мне разрешат посмотреть, как они по-настоящему жнут душу монстра.	Milo is trying to convince me to write poetry again. They said I can watch them do an actual reaping of a monster if I write a good poem.	
+	milo	distracted	winningatpoetry2_PRE_5	Это правда... На самом деле я просто пытаюсь помочь дорогой подруге достучаться до её внутренних эмоций через величие поэтического слова.	It's true... really, I'm just trying to help a dear friend access her inner emotions through the majesty of the poetic word.	
+	hex	smirk	winningatpoetry2_PRE_6	А я этим занимаюсь, потому что это весело! И потому что я в этом суперкруты. В каждом моём стихе есть как минимум два или три эмоции. КАК МИНИМУМ.	And I'm doing it because it's fun! And because I'm awesome at it. My poems all have two or three emotions in them, AT LEAST.	
+	aaravi	skeptical	winningatpoetry2_PRE_7	Честно говоря, Майло, я всё равно ничего не понимаю. Как ты вообще будешь оценивать, хороший у меня стих или нет?	Honestly Milo, I'm still pretty confused. How are you going to judge if I write a good poem or not?	
+	aaravi	angry	winningatpoetry2_PRE_8	Какие у тебя критерии оценки? Как набрать максимум баллов? КАК МНЕ ПОБЕДИТЬ?!?!?	What judging metrics are you using? How do I get the most points? HOW DO I WIN?!?!?	
+	milo	annoyed	winningatpoetry2_PRE_9	Аарави, меня уже начинает утомлять, что ты постоянно спрашиваешь, как в чём-то "победить". Я взяли эту эмоцию и с её помощью написали для тебя вот такое стихотворение:	Aaravi, I'm getting a bit tired of you asking me how to "win" things. I've taken that emotion, and used it to write you the following poem:	
+	milo	distracted	winningatpoetry2_PRE_10	"Гниль авокадо, не говори, что твои мечты мертвы. Стань своей собственной мечтой, фрукт".	"Avocado rot, don't tell me your dreams are dead. Be your own dream, fruit."	
+	milo	winky	winningatpoetry2_PRE_11	Вот. Это должно развеять все твои сомнения. И я написали его в форме хайку!	There. That should be all the clarification you need. And I did it in haiku form!	
+	aaravi	thinking	winningatpoetry2_PRE_12	То есть ты хочешь сказать... что я могу заработать очки в поэзии... собирая... мечты фруктов?	So you're telling me... I can get points in poetry writing... by collecting... the dreams of fruit?	
+	milo	annoyed	winningatpoetry2_PRE_13	АРГХ! Нет, дубина! Это метафора!	UGH! No, you blockhead! It's a metaphor!	
+	hex	thinking	winningatpoetry2_PRE_14	Ага, Майло правы. Они хотят сказать, что все стихи должны быть про авокадо! Как моё последнее стихотворение "Эмоции гуакамоле".	Yeah, Milo's right. They're trying to say that all poems should be about avocados! Like my latest poem, "Guacamole Emotions."	
+	milo	unimpressed	winningatpoetry2_PRE_15	Вы оба безнадёжны, и, честно говоря, у меня сердце разрывается от того, что мои непревзойденные эстетические вкусы были потрачены на вас впустую.	You're both hopeless, and frankly, I'm heartbroken that my unparalleled aesthetics were wasted on you two.	
+	aaravi	smile	winningatpoetry2_PRE_16	Да без разницы, Майло! Условие победы для этого стиха ты уже задали, так что нравится тебе это или нет, но это соревнование.	Whatever, Milo! You already set a win condition for this poem, so like it or not, this is a competition.	
+	milo	surprised	winningatpoetry2_PRE_17	Не ВСЁ на свете — соревнование, Аарави! Подумай хотя бы... ну не знаю, о плаче! Люди делают это постоянно, и это НЕ соревнование. Тут дело в эмоциях!	Not EVERYTHING is a competition, Aaravi! Just think about... I don't know, crying! People do that all the time, and it's NOT a competition. It's about the emotion!	
+	aaravi	victorious	winningatpoetry2_PRE_18	ПЛАЧ — ЭТО ОЧЕВИДНО СОРЕВНОВАНИЕ НА ТО, КТО ВЫЖМЕТ ИЗ ГЛАЗ БОЛЬШЕ ВОДЫ! СОБЕРИСЬ, МАЙЛО.	CRYING IS OBVIOUSLY A COMPETITION TO SEE WHO CAN SQUEEZE THE MOST WATER OUT OF THEIR EYES! GET IT TOGETHER, MILO.	
+	narrator		winningatpoetry2_PRE_19	Хм, похоже, у твоих друзей назревает мелкий конфликт. Отличная возможность встать на сторону одного из них и завоевать его симпатию...	Hmm, seems like your friends are having a petty conflict. This could be a great opportunity to side with one of them and win that person's affection...	
+>choice_option1			winningatpoetry2_CHO_1	"Поэты обычно не из тех, кого считают 'победителями' в привычном смысле. Большинство из них умирает в одиночестве и без гроша. Поэзия нужна, чтобы научиться справляться с тем, что иногда мы неизбежно проигрываем"	“Poets don’t tend to be ‘traditional winners.’ Most of them die alone and penniless. Poetry is about learning to cope with the fact that, sometimes, we will inevitably lose.”	
+>choice_option2			winningatpoetry2_CHO_2	"Тут всё ясно: победит тот, кто первым допишет 'Беовульфа' до конца!"	“There's a clear winner here: whoever can write Beowulf to completion first!”	
+	aaravi	surprised	winningatpoetry2_OUT_1_SUC_1	Да ладно, серьёзно? Чтобы ПОБЕДИТЬ в поэзии, нужно ПРОИГРАТЬ в жизни? Но постой, должны же быть хоть КАКИЕ-ТО известные и успешные поэты.	No way, really? The way to WIN at poetry is by LOSING at life? But wait, there's gotta be at least SOME poets that were famous and successful.	
+	aaravi	thinking	winningatpoetry2_OUT_1_SUC_2	Например... эм... Эмили Дикинсон?	Like... um... Emily Dickinson?	
+	milo	distracted	winningatpoetry2_OUT_1_SUC_3	Ха! Ни за что. Я помню, как забирали её душу. Всё это время она только и жаловалась мне, что в её городке так мало горячих девчонок, что она решила вообще не выходить из своей комнаты.	Ha! No way. I remember reaping her. The whole time, she just complained to me about how there were so few hot girls in her town that she decided to never leave her room.	
+	milo	winky	winningatpoetry2_OUT_1_SUC_4	Правда, она написала обо мне ПРЕКРАСНЕЙШЕЕ стихотворение. Только за это я накинули ей ещё пару лет жизни.	She did write the most LOVELY poem about me, though. I gave her an extra few years just for that.	
+	aaravi	skeptical	winningatpoetry2_OUT_1_SUC_5	Ну а как насчёт Эдгара Аллана По? Он же был суперзнаменитым поэтом, так?	Well, what about Edgar Allan Poe? He was a super famous poet, right?	
+	milo	unimpressed	winningatpoetry2_OUT_1_SUC_6	О боже, не могу поверить, что ты это сказала. Ты же в курсе, что он женился на своей кузине, да? И что его вообще все считали сумасшедшим?	Oh God, I can't believe you just said that. You know that he married his cousin, right? And that basically everyone thought he was insane?	
+	milo	dangerhood	winningatpoetry2_OUT_1_SUC_7	Он ТАК. ХАМИЛ. мне на смертном одре, что я устроили ему одну из самых мучительных смертей за всю свою практику. Но я ни о чём не жалею!	He was SO. RUDE. to me on his deathbed that I made the whole ordeal one of the most painful deaths I've ever delivered. No regrets though!	
+	aaravi	surprised	winningatpoetry2_OUT_1_SUC_8	Ого... значит, я вообще неправильно подходила ко всей этой "поэзии"! Получается, мне нужно просто стараться жить дерьмово, и тогда я стану чемпионкой по стихам!	Wow... then I've been going about this whole "poetry" thing all wrong! Apparently, I should've been trying to live my life like shit, and then I'll be a poetry champion!	
+	aaravi	smile	winningatpoetry2_OUT_1_SUC_9	Теперь, когда я наконец ПОНЯЛА поэзию, с чего мне начать?	Now that I finally GET poetry, where should I start?	
+	hex	confused	winningatpoetry2_OUT_1_SUC_10	Ну не знаю, влюбись в кого-нибудь, кто уже в браке, и подсядь на опиум?	I dunno, maybe fall in love with someone who's married and develop an opium addiction?	
+	aaravi	victorious	winningatpoetry2_OUT_1_SUC_11	ЧЁРТ ВОЗЬМИ, СПИДРАН!	HELL YEAH, SPEEDRUN!	
+	hex	grumpy	winningatpoetry2_OUT_1_SUC_12	Погоди, Аарави, это был САРКАЗМ!	Wait, Aaravi, I was being SARCASTIC!	
+	narrator		winningatpoetry2_OUT_1_SUC_13	Слишком поздно. Аарави убегает, прихватив с собой Хекс, на отчаянные поиски счастливого в браке торговца опиумом.	It's too late. Aaravi runs off with Hex, desperately looking for a happily-married opium dealer.	
 >layout	solo	milo				
-	milo	thinking	winningatpoetry2_OUT_1_SUC_14		Well, that was... weird.	
-	milo	danger	winningatpoetry2_OUT_1_SUC_15		But it actually reminded me of when I was reaping Oscar Wilde. You would not BELIEVE what he said to me right before I took his soul...	
-	narrator		winningatpoetry2_OUT_1_SUC_16		Milo spends the entire afternoon with you, recounting tales of all the dead poets they've sent to the grave. It's morbid but... kind of romantic?	
-	narrator		winningatpoetry2_OUT_1_SUC_17		You're just happy to have some time alone with this very poetic reaper... and you're scandalized to learn that T.S. Eliot died from eating too much pussy.	
+	milo	thinking	winningatpoetry2_OUT_1_SUC_14	Ну, это было... странно.	Well, that was... weird.	
+	milo	danger	winningatpoetry2_OUT_1_SUC_15	Зато это напомнило мне случай, когда я забирали душу Оскара Уайльда. Ты ни за что НЕ ПОВЕРИШЬ, что он мне сказал прямо перед тем, как я забрали его душу...	But it actually reminded me of when I was reaping Oscar Wilde. You would not BELIEVE what he said to me right before I took his soul...	
+	narrator		winningatpoetry2_OUT_1_SUC_16	Майло проводит с тобой весь день, травя байки о мёртвых поэтах, которых они отправили в могилу. Мрачновато, но... в каком-то смысле романтично?	Milo spends the entire afternoon with you, recounting tales of all the dead poets they've sent to the grave. It's morbid but... kind of romantic?	
+	narrator		winningatpoetry2_OUT_1_SUC_17	Тебе просто приятно провести время наедине с этими донельзя поэтичным жнецом... а ещё тебя повергает в шок новость, что Т. С. Элиот умер от того, что слишком увлёкся куни.	You're just happy to have some time alone with this very poetic reaper... and you're scandalized to learn that T.S. Eliot died from eating too much pussy.	
 	milo	distracted	winningatpoetry2_OUT_2_SUC_1		Well that's just impossible. "Beowulf" took decades to write, and we don't even have a full version. There's no way anyone could --	
 	aaravi	smile	winningatpoetry2_OUT_2_SUC_2		DONE!	
 	narrator		winningatpoetry2_OUT_2_SUC_3		Holy shit. Aaravi really did just write the entirety of "Beowulf." How OP is she?!	
